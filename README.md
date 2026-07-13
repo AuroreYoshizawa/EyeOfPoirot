@@ -112,7 +112,12 @@ the 19 available FotMob matches are retained as an independent cross-check.
 - Public OSF Open-Ended Registration (methodology v0.2.1, frozen and
   registered 2026-07-13 before 2026 M101):
   [https://doi.org/10.17605/OSF.IO/3GESM](https://doi.org/10.17605/OSF.IO/3GESM).
-- Four-year embargoed OSF snapshot DOI: **pending manual user approval**.
+- Reproducibility-snapshot registration (component of the same registration
+  tree, public; public-tree zip at commit 88fd47c):
+  [https://doi.org/10.17605/OSF.IO/TW48K](https://doi.org/10.17605/OSF.IO/TW48K).
+  The originally planned four-year embargo was not applied: the snapshot
+  contains only the already-public repository tree, so there was nothing left
+  to embargo once the repository went public.
 - Public GitHub repository and reproducibility workflow:
   [AuroreYoshizawa/EyeOfPoirot](https://github.com/AuroreYoshizawa/EyeOfPoirot).
 

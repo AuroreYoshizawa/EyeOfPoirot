@@ -8,6 +8,9 @@ identifiers:
   - type: doi
     value: 10.17605/OSF.IO/3GESM
     description: "Public OSF registration of the frozen methodology (v0.2.1, registered 2026-07-13 before 2026 M101)"
+  - type: doi
+    value: 10.17605/OSF.IO/TW48K
+    description: "Public OSF registration of the reproducibility snapshot (public-tree zip at commit 88fd47c, same registration tree)"
 repository-code: "https://github.com/AuroreYoshizawa/EyeOfPoirot"
 authors:
   - family-names: "Chen"

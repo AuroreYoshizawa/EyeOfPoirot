@@ -1,5 +1,20 @@
 # OSF registration hand-off
 
+**Outcome (2026-07-13).** Both registrations are complete and public,
+registered 2026-07-13 20:36 (before 2026 M101) and approved the same
+evening:
+
+- Methodology registration (parent): <https://doi.org/10.17605/OSF.IO/3GESM>
+- Reproducibility snapshot (component of the same registration tree):
+  <https://doi.org/10.17605/OSF.IO/TW48K>
+
+The component was included in the parent's registration tree, so a separate
+embargoed registration was never created. The planned four-year embargo was
+dropped as moot: the snapshot holds only the already-public repository tree
+(commit 88fd47c), so nothing private remained to embargo, and the view-only
+link step no longer applies. The original hand-off checklist below is
+retained for provenance.
+
 Registration actions that require the account holder's approval are not
 automated. Local preparation continues without blocking on these steps.
 

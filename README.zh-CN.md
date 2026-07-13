@@ -95,7 +95,9 @@ FotMob 中可用的 19 场作为独立交叉核对层保留。
   已在本地准备并验收。
 - OSF 公开 Open-Ended Registration（方法 v0.2.1，2026-07-13 于 M101 前冻结并注册）：
   [https://doi.org/10.17605/OSF.IO/3GESM](https://doi.org/10.17605/OSF.IO/3GESM)。
-- OSF 四年禁运完整快照 DOI：**等待用户手动确认**。
+- OSF 复现快照注册（同一注册树的组件，公开；内容为 commit 88fd47c 的公开树 zip）：
+  [https://doi.org/10.17605/OSF.IO/TW48K](https://doi.org/10.17605/OSF.IO/TW48K)。
+  原计划的四年禁运未启用：快照内容即已公开的仓库树，仓库公开后已无可禁运之物。
 - GitHub 公开仓库与复现工作流：
   [AuroreYoshizawa/EyeOfPoirot](https://github.com/AuroreYoshizawa/EyeOfPoirot)。
 
