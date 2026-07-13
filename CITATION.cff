@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use the methodology, derived data, or figures, please cite this project."
+title: "Eye of Poirot: sanction-exposure metrics for FIFA World Cup disciplinary records, 2014-2026"
+type: dataset
+version: 0.2.0
+date-released: 2026-07-13
+authors:
+  - family-names: "Chen"
+    given-names: "Siyuan"
+keywords:
+  - football
+  - soccer
+  - FIFA World Cup
+  - disciplinary records
+  - sanction exposure
+  - yellow cards
+  - sports analytics
+license: CC-BY-4.0

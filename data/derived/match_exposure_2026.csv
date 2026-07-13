@@ -1,0 +1,150 @@
+edition,match_number,team,opponent,cards,sum_W1,sum_D1,sum_D1_endm1,d1_complete
+2026,1,Mexico,South Africa,2,67.0,87.0,84.0,1
+2026,1,South Africa,Mexico,4,89.0,231.0,225.0,1
+2026,2,Korea Republic,Czechia,1,0.0,1.0,0.0,1
+2026,3,Bosnia and Herzegovina,Canada,3,90.0,108.0,105.0,1
+2026,3,Canada,Bosnia and Herzegovina,2,116.0,130.0,128.0,1
+2026,4,Paraguay,USA,5,131.0,173.0,168.0,1
+2026,4,USA,Paraguay,1,31.0,40.0,39.0,1
+2026,5,Haiti,Scotland,1,51.0,60.0,59.0,1
+2026,5,Scotland,Haiti,3,44.0,65.0,62.0,1
+2026,6,Türkiye,Australia,1,4.0,11.0,10.0,1
+2026,7,Brazil,Morocco,2,100.0,122.0,120.0,1
+2026,8,Qatar,Switzerland,2,144.0,160.0,158.0,1
+2026,8,Switzerland,Qatar,1,48.0,56.0,55.0,1
+2026,9,Côte d'Ivoire,Ecuador,3,164.0,191.0,188.0,1
+2026,9,Ecuador,Côte d'Ivoire,1,17.0,26.0,25.0,1
+2026,11,Netherlands,Japan,3,36.0,56.0,53.0,1
+2026,12,Tunisia,Sweden,1,36.0,43.0,42.0,1
+2026,13,Saudi Arabia,Uruguay,1,46.0,55.0,54.0,1
+2026,14,Cabo Verde,Spain,1,74.0,80.0,79.0,1
+2026,14,Spain,Cabo Verde,1,0.0,3.0,2.0,1
+2026,15,IR Iran,New Zealand,1,1.0,7.0,6.0,1
+2026,16,Belgium,Egypt,2,91.0,103.0,101.0,1
+2026,16,Egypt,Belgium,2,133.0,145.0,143.0,1
+2026,18,Iraq,Norway,1,4.0,12.0,11.0,1
+2026,20,Austria,Jordan,1,13.0,26.0,25.0,1
+2026,21,Ghana,Panama,1,74.0,86.0,85.0,1
+2026,21,Panama,Ghana,2,18.0,33.0,31.0,1
+2026,23,Congo DR,Portugal,1,58.0,63.0,62.0,1
+2026,23,Portugal,Congo DR,3,79.0,92.0,89.0,1
+2026,24,Colombia,Uzbekistan,1,83.0,94.0,93.0,1
+2026,24,Uzbekistan,Colombia,1,56.0,67.0,66.0,1
+2026,25,Czechia,South Africa,1,15.0,23.0,22.0,1
+2026,25,South Africa,Czechia,2,107.0,123.0,121.0,1
+2026,26,Bosnia and Herzegovina,Switzerland,3,60.0,112.0,108.0,1
+2026,26,Switzerland,Bosnia and Herzegovina,1,25.0,33.0,32.0,1
+2026,27,Canada,Qatar,1,81.0,91.0,90.0,1
+2026,27,Qatar,Canada,3,28.0,270.0,265.0,1
+2026,28,Korea Republic,Mexico,2,118.0,132.0,130.0,1
+2026,29,Brazil,Haiti,1,25.0,31.0,30.0,1
+2026,29,Haiti,Brazil,3,145.0,163.0,160.0,1
+2026,30,Morocco,Scotland,1,68.0,75.0,74.0,1
+2026,30,Scotland,Morocco,1,25.0,32.0,31.0,1
+2026,31,Paraguay,Türkiye,2,86.0,197.0,194.0,1
+2026,31,Türkiye,Paraguay,1,19.0,28.0,27.0,1
+2026,32,Australia,USA,4,134.0,170.0,166.0,1
+2026,32,USA,Australia,3,35.0,59.0,56.0,1
+2026,34,Curaçao,Ecuador,5,137.0,166.0,161.0,1
+2026,34,Ecuador,Curaçao,1,52.0,58.0,57.0,1
+2026,35,Sweden,Netherlands,3,62.0,80.0,77.0,1
+2026,37,Cabo Verde,Uruguay,2,85.0,100.0,98.0,1
+2026,37,Uruguay,Cabo Verde,2,102.0,120.0,118.0,1
+2026,38,Saudi Arabia,Spain,2,90.0,108.0,106.0,1
+2026,39,Belgium,IR Iran,2,87.0,153.0,150.0,1
+2026,39,IR Iran,Belgium,1,57.0,63.0,62.0,1
+2026,40,Egypt,New Zealand,1,73.0,84.0,83.0,1
+2026,40,New Zealand,Egypt,2,126.0,148.0,146.0,1
+2026,42,Iraq,France,1,84.0,87.0,86.0,1
+2026,43,Argentina,Austria,2,14.0,28.0,26.0,1
+2026,43,Austria,Argentina,2,64.0,80.0,78.0,1
+2026,44,Algeria,Jordan,1,46.0,54.0,53.0,1
+2026,44,Jordan,Algeria,1,26.0,34.0,33.0,1
+2026,45,England,Ghana,1,49.0,56.0,55.0,1
+2026,45,Ghana,England,1,30.0,37.0,36.0,1
+2026,46,Croatia,Panama,1,0.0,4.0,3.0,1
+2026,46,Panama,Croatia,1,29.0,35.0,34.0,1
+2026,47,Portugal,Uzbekistan,1,22.0,28.0,27.0,1
+2026,47,Uzbekistan,Portugal,1,76.0,82.0,81.0,1
+2026,48,Colombia,Congo DR,2,34.0,44.0,42.0,1
+2026,48,Congo DR,Colombia,1,0.0,4.0,3.0,1
+2026,49,Brazil,Scotland,2,36.0,50.0,48.0,1
+2026,49,Scotland,Brazil,1,1.0,8.0,7.0,1
+2026,50,Haiti,Morocco,3,22.0,46.0,43.0,1
+2026,51,Canada,Switzerland,2,61.0,75.0,73.0,1
+2026,51,Switzerland,Canada,1,58.0,65.0,64.0,1
+2026,52,Bosnia and Herzegovina,Qatar,1,8.0,15.0,14.0,1
+2026,52,Qatar,Bosnia and Herzegovina,1,12.0,19.0,18.0,1
+2026,53,Mexico,Czechia,1,27.0,34.0,33.0,1
+2026,54,Korea Republic,South Africa,1,12.0,19.0,18.0,1
+2026,54,South Africa,Korea Republic,1,18.0,25.0,24.0,1
+2026,55,Curaçao,Côte d'Ivoire,2,22.0,36.0,34.0,1
+2026,55,Côte d'Ivoire,Curaçao,1,56.0,63.0,62.0,1
+2026,56,Ecuador,Germany,3,88.0,112.0,109.0,1
+2026,56,Germany,Ecuador,1,46.0,54.0,53.0,1
+2026,57,Japan,Sweden,1,13.0,21.0,20.0,1
+2026,57,Sweden,Japan,2,64.0,80.0,78.0,1
+2026,59,USA,Türkiye,1,71.0,80.0,79.0,1
+2026,60,Australia,Paraguay,1,44.0,50.0,49.0,1
+2026,60,Paraguay,Australia,1,13.0,19.0,18.0,1
+2026,61,France,Norway,1,16.0,22.0,21.0,1
+2026,61,Norway,France,1,80.0,86.0,85.0,1
+2026,62,Iraq,Senegal,3,15.0,197.0,193.0,1
+2026,62,Senegal,Iraq,2,81.0,95.0,93.0,1
+2026,63,Egypt,IR Iran,3,120.0,145.0,142.0,1
+2026,63,IR Iran,Egypt,4,130.0,162.0,158.0,1
+2026,64,New Zealand,Belgium,2,78.0,90.0,88.0,1
+2026,65,Cabo Verde,Saudi Arabia,1,82.0,88.0,87.0,1
+2026,65,Saudi Arabia,Cabo Verde,3,109.0,124.0,121.0,1
+2026,66,Spain,Uruguay,1,44.0,51.0,50.0,1
+2026,66,Uruguay,Spain,4,68.0,92.0,87.0,1
+2026,67,England,Panama,1,30.0,38.0,37.0,1
+2026,67,Panama,England,2,44.0,60.0,58.0,1
+2026,68,Croatia,Ghana,1,22.0,30.0,29.0,1
+2026,68,Ghana,Croatia,1,0.0,4.0,3.0,1
+2026,69,Austria,Algeria,1,79.0,86.0,85.0,1
+2026,70,Jordan,Argentina,3,99.0,113.0,110.0,1
+2026,71,Colombia,Portugal,1,4.0,10.0,9.0,1
+2026,72,Congo DR,Uzbekistan,3,138.0,165.0,162.0,1
+2026,72,Uzbekistan,Congo DR,2,90.0,108.0,106.0,1
+2026,73,Canada,South Africa,2,59.0,73.0,71.0,1
+2026,74,Germany,Paraguay,2,19.0,25.0,23.0,1
+2026,74,Paraguay,Germany,2,28.0,64.0,62.0,1
+2026,75,Morocco,Netherlands,1,43.0,75.0,74.0,1
+2026,76,Brazil,Japan,2,118.0,140.0,138.0,1
+2026,76,Japan,Brazil,3,129.0,162.0,159.0,1
+2026,78,Norway,Côte d'Ivoire,1,44.0,52.0,51.0,1
+2026,79,Ecuador,Mexico,4,44.0,67.0,63.0,1
+2026,80,Congo DR,England,1,63.0,70.0,69.0,1
+2026,80,England,Congo DR,1,71.0,78.0,77.0,1
+2026,81,Bosnia and Herzegovina,USA,1,10.0,21.0,20.0,1
+2026,81,USA,Bosnia and Herzegovina,1,0.0,74.0,72.0,1
+2026,82,Belgium,Senegal,1,26.0,68.0,67.0,1
+2026,82,Senegal,Belgium,1,23.0,65.0,64.0,1
+2026,83,Croatia,Portugal,2,31.0,61.0,59.0,1
+2026,83,Portugal,Croatia,1,73.0,92.0,91.0,1
+2026,84,Austria,Spain,1,7.0,14.0,13.0,1
+2026,85,Algeria,Switzerland,2,72.0,86.0,84.0,1
+2026,86,Argentina,Cabo Verde,1,5.0,9.0,8.0,1
+2026,86,Cabo Verde,Argentina,1,22.0,56.0,55.0,1
+2026,87,Colombia,Ghana,2,90.0,106.0,104.0,1
+2026,87,Ghana,Colombia,3,79.0,103.0,100.0,1
+2026,88,Egypt,Australia,2,16.0,22.0,20.0,1
+2026,89,France,Paraguay,3,80.0,106.0,103.0,1
+2026,90,Canada,Morocco,4,161.0,201.0,197.0,1
+2026,90,Morocco,Canada,4,204.0,244.0,240.0,1
+2026,91,Brazil,Norway,1,0.0,6.0,5.0,1
+2026,92,England,Mexico,5,129.0,271.0,265.0,1
+2026,92,Mexico,England,2,19.0,37.0,35.0,1
+2026,93,Portugal,Spain,2,1.0,16.0,14.0,1
+2026,93,Spain,Portugal,1,0.0,1.0,0.0,1
+2026,94,USA,Belgium,2,76.0,86.0,84.0,1
+2026,95,Egypt,Argentina,4,0.0,33.0,29.0,1
+2026,96,Colombia,Switzerland,2,56.0,90.0,88.0,1
+2026,96,Switzerland,Colombia,3,85.0,151.0,148.0,1
+2026,97,Morocco,France,1,27.0,34.0,33.0,1
+2026,98,Belgium,Spain,2,5.0,16.0,14.0,1
+2026,98,Spain,Belgium,2,47.0,60.0,58.0,1
+2026,99,Norway,England,1,3.0,6.0,5.0,1
+2026,100,Argentina,Switzerland,3,51.0,66.0,63.0,1
+2026,100,Switzerland,Argentina,2,64.0,187.0,184.0,1

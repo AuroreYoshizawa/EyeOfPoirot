@@ -1,0 +1,100 @@
+edition,match_number,team,opponent,cards,sum_W1,sum_D1,sum_D1_endm1,d1_complete
+2022,1,Ecuador,Qatar,2,95.0,107.0,105.0,1
+2022,1,Qatar,Ecuador,4,209.0,233.0,229.0,1
+2022,2,Netherlands,Senegal,1,34.0,45.0,44.0,1
+2022,2,Senegal,Netherlands,2,0.0,12.0,10.0,1
+2022,3,Iran,England,2,107.0,135.0,133.0,1
+2022,4,United States,Wales,4,195.0,229.0,225.0,1
+2022,4,Wales,United States,2,93.0,115.0,113.0,1
+2022,5,Australia,France,3,45.0,64.0,61.0,1
+2022,6,Denmark,Tunisia,2,78.0,94.0,92.0,1
+2022,6,Tunisia,Denmark,1,4.0,12.0,11.0,1
+2022,7,Mexico,Poland,2,95.0,111.0,109.0,1
+2022,7,Poland,Mexico,1,14.0,22.0,21.0,1
+2022,8,Saudi Arabia,Argentina,6,59.0,141.0,135.0,1
+2022,9,Belgium,Canada,3,151.0,169.0,166.0,1
+2022,9,Canada,Belgium,2,16.0,28.0,26.0,1
+2022,10,Costa Rica,Spain,2,22.0,33.0,31.0,1
+2022,12,Morocco,Croatia,1,12.0,19.0,18.0,1
+2022,13,Cameroon,Switzerland,1,54.0,61.0,60.0,1
+2022,13,Switzerland,Cameroon,2,33.0,47.0,45.0,1
+2022,14,Korea Republic,Uruguay,1,2.0,10.0,9.0,1
+2022,14,Uruguay,Korea Republic,1,33.0,41.0,40.0,1
+2022,15,Ghana,Portugal,4,118.0,161.0,157.0,1
+2022,15,Portugal,Ghana,2,0.0,16.0,14.0,1
+2022,16,Serbia,Brazil,3,150.0,174.0,171.0,1
+2022,17,Iran,Wales,2,0.0,16.0,14.0,1
+2022,17,Wales,Iran,2,42.0,89.0,86.0,1
+2022,18,Qatar,Senegal,3,113.0,133.0,130.0,1
+2022,18,Senegal,Qatar,3,101.0,122.0,119.0,1
+2022,19,Ecuador,Netherlands,1,33.0,40.0,39.0,1
+2022,21,Tunisia,Australia,3,90.0,108.0,105.0,1
+2022,22,Poland,Saudi Arabia,3,220.0,244.0,241.0,1
+2022,22,Saudi Arabia,Poland,2,111.0,127.0,125.0,1
+2022,23,Denmark,France,2,137.0,153.0,151.0,1
+2022,23,France,Denmark,1,47.0,55.0,54.0,1
+2022,24,Argentina,Mexico,1,47.0,54.0,53.0,1
+2022,24,Mexico,Argentina,4,133.0,161.0,157.0,1
+2022,25,Costa Rica,Japan,3,98.0,119.0,116.0,1
+2022,25,Japan,Costa Rica,3,52.0,70.0,67.0,1
+2022,26,Belgium,Morocco,1,61.0,67.0,66.0,1
+2022,26,Morocco,Belgium,1,0.0,1.0,0.0,1
+2022,27,Canada,Croatia,2,43.0,57.0,55.0,1
+2022,27,Croatia,Canada,2,39.0,53.0,51.0,1
+2022,28,Germany,Spain,3,115.0,133.0,130.0,1
+2022,28,Spain,Germany,1,46.0,52.0,51.0,1
+2022,29,Cameroon,Serbia,2,126.0,140.0,138.0,1
+2022,29,Serbia,Cameroon,2,41.0,52.0,50.0,1
+2022,30,Ghana,Korea Republic,2,86.0,108.0,106.0,1
+2022,30,Korea Republic,Ghana,2,76.0,98.0,96.0,1
+2022,31,Brazil,Switzerland,1,38.0,44.0,43.0,1
+2022,31,Switzerland,Brazil,1,40.0,46.0,45.0,1
+2022,32,Portugal,Uruguay,3,66.0,99.0,96.0,1
+2022,32,Uruguay,Portugal,2,130.0,152.0,150.0,1
+2022,33,Wales,England,2,90.0,100.0,98.0,1
+2022,34,Iran,United States,3,20.0,47.0,44.0,1
+2022,34,United States,Iran,1,47.0,58.0,57.0,1
+2022,35,Senegal,Ecuador,1,24.0,31.0,30.0,1
+2022,36,Netherlands,Qatar,1,38.0,45.0,44.0,1
+2022,37,Australia,Denmark,2,119.0,133.0,131.0,1
+2022,37,Denmark,Australia,1,15.0,22.0,21.0,1
+2022,38,Tunisia,France,1,62.0,75.0,74.0,1
+2022,39,Argentina,Poland,1,41.0,48.0,47.0,1
+2022,39,Poland,Argentina,1,12.0,19.0,18.0,1
+2022,40,Mexico,Saudi Arabia,1,74.0,82.0,81.0,1
+2022,40,Saudi Arabia,Mexico,6,165.0,205.0,199.0,1
+2022,41,Belgium,Croatia,1,23.0,28.0,27.0,1
+2022,42,Canada,Morocco,4,196.0,212.0,208.0,1
+2022,43,Japan,Spain,3,142.0,166.0,163.0,1
+2022,44,Costa Rica,Germany,1,13.0,24.0,23.0,1
+2022,45,Ghana,Uruguay,2,4.0,15.0,13.0,1
+2022,45,Uruguay,Ghana,5,103.0,133.0,130.0,1
+2022,46,Korea Republic,Portugal,2,54.0,68.0,66.0,1
+2022,47,Serbia,Switzerland,7,118.0,180.0,173.0,1
+2022,47,Switzerland,Serbia,4,131.0,161.0,157.0,1
+2022,48,Brazil,Cameroon,2,88.0,108.0,106.0,1
+2022,48,Cameroon,Brazil,5,213.0,267.0,261.0,1
+2022,49,Netherlands,United States,2,33.0,47.0,45.0,1
+2022,50,Australia,Argentina,2,127.0,143.0,141.0,1
+2022,51,Senegal,England,1,14.0,19.0,18.0,1
+2022,52,France,Poland,1,58.0,68.0,67.0,1
+2022,52,Poland,France,2,45.0,65.0,63.0,1
+2022,53,Croatia,Japan,2,4.0,36.0,34.0,1
+2022,54,Korea Republic,Brazil,1,46.0,51.0,50.0,1
+2022,55,Morocco,Spain,1,0.0,34.0,33.0,1
+2022,55,Spain,Morocco,1,13.0,47.0,46.0,1
+2022,56,Switzerland,Portugal,2,78.0,88.0,86.0,1
+2022,57,Argentina,Netherlands,8,126.0,300.0,292.0,1
+2022,57,Netherlands,Argentina,8,135.0,265.0,260.0,1
+2022,58,Brazil,Croatia,3,100.0,199.0,196.0,1
+2022,58,Croatia,Brazil,2,62.0,98.0,96.0,1
+2022,59,England,France,1,0.0,11.0,10.0,1
+2022,59,France,England,3,99.0,132.0,129.0,1
+2022,60,Morocco,Portugal,3,20.0,49.0,45.0,1
+2022,60,Portugal,Morocco,1,3.0,12.0,11.0,1
+2022,61,Argentina,Croatia,2,41.0,51.0,49.0,1
+2022,61,Croatia,Argentina,2,116.0,126.0,124.0,1
+2022,62,Morocco,France,1,63.0,69.0,68.0,1
+2022,63,Morocco,Croatia,2,27.0,41.0,39.0,1
+2022,64,Argentina,France,5,48.0,120.0,116.0,1
+2022,64,France,Argentina,3,38.0,138.0,135.0,1

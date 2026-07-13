@@ -1,0 +1,33 @@
+# Figures
+
+Official v0.2 figures will be generated here by the reproducible pipeline with
+full-word filenames containing `match-exposure` or `suspension-exposure`.
+
+## Draft archive
+
+`draft-2026-07/` preserves nine exploratory images exported before the v0.2
+method freeze. They use superseded `W1/D1/W2/W2*` labels and contain two known
+rule errors:
+
+1. 2018/2022 semi-final cautions were assigned a future 90-minute block even
+   though single cautions reset after the quarter-finals.
+2. 2026 group-stage cautions were allowed to carry into the knockout stage,
+   contrary to FIFA's 2026 group-stage reset.
+
+These files are provenance artefacts, not results. Their original filenames
+and content mapping are retained below so that earlier discussions remain
+auditable.
+
+| Archived path | Original file | Draft content |
+|---|---|---|
+| `draft-2026-07/2026/01-w1-per-foul-48-teams.png` | `F3E7E807-1A8B-430B-8D72-5A70157826A7.png` | nominal remainder per foul, through M100 |
+| `draft-2026-07/2026/02-w2star-yellow-per-foul-48-teams.png` | `20EC5D3F-3B05-4A0E-AB50-A3B364F5742E.png` | draft yellow-only weighted horizon per foul |
+| `draft-2026-07/2026/03-adjusted-w2star-per-foul-48-teams.png` | `IMG_8121.png` | draft adjusted weighted horizon per foul |
+| `draft-2026-07/2026/04-knockout-d1-nominal-w1-diff-qf-teams.png` | `1670C69F-9626-4877-B38C-89A653FB4DD5.png` | draft knockout nominal differential |
+| `draft-2026-07/2026/05-knockout-d1-exact-diff-qf-teams.png` | `IMG_8120.png` | draft knockout exact-clock differential |
+| `draft-2026-07/2022/01-adjusted-w2star-per-foul-32-teams.png` | `IMG_8123.png` | draft adjusted weighted horizon per foul |
+| `draft-2026-07/2022/02-knockout-d1-exact-diff.png` | `IMG_8122.png` | draft knockout exact-clock differential |
+| `draft-2026-07/2018/01-adjusted-w2star-per-foul-32-teams.png` | `IMG_8125.png` | draft adjusted weighted horizon per foul |
+| `draft-2026-07/2018/02-knockout-d1-exact-diff.png` | `IMG_8124.png` | draft knockout exact-clock differential |
+
+All 2026 draft files use the 2026-07-12 cutoff through M100.

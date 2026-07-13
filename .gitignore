@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+
+# local scratch
+*.tmp
+~$*
+tmp/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.coverage
+
+# private raw-source archive — never published (data-rights review pending)
+data/raw/

@@ -1,0 +1,195 @@
+edition,match_number,fifa_match_id,stage,date_utc,team,opponent,team_id,is_official,recipient,id_player,card_type,minute_label,t_min,period,basis,t_end_min,t_end_source,rho,W1,D1,N_horizon,W2,first_yellow_t_min,event_description
+2014,1,300186456,First stage,2014-06-12T20:00:00Z,Brazil,Croatia,43924,0,NEYMAR JR,314197,Y,26',26.0,3,90.0,94.93,fotmob,1,64.0,68.93,4,424.0,,NEYMAR JR (Brazil) is booked by the referee.
+2014,1,300186456,First stage,2014-06-12T20:00:00Z,Croatia,Brazil,43938,0,ĆORLUKA,297373,Y,65',65.0,5,90.0,94.93,fotmob,1,25.0,29.93,4,385.0,,ĆORLUKA (Croatia) is booked by the referee.
+2014,1,300186456,First stage,2014-06-12T20:00:00Z,Croatia,Brazil,43938,0,LOVREN,312432,Y,68',68.0,5,90.0,94.93,fotmob,1,22.0,26.93,4,382.0,,LOVREN (Croatia) is booked by the referee.
+2014,1,300186456,First stage,2014-06-12T20:00:00Z,Brazil,Croatia,43924,0,Luiz Gustavo,367918,Y,87',87.0,5,90.0,94.93,fotmob,1,3.0,7.93,4,363.0,,Luiz Gustavo (Brazil) is booked by the referee.
+2014,2,300186492,First stage,2014-06-13T16:00:00Z,Mexico,Cameroon,43911,0,H. MORENO,238112,Y,56',56.0,5,90.0,94.25,fotmob,1,34.0,38.25,4,394.0,,H. MORENO (Mexico) is booked by the referee.
+2014,2,300186492,First stage,2014-06-13T16:00:00Z,Cameroon,Mexico,43849,0,Nounkeu,200259,Y,76',76.0,5,90.0,94.25,fotmob,1,14.0,18.25,4,374.0,,Nounkeu (Cameroon) is booked by the referee.
+2014,3,300186510,First stage,2014-06-13T19:00:00Z,Netherlands,Spain,43960,0,J. de Guzmán,298677,Y,24',24.0,3,90.0,93.85,fotmob,1,66.0,69.85,4,426.0,,J. de Guzmán (Netherlands) is booked by the referee.
+2014,3,300186510,First stage,2014-06-13T19:00:00Z,Netherlands,Spain,43960,0,De Vrij,313021,Y,40',40.0,3,90.0,93.85,fotmob,1,50.0,53.85,4,410.0,,De Vrij (Netherlands) is booked by the referee.
+2014,3,300186510,First stage,2014-06-13T19:00:00Z,Spain,Netherlands,43969,0,Casillas,176644,Y,64',64.0,5,90.0,93.85,fotmob,1,26.0,29.85,4,386.0,,Casillas (Spain) is booked by the referee.
+2014,3,300186510,First stage,2014-06-13T19:00:00Z,Netherlands,Spain,43960,0,Robin VAN PERSIE,217315,Y,65',65.0,5,90.0,93.85,fotmob,1,25.0,28.85,4,385.0,,Robin VAN PERSIE (Netherlands) is booked by the referee.
+2014,4,300186473,First stage,2014-06-13T22:00:00Z,Australia,Chile,43976,0,CAHILL,213001,Y,43',43.0,3,90.0,94.12,fotmob,1,47.0,51.12,4,407.0,,CAHILL (Australia) is booked by the referee.
+2014,4,300186473,First stage,2014-06-13T22:00:00Z,Australia,Chile,43976,0,JEDINAK,197514,Y,57',57.0,5,90.0,94.12,fotmob,1,33.0,37.12,4,393.0,,JEDINAK (Australia) is booked by the referee.
+2014,4,300186473,First stage,2014-06-13T22:00:00Z,Australia,Chile,43976,0,MILLIGAN,197411,Y,67',67.0,5,90.0,94.12,fotmob,1,23.0,27.12,4,383.0,,MILLIGAN (Australia) is booked by the referee.
+2014,4,300186473,First stage,2014-06-13T22:00:00Z,Chile,Australia,43925,0,C. Aránguiz,318150,Y,85',85.0,5,90.0,94.12,fotmob,1,5.0,9.12,4,365.0,,C. Aránguiz (Chile) is booked by the referee.
+2014,5,300186471,First stage,2014-06-14T16:00:00Z,Colombia,Greece,43926,0,C. SANCHEZ,280487,Y,25',25.0,3,90.0,93.87,fotmob,1,65.0,68.87,4,425.0,,C. SANCHEZ (Colombia) is booked by the referee.
+2014,5,300186471,First stage,2014-06-14T16:00:00Z,Greece,Colombia,43949,0,S. Papastathopoulos,299090,Y,51',51.0,5,90.0,93.87,fotmob,1,39.0,42.87,4,399.0,,S. Papastathopoulos (Greece) is booked by the referee.
+2014,5,300186471,First stage,2014-06-14T16:00:00Z,Greece,Colombia,43949,0,Dimitrios SALPINGIDIS,215513,Y,54',54.0,5,90.0,93.87,fotmob,1,36.0,39.87,4,396.0,,Dimitrios SALPINGIDIS (Greece) is booked by the referee.
+2014,6,300186507,First stage,2014-06-15T01:00:00Z,Japan,Côte d'Ivoire,43819,0,YOSHIDA,271253,Y,22',22.0,3,90.0,95.9,fotmob,1,68.0,73.9,4,428.0,,YOSHIDA (Japan) is booked by the referee.
+2014,6,300186507,First stage,2014-06-15T01:00:00Z,Côte d'Ivoire,Japan,43854,0,Bamba,207946,Y,53',53.0,5,90.0,95.9,fotmob,1,37.0,42.9,4,397.0,,Bamba (Côte d'Ivoire) is booked by the referee.
+2014,6,300186507,First stage,2014-06-15T01:00:00Z,Côte d'Ivoire,Japan,43854,0,Didier ZOKORA,176971,Y,57',57.0,5,90.0,95.9,fotmob,1,33.0,38.9,4,393.0,,Didier ZOKORA (Côte d'Ivoire) is booked by the referee.
+2014,6,300186507,First stage,2014-06-15T01:00:00Z,Japan,Côte d'Ivoire,43819,0,M. Morishige,268594,Y,63',63.0,5,90.0,95.9,fotmob,1,27.0,32.9,4,387.0,,M. Morishige (Japan) is booked by the referee.
+2014,7,300186489,First stage,2014-06-14T19:00:00Z,Uruguay,Costa Rica,43930,0,Diego LUGANO,239433,Y,49',49.0,5,90.0,95.13,fotmob,1,41.0,46.13,4,401.0,,Diego LUGANO (Uruguay) is booked by the referee.
+2014,7,300186489,First stage,2014-06-14T19:00:00Z,Uruguay,Costa Rica,43930,0,Gargano,276131,Y,56',56.0,5,90.0,95.13,fotmob,1,34.0,39.13,4,394.0,,Gargano (Uruguay) is booked by the referee.
+2014,7,300186489,First stage,2014-06-14T19:00:00Z,Uruguay,Costa Rica,43930,0,M. CACERES,267829,Y,80',80.0,5,90.0,95.13,fotmob,1,10.0,15.13,4,370.0,,M. CACERES (Uruguay) is booked by the referee.
+2014,7,300186489,First stage,2014-06-14T19:00:00Z,Uruguay,Costa Rica,43930,0,M. PEREIRA,286481,R,90'+3',93.0,5,90.0,95.13,fotmob,2,,4.26,4,,,M. PEREIRA (Uruguay) is sent off!
+2014,8,300186513,First stage,2014-06-14T22:00:00Z,England,Italy,43942,0,STERLING,336043,Y,90'+1',91.0,5,90.0,95.1,fotmob,1,0.0,4.1,4,360.0,,STERLING (England) is booked by the referee.
+2014,9,300186494,First stage,2014-06-15T16:00:00Z,Ecuador,Switzerland,43927,0,Paredes,349576,Y,52',52.0,5,90.0,93.87,fotmob,1,38.0,41.87,4,398.0,,Paredes (Ecuador) is booked by the referee.
+2014,9,300186494,First stage,2014-06-15T16:00:00Z,Switzerland,Ecuador,43971,0,DJOUROU,216645,Y,83',83.0,5,90.0,93.87,fotmob,1,7.0,10.87,4,367.0,,DJOUROU (Switzerland) is booked by the referee.
+2014,10,300186496,First stage,2014-06-15T19:00:00Z,France,Honduras,43946,0,Patrice EVRA,212246,Y,6',6.0,3,90.0,93.08,fotmob,1,84.0,87.08,4,444.0,,Patrice EVRA (France) is booked by the referee.
+2014,10,300186496,First stage,2014-06-15T19:00:00Z,Honduras,France,43909,0,W. Palacios,209827,Y,27',27.0,3,90.0,93.08,fotmob,1,63.0,66.08,4,423.0,,W. Palacios (Honduras) is booked by the referee.
+2014,10,300186496,First stage,2014-06-15T19:00:00Z,France,Honduras,43946,0,POGBA,367388,Y,27',27.0,3,90.0,93.08,fotmob,1,63.0,66.08,4,423.0,,POGBA (France) is booked by the referee.
+2014,10,300186496,First stage,2014-06-15T19:00:00Z,Honduras,France,43909,0,W. Palacios,209827,Y2,42',42.0,3,90.0,93.08,fotmob,2,48.0,102.16,4,,27.0,W. Palacios (Honduras) is booked by the referee.
+2014,10,300186496,First stage,2014-06-15T19:00:00Z,France,Honduras,43946,0,Cabaye,358013,Y,45'+1',46.0,3,90.0,93.08,fotmob,1,44.0,47.08,4,404.0,,Cabaye (France) is booked by the referee.
+2014,10,300186496,First stage,2014-06-15T19:00:00Z,Honduras,France,43909,0,B. García,237071,Y,52',52.0,5,90.0,93.08,fotmob,1,38.0,41.08,4,398.0,,B. García (Honduras) is booked by the referee.
+2014,10,300186496,First stage,2014-06-15T19:00:00Z,Honduras,France,43909,0,L. Garrido,270400,Y,82',82.0,5,90.0,93.08,fotmob,1,8.0,11.08,4,368.0,,L. Garrido (Honduras) is booked by the referee.
+2014,11,300186477,First stage,2014-06-15T22:00:00Z,Argentina,Bosnia-Herzegovina,43922,0,M. Rojo,318688,Y,24',24.0,3,90.0,93.0,fotmob,1,66.0,69.0,4,426.0,,M. Rojo (Argentina) is booked by the referee.
+2014,11,300186477,First stage,2014-06-15T22:00:00Z,Bosnia-Herzegovina,Argentina,44037,0,Spahic,216069,Y,62',62.0,5,90.0,93.0,fotmob,1,28.0,31.0,4,388.0,,Spahic (Bosnia-Herzegovina) is booked by the referee.
+2014,12,300186505,First stage,2014-06-16T19:00:00Z,Iran,Nigeria,43817,0,Teymourian,237949,Y,74',74.0,5,90.0,92.08,fotmob,1,16.0,18.08,4,376.0,,Teymourian (Iran) is booked by the referee.
+2014,13,300186475,First stage,2014-06-16T16:00:00Z,Portugal,Germany,43963,0,Pereira,214407,Y,10',10.0,3,90.0,92.1,fotmob,1,80.0,82.1,4,440.0,,Pereira (Portugal) is booked by the referee.
+2014,13,300186475,First stage,2014-06-16T16:00:00Z,Portugal,Germany,43963,0,Pepe,275931,R,36',36.0,3,90.0,92.1,fotmob,2,,112.2,4,,,Pepe (Portugal) is sent off!
+2014,14,300186512,First stage,2014-06-16T22:00:00Z,Ghana,United States,43860,0,Rabiu,311850,Y,29',29.0,3,90.0,95.03,fotmob,1,61.0,66.03,4,421.0,,Rabiu (Ghana) is booked by the referee.
+2014,14,300186512,First stage,2014-06-16T22:00:00Z,Ghana,United States,43860,0,Sulley MUNTARI,183000,Y,90'+1',91.0,5,90.0,95.03,fotmob,1,0.0,4.03,4,360.0,,Sulley MUNTARI (Ghana) is booked by the referee.
+2014,15,300186479,First stage,2014-06-17T16:00:00Z,Belgium,Algeria,43935,0,VERTONGHEN,290904,Y,23',23.0,3,90.0,93.18,fotmob,1,67.0,70.18,4,427.0,,VERTONGHEN (Belgium) is booked by the referee.
+2014,15,300186479,First stage,2014-06-17T16:00:00Z,Algeria,Belgium,43843,0,N. Bentaleb,379939,Y,33',33.0,3,90.0,93.18,fotmob,1,57.0,60.18,4,417.0,,N. Bentaleb (Algeria) is booked by the referee.
+2014,16,300186499,First stage,2014-06-17T22:00:00Z,Korea Republic,Russia,43822,0,H M SON,307849,Y,12',12.0,3,90.0,94.05,fotmob,1,78.0,82.05,4,438.0,,H M SON (Korea Republic) is booked by the referee.
+2014,16,300186499,First stage,2014-06-17T22:00:00Z,Korea Republic,Russia,43822,0,S Y KI,268406,Y,29',29.0,3,90.0,94.05,fotmob,1,61.0,65.05,4,421.0,,S Y KI (Korea Republic) is booked by the referee.
+2014,16,300186499,First stage,2014-06-17T22:00:00Z,Russia,Korea Republic,43965,0,O. Shatov,358891,Y,48',48.0,5,90.0,94.05,fotmob,1,42.0,46.05,4,402.0,,O. Shatov (Russia) is booked by the referee.
+2014,16,300186499,First stage,2014-06-17T22:00:00Z,Korea Republic,Russia,43822,0,J C KOO,291393,Y,89',89.0,5,90.0,94.05,fotmob,1,1.0,5.05,4,361.0,,J C KOO (Korea Republic) is booked by the referee.
+2014,17,300186509,First stage,2014-06-17T19:00:00Z,Brazil,Mexico,43924,0,RAMIRES,298959,Y,44',44.0,3,90.0,93.05,fotmob,1,46.0,49.05,3,316.0,,RAMIRES (Brazil) is booked by the referee.
+2014,17,300186509,First stage,2014-06-17T19:00:00Z,Mexico,Brazil,43911,0,Aguilar,289195,Y,58',58.0,5,90.0,93.05,fotmob,1,32.0,35.05,3,302.0,,Aguilar (Mexico) is booked by the referee.
+2014,17,300186509,First stage,2014-06-17T19:00:00Z,Mexico,Brazil,43911,0,Vázquez,379264,Y,61',61.0,5,90.0,93.05,fotmob,1,29.0,32.05,3,299.0,,Vázquez (Mexico) is booked by the referee.
+2014,17,300186509,First stage,2014-06-17T19:00:00Z,Brazil,Mexico,43924,0,T. SILVA,289964,Y,79',79.0,5,90.0,93.05,fotmob,1,11.0,14.05,3,281.0,,T. SILVA (Brazil) is booked by the referee.
+2014,18,300186453,First stage,2014-06-18T22:00:00Z,Cameroon,Croatia,43849,0,Alexandre SONG,200261,R,39',39.0,3,90.0,92.12,fotmob,2,,106.24,3,,,Alexandre SONG (Cameroon) is sent off!
+2014,18,300186453,First stage,2014-06-18T22:00:00Z,Croatia,Cameroon,43938,0,EDUARDO,214384,Y,88',88.0,5,90.0,92.12,fotmob,1,2.0,4.12,3,272.0,,EDUARDO (Croatia) is booked by the referee.
+2014,19,300186498,First stage,2014-06-18T19:00:00Z,Chile,Spain,43925,0,A. Vidal,267543,Y,25',25.0,3,90.0,96.02,fotmob,1,65.0,71.02,3,335.0,,A. Vidal (Chile) is booked by the referee.
+2014,19,300186498,First stage,2014-06-18T19:00:00Z,Spain,Chile,43969,0,Xabi ALONSO,207528,Y,40',40.0,3,90.0,96.02,fotmob,1,50.0,56.02,3,320.0,,Xabi ALONSO (Spain) is booked by the referee.
+2014,19,300186498,First stage,2014-06-18T19:00:00Z,Chile,Spain,43925,0,E. Mena,349592,Y,60',60.0,5,90.0,96.02,fotmob,1,30.0,36.02,3,300.0,,E. Mena (Chile) is booked by the referee.
+2014,20,300186478,First stage,2014-06-18T16:00:00Z,Australia,Netherlands,43976,0,CAHILL,213001,Y,42',42.0,3,90.0,93.12,fotmob,1,48.0,51.12,3,318.0,,CAHILL (Australia) is booked by the referee.
+2014,20,300186478,First stage,2014-06-18T16:00:00Z,Netherlands,Australia,43960,0,Robin VAN PERSIE,217315,Y,46',46.0,5,90.0,93.12,fotmob,1,44.0,47.12,3,314.0,,Robin VAN PERSIE (Netherlands) is booked by the referee.
+2014,21,300186468,First stage,2014-06-19T16:00:00Z,Côte d'Ivoire,Colombia,43854,0,Didier ZOKORA,176971,Y,54',54.0,5,90.0,94.3,fotmob,1,36.0,40.3,3,306.0,,Didier ZOKORA (Côte d'Ivoire) is booked by the referee.
+2014,21,300186468,First stage,2014-06-19T16:00:00Z,Côte d'Ivoire,Colombia,43854,0,Tioté,291329,Y,89',89.0,5,90.0,94.3,fotmob,1,1.0,5.3,3,271.0,,Tioté (Côte d'Ivoire) is booked by the referee.
+2014,22,300186454,First stage,2014-06-19T22:00:00Z,Japan,Greece,43819,0,HASEBE,289027,Y,11',11.0,3,90.0,94.28,fotmob,1,79.0,83.28,3,349.0,,HASEBE (Japan) is booked by the referee.
+2014,22,300186454,First stage,2014-06-19T22:00:00Z,Greece,Japan,43949,0,KATSOURANIS,214887,Y,26',26.0,3,90.0,94.28,fotmob,1,64.0,68.28,3,334.0,,KATSOURANIS (Greece) is booked by the referee.
+2014,22,300186454,First stage,2014-06-19T22:00:00Z,Greece,Japan,43949,0,KATSOURANIS,214887,Y2,37',37.0,3,90.0,94.28,fotmob,2,53.0,114.56,3,,26.0,KATSOURANIS (Greece) is booked by the referee.
+2014,22,300186454,First stage,2014-06-19T22:00:00Z,Greece,Japan,43949,0,Samaras,297112,Y,54',54.0,5,90.0,94.28,fotmob,1,36.0,40.28,3,306.0,,Samaras (Greece) is booked by the referee.
+2014,22,300186454,First stage,2014-06-19T22:00:00Z,Greece,Japan,43949,0,Torosidis,228336,Y,88',88.0,5,90.0,94.28,fotmob,1,2.0,6.28,3,272.0,,Torosidis (Greece) is booked by the referee.
+2014,23,300186486,First stage,2014-06-19T19:00:00Z,Uruguay,England,43930,0,D. GODIN,229499,Y,8',8.0,3,90.0,95.08,fotmob,1,82.0,87.08,3,352.0,,D. GODIN (Uruguay) is booked by the referee.
+2014,23,300186486,First stage,2014-06-19T19:00:00Z,England,Uruguay,43942,0,Steven GERRARD,214961,Y,67',67.0,5,90.0,95.08,fotmob,1,23.0,28.08,3,293.0,,Steven GERRARD (England) is booked by the referee.
+2014,24,300186500,First stage,2014-06-20T16:00:00Z,Italy,Costa Rica,43954,0,M. Balotelli,301059,Y,68',68.0,5,90.0,93.73,fotmob,1,22.0,25.73,3,292.0,,M. Balotelli (Italy) is booked by the referee.
+2014,24,300186500,First stage,2014-06-20T16:00:00Z,Costa Rica,Italy,43901,0,José Cubero,268822,Y,70',70.0,5,90.0,93.73,fotmob,1,20.0,23.73,3,290.0,,José Cubero (Costa Rica) is booked by the referee.
+2014,25,300186514,First stage,2014-06-20T19:00:00Z,France,Switzerland,43946,0,Cabaye,358013,Y,87',87.0,5,90.0,94.22,fotmob,1,3.0,7.22,3,273.0,,Cabaye (France) is booked by the referee.
+2014,26,300186463,First stage,2014-06-20T22:00:00Z,Honduras,Ecuador,43909,0,Bernárdez,213878,Y,6',6.0,3,90.0,94.4,fotmob,1,84.0,88.4,3,354.0,,Bernárdez (Honduras) is booked by the referee.
+2014,26,300186463,First stage,2014-06-20T22:00:00Z,Honduras,Ecuador,43909,0,J. Bengtson,323623,Y,45'+2',47.0,3,90.0,94.4,fotmob,1,43.0,47.4,3,313.0,,J. Bengtson (Honduras) is booked by the referee.
+2014,26,300186463,First stage,2014-06-20T22:00:00Z,Ecuador,Honduras,43927,0,A. Valencia,202544,Y,56',56.0,5,90.0,94.4,fotmob,1,34.0,38.4,3,304.0,,A. Valencia (Ecuador) is booked by the referee.
+2014,26,300186463,First stage,2014-06-20T22:00:00Z,Ecuador,Honduras,43927,0,E. Valencia,373400,Y,72',72.0,5,90.0,94.4,fotmob,1,18.0,22.4,3,288.0,,E. Valencia (Ecuador) is booked by the referee.
+2014,26,300186463,First stage,2014-06-20T22:00:00Z,Ecuador,Honduras,43927,0,Montero,290452,Y,79',79.0,5,90.0,94.4,fotmob,1,11.0,15.4,3,281.0,,Montero (Ecuador) is booked by the referee.
+2014,27,300186466,First stage,2014-06-21T16:00:00Z,Iran,Argentina,43817,0,Javad NEKOUNAM,185641,Y,52',52.0,5,90.0,94.63,fotmob,1,38.0,42.63,3,308.0,,Javad NEKOUNAM (Iran) is booked by the referee.
+2014,27,300186466,First stage,2014-06-21T16:00:00Z,Iran,Argentina,43817,0,SHOJAEI. M,213170,Y,72',72.0,5,90.0,94.63,fotmob,1,18.0,22.63,3,288.0,,SHOJAEI. M (Iran) is booked by the referee.
+2014,28,300186511,First stage,2014-06-21T22:00:00Z,Bosnia-Herzegovina,Nigeria,44037,0,H. Medunjanin,233167,Y,5',5.0,3,90.0,93.27,fotmob,1,85.0,88.27,3,355.0,,H. Medunjanin (Bosnia-Herzegovina) is booked by the referee.
+2014,28,300186511,First stage,2014-06-21T22:00:00Z,Nigeria,Bosnia-Herzegovina,43876,0,MIKEL,234463,Y,81',81.0,5,90.0,93.27,fotmob,1,9.0,12.27,3,279.0,,MIKEL (Nigeria) is booked by the referee.
+2014,29,300186493,First stage,2014-06-21T19:00:00Z,Ghana,Germany,43860,0,Sulley MUNTARI,183000,Y,90'+3',93.0,5,90.0,94.32,fotmob,1,0.0,1.32,3,270.0,,Sulley MUNTARI (Ghana) is booked by the referee.
+2014,30,300186483,First stage,2014-06-22T22:00:00Z,United States,Portugal,43921,0,Jermaine JONES,183893,Y,74',74.0,5,90.0,95.53,fotmob,1,16.0,21.53,3,286.0,,Jermaine JONES (United States) is booked by the referee.
+2014,31,300186481,First stage,2014-06-22T16:00:00Z,Russia,Belgium,43965,0,D. Glushakov,358049,Y,37',37.0,3,90.0,93.33,fotmob,1,53.0,56.33,3,323.0,,D. Glushakov (Russia) is booked by the referee.
+2014,31,300186481,First stage,2014-06-22T16:00:00Z,Belgium,Russia,43935,0,WITSEL,290821,Y,53',53.0,5,90.0,93.33,fotmob,1,37.0,40.33,3,307.0,,WITSEL (Belgium) is booked by the referee.
+2014,31,300186481,First stage,2014-06-22T16:00:00Z,Belgium,Russia,43935,0,ALDERWEIRELD,290864,Y,72',72.0,5,90.0,93.33,fotmob,1,18.0,21.33,3,288.0,,ALDERWEIRELD (Belgium) is booked by the referee.
+2014,32,300186495,First stage,2014-06-22T19:00:00Z,Korea Republic,Algeria,43822,0,Y LEE,363578,Y,53',53.0,5,90.0,94.1,fotmob,1,37.0,41.1,3,307.0,,Y LEE (Korea Republic) is booked by the referee.
+2014,32,300186495,First stage,2014-06-22T19:00:00Z,Algeria,Korea Republic,43843,0,Madjid Bougherra,215208,Y,66',66.0,5,90.0,94.1,fotmob,1,24.0,28.1,3,294.0,,Madjid Bougherra (Algeria) is booked by the referee.
+2014,32,300186495,First stage,2014-06-22T19:00:00Z,Korea Republic,Algeria,43822,0,Han Kook-Young,274329,Y,68',68.0,5,90.0,94.1,fotmob,1,22.0,26.1,3,292.0,,Han Kook-Young (Korea Republic) is booked by the referee.
+2014,33,300186472,First stage,2014-06-23T20:00:00Z,Cameroon,Brazil,43849,0,Enoh,310048,Y,11',11.0,3,90.0,94.18,fotmob,1,79.0,83.18,2,259.0,,Enoh (Cameroon) is booked by the referee.
+2014,33,300186472,First stage,2014-06-23T20:00:00Z,Cameroon,Brazil,43849,0,SALLI,336791,Y,74',74.0,5,90.0,94.18,fotmob,1,16.0,20.18,2,196.0,,SALLI (Cameroon) is booked by the referee.
+2014,33,300186472,First stage,2014-06-23T20:00:00Z,Cameroon,Brazil,43849,0,Stephane MBIA,200935,Y,79',79.0,5,90.0,94.18,fotmob,1,11.0,15.18,2,191.0,,Stephane MBIA (Cameroon) is booked by the referee.
+2014,34,300186452,First stage,2014-06-23T20:00:00Z,Croatia,Mexico,43938,0,RAKITIĆ,296633,Y,8',8.0,3,90.0,94.1,fotmob,1,82.0,86.1,2,262.0,,RAKITIĆ (Croatia) is booked by the referee.
+2014,34,300186452,First stage,2014-06-23T20:00:00Z,Mexico,Croatia,43911,0,R. MÁRQUEZ,178119,Y,38',38.0,3,90.0,94.1,fotmob,1,52.0,56.1,2,232.0,,R. MÁRQUEZ (Mexico) is booked by the referee.
+2014,34,300186452,First stage,2014-06-23T20:00:00Z,Mexico,Croatia,43911,0,Vázquez,379264,Y,65',65.0,5,90.0,94.1,fotmob,1,25.0,29.1,2,205.0,,Vázquez (Mexico) is booked by the referee.
+2014,34,300186452,First stage,2014-06-23T20:00:00Z,Croatia,Mexico,43938,0,REBIĆ,369058,R,88',88.0,5,90.0,94.1,fotmob,2,,12.2,2,,,REBIĆ (Croatia) is sent off!
+2014,35,300186467,First stage,2014-06-23T16:00:00Z,Spain,Australia,43969,0,Sergio Ramos,216814,Y,61',61.0,5,90.0,93.08,fotmob,1,29.0,32.08,2,209.0,,Sergio Ramos (Spain) is booked by the referee.
+2014,35,300186467,First stage,2014-06-23T16:00:00Z,Australia,Spain,43976,0,Spiranovic,229051,Y,87',87.0,5,90.0,93.08,fotmob,1,3.0,6.08,2,183.0,,Spiranovic (Australia) is booked by the referee.
+2014,35,300186467,First stage,2014-06-23T16:00:00Z,Australia,Spain,43976,0,JEDINAK,197514,Y,90'+1',91.0,5,90.0,93.08,fotmob,1,0.0,2.08,2,180.0,,JEDINAK (Australia) is booked by the referee.
+2014,36,300186470,First stage,2014-06-23T16:00:00Z,Chile,Netherlands,43925,0,Silva,349582,Y,24',24.0,3,90.0,93.18,fotmob,1,66.0,69.18,2,246.0,,Silva (Chile) is booked by the referee.
+2014,36,300186470,First stage,2014-06-23T16:00:00Z,Netherlands,Chile,43960,0,Daley BLIND,319432,Y,63',63.0,5,90.0,93.18,fotmob,1,27.0,30.18,2,207.0,,Daley BLIND (Netherlands) is booked by the referee.
+2014,37,300186457,First stage,2014-06-24T20:00:00Z,Japan,Colombia,43819,0,Yasuyuki KONNO,184373,Y,15',15.0,3,90.0,93.25,fotmob,1,75.0,78.25,2,255.0,,Yasuyuki KONNO (Japan) is booked by the referee.
+2014,37,300186457,First stage,2014-06-24T20:00:00Z,Colombia,Japan,43926,0,Fredy Guarín,200219,Y,62',62.0,5,90.0,93.25,fotmob,1,28.0,31.25,2,208.0,,Fredy Guarín (Colombia) is booked by the referee.
+2014,38,300186455,First stage,2014-06-24T20:00:00Z,Côte d'Ivoire,Greece,43854,0,Didier DROGBA,212306,Y,36',36.0,3,90.0,93.92,fotmob,1,54.0,57.92,2,234.0,,Didier DROGBA (Côte d'Ivoire) is booked by the referee.
+2014,38,300186455,First stage,2014-06-24T20:00:00Z,Côte d'Ivoire,Greece,43854,0,Salomon KALOU,216970,Y,61',61.0,5,90.0,93.92,fotmob,1,29.0,32.92,2,209.0,,Salomon KALOU (Côte d'Ivoire) is booked by the referee.
+2014,38,300186455,First stage,2014-06-24T20:00:00Z,Côte d'Ivoire,Greece,43854,0,Dié,367555,Y,69',69.0,5,90.0,93.92,fotmob,1,21.0,24.92,2,201.0,,Dié (Côte d'Ivoire) is booked by the referee.
+2014,39,300186465,First stage,2014-06-24T16:00:00Z,Italy,Uruguay,43954,0,M. Balotelli,301059,Y,21',21.0,3,90.0,95.95,fotmob,1,69.0,74.95,2,249.0,,M. Balotelli (Italy) is booked by the referee.
+2014,39,300186465,First stage,2014-06-24T16:00:00Z,Uruguay,Italy,43930,0,Arévalo,286238,Y,45',45.0,5,90.0,95.95,fotmob,1,45.0,50.95,2,225.0,,Arévalo (Uruguay) is booked by the referee.
+2014,39,300186465,First stage,2014-06-24T16:00:00Z,Italy,Uruguay,43954,0,Marchisio,298664,R,58',58.0,5,90.0,95.95,fotmob,2,,75.9,2,,,Marchisio (Italy) is sent off!
+2014,39,300186465,First stage,2014-06-24T16:00:00Z,Italy,Uruguay,43954,0,De Sciglio,359223,Y,76',76.0,5,90.0,95.95,fotmob,1,14.0,19.95,2,194.0,,De Sciglio (Italy) is booked by the referee.
+2014,39,300186465,First stage,2014-06-24T16:00:00Z,Uruguay,Italy,43930,0,F. MUSLERA,229498,Y,90',90.0,5,90.0,95.95,fotmob,1,0.0,5.95,2,180.0,,F. MUSLERA (Uruguay) is booked by the referee.
+2014,40,300186484,First stage,2014-06-24T16:00:00Z,England,Costa Rica,43942,0,R. Barkley,369392,Y,52',52.0,5,90.0,93.13,fotmob,1,38.0,41.13,2,218.0,,R. Barkley (England) is booked by the referee.
+2014,40,300186484,First stage,2014-06-24T16:00:00Z,England,Costa Rica,43942,0,A. Lallana,361222,Y,56',56.0,5,90.0,93.13,fotmob,1,34.0,37.13,2,214.0,,A. Lallana (England) is booked by the referee.
+2014,40,300186484,First stage,2014-06-24T16:00:00Z,Costa Rica,England,43901,0,G. GONZALEZ,268821,Y,59',59.0,5,90.0,93.13,fotmob,1,31.0,34.13,2,211.0,,G. GONZALEZ (Costa Rica) is booked by the referee.
+2014,41,300186482,First stage,2014-06-25T20:00:00Z,Honduras,Switzerland,43909,0,Jerry PALACIOS,213953,Y,65',65.0,5,90.0,93.02,fotmob,1,25.0,28.02,2,205.0,,Jerry PALACIOS (Honduras) is booked by the referee.
+2014,42,300186515,First stage,2014-06-25T20:00:00Z,Ecuador,France,43927,0,A. Valencia,202544,R,49',49.0,5,90.0,94.28,fotmob,2,,90.56,2,,,A. Valencia (Ecuador) is sent off!
+2014,42,300186515,First stage,2014-06-25T20:00:00Z,Ecuador,France,43927,0,Frickson ERAZO,349578,Y,82',82.0,5,90.0,94.28,fotmob,1,8.0,12.28,2,188.0,,Frickson ERAZO (Ecuador) is booked by the referee.
+2014,43,300186458,First stage,2014-06-25T16:00:00Z,Nigeria,Argentina,43876,0,OMERUO,315424,Y,48',48.0,5,90.0,94.3,fotmob,1,42.0,46.3,2,222.0,,OMERUO (Nigeria) is booked by the referee.
+2014,43,300186458,First stage,2014-06-25T16:00:00Z,Nigeria,Argentina,43876,0,Oshaniwa,356712,Y,50',50.0,5,90.0,94.3,fotmob,1,40.0,44.3,2,220.0,,Oshaniwa (Nigeria) is booked by the referee.
+2014,44,300186464,First stage,2014-06-25T16:00:00Z,Bosnia-Herzegovina,Iran,44037,0,M. Bešić,358101,Y,76',76.0,5,90.0,93.37,fotmob,1,14.0,17.37,2,194.0,,M. Bešić (Bosnia-Herzegovina) is booked by the referee.
+2014,44,300186464,First stage,2014-06-25T16:00:00Z,Iran,Bosnia-Herzegovina,43817,0,KARIM,330659,Y,87',87.0,5,90.0,93.37,fotmob,1,3.0,6.37,2,183.0,,KARIM (Iran) is booked by the referee.
+2014,45,300186469,First stage,2014-06-26T16:00:00Z,Germany,United States,43948,0,Benedikt HOEWEDES,311148,Y,10',10.0,3,90.0,94.08,fotmob,1,80.0,84.08,2,260.0,,Benedikt HOEWEDES (Germany) is booked by the referee.
+2014,45,300186469,First stage,2014-06-26T16:00:00Z,United States,Germany,43921,0,Gonzalez,234405,Y,36',36.0,3,90.0,94.08,fotmob,1,54.0,58.08,2,234.0,,Gonzalez (United States) is booked by the referee.
+2014,45,300186469,First stage,2014-06-26T16:00:00Z,United States,Germany,43921,0,Kyle BECKERMAN,175512,Y,61',61.0,5,90.0,94.08,fotmob,1,29.0,33.08,2,209.0,,Kyle BECKERMAN (United States) is booked by the referee.
+2014,46,300186476,First stage,2014-06-26T16:00:00Z,Ghana,Portugal,43860,0,H. Afful,294626,Y,38',38.0,3,90.0,95.12,fotmob,1,52.0,57.12,2,232.0,,H. Afful (Ghana) is booked by the referee.
+2014,46,300186476,First stage,2014-06-26T16:00:00Z,Ghana,Portugal,43860,0,A. Waris,367393,Y,54',54.0,5,90.0,95.12,fotmob,1,36.0,41.12,2,216.0,,A. Waris (Ghana) is booked by the referee.
+2014,46,300186476,First stage,2014-06-26T16:00:00Z,Ghana,Portugal,43860,0,J. Ayew,353235,Y,77',77.0,5,90.0,95.12,fotmob,1,13.0,18.12,2,193.0,,J. Ayew (Ghana) is booked by the referee.
+2014,46,300186476,First stage,2014-06-26T16:00:00Z,Portugal,Ghana,43963,0,J. MOUTINHO,200199,Y,90'+3',93.0,5,90.0,95.12,fotmob,1,0.0,2.12,2,180.0,,J. MOUTINHO (Portugal) is booked by the referee.
+2014,47,300186480,First stage,2014-06-26T20:00:00Z,Korea Republic,Belgium,43822,0,Hong Jeong-Ho,312679,Y,34',34.0,3,90.0,94.43,fotmob,1,56.0,60.43,2,236.0,,Hong Jeong-Ho (Korea Republic) is booked by the referee.
+2014,47,300186480,First stage,2014-06-26T20:00:00Z,Belgium,Korea Republic,43935,0,Steven DEFOUR,290824,R,44',44.0,3,90.0,94.43,fotmob,2,,100.86,2,,,Steven DEFOUR (Belgium) is sent off!
+2014,47,300186480,First stage,2014-06-26T20:00:00Z,Belgium,Korea Republic,43935,0,DEMBELE,290825,Y,49',49.0,5,90.0,94.43,fotmob,1,41.0,45.43,2,221.0,,DEMBELE (Belgium) is booked by the referee.
+2014,48,300186506,First stage,2014-06-26T20:00:00Z,Algeria,Russia,43843,0,Djamel MESBAH,323339,Y,39',39.0,3,90.0,94.12,fotmob,1,51.0,55.12,2,231.0,,Djamel MESBAH (Algeria) is booked by the referee.
+2014,48,300186506,First stage,2014-06-26T20:00:00Z,Russia,Algeria,43965,0,D. Kombarov,300237,Y,56',56.0,5,90.0,94.12,fotmob,1,34.0,38.12,2,214.0,,D. Kombarov (Russia) is booked by the referee.
+2014,48,300186506,First stage,2014-06-26T20:00:00Z,Russia,Algeria,43965,0,Aleksei KOZLOV,369983,Y,58',58.0,5,90.0,94.12,fotmob,1,32.0,36.12,2,212.0,,Aleksei KOZLOV (Russia) is booked by the referee.
+2014,48,300186506,First stage,2014-06-26T20:00:00Z,Algeria,Russia,43843,0,Nabil GHILAS,367261,Y,86',86.0,5,90.0,94.12,fotmob,1,4.0,8.12,2,184.0,,Nabil GHILAS (Algeria) is booked by the referee.
+2014,48,300186506,First stage,2014-06-26T20:00:00Z,Algeria,Russia,43843,0,Cadamuro,354883,Y,90'+1',91.0,5,90.0,94.12,fotmob,1,0.0,3.12,2,180.0,,Cadamuro (Algeria) is booked by the referee.
+2014,49,300186487,Round of 16,2014-06-28T16:00:00Z,Chile,Brazil,43925,0,E. Mena,349592,Y,16',16.0,3,90.0,120.0,fotmob_lower_bound,1,74.0,104.0,1,164.0,,E. Mena (Chile) is booked by the referee.
+2014,49,300186487,Round of 16,2014-06-28T16:00:00Z,Chile,Brazil,43925,0,Silva,349582,Y,39',39.0,3,90.0,120.0,fotmob_lower_bound,1,51.0,81.0,1,141.0,,Silva (Chile) is booked by the referee.
+2014,49,300186487,Round of 16,2014-06-28T16:00:00Z,Brazil,Chile,43924,0,Hulk,318172,Y,54',54.0,5,90.0,120.0,fotmob_lower_bound,1,36.0,66.0,1,126.0,,Hulk (Brazil) is booked by the referee.
+2014,49,300186487,Round of 16,2014-06-28T16:00:00Z,Brazil,Chile,43924,0,Luiz Gustavo,367918,Y,59',59.0,5,90.0,120.0,fotmob_lower_bound,1,31.0,61.0,1,121.0,,Luiz Gustavo (Brazil) is booked by the referee.
+2014,49,300186487,Round of 16,2014-06-28T16:00:00Z,Brazil,Chile,43924,0,Jô,217172,Y,92',92.0,7,120.0,120.0,fotmob_lower_bound,1,28.0,28.0,1,118.0,,Jô (Brazil) is booked by the referee.
+2014,49,300186487,Round of 16,2014-06-28T16:00:00Z,Chile,Brazil,43925,0,Mauricio PINILLA,201787,Y,101',101.0,7,120.0,120.0,fotmob_lower_bound,1,19.0,19.0,1,109.0,,Mauricio PINILLA (Chile) is booked by the referee.
+2014,49,300186487,Round of 16,2014-06-28T16:00:00Z,Brazil,Chile,43924,0,Da. Alves,190962,Y,105',105.0,7,120.0,120.0,fotmob_lower_bound,1,15.0,15.0,1,105.0,,Da. Alves (Brazil) is booked by the referee.
+2014,50,300186491,Round of 16,2014-06-28T20:00:00Z,Uruguay,Colombia,43930,0,J.M. GIMENEZ,368655,Y,54',54.0,5,90.0,93.15,fotmob,1,36.0,39.15,1,126.0,,J.M. GIMENEZ (Uruguay) is booked by the referee.
+2014,50,300186491,Round of 16,2014-06-28T20:00:00Z,Uruguay,Colombia,43930,0,,239433,Y,76',76.0,5,90.0,93.15,fotmob,1,14.0,17.15,1,104.0,,
+2014,50,300186491,Round of 16,2014-06-28T20:00:00Z,Colombia,Uruguay,43926,0,Pablo ARMERO,200213,Y,77',77.0,5,90.0,93.15,fotmob,1,13.0,16.15,1,103.0,,Pablo ARMERO (Colombia) is booked by the referee.
+2014,51,300186508,Round of 16,2014-06-29T16:00:00Z,Mexico,Netherlands,43911,0,Aguilar,289195,Y,68',68.0,5,90.0,96.58,fotmob,1,22.0,28.58,1,112.0,,Aguilar (Mexico) is booked by the referee.
+2014,51,300186508,Round of 16,2014-06-29T16:00:00Z,Mexico,Netherlands,43911,0,A. GUARDADO,251352,Y,90'+3',93.0,5,90.0,96.58,fotmob,1,0.0,3.58,1,90.0,,A. GUARDADO (Mexico) is booked by the referee.
+2014,51,300186508,Round of 16,2014-06-29T16:00:00Z,Mexico,Netherlands,43911,0,R. MÁRQUEZ,178119,Y,90'+1',91.0,5,90.0,96.58,fotmob,1,0.0,5.58,1,90.0,,R. MÁRQUEZ (Mexico) is booked by the referee.
+2014,52,300186459,Round of 16,2014-06-29T20:00:00Z,Greece,Costa Rica,43949,0,Samaris,362649,Y,35',35.0,3,90.0,122.0,fotmob,1,55.0,87.0,1,145.0,,Samaris (Greece) is booked by the referee.
+2014,52,300186459,Round of 16,2014-06-29T20:00:00Z,Costa Rica,Greece,43901,0,O. DUARTE,312987,Y,41',41.0,3,90.0,122.0,fotmob,1,49.0,81.0,1,139.0,,O. DUARTE (Costa Rica) is booked by the referee.
+2014,52,300186459,Round of 16,2014-06-29T20:00:00Z,Costa Rica,Greece,43901,0,Y. TEJEDA,307541,Y,47',47.0,5,90.0,122.0,fotmob,1,43.0,75.0,1,133.0,,Y. TEJEDA (Costa Rica) is booked by the referee.
+2014,52,300186459,Round of 16,2014-06-29T20:00:00Z,Costa Rica,Greece,43901,0,Esteban Granados,301165,Y,56',56.0,5,90.0,122.0,fotmob,1,34.0,66.0,1,124.0,,Esteban Granados (Costa Rica) is booked by the referee.
+2014,52,300186459,Round of 16,2014-06-29T20:00:00Z,Costa Rica,Greece,43901,0,O. DUARTE,312987,Y2,65',65.0,5,90.0,122.0,fotmob,2,25.0,114.0,1,,41.0,O. DUARTE (Costa Rica) is booked by the referee.
+2014,52,300186459,Round of 16,2014-06-29T20:00:00Z,Costa Rica,Greece,43901,0,BRYAN,214876,Y,69',69.0,5,90.0,122.0,fotmob,1,21.0,53.0,1,111.0,,BRYAN (Costa Rica) is booked by the referee.
+2014,52,300186459,Round of 16,2014-06-29T20:00:00Z,Greece,Costa Rica,43949,0,K. Manolas,323556,Y,71',71.0,5,90.0,122.0,fotmob,1,19.0,51.0,1,109.0,,K. Manolas (Greece) is booked by the referee.
+2014,52,300186459,Round of 16,2014-06-29T20:00:00Z,Costa Rica,Greece,43901,0,K. Navas,199175,Y,89',89.0,5,90.0,122.0,fotmob,1,1.0,33.0,1,91.0,,K. Navas (Costa Rica) is booked by the referee.
+2014,53,300186462,Round of 16,2014-06-30T16:00:00Z,France,Nigeria,43946,0,MATUIDI,358014,Y,54',54.0,5,90.0,95.03,fotmob,1,36.0,41.03,1,126.0,,MATUIDI (France) is booked by the referee.
+2014,54,300186460,Round of 16,2014-06-30T20:00:00Z,Algeria,Germany,43843,0,Rafik HALLICHE,296827,Y,41',41.0,3,90.0,122.28,fotmob,1,49.0,81.28,1,139.0,,Rafik HALLICHE (Algeria) is booked by the referee.
+2014,54,300186460,Round of 16,2014-06-30T20:00:00Z,Germany,Algeria,43948,0,Philipp LAHM,196748,Y,106',106.0,9,120.0,122.28,fotmob,1,14.0,16.28,1,104.0,,Philipp LAHM (Germany) is booked by the referee.
+2014,55,300186503,Round of 16,2014-07-01T16:00:00Z,Switzerland,Argentina,43971,0,XHAKA,311558,Y,35',35.0,3,90.0,125.08,fotmob,1,55.0,90.08,1,145.0,,XHAKA (Switzerland) is booked by the referee.
+2014,55,300186503,Round of 16,2014-07-01T16:00:00Z,Switzerland,Argentina,43971,0,G. FERNANDES,216650,Y,72',72.0,5,90.0,125.08,fotmob,1,18.0,53.08,1,108.0,,G. FERNANDES (Switzerland) is booked by the referee.
+2014,55,300186503,Round of 16,2014-07-01T16:00:00Z,Argentina,Switzerland,43922,0,M. Rojo,318688,Y,89',89.0,5,90.0,125.08,fotmob,1,1.0,36.08,1,91.0,,M. Rojo (Argentina) is booked by the referee.
+2014,55,300186503,Round of 16,2014-07-01T16:00:00Z,Argentina,Switzerland,43922,0,DI MARÍA,266800,Y,119',119.0,9,120.0,125.08,fotmob,1,1.0,6.08,1,91.0,,DI MARÍA (Argentina) is booked by the referee.
+2014,55,300186503,Round of 16,2014-07-01T16:00:00Z,Argentina,Switzerland,43922,0,Garay,200130,Y,120'+3',123.0,9,120.0,125.08,fotmob,1,0.0,2.08,1,90.0,,Garay (Argentina) is booked by the referee.
+2014,56,300186497,Round of 16,2014-07-01T20:00:00Z,United States,Belgium,43921,0,Cameron,321971,Y,17',17.0,3,90.0,121.08,fotmob,1,73.0,104.08,1,163.0,,Cameron (United States) is booked by the referee.
+2014,56,300186497,Round of 16,2014-07-01T20:00:00Z,Belgium,United States,43935,0,KOMPANY,216004,Y,41',41.0,3,90.0,121.08,fotmob,1,49.0,80.08,1,139.0,,KOMPANY (Belgium) is booked by the referee.
+2014,57,300186461,Quarter-final,2014-07-04T20:00:00Z,Brazil,Colombia,43924,0,T. SILVA,289964,Y,63',63.0,5,90.0,95.05,fotmob,1,27.0,32.05,0,27.0,,T. SILVA (Brazil) is booked by the referee.
+2014,57,300186461,Quarter-final,2014-07-04T20:00:00Z,Colombia,Brazil,43926,0,JAMES,269058,Y,66',66.0,5,90.0,95.05,fotmob,1,24.0,29.05,0,24.0,,JAMES (Colombia) is booked by the referee.
+2014,57,300186461,Quarter-final,2014-07-04T20:00:00Z,Colombia,Brazil,43926,0,Yepes,3408,Y,68',68.0,5,90.0,95.05,fotmob,1,22.0,27.05,0,22.0,,Yepes (Colombia) is booked by the referee.
+2014,57,300186461,Quarter-final,2014-07-04T20:00:00Z,Brazil,Colombia,43924,0,Júlio César,179038,Y,77',77.0,5,90.0,95.05,fotmob,1,13.0,18.05,0,13.0,,Júlio César (Brazil) is booked by the referee.
+2014,58,300186485,Quarter-final,2014-07-04T16:00:00Z,Germany,France,43948,0,KHEDIRA,196900,Y,53',53.0,5,90.0,94.6,fotmob,1,37.0,41.6,0,37.0,,KHEDIRA (Germany) is booked by the referee.
+2014,58,300186485,Quarter-final,2014-07-04T16:00:00Z,Germany,France,43948,0,Bastian SCHWEINSTEIGER,196752,Y,79',79.0,5,90.0,94.6,fotmob,1,11.0,15.6,0,11.0,,Bastian SCHWEINSTEIGER (Germany) is booked by the referee.
+2014,59,300186488,Quarter-final,2014-07-05T20:00:00Z,Costa Rica,Netherlands,43901,0,Díaz,209940,Y,36',36.0,3,90.0,121.0,fotmob,1,54.0,85.0,0,54.0,,Díaz (Costa Rica) is booked by the referee.
+2014,59,300186488,Quarter-final,2014-07-05T20:00:00Z,Costa Rica,Netherlands,43901,0,Michael UMANA,208120,Y,51',51.0,5,90.0,121.0,fotmob,1,39.0,70.0,0,39.0,,Michael UMANA (Costa Rica) is booked by the referee.
+2014,59,300186488,Quarter-final,2014-07-05T20:00:00Z,Netherlands,Costa Rica,43960,0,B. Martins Indi,358736,Y,63',63.0,5,90.0,121.0,fotmob,1,27.0,58.0,0,27.0,,B. Martins Indi (Netherlands) is booked by the referee.
+2014,59,300186488,Quarter-final,2014-07-05T20:00:00Z,Costa Rica,Netherlands,43901,0,G. GONZALEZ,268821,Y,80',80.0,5,90.0,121.0,fotmob,1,10.0,41.0,0,10.0,,G. GONZALEZ (Costa Rica) is booked by the referee.
+2014,59,300186488,Quarter-final,2014-07-05T20:00:00Z,Costa Rica,Netherlands,43901,0,J. ACOSTA,339447,Y,106',106.0,9,120.0,121.0,fotmob,1,14.0,15.0,0,14.0,,J. ACOSTA (Costa Rica) is booked by the referee.
+2014,59,300186488,Quarter-final,2014-07-05T20:00:00Z,Netherlands,Costa Rica,43960,0,Klaas-Jan Huntelaar,184615,Y,110',110.0,9,120.0,121.0,fotmob,1,10.0,11.0,0,10.0,,Klaas-Jan Huntelaar (Netherlands) is booked by the referee.
+2014,60,300186504,Quarter-final,2014-07-05T16:00:00Z,Belgium,Argentina,43935,0,E. HAZARD,273996,Y,52',52.0,5,90.0,95.08,fotmob,1,38.0,43.08,0,38.0,,E. HAZARD (Belgium) is booked by the referee.
+2014,60,300186504,Quarter-final,2014-07-05T16:00:00Z,Belgium,Argentina,43935,0,ALDERWEIRELD,290864,Y,67',67.0,5,90.0,95.08,fotmob,1,23.0,28.08,0,23.0,,ALDERWEIRELD (Belgium) is booked by the referee.
+2014,60,300186504,Quarter-final,2014-07-05T16:00:00Z,Argentina,Belgium,43922,0,BIGLIA,200133,Y,74',74.0,5,90.0,95.08,fotmob,1,16.0,21.08,0,16.0,,BIGLIA (Argentina) is booked by the referee.
+2014,61,300186474,Semi-final,2014-07-08T20:00:00Z,Brazil,Germany,43924,0,Dante,367913,Y,67',67.0,5,90.0,91.98,fotmob,1,23.0,24.98,0,23.0,,Dante (Brazil) is booked by the referee.
+2014,62,300186490,Semi-final,2014-07-09T20:00:00Z,Netherlands,Argentina,43960,0,B. Martins Indi,358736,Y,44',44.0,3,90.0,121.0,fotmob,1,46.0,77.0,0,46.0,,B. Martins Indi (Netherlands) is booked by the referee.
+2014,62,300186490,Semi-final,2014-07-09T20:00:00Z,Argentina,Netherlands,43922,0,Martin DEMICHELIS,233703,Y,48',48.0,5,90.0,121.0,fotmob,1,42.0,73.0,0,42.0,,Martin DEMICHELIS (Argentina) is booked by the referee.
+2014,62,300186490,Semi-final,2014-07-09T20:00:00Z,Netherlands,Argentina,43960,0,Klaas-Jan Huntelaar,184615,Y,104',104.0,7,120.0,121.0,fotmob,1,16.0,17.0,0,16.0,,Klaas-Jan Huntelaar (Netherlands) is booked by the referee.
+2014,63,300186502,Play-off for third place,2014-07-12T20:00:00Z,Brazil,Netherlands,43924,0,T. SILVA,289964,Y,1',1.0,3,90.0,95.28,fotmob,1,89.0,94.28,0,89.0,,T. SILVA (Brazil) is booked by the referee.
+2014,63,300186502,Play-off for third place,2014-07-12T20:00:00Z,Netherlands,Brazil,43960,0,Robben,184616,Y,8',8.0,3,90.0,95.28,fotmob,1,82.0,87.28,0,82.0,,Robben (Netherlands) is booked by the referee.
+2014,63,300186502,Play-off for third place,2014-07-12T20:00:00Z,Netherlands,Brazil,43960,0,J. de Guzmán,298677,Y,35',35.0,3,90.0,95.28,fotmob,1,55.0,60.28,0,55.0,,J. de Guzmán (Netherlands) is booked by the referee.
+2014,63,300186502,Play-off for third place,2014-07-12T20:00:00Z,Brazil,Netherlands,43924,0,Fernandinho,208016,Y,53',53.0,5,90.0,95.28,fotmob,1,37.0,42.28,0,37.0,,Fernandinho (Brazil) is booked by the referee.
+2014,63,300186502,Play-off for third place,2014-07-12T20:00:00Z,Brazil,Netherlands,43924,0,Oscar,312868,Y,67',67.0,5,90.0,95.28,fotmob,1,23.0,28.28,0,23.0,,Oscar (Brazil) is booked by the referee.
+2014,64,300186501,Final,2014-07-13T19:00:00Z,Germany,Argentina,43948,0,Bastian SCHWEINSTEIGER,196752,Y,28',28.0,3,90.0,123.98,fotmob,1,62.0,95.98,0,62.0,,Bastian SCHWEINSTEIGER (Germany) is booked by the referee.
+2014,64,300186501,Final,2014-07-13T19:00:00Z,Germany,Argentina,43948,0,Benedikt HOEWEDES,311148,Y,33',33.0,3,90.0,123.98,fotmob,1,57.0,90.98,0,57.0,,Benedikt HOEWEDES (Germany) is booked by the referee.
+2014,64,300186501,Final,2014-07-13T19:00:00Z,Argentina,Germany,43922,0,MASCHERANO,182372,Y,63',63.0,5,90.0,123.98,fotmob,1,27.0,60.98,0,27.0,,MASCHERANO (Argentina) is booked by the referee.
+2014,64,300186501,Final,2014-07-13T19:00:00Z,Argentina,Germany,43922,0,KUN AGUERO,228528,Y,64',64.0,5,90.0,123.98,fotmob,1,26.0,59.98,0,26.0,,KUN AGUERO (Argentina) is booked by the referee.
