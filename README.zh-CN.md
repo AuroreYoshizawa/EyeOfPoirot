@@ -9,8 +9,8 @@
 > M101 开赛前冻结。
 
 > **草案警告。** `figures/draft-2026-07/` 中的九张图使用已经废止的
-> `W1/D1/W2/W2*` 口径，只为保留溯源，不能作为 v0.2 结果引用。正式构建
-> 会用冻结后的 `E_m`、`E_s`、`e_m`、`e_s` 重新生成。
+> `W1/D1/W2/W2*` 口径，只为保留溯源，不能作为 v0.2 结果引用。
+> `figures/official/` 下的四届正式图使用冻结后的 `E_m`、`E_s`、`e_m`、`e_s`。
 
 ## 项目测量什么
 
@@ -52,7 +52,7 @@ tests/          人工核对样例与性质测试
 figures/        正式结果图及明确标注的旧草案归档
 ```
 
-最终公开接口分两条路径：
+复现接口分两条路径：
 
 ```bash
 # 公共路径：从已提交的衍生表重建结果与图
@@ -62,9 +62,10 @@ python3 -m pipeline.build_all --from-derived
 python3 -m pipeline.build_all --from-raw
 ```
 
-管线重构完成前，上述命令是目标接口，不代表当前已发布版本保证。进度和
-缺口见 [`docs/BUILD_STATUS.md`](docs/BUILD_STATUS.md)，数据来源与权利边界见
-[`data/README.md`](data/README.md)。
+两条路径都只依赖 Python 标准库。公共路径不发起网络请求，并已在没有
+`data/raw/` 的副本中通过。结果见 [`docs/RESULTS.md`](docs/RESULTS.md)，进度
+与有来源的纪律决定见 [`docs/BUILD_STATUS.md`](docs/BUILD_STATUS.md)，数据
+来源与权利边界见 [`data/README.md`](data/README.md)。
 
 ## 来源优先级
 
@@ -74,14 +75,17 @@ python3 -m pipeline.build_all --from-raw
 4. FotMob、Transfermarkt、Wikipedia 只作为有记录的回退源或交叉核对。
 
 2014 年终场时间是声明过的例外：FIFA 归档事件流缺少可用的终场节标记，
-因此用已归档的 FotMob 各节时间重建 `T_end`；点球大战时间不计入。
+因此用已归档的 FotMob 各节时间重建 `T_end`；点球大战时间不计入。2014
+球队犯规总数来自已归档、注明由 Opta 提供数据的 HuffPost 世界杯统计页；
+FotMob 中可用的 19 场作为独立交叉核对层保留。
 
 ## 注册与发布状态
 
-- Methodology v0.2 与 2026-07-13 SHA-256 清单：本地准备中。
+- Methodology v0.2、标准化表、测试、图表与 2026-07-13 SHA-256 清单：
+  已在本地准备并验收。
 - OSF 公开 Open-Ended Registration DOI：**等待用户手动确认**。
 - OSF 四年禁运完整快照 DOI：**等待用户手动确认**。
-- GitHub 公开发布与 CI：等待本地复现验收完成。
+- GitHub Actions 工作流：已在本地准备；创建公开仓库与发布仍需用户授权。
 
 项目名、上传分层与必须手动完成的步骤见
 [`docs/REGISTRATION.md`](docs/REGISTRATION.md)。需要账户确认的操作不会自动执行。

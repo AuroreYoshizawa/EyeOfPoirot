@@ -1,0 +1,8 @@
+check_id,edition,match_number,fixture,field,primary_value,independent_value,status,independent_source_url,audit_note
+2014-m001-card-counts,2014,1,Brazil v Croatia,player card counts,Brazil=2|Croatia=2,Brazil=2|Croatia=2,PASS,https://www.espn.com/soccer/match/_/gameId/383303/croatia-brazil,ESPN and the normalized FIFA event census agree by team
+2014-m001-end-clock,2014,1,Brazil v Croatia,rounded end minute,95,90+5,PASS,https://www.espn.com/soccer/match/_/gameId/383303/croatia-brazil,The 94.93 FotMob timestamp rounds to the independent 95th-minute whistle label
+2018-m016-card-types,2018,16,Colombia v Japan,player card inventory,Y=3|R=1,Y=3|R=1,PASS,https://www.espn.com/soccer/match/_/id/498187,ESPN reports three yellow cards and the Carlos Sanchez dismissal
+2018-m016-red-minute,2018,16,Colombia v Japan,Carlos Sanchez red minute,4,3,AUDIT,https://www.espn.com/soccer/match/_/id/498187,The sources differ by one display minute and the FIFA timeline remains primary
+2022-m057-dumfries-scope,2022,57,Netherlands v Argentina,Dumfries administrative card scope,Y@penalty_shootout|Y2@post_play,Y2@120,AUDIT,https://www.espn.com/soccer/match/_/gameId/633844,ESPN collapses the dismissal to 120 while FIFA period codes place both events after play
+2026-m001-red-count,2026,1,Mexico v South Africa,direct red count,3,3,PASS,https://theanalyst.com/articles/mexico-vs-south-africa-stats-2026-world-cup,Opta independently reports three sendings-off
+2026-m001-red-recipients,2026,1,Mexico v South Africa,direct red recipients,SITHOLE|ZWANE|MONTES,SITHOLE|ZWANE|MONTES,PASS,https://theanalyst.com/articles/mexico-vs-south-africa-stats-2026-world-cup,Opta identifies the same three dismissed players

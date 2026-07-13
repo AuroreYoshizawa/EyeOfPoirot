@@ -1,0 +1,585 @@
+edition,match_number,match_id,stage,team_id,team,opponent,team_match_number,fouls,source_url,source_archive
+2014,1,300186456,group,43924,Brazil,Croatia,1,5,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-croatia-731767,data/raw/2014/huffpost/matches/731767.html
+2014,1,300186456,group,43938,Croatia,Brazil,1,20,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-croatia-731767,data/raw/2014/huffpost/matches/731767.html
+2014,2,300186492,group,43849,Cameroon,Mexico,1,12,https://data.huffingtonpost.com/2014/world-cup/matches/mexico-vs-cameroon-731768,data/raw/2014/huffpost/matches/731768.html
+2014,2,300186492,group,43911,Mexico,Cameroon,1,11,https://data.huffingtonpost.com/2014/world-cup/matches/mexico-vs-cameroon-731768,data/raw/2014/huffpost/matches/731768.html
+2014,3,300186510,group,43960,Netherlands,Spain,1,18,https://data.huffingtonpost.com/2014/world-cup/matches/spain-vs-netherlands-731769,data/raw/2014/huffpost/matches/731769.html
+2014,3,300186510,group,43969,Spain,Netherlands,1,5,https://data.huffingtonpost.com/2014/world-cup/matches/spain-vs-netherlands-731769,data/raw/2014/huffpost/matches/731769.html
+2014,4,300186473,group,43925,Chile,Australia,1,9,https://data.huffingtonpost.com/2014/world-cup/matches/chile-vs-australia-731770,data/raw/2014/huffpost/matches/731770.html
+2014,4,300186473,group,43976,Australia,Chile,1,18,https://data.huffingtonpost.com/2014/world-cup/matches/chile-vs-australia-731770,data/raw/2014/huffpost/matches/731770.html
+2014,5,300186471,group,43926,Colombia,Greece,1,19,https://data.huffingtonpost.com/2014/world-cup/matches/colombia-vs-greece-731771,data/raw/2014/huffpost/matches/731771.html
+2014,5,300186471,group,43949,Greece,Colombia,1,14,https://data.huffingtonpost.com/2014/world-cup/matches/colombia-vs-greece-731771,data/raw/2014/huffpost/matches/731771.html
+2014,6,300186507,group,43819,Japan,Côte d'Ivoire,1,13,https://data.huffingtonpost.com/2014/world-cup/matches/ivory-coast-vs-japan-731772,data/raw/2014/huffpost/matches/731772.html
+2014,6,300186507,group,43854,Côte d'Ivoire,Japan,1,12,https://data.huffingtonpost.com/2014/world-cup/matches/ivory-coast-vs-japan-731772,data/raw/2014/huffpost/matches/731772.html
+2014,7,300186489,group,43901,Costa Rica,Uruguay,1,18,https://data.huffingtonpost.com/2014/world-cup/matches/uruguay-vs-costa-rica-731773,data/raw/2014/huffpost/matches/731773.html
+2014,7,300186489,group,43930,Uruguay,Costa Rica,1,20,https://data.huffingtonpost.com/2014/world-cup/matches/uruguay-vs-costa-rica-731773,data/raw/2014/huffpost/matches/731773.html
+2014,8,300186513,group,43942,England,Italy,1,8,https://data.huffingtonpost.com/2014/world-cup/matches/england-vs-italy-731774,data/raw/2014/huffpost/matches/731774.html
+2014,8,300186513,group,43954,Italy,England,1,11,https://data.huffingtonpost.com/2014/world-cup/matches/england-vs-italy-731774,data/raw/2014/huffpost/matches/731774.html
+2014,9,300186494,group,43927,Ecuador,Switzerland,1,15,https://data.huffingtonpost.com/2014/world-cup/matches/switzerland-vs-ecuador-731775,data/raw/2014/huffpost/matches/731775.html
+2014,9,300186494,group,43971,Switzerland,Ecuador,1,9,https://data.huffingtonpost.com/2014/world-cup/matches/switzerland-vs-ecuador-731775,data/raw/2014/huffpost/matches/731775.html
+2014,10,300186496,group,43909,Honduras,France,1,14,https://data.huffingtonpost.com/2014/world-cup/matches/france-vs-honduras-731776,data/raw/2014/huffpost/matches/731776.html
+2014,10,300186496,group,43946,France,Honduras,1,13,https://data.huffingtonpost.com/2014/world-cup/matches/france-vs-honduras-731776,data/raw/2014/huffpost/matches/731776.html
+2014,11,300186477,group,43922,Argentina,Bosnia-Herzegovina,1,10,https://data.huffingtonpost.com/2014/world-cup/matches/argentina-vs-bosnia-herz-731777,data/raw/2014/huffpost/matches/731777.html
+2014,11,300186477,group,44037,Bosnia-Herzegovina,Argentina,1,14,https://data.huffingtonpost.com/2014/world-cup/matches/argentina-vs-bosnia-herz-731777,data/raw/2014/huffpost/matches/731777.html
+2014,12,300186505,group,43817,Iran,Nigeria,1,18,https://data.huffingtonpost.com/2014/world-cup/matches/iran-vs-nigeria-731778,data/raw/2014/huffpost/matches/731778.html
+2014,12,300186505,group,43876,Nigeria,Iran,1,16,https://data.huffingtonpost.com/2014/world-cup/matches/iran-vs-nigeria-731778,data/raw/2014/huffpost/matches/731778.html
+2014,13,300186475,group,43948,Germany,Portugal,1,8,https://data.huffingtonpost.com/2014/world-cup/matches/germany-vs-portugal-731779,data/raw/2014/huffpost/matches/731779.html
+2014,13,300186475,group,43963,Portugal,Germany,1,12,https://data.huffingtonpost.com/2014/world-cup/matches/germany-vs-portugal-731779,data/raw/2014/huffpost/matches/731779.html
+2014,14,300186512,group,43860,Ghana,United States,1,10,https://data.huffingtonpost.com/2014/world-cup/matches/ghana-vs-usa-731780,data/raw/2014/huffpost/matches/731780.html
+2014,14,300186512,group,43921,United States,Ghana,1,12,https://data.huffingtonpost.com/2014/world-cup/matches/ghana-vs-usa-731780,data/raw/2014/huffpost/matches/731780.html
+2014,15,300186479,group,43843,Algeria,Belgium,1,18,https://data.huffingtonpost.com/2014/world-cup/matches/belgium-vs-algeria-731781,data/raw/2014/huffpost/matches/731781.html
+2014,15,300186479,group,43935,Belgium,Algeria,1,20,https://data.huffingtonpost.com/2014/world-cup/matches/belgium-vs-algeria-731781,data/raw/2014/huffpost/matches/731781.html
+2014,16,300186499,group,43822,Korea Republic,Russia,1,7,https://data.huffingtonpost.com/2014/world-cup/matches/russia-vs-south-korea-731782,data/raw/2014/huffpost/matches/731782.html
+2014,16,300186499,group,43965,Russia,Korea Republic,1,15,https://data.huffingtonpost.com/2014/world-cup/matches/russia-vs-south-korea-731782,data/raw/2014/huffpost/matches/731782.html
+2014,17,300186509,group,43911,Mexico,Brazil,2,18,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-mexico-731783,data/raw/2014/huffpost/matches/731783.html
+2014,17,300186509,group,43924,Brazil,Mexico,2,13,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-mexico-731783,data/raw/2014/huffpost/matches/731783.html
+2014,18,300186453,group,43849,Cameroon,Croatia,2,11,https://data.huffingtonpost.com/2014/world-cup/matches/cameroon-vs-croatia-731784,data/raw/2014/huffpost/matches/731784.html
+2014,18,300186453,group,43938,Croatia,Cameroon,2,9,https://data.huffingtonpost.com/2014/world-cup/matches/cameroon-vs-croatia-731784,data/raw/2014/huffpost/matches/731784.html
+2014,19,300186498,group,43925,Chile,Spain,2,15,https://data.huffingtonpost.com/2014/world-cup/matches/spain-vs-chile-731785,data/raw/2014/huffpost/matches/731785.html
+2014,19,300186498,group,43969,Spain,Chile,2,14,https://data.huffingtonpost.com/2014/world-cup/matches/spain-vs-chile-731785,data/raw/2014/huffpost/matches/731785.html
+2014,20,300186478,group,43960,Netherlands,Australia,2,25,https://data.huffingtonpost.com/2014/world-cup/matches/australia-vs-netherlands-731786,data/raw/2014/huffpost/matches/731786.html
+2014,20,300186478,group,43976,Australia,Netherlands,2,18,https://data.huffingtonpost.com/2014/world-cup/matches/australia-vs-netherlands-731786,data/raw/2014/huffpost/matches/731786.html
+2014,21,300186468,group,43854,Côte d'Ivoire,Colombia,2,14,https://data.huffingtonpost.com/2014/world-cup/matches/colombia-vs-ivory-coast-731787,data/raw/2014/huffpost/matches/731787.html
+2014,21,300186468,group,43926,Colombia,Côte d'Ivoire,2,11,https://data.huffingtonpost.com/2014/world-cup/matches/colombia-vs-ivory-coast-731787,data/raw/2014/huffpost/matches/731787.html
+2014,22,300186454,group,43819,Japan,Greece,2,23,https://data.huffingtonpost.com/2014/world-cup/matches/japan-vs-greece-731788,data/raw/2014/huffpost/matches/731788.html
+2014,22,300186454,group,43949,Greece,Japan,2,18,https://data.huffingtonpost.com/2014/world-cup/matches/japan-vs-greece-731788,data/raw/2014/huffpost/matches/731788.html
+2014,23,300186486,group,43930,Uruguay,England,2,17,https://data.huffingtonpost.com/2014/world-cup/matches/uruguay-vs-england-731789,data/raw/2014/huffpost/matches/731789.html
+2014,23,300186486,group,43942,England,Uruguay,2,12,https://data.huffingtonpost.com/2014/world-cup/matches/uruguay-vs-england-731789,data/raw/2014/huffpost/matches/731789.html
+2014,24,300186500,group,43901,Costa Rica,Italy,2,23,https://data.huffingtonpost.com/2014/world-cup/matches/italy-vs-costa-rica-731790,data/raw/2014/huffpost/matches/731790.html
+2014,24,300186500,group,43954,Italy,Costa Rica,2,10,https://data.huffingtonpost.com/2014/world-cup/matches/italy-vs-costa-rica-731790,data/raw/2014/huffpost/matches/731790.html
+2014,25,300186514,group,43946,France,Switzerland,2,15,https://data.huffingtonpost.com/2014/world-cup/matches/switzerland-vs-france-731791,data/raw/2014/huffpost/matches/731791.html
+2014,25,300186514,group,43971,Switzerland,France,2,12,https://data.huffingtonpost.com/2014/world-cup/matches/switzerland-vs-france-731791,data/raw/2014/huffpost/matches/731791.html
+2014,26,300186463,group,43909,Honduras,Ecuador,2,15,https://data.huffingtonpost.com/2014/world-cup/matches/honduras-vs-ecuador-731792,data/raw/2014/huffpost/matches/731792.html
+2014,26,300186463,group,43927,Ecuador,Honduras,2,16,https://data.huffingtonpost.com/2014/world-cup/matches/honduras-vs-ecuador-731792,data/raw/2014/huffpost/matches/731792.html
+2014,27,300186466,group,43817,Iran,Argentina,2,14,https://data.huffingtonpost.com/2014/world-cup/matches/argentina-vs-iran-731793,data/raw/2014/huffpost/matches/731793.html
+2014,27,300186466,group,43922,Argentina,Iran,2,7,https://data.huffingtonpost.com/2014/world-cup/matches/argentina-vs-iran-731793,data/raw/2014/huffpost/matches/731793.html
+2014,28,300186511,group,43876,Nigeria,Bosnia-Herzegovina,2,9,https://data.huffingtonpost.com/2014/world-cup/matches/nigeria-vs-bosnia-herz-731794,data/raw/2014/huffpost/matches/731794.html
+2014,28,300186511,group,44037,Bosnia-Herzegovina,Nigeria,2,7,https://data.huffingtonpost.com/2014/world-cup/matches/nigeria-vs-bosnia-herz-731794,data/raw/2014/huffpost/matches/731794.html
+2014,29,300186493,group,43860,Ghana,Germany,2,17,https://data.huffingtonpost.com/2014/world-cup/matches/germany-vs-ghana-731795,data/raw/2014/huffpost/matches/731795.html
+2014,29,300186493,group,43948,Germany,Ghana,2,11,https://data.huffingtonpost.com/2014/world-cup/matches/germany-vs-ghana-731795,data/raw/2014/huffpost/matches/731795.html
+2014,30,300186483,group,43921,United States,Portugal,2,11,https://data.huffingtonpost.com/2014/world-cup/matches/usa-vs-portugal-731796,data/raw/2014/huffpost/matches/731796.html
+2014,30,300186483,group,43963,Portugal,United States,2,14,https://data.huffingtonpost.com/2014/world-cup/matches/usa-vs-portugal-731796,data/raw/2014/huffpost/matches/731796.html
+2014,31,300186481,group,43935,Belgium,Russia,2,14,https://data.huffingtonpost.com/2014/world-cup/matches/belgium-vs-russia-731797,data/raw/2014/huffpost/matches/731797.html
+2014,31,300186481,group,43965,Russia,Belgium,2,9,https://data.huffingtonpost.com/2014/world-cup/matches/belgium-vs-russia-731797,data/raw/2014/huffpost/matches/731797.html
+2014,32,300186495,group,43822,Korea Republic,Algeria,2,13,https://data.huffingtonpost.com/2014/world-cup/matches/south-korea-vs-algeria-731798,data/raw/2014/huffpost/matches/731798.html
+2014,32,300186495,group,43843,Algeria,Korea Republic,2,16,https://data.huffingtonpost.com/2014/world-cup/matches/south-korea-vs-algeria-731798,data/raw/2014/huffpost/matches/731798.html
+2014,33,300186472,group,43849,Cameroon,Brazil,3,14,https://data.huffingtonpost.com/2014/world-cup/matches/cameroon-vs-brazil-731799,data/raw/2014/huffpost/matches/731799.html
+2014,33,300186472,group,43924,Brazil,Cameroon,3,19,https://data.huffingtonpost.com/2014/world-cup/matches/cameroon-vs-brazil-731799,data/raw/2014/huffpost/matches/731799.html
+2014,34,300186452,group,43911,Mexico,Croatia,3,12,https://data.huffingtonpost.com/2014/world-cup/matches/croatia-vs-mexico-731800,data/raw/2014/huffpost/matches/731800.html
+2014,34,300186452,group,43938,Croatia,Mexico,3,17,https://data.huffingtonpost.com/2014/world-cup/matches/croatia-vs-mexico-731800,data/raw/2014/huffpost/matches/731800.html
+2014,35,300186467,group,43969,Spain,Australia,3,9,https://data.huffingtonpost.com/2014/world-cup/matches/australia-vs-spain-731801,data/raw/2014/huffpost/matches/731801.html
+2014,35,300186467,group,43976,Australia,Spain,3,14,https://data.huffingtonpost.com/2014/world-cup/matches/australia-vs-spain-731801,data/raw/2014/huffpost/matches/731801.html
+2014,36,300186470,group,43925,Chile,Netherlands,3,14,https://data.huffingtonpost.com/2014/world-cup/matches/netherlands-vs-chile-731802,data/raw/2014/huffpost/matches/731802.html
+2014,36,300186470,group,43960,Netherlands,Chile,3,26,https://data.huffingtonpost.com/2014/world-cup/matches/netherlands-vs-chile-731802,data/raw/2014/huffpost/matches/731802.html
+2014,37,300186457,group,43819,Japan,Colombia,3,10,https://data.huffingtonpost.com/2014/world-cup/matches/japan-vs-colombia-731803,data/raw/2014/huffpost/matches/731803.html
+2014,37,300186457,group,43926,Colombia,Japan,3,18,https://data.huffingtonpost.com/2014/world-cup/matches/japan-vs-colombia-731803,data/raw/2014/huffpost/matches/731803.html
+2014,38,300186455,group,43854,Côte d'Ivoire,Greece,3,23,https://data.huffingtonpost.com/2014/world-cup/matches/greece-vs-ivory-coast-731804,data/raw/2014/huffpost/matches/731804.html
+2014,38,300186455,group,43949,Greece,Côte d'Ivoire,3,12,https://data.huffingtonpost.com/2014/world-cup/matches/greece-vs-ivory-coast-731804,data/raw/2014/huffpost/matches/731804.html
+2014,39,300186465,group,43930,Uruguay,Italy,3,19,https://data.huffingtonpost.com/2014/world-cup/matches/italy-vs-uruguay-731805,data/raw/2014/huffpost/matches/731805.html
+2014,39,300186465,group,43954,Italy,Uruguay,3,19,https://data.huffingtonpost.com/2014/world-cup/matches/italy-vs-uruguay-731805,data/raw/2014/huffpost/matches/731805.html
+2014,40,300186484,group,43901,Costa Rica,England,3,18,https://data.huffingtonpost.com/2014/world-cup/matches/costa-rica-vs-england-731806,data/raw/2014/huffpost/matches/731806.html
+2014,40,300186484,group,43942,England,Costa Rica,3,16,https://data.huffingtonpost.com/2014/world-cup/matches/costa-rica-vs-england-731806,data/raw/2014/huffpost/matches/731806.html
+2014,41,300186482,group,43909,Honduras,Switzerland,3,17,https://data.huffingtonpost.com/2014/world-cup/matches/honduras-vs-switzerland-731807,data/raw/2014/huffpost/matches/731807.html
+2014,41,300186482,group,43971,Switzerland,Honduras,3,17,https://data.huffingtonpost.com/2014/world-cup/matches/honduras-vs-switzerland-731807,data/raw/2014/huffpost/matches/731807.html
+2014,42,300186515,group,43927,Ecuador,France,3,17,https://data.huffingtonpost.com/2014/world-cup/matches/ecuador-vs-france-731808,data/raw/2014/huffpost/matches/731808.html
+2014,42,300186515,group,43946,France,Ecuador,3,6,https://data.huffingtonpost.com/2014/world-cup/matches/ecuador-vs-france-731808,data/raw/2014/huffpost/matches/731808.html
+2014,43,300186458,group,43876,Nigeria,Argentina,3,16,https://data.huffingtonpost.com/2014/world-cup/matches/nigeria-vs-argentina-731809,data/raw/2014/huffpost/matches/731809.html
+2014,43,300186458,group,43922,Argentina,Nigeria,3,5,https://data.huffingtonpost.com/2014/world-cup/matches/nigeria-vs-argentina-731809,data/raw/2014/huffpost/matches/731809.html
+2014,44,300186464,group,43817,Iran,Bosnia-Herzegovina,3,17,https://data.huffingtonpost.com/2014/world-cup/matches/bosnia-herz-vs-iran-731810,data/raw/2014/huffpost/matches/731810.html
+2014,44,300186464,group,44037,Bosnia-Herzegovina,Iran,3,20,https://data.huffingtonpost.com/2014/world-cup/matches/bosnia-herz-vs-iran-731810,data/raw/2014/huffpost/matches/731810.html
+2014,45,300186469,group,43921,United States,Germany,3,15,https://data.huffingtonpost.com/2014/world-cup/matches/usa-vs-germany-731811,data/raw/2014/huffpost/matches/731811.html
+2014,45,300186469,group,43948,Germany,United States,3,9,https://data.huffingtonpost.com/2014/world-cup/matches/usa-vs-germany-731811,data/raw/2014/huffpost/matches/731811.html
+2014,46,300186476,group,43860,Ghana,Portugal,3,16,https://data.huffingtonpost.com/2014/world-cup/matches/portugal-vs-ghana-731812,data/raw/2014/huffpost/matches/731812.html
+2014,46,300186476,group,43963,Portugal,Ghana,3,21,https://data.huffingtonpost.com/2014/world-cup/matches/portugal-vs-ghana-731812,data/raw/2014/huffpost/matches/731812.html
+2014,47,300186480,group,43822,Korea Republic,Belgium,3,16,https://data.huffingtonpost.com/2014/world-cup/matches/south-korea-vs-belgium-731813,data/raw/2014/huffpost/matches/731813.html
+2014,47,300186480,group,43935,Belgium,Korea Republic,3,12,https://data.huffingtonpost.com/2014/world-cup/matches/south-korea-vs-belgium-731813,data/raw/2014/huffpost/matches/731813.html
+2014,48,300186506,group,43843,Algeria,Russia,3,15,https://data.huffingtonpost.com/2014/world-cup/matches/algeria-vs-russia-731814,data/raw/2014/huffpost/matches/731814.html
+2014,48,300186506,group,43965,Russia,Algeria,3,14,https://data.huffingtonpost.com/2014/world-cup/matches/algeria-vs-russia-731814,data/raw/2014/huffpost/matches/731814.html
+2014,49,300186487,round_of_16,43924,Brazil,Chile,4,28,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-chile-731815,data/raw/2014/huffpost/matches/731815.html
+2014,49,300186487,round_of_16,43925,Chile,Brazil,4,23,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-chile-731815,data/raw/2014/huffpost/matches/731815.html
+2014,50,300186491,round_of_16,43926,Colombia,Uruguay,4,19,https://data.huffingtonpost.com/2014/world-cup/matches/colombia-vs-uruguay-731816,data/raw/2014/huffpost/matches/731816.html
+2014,50,300186491,round_of_16,43930,Uruguay,Colombia,4,17,https://data.huffingtonpost.com/2014/world-cup/matches/colombia-vs-uruguay-731816,data/raw/2014/huffpost/matches/731816.html
+2014,51,300186508,round_of_16,43911,Mexico,Netherlands,4,12,https://data.huffingtonpost.com/2014/world-cup/matches/netherlands-vs-mexico-731817,data/raw/2014/huffpost/matches/731817.html
+2014,51,300186508,round_of_16,43960,Netherlands,Mexico,4,8,https://data.huffingtonpost.com/2014/world-cup/matches/netherlands-vs-mexico-731817,data/raw/2014/huffpost/matches/731817.html
+2014,52,300186459,round_of_16,43901,Costa Rica,Greece,4,22,https://data.huffingtonpost.com/2014/world-cup/matches/costa-rica-vs-greece-731818,data/raw/2014/huffpost/matches/731818.html
+2014,52,300186459,round_of_16,43949,Greece,Costa Rica,4,16,https://data.huffingtonpost.com/2014/world-cup/matches/costa-rica-vs-greece-731818,data/raw/2014/huffpost/matches/731818.html
+2014,53,300186462,round_of_16,43876,Nigeria,France,4,15,https://data.huffingtonpost.com/2014/world-cup/matches/france-vs-nigeria-731819,data/raw/2014/huffpost/matches/731819.html
+2014,53,300186462,round_of_16,43946,France,Nigeria,4,12,https://data.huffingtonpost.com/2014/world-cup/matches/france-vs-nigeria-731819,data/raw/2014/huffpost/matches/731819.html
+2014,54,300186460,round_of_16,43843,Algeria,Germany,4,20,https://data.huffingtonpost.com/2014/world-cup/matches/germany-vs-algeria-731820,data/raw/2014/huffpost/matches/731820.html
+2014,54,300186460,round_of_16,43948,Germany,Algeria,4,11,https://data.huffingtonpost.com/2014/world-cup/matches/germany-vs-algeria-731820,data/raw/2014/huffpost/matches/731820.html
+2014,55,300186503,round_of_16,43922,Argentina,Switzerland,4,18,https://data.huffingtonpost.com/2014/world-cup/matches/argentina-vs-switzerland-731821,data/raw/2014/huffpost/matches/731821.html
+2014,55,300186503,round_of_16,43971,Switzerland,Argentina,4,29,https://data.huffingtonpost.com/2014/world-cup/matches/argentina-vs-switzerland-731821,data/raw/2014/huffpost/matches/731821.html
+2014,56,300186497,round_of_16,43921,United States,Belgium,4,11,https://data.huffingtonpost.com/2014/world-cup/matches/belgium-vs-usa-731822,data/raw/2014/huffpost/matches/731822.html
+2014,56,300186497,round_of_16,43935,Belgium,United States,4,27,https://data.huffingtonpost.com/2014/world-cup/matches/belgium-vs-usa-731822,data/raw/2014/huffpost/matches/731822.html
+2014,57,300186461,quarter_final,43924,Brazil,Colombia,5,31,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-colombia-731823,data/raw/2014/huffpost/matches/731823.html
+2014,57,300186461,quarter_final,43926,Colombia,Brazil,5,23,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-colombia-731823,data/raw/2014/huffpost/matches/731823.html
+2014,58,300186485,quarter_final,43946,France,Germany,5,15,https://data.huffingtonpost.com/2014/world-cup/matches/france-vs-germany-731824,data/raw/2014/huffpost/matches/731824.html
+2014,58,300186485,quarter_final,43948,Germany,France,5,18,https://data.huffingtonpost.com/2014/world-cup/matches/france-vs-germany-731824,data/raw/2014/huffpost/matches/731824.html
+2014,59,300186488,quarter_final,43901,Costa Rica,Netherlands,5,13,https://data.huffingtonpost.com/2014/world-cup/matches/netherlands-vs-costa-rica-731825,data/raw/2014/huffpost/matches/731825.html
+2014,59,300186488,quarter_final,43960,Netherlands,Costa Rica,5,15,https://data.huffingtonpost.com/2014/world-cup/matches/netherlands-vs-costa-rica-731825,data/raw/2014/huffpost/matches/731825.html
+2014,60,300186504,quarter_final,43922,Argentina,Belgium,5,11,https://data.huffingtonpost.com/2014/world-cup/matches/argentina-vs-belgium-731826,data/raw/2014/huffpost/matches/731826.html
+2014,60,300186504,quarter_final,43935,Belgium,Argentina,5,14,https://data.huffingtonpost.com/2014/world-cup/matches/argentina-vs-belgium-731826,data/raw/2014/huffpost/matches/731826.html
+2014,61,300186474,semi_final,43924,Brazil,Germany,6,11,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-germany-731827,data/raw/2014/huffpost/matches/731827.html
+2014,61,300186474,semi_final,43948,Germany,Brazil,6,14,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-germany-731827,data/raw/2014/huffpost/matches/731827.html
+2014,62,300186490,semi_final,43922,Argentina,Netherlands,6,10,https://data.huffingtonpost.com/2014/world-cup/matches/netherlands-vs-argentina-731828,data/raw/2014/huffpost/matches/731828.html
+2014,62,300186490,semi_final,43960,Netherlands,Argentina,6,15,https://data.huffingtonpost.com/2014/world-cup/matches/netherlands-vs-argentina-731828,data/raw/2014/huffpost/matches/731828.html
+2014,63,300186502,third_place,43924,Brazil,Netherlands,7,16,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-netherlands-731829,data/raw/2014/huffpost/matches/731829.html
+2014,63,300186502,third_place,43960,Netherlands,Brazil,7,20,https://data.huffingtonpost.com/2014/world-cup/matches/brazil-vs-netherlands-731829,data/raw/2014/huffpost/matches/731829.html
+2014,64,300186501,final,43922,Argentina,Germany,7,16,https://data.huffingtonpost.com/2014/world-cup/matches/germany-vs-argentina-731830,data/raw/2014/huffpost/matches/731830.html
+2014,64,300186501,final,43948,Germany,Argentina,7,20,https://data.huffingtonpost.com/2014/world-cup/matches/germany-vs-argentina-731830,data/raw/2014/huffpost/matches/731830.html
+2018,1,300331503,group,43835,Saudi Arabia,Russia,1,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,1,300331503,group,43965,Russia,Saudi Arabia,1,22,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,2,300353632,group,43855,Egypt,Uruguay,1,12,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,2,300353632,group,43930,Uruguay,Egypt,1,6,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,3,300331524,group,43963,Portugal,Spain,1,12,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,3,300331524,group,43969,Spain,Portugal,1,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,4,300331526,group,43817,Iran,Morocco,1,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,4,300331526,group,43872,Morocco,Iran,1,22,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,5,300331533,group,43946,France,Australia,1,16,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,5,300331533,group,43976,Australia,France,1,19,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,6,300331528,group,43929,Peru,Denmark,1,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,6,300331528,group,43941,Denmark,Peru,1,18,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,7,300331515,group,43922,Argentina,Iceland,1,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,7,300331515,group,43951,Iceland,Argentina,1,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,8,300331523,group,43876,Nigeria,Croatia,1,16,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,8,300331523,group,43938,Croatia,Nigeria,1,20,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,9,300331525,group,43924,Brazil,Switzerland,1,12,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,9,300331525,group,43971,Switzerland,Brazil,1,19,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,10,300331529,group,1902465,Serbia,Costa Rica,1,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,10,300331529,group,43901,Costa Rica,Serbia,1,18,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,11,300331502,group,43911,Mexico,Germany,1,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,11,300331502,group,43948,Germany,Mexico,1,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,12,300331499,group,43822,Korea Republic,Sweden,1,23,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,12,300331499,group,43970,Sweden,Korea Republic,1,20,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,13,300331539,group,43914,Panama,Belgium,1,18,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,13,300331539,group,43935,Belgium,Panama,1,17,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,14,300331554,group,43888,Tunisia,England,1,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,14,300331554,group,43942,England,Tunisia,1,8,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,15,300331545,group,43879,Senegal,Poland,1,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,15,300331545,group,43962,Poland,Senegal,1,8,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,16,300331550,group,43819,Japan,Colombia,1,9,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,16,300331550,group,43926,Colombia,Japan,1,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,17,300331495,group,43855,Egypt,Russia,2,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,17,300331495,group,43965,Russia,Egypt,2,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,18,300331530,group,43835,Saudi Arabia,Uruguay,2,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,18,300331530,group,43930,Uruguay,Saudi Arabia,2,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,19,300331511,group,43872,Morocco,Portugal,2,23,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,19,300331511,group,43963,Portugal,Morocco,2,19,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,20,300331496,group,43817,Iran,Spain,2,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,20,300331496,group,43969,Spain,Iran,2,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,21,300331527,group,43929,Peru,France,2,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,21,300331527,group,43946,France,Peru,2,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,22,300331518,group,43941,Denmark,Australia,2,7,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,22,300331518,group,43976,Australia,Denmark,2,5,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,23,300331513,group,43922,Argentina,Croatia,2,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,23,300331513,group,43938,Croatia,Argentina,2,23,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,24,300331497,group,43876,Nigeria,Iceland,2,9,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,24,300331497,group,43951,Iceland,Nigeria,2,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,25,300331540,group,43901,Costa Rica,Brazil,2,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,25,300331540,group,43924,Brazil,Costa Rica,2,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,26,300340183,group,1902465,Serbia,Switzerland,2,17,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,26,300340183,group,43971,Switzerland,Serbia,2,12,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,27,300331501,group,43948,Germany,Sweden,2,12,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,27,300331501,group,43970,Sweden,Germany,2,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,28,300331549,group,43822,Korea Republic,Mexico,2,24,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,28,300331549,group,43911,Mexico,Korea Republic,2,7,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,29,300331547,group,43888,Tunisia,Belgium,2,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,29,300331547,group,43935,Belgium,Tunisia,2,12,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,30,300331546,group,43914,Panama,England,2,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,30,300331546,group,43942,England,Panama,2,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,31,300331508,group,43926,Colombia,Poland,2,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,31,300331508,group,43962,Poland,Colombia,2,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,32,300331505,group,43819,Japan,Senegal,2,8,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,32,300331505,group,43879,Senegal,Japan,2,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,33,300331516,group,43930,Uruguay,Russia,3,17,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,33,300331516,group,43965,Russia,Uruguay,3,18,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,34,300331509,group,43835,Saudi Arabia,Egypt,3,7,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,34,300331509,group,43855,Egypt,Saudi Arabia,3,16,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,35,300331500,group,43817,Iran,Portugal,3,16,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,35,300331500,group,43963,Portugal,Iran,3,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,36,300340184,group,43872,Morocco,Spain,3,17,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,36,300340184,group,43969,Spain,Morocco,3,5,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,37,300331512,group,43941,Denmark,France,3,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,37,300331512,group,43946,France,Denmark,3,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,38,300331506,group,43929,Peru,Australia,3,12,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,38,300331506,group,43976,Australia,Peru,3,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,39,300331519,group,43876,Nigeria,Argentina,3,20,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,39,300331519,group,43922,Argentina,Nigeria,3,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,40,300331510,group,43938,Croatia,Iceland,3,12,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,40,300331510,group,43951,Iceland,Croatia,3,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,41,300331521,group,1902465,Serbia,Brazil,3,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,41,300331521,group,43924,Brazil,Serbia,3,7,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,42,300331534,group,43901,Costa Rica,Switzerland,3,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,42,300331534,group,43971,Switzerland,Costa Rica,3,9,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,43,300331532,group,43822,Korea Republic,Germany,3,16,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,43,300331532,group,43948,Germany,Korea Republic,3,7,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,44,300331548,group,43911,Mexico,Sweden,3,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,44,300331548,group,43970,Sweden,Mexico,3,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,45,300340182,group,43935,Belgium,England,3,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,45,300340182,group,43942,England,Belgium,3,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,46,300331520,group,43888,Tunisia,Panama,3,19,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,46,300331520,group,43914,Panama,Tunisia,3,18,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,47,300331507,group,43819,Japan,Poland,3,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,47,300331507,group,43962,Poland,Japan,3,8,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,48,300331553,group,43879,Senegal,Colombia,3,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,48,300331553,group,43926,Colombia,Senegal,3,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,49,300331544,round_of_16,43930,Uruguay,Portugal,4,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,49,300331544,round_of_16,43963,Portugal,Uruguay,4,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,50,300331537,round_of_16,43922,Argentina,France,4,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,50,300331537,round_of_16,43946,France,Argentina,4,21,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,51,300331517,round_of_16,43965,Russia,Spain,4,19,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,51,300331517,round_of_16,43969,Spain,Russia,4,5,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,52,300331498,round_of_16,43938,Croatia,Denmark,4,5,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,52,300331498,round_of_16,43941,Denmark,Croatia,4,19,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,53,300331535,round_of_16,43911,Mexico,Brazil,4,18,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,53,300331535,round_of_16,43924,Brazil,Mexico,4,6,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,54,300331551,round_of_16,43819,Japan,Belgium,4,9,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,54,300331551,round_of_16,43935,Belgium,Japan,4,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,55,300331514,round_of_16,43970,Sweden,Switzerland,4,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,55,300331514,round_of_16,43971,Switzerland,Sweden,4,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,56,300331542,round_of_16,43926,Colombia,England,4,23,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,56,300331542,round_of_16,43942,England,Colombia,4,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,57,300331543,quarter_final,43930,Uruguay,France,5,17,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,57,300331543,quarter_final,43946,France,Uruguay,5,15,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,58,300331538,quarter_final,43924,Brazil,Belgium,5,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,58,300331538,quarter_final,43935,Belgium,Brazil,5,16,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,59,300331504,quarter_final,43938,Croatia,Russia,5,18,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,59,300331504,quarter_final,43965,Russia,Croatia,5,25,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,60,300331541,quarter_final,43942,England,Sweden,5,7,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,60,300331541,quarter_final,43970,Sweden,England,5,10,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,61,300331531,semi_final,43935,Belgium,France,6,16,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,61,300331531,semi_final,43946,France,Belgium,6,6,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,62,300331522,semi_final,43938,Croatia,England,6,23,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,62,300331522,semi_final,43942,England,Croatia,6,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,63,300331536,third_place,43935,Belgium,England,7,11,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,63,300331536,third_place,43942,England,Belgium,7,5,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,64,300331552,final,43938,Croatia,France,7,13,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2018,64,300331552,final,43946,France,Croatia,7,14,https://raw.githubusercontent.com/Shailesh200/FIFA-2018-Statistics/master/fifa.csv,data/raw/draft_workbook_exports/2018/team-match.csv
+2022,1,400128082,group,43834,Qatar,Ecuador,1,15,https://fdh-api.fifa.com/v1/stats/match/128084/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,1,400128082,group,43927,Ecuador,Qatar,1,15,https://fdh-api.fifa.com/v1/stats/match/128084/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,2,400235449,group,43879,Senegal,Netherlands,1,13,https://fdh-api.fifa.com/v1/stats/match/132996/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,2,400235449,group,43960,Netherlands,Senegal,1,13,https://fdh-api.fifa.com/v1/stats/match/132996/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,3,400235458,group,43817,Iran,England,1,9,https://fdh-api.fifa.com/v1/stats/match/132997/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,3,400235458,group,43942,England,Iran,1,12,https://fdh-api.fifa.com/v1/stats/match/132997/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,4,400235455,group,43921,United States,Wales,1,9,https://fdh-api.fifa.com/v1/stats/match/132995/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,4,400235455,group,43974,Wales,United States,1,14,https://fdh-api.fifa.com/v1/stats/match/132995/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,5,400235470,group,43946,France,Australia,1,11,https://fdh-api.fifa.com/v1/stats/match/132998/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,5,400235470,group,43976,Australia,France,1,5,https://fdh-api.fifa.com/v1/stats/match/132998/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,6,400235466,group,43888,Tunisia,Denmark,1,9,https://fdh-api.fifa.com/v1/stats/match/132999/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,6,400235466,group,43941,Denmark,Tunisia,1,9,https://fdh-api.fifa.com/v1/stats/match/132999/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,7,400235463,group,43911,Mexico,Poland,1,15,https://fdh-api.fifa.com/v1/stats/match/133000/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,7,400235463,group,43962,Poland,Mexico,1,13,https://fdh-api.fifa.com/v1/stats/match/133000/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,8,400235461,group,43835,Saudi Arabia,Argentina,1,6,https://fdh-api.fifa.com/v1/stats/match/133001/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,8,400235461,group,43922,Argentina,Saudi Arabia,1,21,https://fdh-api.fifa.com/v1/stats/match/133001/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,9,400235477,group,43899,Canada,Belgium,1,10,https://fdh-api.fifa.com/v1/stats/match/133002/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,9,400235477,group,43935,Belgium,Canada,1,14,https://fdh-api.fifa.com/v1/stats/match/133002/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,10,400235472,group,43901,Costa Rica,Spain,1,7,https://fdh-api.fifa.com/v1/stats/match/133004/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,10,400235472,group,43969,Spain,Costa Rica,1,11,https://fdh-api.fifa.com/v1/stats/match/133004/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,11,400235476,group,43819,Japan,Germany,1,6,https://fdh-api.fifa.com/v1/stats/match/133005/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,11,400235476,group,43948,Germany,Japan,1,12,https://fdh-api.fifa.com/v1/stats/match/133005/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,12,400235481,group,43872,Morocco,Croatia,1,11,https://fdh-api.fifa.com/v1/stats/match/133003/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,12,400235481,group,43938,Croatia,Morocco,1,15,https://fdh-api.fifa.com/v1/stats/match/133003/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,13,400235488,group,43849,Cameroon,Switzerland,1,11,https://fdh-api.fifa.com/v1/stats/match/133006/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,13,400235488,group,43971,Switzerland,Cameroon,1,10,https://fdh-api.fifa.com/v1/stats/match/133006/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,14,400235491,group,43822,Korea Republic,Uruguay,1,7,https://fdh-api.fifa.com/v1/stats/match/133008/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,14,400235491,group,43930,Uruguay,Korea Republic,1,10,https://fdh-api.fifa.com/v1/stats/match/133008/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,15,400235493,group,43860,Ghana,Portugal,1,14,https://fdh-api.fifa.com/v1/stats/match/133017/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,15,400235493,group,43963,Portugal,Ghana,1,19,https://fdh-api.fifa.com/v1/stats/match/133017/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,16,400235484,group,1902465,Serbia,Brazil,1,6,https://fdh-api.fifa.com/v1/stats/match/133007/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,16,400235484,group,43924,Brazil,Serbia,1,12,https://fdh-api.fifa.com/v1/stats/match/133007/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,17,400235453,group,43817,Iran,Wales,2,9,https://fdh-api.fifa.com/v1/stats/match/133011/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,17,400235453,group,43974,Wales,Iran,2,10,https://fdh-api.fifa.com/v1/stats/match/133011/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,18,400235448,group,43834,Qatar,Senegal,2,12,https://fdh-api.fifa.com/v1/stats/match/133009/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,18,400235448,group,43879,Senegal,Qatar,2,6,https://fdh-api.fifa.com/v1/stats/match/133009/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,19,400235452,group,43927,Ecuador,Netherlands,2,14,https://fdh-api.fifa.com/v1/stats/match/133010/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,19,400235452,group,43960,Netherlands,Ecuador,2,11,https://fdh-api.fifa.com/v1/stats/match/133010/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,20,400235457,group,43921,United States,England,2,9,https://fdh-api.fifa.com/v1/stats/match/133012/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,20,400235457,group,43942,England,United States,2,14,https://fdh-api.fifa.com/v1/stats/match/133012/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,21,400235469,group,43888,Tunisia,Australia,2,13,https://fdh-api.fifa.com/v1/stats/match/133015/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,21,400235469,group,43976,Australia,Tunisia,2,13,https://fdh-api.fifa.com/v1/stats/match/133015/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,22,400235459,group,43835,Saudi Arabia,Poland,2,16,https://fdh-api.fifa.com/v1/stats/match/133013/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,22,400235459,group,43962,Poland,Saudi Arabia,2,14,https://fdh-api.fifa.com/v1/stats/match/133013/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,23,400235467,group,43941,Denmark,France,2,4,https://fdh-api.fifa.com/v1/stats/match/133016/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,23,400235467,group,43946,France,Denmark,2,9,https://fdh-api.fifa.com/v1/stats/match/133016/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,24,400235462,group,43911,Mexico,Argentina,2,14,https://fdh-api.fifa.com/v1/stats/match/133014/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,24,400235462,group,43922,Argentina,Mexico,2,17,https://fdh-api.fifa.com/v1/stats/match/133014/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,25,400235471,group,43819,Japan,Costa Rica,2,9,https://fdh-api.fifa.com/v1/stats/match/133020/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,25,400235471,group,43901,Costa Rica,Japan,2,21,https://fdh-api.fifa.com/v1/stats/match/133020/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,26,400235480,group,43872,Morocco,Belgium,2,9,https://fdh-api.fifa.com/v1/stats/match/133018/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,26,400235480,group,43935,Belgium,Morocco,2,14,https://fdh-api.fifa.com/v1/stats/match/133018/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,27,400235482,group,43899,Canada,Croatia,2,13,https://fdh-api.fifa.com/v1/stats/match/133019/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,27,400235482,group,43938,Croatia,Canada,2,5,https://fdh-api.fifa.com/v1/stats/match/133019/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,28,400235474,group,43948,Germany,Spain,2,12,https://fdh-api.fifa.com/v1/stats/match/133021/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,28,400235474,group,43969,Spain,Germany,2,11,https://fdh-api.fifa.com/v1/stats/match/133021/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,29,400235487,group,1902465,Serbia,Cameroon,2,8,https://fdh-api.fifa.com/v1/stats/match/133022/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,29,400235487,group,43849,Cameroon,Serbia,2,13,https://fdh-api.fifa.com/v1/stats/match/133022/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,30,400235489,group,43822,Korea Republic,Ghana,2,9,https://fdh-api.fifa.com/v1/stats/match/133024/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,30,400235489,group,43860,Ghana,Korea Republic,2,13,https://fdh-api.fifa.com/v1/stats/match/133024/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,31,400235485,group,43924,Brazil,Switzerland,2,17,https://fdh-api.fifa.com/v1/stats/match/133023/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,31,400235485,group,43971,Switzerland,Brazil,2,10,https://fdh-api.fifa.com/v1/stats/match/133023/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,32,400235492,group,43930,Uruguay,Portugal,2,10,https://fdh-api.fifa.com/v1/stats/match/133025/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,32,400235492,group,43963,Portugal,Uruguay,2,13,https://fdh-api.fifa.com/v1/stats/match/133025/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,33,400235454,group,43942,England,Wales,3,14,https://fdh-api.fifa.com/v1/stats/match/133029/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,33,400235454,group,43974,Wales,England,3,9,https://fdh-api.fifa.com/v1/stats/match/133029/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,34,400235456,group,43817,Iran,United States,3,8,https://fdh-api.fifa.com/v1/stats/match/133028/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,34,400235456,group,43921,United States,Iran,3,12,https://fdh-api.fifa.com/v1/stats/match/133028/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,35,400235451,group,43879,Senegal,Ecuador,3,23,https://fdh-api.fifa.com/v1/stats/match/133026/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,35,400235451,group,43927,Ecuador,Senegal,3,8,https://fdh-api.fifa.com/v1/stats/match/133026/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,36,400235450,group,43834,Qatar,Netherlands,3,17,https://fdh-api.fifa.com/v1/stats/match/133027/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,36,400235450,group,43960,Netherlands,Qatar,3,7,https://fdh-api.fifa.com/v1/stats/match/133027/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,37,400235468,group,43941,Denmark,Australia,3,9,https://fdh-api.fifa.com/v1/stats/match/133033/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,37,400235468,group,43976,Australia,Denmark,3,9,https://fdh-api.fifa.com/v1/stats/match/133033/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,38,400235465,group,43888,Tunisia,France,3,6,https://fdh-api.fifa.com/v1/stats/match/133032/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,38,400235465,group,43946,France,Tunisia,3,14,https://fdh-api.fifa.com/v1/stats/match/133032/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,39,400235464,group,43922,Argentina,Poland,3,6,https://fdh-api.fifa.com/v1/stats/match/133031/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,39,400235464,group,43962,Poland,Argentina,3,11,https://fdh-api.fifa.com/v1/stats/match/133031/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,40,400235460,group,43835,Saudi Arabia,Mexico,3,16,https://fdh-api.fifa.com/v1/stats/match/133030/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,40,400235460,group,43911,Mexico,Saudi Arabia,3,20,https://fdh-api.fifa.com/v1/stats/match/133030/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,41,400235478,group,43935,Belgium,Croatia,3,7,https://fdh-api.fifa.com/v1/stats/match/133037/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,41,400235478,group,43938,Croatia,Belgium,3,9,https://fdh-api.fifa.com/v1/stats/match/133037/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,42,400235479,group,43872,Morocco,Canada,3,14,https://fdh-api.fifa.com/v1/stats/match/133036/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,42,400235479,group,43899,Canada,Morocco,3,14,https://fdh-api.fifa.com/v1/stats/match/133036/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,43,400235475,group,43819,Japan,Spain,3,6,https://fdh-api.fifa.com/v1/stats/match/133035/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,43,400235475,group,43969,Spain,Japan,3,9,https://fdh-api.fifa.com/v1/stats/match/133035/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,44,400235473,group,43901,Costa Rica,Germany,3,9,https://fdh-api.fifa.com/v1/stats/match/133034/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,44,400235473,group,43948,Germany,Costa Rica,3,3,https://fdh-api.fifa.com/v1/stats/match/133034/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,45,400235494,group,43860,Ghana,Uruguay,3,11,https://fdh-api.fifa.com/v1/stats/match/133041/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,45,400235494,group,43930,Uruguay,Ghana,3,16,https://fdh-api.fifa.com/v1/stats/match/133041/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,46,400235490,group,43822,Korea Republic,Portugal,3,11,https://fdh-api.fifa.com/v1/stats/match/133040/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,46,400235490,group,43963,Portugal,Korea Republic,3,9,https://fdh-api.fifa.com/v1/stats/match/133040/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,47,400235486,group,1902465,Serbia,Switzerland,3,13,https://fdh-api.fifa.com/v1/stats/match/133039/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,47,400235486,group,43971,Switzerland,Serbia,3,17,https://fdh-api.fifa.com/v1/stats/match/133039/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,48,400235483,group,43849,Cameroon,Brazil,3,14,https://fdh-api.fifa.com/v1/stats/match/133038/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,48,400235483,group,43924,Brazil,Cameroon,3,11,https://fdh-api.fifa.com/v1/stats/match/133038/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,49,400128136,round_of_16,43921,United States,Netherlands,4,9,https://fdh-api.fifa.com/v1/stats/match/128068/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,49,400128136,round_of_16,43960,Netherlands,United States,4,4,https://fdh-api.fifa.com/v1/stats/match/128068/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,50,400128131,round_of_16,43922,Argentina,Australia,4,14,https://fdh-api.fifa.com/v1/stats/match/128069/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,50,400128131,round_of_16,43976,Australia,Argentina,4,7,https://fdh-api.fifa.com/v1/stats/match/128069/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,51,400128134,round_of_16,43879,Senegal,England,4,16,https://fdh-api.fifa.com/v1/stats/match/128070/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,51,400128134,round_of_16,43942,England,Senegal,4,11,https://fdh-api.fifa.com/v1/stats/match/128070/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,52,400128135,round_of_16,43946,France,Poland,4,8,https://fdh-api.fifa.com/v1/stats/match/128071/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,52,400128135,round_of_16,43962,Poland,France,4,9,https://fdh-api.fifa.com/v1/stats/match/128071/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,53,400128132,round_of_16,43819,Japan,Croatia,4,15,https://fdh-api.fifa.com/v1/stats/match/128072/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,53,400128132,round_of_16,43938,Croatia,Japan,4,13,https://fdh-api.fifa.com/v1/stats/match/128072/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,54,400128133,round_of_16,43822,Korea Republic,Brazil,4,8,https://fdh-api.fifa.com/v1/stats/match/128073/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,54,400128133,round_of_16,43924,Brazil,Korea Republic,4,12,https://fdh-api.fifa.com/v1/stats/match/128073/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,55,400128137,round_of_16,43872,Morocco,Spain,4,14,https://fdh-api.fifa.com/v1/stats/match/128074/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,55,400128137,round_of_16,43969,Spain,Morocco,4,14,https://fdh-api.fifa.com/v1/stats/match/128074/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,56,400128130,round_of_16,43963,Portugal,Switzerland,4,10,https://fdh-api.fifa.com/v1/stats/match/128075/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,56,400128130,round_of_16,43971,Switzerland,Portugal,4,12,https://fdh-api.fifa.com/v1/stats/match/128075/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,57,400128139,quarter_final,43922,Argentina,Netherlands,5,29,https://fdh-api.fifa.com/v1/stats/match/128076/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,57,400128139,quarter_final,43960,Netherlands,Argentina,5,16,https://fdh-api.fifa.com/v1/stats/match/128076/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,58,400128141,quarter_final,43924,Brazil,Croatia,5,22,https://fdh-api.fifa.com/v1/stats/match/128077/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,58,400128141,quarter_final,43938,Croatia,Brazil,5,22,https://fdh-api.fifa.com/v1/stats/match/128077/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,59,400128138,quarter_final,43942,England,France,5,14,https://fdh-api.fifa.com/v1/stats/match/128078/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,59,400128138,quarter_final,43946,France,England,5,10,https://fdh-api.fifa.com/v1/stats/match/128078/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,60,400128140,quarter_final,43872,Morocco,Portugal,5,9,https://fdh-api.fifa.com/v1/stats/match/128079/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,60,400128140,quarter_final,43963,Portugal,Morocco,5,14,https://fdh-api.fifa.com/v1/stats/match/128079/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,61,400128143,semi_final,43922,Argentina,Croatia,6,8,https://fdh-api.fifa.com/v1/stats/match/128080/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,61,400128143,semi_final,43938,Croatia,Argentina,6,15,https://fdh-api.fifa.com/v1/stats/match/128080/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,62,400128142,semi_final,43872,Morocco,France,6,11,https://fdh-api.fifa.com/v1/stats/match/128081/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,62,400128142,semi_final,43946,France,Morocco,6,10,https://fdh-api.fifa.com/v1/stats/match/128081/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,63,400128144,third_place,43872,Morocco,Croatia,7,13,https://fdh-api.fifa.com/v1/stats/match/128082/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,63,400128144,third_place,43938,Croatia,Morocco,7,11,https://fdh-api.fifa.com/v1/stats/match/128082/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,64,400128145,final,43922,Argentina,France,7,18,https://fdh-api.fifa.com/v1/stats/match/128083/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,64,400128145,final,43946,France,Argentina,7,23,https://fdh-api.fifa.com/v1/stats/match/128083/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2026,1,400021443,group,43883,South Africa,Mexico,1,11,https://fdh-api.fifa.com/v1/stats/match/151600/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,1,400021443,group,43911,Mexico,South Africa,1,12,https://fdh-api.fifa.com/v1/stats/match/151600/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,2,400021441,group,43822,Korea Republic,Czechia,1,9,https://fdh-api.fifa.com/v1/stats/match/151608/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,2,400021441,group,43995,Czechia,Korea Republic,1,16,https://fdh-api.fifa.com/v1/stats/match/151608/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,3,400021449,group,43899,Canada,Bosnia and Herzegovina,1,10,https://fdh-api.fifa.com/v1/stats/match/151614/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,3,400021449,group,44037,Bosnia and Herzegovina,Canada,1,20,https://fdh-api.fifa.com/v1/stats/match/151614/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,4,400021458,group,43921,USA,Paraguay,1,13,https://fdh-api.fifa.com/v1/stats/match/151625/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,4,400021458,group,43928,Paraguay,USA,1,17,https://fdh-api.fifa.com/v1/stats/match/151625/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,5,400021453,group,43908,Haiti,Scotland,1,23,https://fdh-api.fifa.com/v1/stats/match/151619/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,5,400021453,group,43967,Scotland,Haiti,1,21,https://fdh-api.fifa.com/v1/stats/match/151619/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,6,400021463,group,43972,Türkiye,Australia,1,4,https://fdh-api.fifa.com/v1/stats/match/151626/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,6,400021463,group,43976,Australia,Türkiye,1,12,https://fdh-api.fifa.com/v1/stats/match/151626/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,7,400021456,group,43872,Morocco,Brazil,1,14,https://fdh-api.fifa.com/v1/stats/match/151620/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,7,400021456,group,43924,Brazil,Morocco,1,16,https://fdh-api.fifa.com/v1/stats/match/151620/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,8,400021447,group,43834,Qatar,Switzerland,1,12,https://fdh-api.fifa.com/v1/stats/match/151613/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,8,400021447,group,43971,Switzerland,Qatar,1,11,https://fdh-api.fifa.com/v1/stats/match/151613/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,9,400021467,group,43854,Côte d'Ivoire,Ecuador,1,10,https://fdh-api.fifa.com/v1/stats/match/151632/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,9,400021467,group,43927,Ecuador,Côte d'Ivoire,1,13,https://fdh-api.fifa.com/v1/stats/match/151632/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,10,400021464,group,1895293,Curaçao,Germany,1,11,https://fdh-api.fifa.com/v1/stats/match/151631/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,10,400021464,group,43948,Germany,Curaçao,1,18,https://fdh-api.fifa.com/v1/stats/match/151631/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,11,400021470,group,43819,Japan,Netherlands,1,7,https://fdh-api.fifa.com/v1/stats/match/151638/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,11,400021470,group,43960,Netherlands,Japan,1,7,https://fdh-api.fifa.com/v1/stats/match/151638/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,12,400021474,group,43888,Tunisia,Sweden,1,8,https://fdh-api.fifa.com/v1/stats/match/151637/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,12,400021474,group,43970,Sweden,Tunisia,1,10,https://fdh-api.fifa.com/v1/stats/match/151637/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,13,400021486,group,43835,Saudi Arabia,Uruguay,1,11,https://fdh-api.fifa.com/v1/stats/match/151650/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,13,400021486,group,43930,Uruguay,Saudi Arabia,1,6,https://fdh-api.fifa.com/v1/stats/match/151650/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,14,400021482,group,43850,Cabo Verde,Spain,1,1,https://fdh-api.fifa.com/v1/stats/match/151649/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,14,400021482,group,43969,Spain,Cabo Verde,1,10,https://fdh-api.fifa.com/v1/stats/match/151649/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,15,400021476,group,43817,IR Iran,New Zealand,1,10,https://fdh-api.fifa.com/v1/stats/match/151644/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,15,400021476,group,43978,New Zealand,IR Iran,1,8,https://fdh-api.fifa.com/v1/stats/match/151644/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,16,400021478,group,43855,Egypt,Belgium,1,15,https://fdh-api.fifa.com/v1/stats/match/151643/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,16,400021478,group,43935,Belgium,Egypt,1,15,https://fdh-api.fifa.com/v1/stats/match/151643/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,17,400021490,group,43879,Senegal,France,1,9,https://fdh-api.fifa.com/v1/stats/match/151656/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,17,400021490,group,43946,France,Senegal,1,5,https://fdh-api.fifa.com/v1/stats/match/151656/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,18,400021488,group,43818,Iraq,Norway,1,12,https://fdh-api.fifa.com/v1/stats/match/151655/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,18,400021488,group,43961,Norway,Iraq,1,13,https://fdh-api.fifa.com/v1/stats/match/151655/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,19,400021496,group,43843,Algeria,Argentina,1,8,https://fdh-api.fifa.com/v1/stats/match/151662/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,19,400021496,group,43922,Argentina,Algeria,1,13,https://fdh-api.fifa.com/v1/stats/match/151662/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,20,400021498,group,43820,Jordan,Austria,1,7,https://fdh-api.fifa.com/v1/stats/match/151661/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,20,400021498,group,43934,Austria,Jordan,1,12,https://fdh-api.fifa.com/v1/stats/match/151661/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,21,400021510,group,43860,Ghana,Panama,1,9,https://fdh-api.fifa.com/v1/stats/match/151674/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,21,400021510,group,43914,Panama,Ghana,1,11,https://fdh-api.fifa.com/v1/stats/match/151674/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,22,400021507,group,43938,Croatia,England,1,12,https://fdh-api.fifa.com/v1/stats/match/151673/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,22,400021507,group,43942,England,Croatia,1,10,https://fdh-api.fifa.com/v1/stats/match/151673/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,23,400021502,group,20014,Congo DR,Portugal,1,10,https://fdh-api.fifa.com/v1/stats/match/151668/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,23,400021502,group,43963,Portugal,Congo DR,1,9,https://fdh-api.fifa.com/v1/stats/match/151668/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,24,400021504,group,43926,Colombia,Uzbekistan,1,11,https://fdh-api.fifa.com/v1/stats/match/151667/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,24,400021504,group,44005,Uzbekistan,Colombia,1,14,https://fdh-api.fifa.com/v1/stats/match/151667/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,25,400021440,group,43883,South Africa,Czechia,2,10,https://fdh-api.fifa.com/v1/stats/match/151610/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,25,400021440,group,43995,Czechia,South Africa,2,12,https://fdh-api.fifa.com/v1/stats/match/151610/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,26,400021446,group,43971,Switzerland,Bosnia and Herzegovina,2,7,https://fdh-api.fifa.com/v1/stats/match/151616/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,26,400021446,group,44037,Bosnia and Herzegovina,Switzerland,2,17,https://fdh-api.fifa.com/v1/stats/match/151616/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,27,400021450,group,43834,Qatar,Canada,2,10,https://fdh-api.fifa.com/v1/stats/match/151615/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,27,400021450,group,43899,Canada,Qatar,2,9,https://fdh-api.fifa.com/v1/stats/match/151615/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,28,400021442,group,43822,Korea Republic,Mexico,2,7,https://fdh-api.fifa.com/v1/stats/match/151609/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,28,400021442,group,43911,Mexico,Korea Republic,2,9,https://fdh-api.fifa.com/v1/stats/match/151609/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,29,400021457,group,43908,Haiti,Brazil,2,14,https://fdh-api.fifa.com/v1/stats/match/151622/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,29,400021457,group,43924,Brazil,Haiti,2,13,https://fdh-api.fifa.com/v1/stats/match/151622/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,30,400021454,group,43872,Morocco,Scotland,2,8,https://fdh-api.fifa.com/v1/stats/match/151621/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,30,400021454,group,43967,Scotland,Morocco,2,11,https://fdh-api.fifa.com/v1/stats/match/151621/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,31,400021460,group,43928,Paraguay,Türkiye,2,15,https://fdh-api.fifa.com/v1/stats/match/151628/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,31,400021460,group,43972,Türkiye,Paraguay,2,14,https://fdh-api.fifa.com/v1/stats/match/151628/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,32,400021462,group,43921,USA,Australia,2,12,https://fdh-api.fifa.com/v1/stats/match/151627/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,32,400021462,group,43976,Australia,USA,2,16,https://fdh-api.fifa.com/v1/stats/match/151627/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,33,400021469,group,43854,Côte d'Ivoire,Germany,2,7,https://fdh-api.fifa.com/v1/stats/match/151634/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,33,400021469,group,43948,Germany,Côte d'Ivoire,2,5,https://fdh-api.fifa.com/v1/stats/match/151634/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,34,400021465,group,1895293,Curaçao,Ecuador,2,10,https://fdh-api.fifa.com/v1/stats/match/151633/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,34,400021465,group,43927,Ecuador,Curaçao,2,7,https://fdh-api.fifa.com/v1/stats/match/151633/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,35,400021472,group,43960,Netherlands,Sweden,2,9,https://fdh-api.fifa.com/v1/stats/match/151640/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,35,400021472,group,43970,Sweden,Netherlands,2,12,https://fdh-api.fifa.com/v1/stats/match/151640/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,36,400021475,group,43819,Japan,Tunisia,2,15,https://fdh-api.fifa.com/v1/stats/match/151639/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,36,400021475,group,43888,Tunisia,Japan,2,8,https://fdh-api.fifa.com/v1/stats/match/151639/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,37,400021487,group,43850,Cabo Verde,Uruguay,2,4,https://fdh-api.fifa.com/v1/stats/match/151652/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,37,400021487,group,43930,Uruguay,Cabo Verde,2,11,https://fdh-api.fifa.com/v1/stats/match/151652/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,38,400021483,group,43835,Saudi Arabia,Spain,2,2,https://fdh-api.fifa.com/v1/stats/match/151651/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,38,400021483,group,43969,Spain,Saudi Arabia,2,10,https://fdh-api.fifa.com/v1/stats/match/151651/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,39,400021477,group,43817,IR Iran,Belgium,2,9,https://fdh-api.fifa.com/v1/stats/match/151646/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,39,400021477,group,43935,Belgium,IR Iran,2,7,https://fdh-api.fifa.com/v1/stats/match/151646/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,40,400021480,group,43855,Egypt,New Zealand,2,8,https://fdh-api.fifa.com/v1/stats/match/151645/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,40,400021480,group,43978,New Zealand,Egypt,2,14,https://fdh-api.fifa.com/v1/stats/match/151645/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,41,400021491,group,43879,Senegal,Norway,2,5,https://fdh-api.fifa.com/v1/stats/match/151658/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,41,400021491,group,43961,Norway,Senegal,2,13,https://fdh-api.fifa.com/v1/stats/match/151658/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,42,400021492,group,43818,Iraq,France,2,4,https://fdh-api.fifa.com/v1/stats/match/151657/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,42,400021492,group,43946,France,Iraq,2,8,https://fdh-api.fifa.com/v1/stats/match/151657/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,43,400021494,group,43922,Argentina,Austria,2,13,https://fdh-api.fifa.com/v1/stats/match/151664/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,43,400021494,group,43934,Austria,Argentina,2,13,https://fdh-api.fifa.com/v1/stats/match/151664/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,44,400021499,group,43820,Jordan,Algeria,2,11,https://fdh-api.fifa.com/v1/stats/match/151663/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,44,400021499,group,43843,Algeria,Jordan,2,6,https://fdh-api.fifa.com/v1/stats/match/151663/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,45,400021506,group,43860,Ghana,England,2,24,https://fdh-api.fifa.com/v1/stats/match/151676/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,45,400021506,group,43942,England,Ghana,2,14,https://fdh-api.fifa.com/v1/stats/match/151676/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,46,400021511,group,43914,Panama,Croatia,2,19,https://fdh-api.fifa.com/v1/stats/match/151675/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,46,400021511,group,43938,Croatia,Panama,2,12,https://fdh-api.fifa.com/v1/stats/match/151675/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,47,400021503,group,43963,Portugal,Uzbekistan,2,14,https://fdh-api.fifa.com/v1/stats/match/151670/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,47,400021503,group,44005,Uzbekistan,Portugal,2,15,https://fdh-api.fifa.com/v1/stats/match/151670/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,48,400021501,group,20014,Congo DR,Colombia,2,16,https://fdh-api.fifa.com/v1/stats/match/151669/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,48,400021501,group,43926,Colombia,Congo DR,2,12,https://fdh-api.fifa.com/v1/stats/match/151669/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,49,400021455,group,43924,Brazil,Scotland,3,11,https://fdh-api.fifa.com/v1/stats/match/151624/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,49,400021455,group,43967,Scotland,Brazil,3,10,https://fdh-api.fifa.com/v1/stats/match/151624/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,50,400021452,group,43872,Morocco,Haiti,3,10,https://fdh-api.fifa.com/v1/stats/match/151623/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,50,400021452,group,43908,Haiti,Morocco,3,18,https://fdh-api.fifa.com/v1/stats/match/151623/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,51,400021451,group,43899,Canada,Switzerland,3,13,https://fdh-api.fifa.com/v1/stats/match/151617/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,51,400021451,group,43971,Switzerland,Canada,3,19,https://fdh-api.fifa.com/v1/stats/match/151617/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,52,400021448,group,43834,Qatar,Bosnia and Herzegovina,3,14,https://fdh-api.fifa.com/v1/stats/match/151618/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,52,400021448,group,44037,Bosnia and Herzegovina,Qatar,3,9,https://fdh-api.fifa.com/v1/stats/match/151618/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,53,400021444,group,43911,Mexico,Czechia,3,13,https://fdh-api.fifa.com/v1/stats/match/151611/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,53,400021444,group,43995,Czechia,Mexico,3,9,https://fdh-api.fifa.com/v1/stats/match/151611/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,54,400021445,group,43822,Korea Republic,South Africa,3,9,https://fdh-api.fifa.com/v1/stats/match/151612/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,54,400021445,group,43883,South Africa,Korea Republic,3,7,https://fdh-api.fifa.com/v1/stats/match/151612/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,55,400021468,group,1895293,Curaçao,Côte d'Ivoire,3,11,https://fdh-api.fifa.com/v1/stats/match/151635/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,55,400021468,group,43854,Côte d'Ivoire,Curaçao,3,6,https://fdh-api.fifa.com/v1/stats/match/151635/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,56,400021466,group,43927,Ecuador,Germany,3,15,https://fdh-api.fifa.com/v1/stats/match/151636/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,56,400021466,group,43948,Germany,Ecuador,3,10,https://fdh-api.fifa.com/v1/stats/match/151636/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,57,400021471,group,43819,Japan,Sweden,3,20,https://fdh-api.fifa.com/v1/stats/match/151641/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,57,400021471,group,43970,Sweden,Japan,3,11,https://fdh-api.fifa.com/v1/stats/match/151641/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,58,400021473,group,43888,Tunisia,Netherlands,3,11,https://fdh-api.fifa.com/v1/stats/match/151642/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,58,400021473,group,43960,Netherlands,Tunisia,3,10,https://fdh-api.fifa.com/v1/stats/match/151642/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,59,400021459,group,43921,USA,Türkiye,3,13,https://fdh-api.fifa.com/v1/stats/match/151630/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,59,400021459,group,43972,Türkiye,USA,3,13,https://fdh-api.fifa.com/v1/stats/match/151630/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,60,400021461,group,43928,Paraguay,Australia,3,9,https://fdh-api.fifa.com/v1/stats/match/151629/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,60,400021461,group,43976,Australia,Paraguay,3,6,https://fdh-api.fifa.com/v1/stats/match/151629/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,61,400021489,group,43946,France,Norway,3,11,https://fdh-api.fifa.com/v1/stats/match/151660/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,61,400021489,group,43961,Norway,France,3,9,https://fdh-api.fifa.com/v1/stats/match/151660/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,62,400021493,group,43818,Iraq,Senegal,3,11,https://fdh-api.fifa.com/v1/stats/match/151659/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,62,400021493,group,43879,Senegal,Iraq,3,10,https://fdh-api.fifa.com/v1/stats/match/151659/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,63,400021479,group,43817,IR Iran,Egypt,3,16,https://fdh-api.fifa.com/v1/stats/match/151648/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,63,400021479,group,43855,Egypt,IR Iran,3,11,https://fdh-api.fifa.com/v1/stats/match/151648/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,64,400021481,group,43935,Belgium,New Zealand,3,7,https://fdh-api.fifa.com/v1/stats/match/151647/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,64,400021481,group,43978,New Zealand,Belgium,3,10,https://fdh-api.fifa.com/v1/stats/match/151647/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,65,400021485,group,43835,Saudi Arabia,Cabo Verde,3,16,https://fdh-api.fifa.com/v1/stats/match/151654/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,65,400021485,group,43850,Cabo Verde,Saudi Arabia,3,10,https://fdh-api.fifa.com/v1/stats/match/151654/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,66,400021484,group,43930,Uruguay,Spain,3,14,https://fdh-api.fifa.com/v1/stats/match/151653/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,66,400021484,group,43969,Spain,Uruguay,3,14,https://fdh-api.fifa.com/v1/stats/match/151653/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,67,400021508,group,43914,Panama,England,3,16,https://fdh-api.fifa.com/v1/stats/match/151678/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,67,400021508,group,43942,England,Panama,3,13,https://fdh-api.fifa.com/v1/stats/match/151678/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,68,400021509,group,43860,Ghana,Croatia,3,13,https://fdh-api.fifa.com/v1/stats/match/151677/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,68,400021509,group,43938,Croatia,Ghana,3,9,https://fdh-api.fifa.com/v1/stats/match/151677/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,69,400021497,group,43843,Algeria,Austria,3,3,https://fdh-api.fifa.com/v1/stats/match/151666/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,69,400021497,group,43934,Austria,Algeria,3,7,https://fdh-api.fifa.com/v1/stats/match/151666/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,70,400021495,group,43820,Jordan,Argentina,3,13,https://fdh-api.fifa.com/v1/stats/match/151665/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,70,400021495,group,43922,Argentina,Jordan,3,7,https://fdh-api.fifa.com/v1/stats/match/151665/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,71,400021505,group,43926,Colombia,Portugal,3,12,https://fdh-api.fifa.com/v1/stats/match/151672/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,71,400021505,group,43963,Portugal,Colombia,3,6,https://fdh-api.fifa.com/v1/stats/match/151672/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,72,400021500,group,20014,Congo DR,Uzbekistan,3,6,https://fdh-api.fifa.com/v1/stats/match/151671/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,72,400021500,group,44005,Uzbekistan,Congo DR,3,16,https://fdh-api.fifa.com/v1/stats/match/151671/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,73,400021518,round_of_32,43883,South Africa,Canada,4,10,https://fdh-api.fifa.com/v1/stats/match/151679/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,73,400021518,round_of_32,43899,Canada,South Africa,4,16,https://fdh-api.fifa.com/v1/stats/match/151679/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,74,400021513,round_of_32,43928,Paraguay,Germany,4,12,https://fdh-api.fifa.com/v1/stats/match/151682/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,74,400021513,round_of_32,43948,Germany,Paraguay,4,18,https://fdh-api.fifa.com/v1/stats/match/151682/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,75,400021522,round_of_32,43872,Morocco,Netherlands,4,15,https://fdh-api.fifa.com/v1/stats/match/151680/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,75,400021522,round_of_32,43960,Netherlands,Morocco,4,18,https://fdh-api.fifa.com/v1/stats/match/151680/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,76,400021516,round_of_32,43819,Japan,Brazil,4,13,https://fdh-api.fifa.com/v1/stats/match/151681/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,76,400021516,round_of_32,43924,Brazil,Japan,4,4,https://fdh-api.fifa.com/v1/stats/match/151681/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,77,400021523,round_of_32,43946,France,Sweden,4,14,https://fdh-api.fifa.com/v1/stats/match/151685/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,77,400021523,round_of_32,43970,Sweden,France,4,10,https://fdh-api.fifa.com/v1/stats/match/151685/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,78,400021514,round_of_32,43854,Côte d'Ivoire,Norway,4,6,https://fdh-api.fifa.com/v1/stats/match/151684/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,78,400021514,round_of_32,43961,Norway,Côte d'Ivoire,4,7,https://fdh-api.fifa.com/v1/stats/match/151684/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,79,400021520,round_of_32,43911,Mexico,Ecuador,4,10,https://fdh-api.fifa.com/v1/stats/match/151683/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,79,400021520,round_of_32,43927,Ecuador,Mexico,4,14,https://fdh-api.fifa.com/v1/stats/match/151683/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,80,400021512,round_of_32,20014,Congo DR,England,4,12,https://fdh-api.fifa.com/v1/stats/match/151688/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,80,400021512,round_of_32,43942,England,Congo DR,4,10,https://fdh-api.fifa.com/v1/stats/match/151688/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,81,400021524,round_of_32,43921,USA,Bosnia and Herzegovina,4,7,https://fdh-api.fifa.com/v1/stats/match/151687/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,81,400021524,round_of_32,44037,Bosnia and Herzegovina,USA,4,13,https://fdh-api.fifa.com/v1/stats/match/151687/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,82,400021525,round_of_32,43879,Senegal,Belgium,4,12,https://fdh-api.fifa.com/v1/stats/match/151686/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,82,400021525,round_of_32,43935,Belgium,Senegal,4,22,https://fdh-api.fifa.com/v1/stats/match/151686/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,83,400021526,round_of_32,43938,Croatia,Portugal,4,12,https://fdh-api.fifa.com/v1/stats/match/151691/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,83,400021526,round_of_32,43963,Portugal,Croatia,4,6,https://fdh-api.fifa.com/v1/stats/match/151691/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,84,400021519,round_of_32,43934,Austria,Spain,4,15,https://fdh-api.fifa.com/v1/stats/match/151690/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,84,400021519,round_of_32,43969,Spain,Austria,4,8,https://fdh-api.fifa.com/v1/stats/match/151690/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,85,400021527,round_of_32,43843,Algeria,Switzerland,4,12,https://fdh-api.fifa.com/v1/stats/match/151689/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,85,400021527,round_of_32,43971,Switzerland,Algeria,4,10,https://fdh-api.fifa.com/v1/stats/match/151689/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,86,400021521,round_of_32,43850,Cabo Verde,Argentina,4,12,https://fdh-api.fifa.com/v1/stats/match/151694/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,86,400021521,round_of_32,43922,Argentina,Cabo Verde,4,13,https://fdh-api.fifa.com/v1/stats/match/151694/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,87,400021517,round_of_32,43860,Ghana,Colombia,4,10,https://fdh-api.fifa.com/v1/stats/match/151693/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,87,400021517,round_of_32,43926,Colombia,Ghana,4,14,https://fdh-api.fifa.com/v1/stats/match/151693/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,88,400021515,round_of_32,43855,Egypt,Australia,4,14,https://fdh-api.fifa.com/v1/stats/match/151692/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,88,400021515,round_of_32,43976,Australia,Egypt,4,12,https://fdh-api.fifa.com/v1/stats/match/151692/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,89,400021533,round_of_16,43928,Paraguay,France,5,13,https://fdh-api.fifa.com/v1/stats/match/151696/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,89,400021533,round_of_16,43946,France,Paraguay,5,11,https://fdh-api.fifa.com/v1/stats/match/151696/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,90,400021530,round_of_16,43872,Morocco,Canada,5,14,https://fdh-api.fifa.com/v1/stats/match/151695/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,90,400021530,round_of_16,43899,Canada,Morocco,5,24,https://fdh-api.fifa.com/v1/stats/match/151695/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,91,400021532,round_of_16,43924,Brazil,Norway,5,7,https://fdh-api.fifa.com/v1/stats/match/151698/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,91,400021532,round_of_16,43961,Norway,Brazil,5,6,https://fdh-api.fifa.com/v1/stats/match/151698/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,92,400021531,round_of_16,43911,Mexico,England,5,14,https://fdh-api.fifa.com/v1/stats/match/151697/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,92,400021531,round_of_16,43942,England,Mexico,5,7,https://fdh-api.fifa.com/v1/stats/match/151697/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,93,400021529,round_of_16,43963,Portugal,Spain,5,9,https://fdh-api.fifa.com/v1/stats/match/151700/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,93,400021529,round_of_16,43969,Spain,Portugal,5,13,https://fdh-api.fifa.com/v1/stats/match/151700/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,94,400021534,round_of_16,43921,USA,Belgium,5,11,https://fdh-api.fifa.com/v1/stats/match/151699/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,94,400021534,round_of_16,43935,Belgium,USA,5,9,https://fdh-api.fifa.com/v1/stats/match/151699/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,95,400021528,round_of_16,43855,Egypt,Argentina,5,11,https://fdh-api.fifa.com/v1/stats/match/151702/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,95,400021528,round_of_16,43922,Argentina,Egypt,5,13,https://fdh-api.fifa.com/v1/stats/match/151702/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,96,400021535,round_of_16,43926,Colombia,Switzerland,5,21,https://fdh-api.fifa.com/v1/stats/match/151701/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,96,400021535,round_of_16,43971,Switzerland,Colombia,5,22,https://fdh-api.fifa.com/v1/stats/match/151701/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,97,400021536,quarter_final,43872,Morocco,France,6,13,https://fdh-api.fifa.com/v1/stats/match/151703/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,97,400021536,quarter_final,43946,France,Morocco,6,10,https://fdh-api.fifa.com/v1/stats/match/151703/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,98,400021538,quarter_final,43935,Belgium,Spain,6,18,https://fdh-api.fifa.com/v1/stats/match/151704/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,98,400021538,quarter_final,43969,Spain,Belgium,6,13,https://fdh-api.fifa.com/v1/stats/match/151704/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,99,400021539,quarter_final,43942,England,Norway,6,8,https://fdh-api.fifa.com/v1/stats/match/151706/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,99,400021539,quarter_final,43961,Norway,England,6,10,https://fdh-api.fifa.com/v1/stats/match/151706/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,100,400021537,quarter_final,43922,Argentina,Switzerland,6,14,https://fdh-api.fifa.com/v1/stats/match/151705/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
+2026,100,400021537,quarter_final,43971,Switzerland,Argentina,6,18,https://fdh-api.fifa.com/v1/stats/match/151705/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv

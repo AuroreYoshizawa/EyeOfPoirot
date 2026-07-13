@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="636" viewBox="0 0 1120 636" role="img" aria-labelledby="title desc">
+<title id="title">2018 World Cup: suspension exposure per foul</title>
+<desc id="desc">Knockout-stage teams; primary rho = 2, mu = 1.25; all-tournament foul denominator.</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#162434">2018 World Cup: suspension exposure per foul</text>
+<text x="36" y="76" font-family="Arial, sans-serif" font-size="14" fill="#4e5b68">Knockout-stage teams; primary rho = 2, mu = 1.25; all-tournament foul denominator.</text>
+<line x1="380.00" y1="98" x2="380.00" y2="564" stroke="#687683" stroke-width="1"/>
+<text x="368" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Uruguay</text>
+<rect x="380.00" y="120" width="16.89" height="17" rx="2" fill="#2f718c"/>
+<text x="403.89" y="133" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0.792</text>
+<text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Russia</text>
+<rect x="380.00" y="148" width="182.47" height="17" rx="2" fill="#2f718c"/>
+<text x="569.47" y="161" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">8.554</text>
+<text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">England</text>
+<rect x="380.00" y="176" width="201.19" height="17" rx="2" fill="#2f718c"/>
+<text x="588.19" y="189" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">9.431</text>
+<text x="368" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">France</text>
+<rect x="380.00" y="204" width="215.15" height="17" rx="2" fill="#2f718c"/>
+<text x="602.15" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">10.086</text>
+<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Belgium</text>
+<rect x="380.00" y="232" width="279.34" height="17" rx="2" fill="#2f718c"/>
+<text x="666.34" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">13.095</text>
+<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Portugal</text>
+<rect x="380.00" y="260" width="293.04" height="17" rx="2" fill="#2f718c"/>
+<text x="680.04" y="273" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">13.737</text>
+<text x="368" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Croatia</text>
+<rect x="380.00" y="288" width="300.16" height="17" rx="2" fill="#2f718c"/>
+<text x="687.16" y="301" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">14.071</text>
+<text x="368" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Denmark</text>
+<rect x="380.00" y="316" width="321.16" height="17" rx="2" fill="#2f718c"/>
+<text x="708.16" y="329" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">15.055</text>
+<text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Spain</text>
+<rect x="380.00" y="344" width="359.51" height="17" rx="2" fill="#2f718c"/>
+<text x="746.51" y="357" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">16.853</text>
+<text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Sweden</text>
+<rect x="380.00" y="372" width="379.59" height="17" rx="2" fill="#2f718c"/>
+<text x="766.59" y="385" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">17.794</text>
+<text x="368" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Brazil</text>
+<rect x="380.00" y="400" width="435.31" height="17" rx="2" fill="#2f718c"/>
+<text x="822.31" y="413" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">20.407</text>
+<text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Argentina</text>
+<rect x="380.00" y="428" width="465.13" height="17" rx="2" fill="#2f718c"/>
+<text x="852.13" y="441" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">21.804</text>
+<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Colombia</text>
+<rect x="380.00" y="456" width="512.36" height="17" rx="2" fill="#2f718c"/>
+<text x="899.36" y="469" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">24.018</text>
+<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Mexico</text>
+<rect x="380.00" y="484" width="542.28" height="17" rx="2" fill="#2f718c"/>
+<text x="929.28" y="497" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">25.421</text>
+<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Switzerland</text>
+<rect x="380.00" y="512" width="565.62" height="17" rx="2" fill="#2f718c"/>
+<text x="952.62" y="525" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">26.515</text>
+<text x="368" y="553" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Japan</text>
+<rect x="380.00" y="540" width="570.18" height="17" rx="2" fill="#2f718c"/>
+<text x="957.18" y="553" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">26.729</text>
+<text x="560" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#4e5b68">Suspension-exposure minutes per foul (descriptive; not a causal estimate)</text>
+</svg>

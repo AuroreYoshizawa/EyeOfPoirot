@@ -11,8 +11,8 @@
 
 > **Draft warning.** The nine images under `figures/draft-2026-07/` were made with
 > superseded `W1/D1/W2/W2*` conventions. They are retained for provenance and
-> must not be cited as v0.2 results. The reproducible build will replace them
-> with figures using the frozen `E_m`, `E_s`, `e_m`, and `e_s` definitions.
+> must not be cited as v0.2 results. The official four-edition figures under
+> `figures/official/` use the frozen `E_m`, `E_s`, `e_m`, and `e_s` definitions.
 
 ## What the project measures
 
@@ -59,7 +59,7 @@ tests/          hand-checked fixtures and property tests
 figures/        official outputs plus a clearly marked draft archive
 ```
 
-The final public workflow has two paths:
+The reproducible workflow has two paths:
 
 ```bash
 # Public path: rebuild results and figures from committed derived tables
@@ -69,9 +69,11 @@ python3 -m pipeline.build_all --from-derived
 python3 -m pipeline.build_all --from-raw
 ```
 
-Until the pipeline refactor is complete, these commands are the target
-interface rather than a release guarantee. Build status and known gaps are
-tracked in [`docs/BUILD_STATUS.md`](docs/BUILD_STATUS.md).
+Both paths are implemented with the Python standard library. The public path
+makes no network request and has been checked without `data/raw/`. Results are
+reported in [`docs/RESULTS.md`](docs/RESULTS.md); build status and documented
+disciplinary-decision cases are tracked in
+[`docs/BUILD_STATUS.md`](docs/BUILD_STATUS.md).
 
 Source hierarchy, redistribution boundaries, table inventory, and the
 snapshot manifest are documented in [`data/README.md`](data/README.md).
@@ -87,14 +89,18 @@ snapshot manifest are documented in [`data/README.md`](data/README.md).
 
 The 2014 end clock is a declared exception: archived FIFA event feeds lack
 usable final-period markers, so archived FotMob period timestamps reconstruct
-`T_end`; penalty shoot-outs are excluded.
+`T_end`; penalty shoot-outs are excluded. Complete 2014 team-foul totals come
+from the archived HuffPost World Cup statistics pages, which credit Opta;
+the 19 available FotMob matches are retained as an independent cross-check.
 
 ## Registration and release status
 
-- Methodology v0.2 and the 2026-07-13 SHA-256 manifest: prepared locally.
+- Methodology v0.2, normalized tables, tests, figures, and the dated SHA-256
+  manifest: prepared and checked locally.
 - Public OSF Open-Ended Registration DOI: **pending manual user approval**.
 - Four-year embargoed OSF snapshot DOI: **pending manual user approval**.
-- Public GitHub release and CI: pending the final local reproducibility check.
+- GitHub Actions workflow: prepared locally; public repository/release remains
+  a user-authorized publication step.
 
 The exact project name, upload split, and manual steps are recorded in
 [`docs/REGISTRATION.md`](docs/REGISTRATION.md). Registration actions that

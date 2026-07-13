@@ -1,0 +1,5 @@
+edition,team_id,player_id,union_unavailable_minutes,opportunity_denominator_minutes,omega,reason
+2014,43924,314197,183,477,0.951781971,Neymar's documented injury remainder and two full-match absences are unioned
+2018,43926,269058,238,152,1,James Rodriguez's corrected injury intervals leave only his observed playable minutes
+2022,43924,335656,180,300,0.94,Danilo's documented absences reduce the opportunity denominator
+2026,43942,463809,183,387,0.302325581,Quansah's suspension and injury intervals are unioned without double subtraction

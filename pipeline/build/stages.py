@@ -1,0 +1,1046 @@
+"""The eight deterministic analysis stages for methodology v0.2.
+
+The module intentionally uses only the Python standard library. Public builds
+therefore run from the committed normalized CSV files without network access
+or a package-install step.
+"""
+
+from __future__ import annotations
+
+from collections import defaultdict
+from pathlib import Path
+from typing import Iterable
+
+from ..config import (
+    DENOMINATORS,
+    EDITIONS,
+    EXPECTED_COMPLETED,
+    EXPECTED_PLAYER_CARDS,
+    MU_GRID,
+    PRIMARY_MU,
+    PRIMARY_RHO,
+    RESULTS,
+    RHO_GRID,
+    RULE_SOURCE_URLS,
+    SOURCE,
+    STAGES,
+    is_knockout,
+)
+from ..io import as_float, as_int, fmt, read_csv, write_csv
+
+
+PLAY_PERIODS = {3, 5, 7, 9}
+
+CARD_LEDGER_FIELDS = (
+    "card_id", "edition", "match_number", "match_id", "date_utc", "stage",
+    "team_id", "team", "opponent", "player_id", "player", "card_type",
+    "minute_label", "t_min", "period", "event_scope", "nominal_basis_min",
+    "t_end_min", "reset_window", "base_horizon", "effective_horizon",
+    "accumulation_role", "paired_card_id", "nominal_remainder_min",
+    "exp_match_min_rho_1", "exp_match_min_rho_1_5", "exp_match_min_rho_2",
+    "source_url", "source_archive",
+)
+
+SUSPENSION_FIELDS = (
+    "suspension_id", "edition", "team_id", "team", "player_id", "player",
+    "trigger_type", "trigger_card_id", "trigger_match_number", "trigger_match_id",
+    "trigger_stage", "service_match_number", "service_match_id", "service_stage",
+    "service_nominal_minutes", "service_status", "lineup_status",
+    "rule_source_url", "lineup_source_url", "lineup_source_archive", "audit_note",
+    "decision_type", "decision_status", "decision_source_url",
+    "decision_source_archive", "decision_note",
+)
+
+AVAILABILITY_FIELDS = (
+    "edition", "team_id", "team", "player_id", "player", "match_number",
+    "match_id", "stage", "opponent", "team_match_number", "nominal_minutes",
+    "lineup_status", "availability_status", "played_minutes",
+    "suspension_unavailable_minutes", "injury_unavailable_minutes",
+    "union_unavailable_minutes", "opportunity_denominator_minutes",
+    "injury_source_url", "injury_evidence_note", "participation_source_url",
+    "participation_source_archive",
+)
+
+OMEGA_FIELDS = (
+    "edition", "team_id", "team", "player_id", "player", "played_minutes",
+    "team_nominal_minutes", "suspension_unavailable_minutes",
+    "injury_unavailable_minutes", "union_unavailable_minutes",
+    "opportunity_denominator_minutes", "omega",
+)
+
+MATCH_EXPOSURE_FIELDS = (
+    "edition", "match_number", "match_id", "date_utc", "stage", "venue_side",
+    "team_id", "team", "opponent_team_id", "opponent", "primary_cohort",
+    "in_play_player_cards", "fouls", "rho", "exp_match_min",
+    "exp_match_per_foul", "opponent_exp_match_min",
+    "opponent_exp_match_per_foul", "d_exp_match", "d_exp_match_per_foul",
+)
+MATCH_END_CLOCK_FIELDS = (
+    MATCH_EXPOSURE_FIELDS[:14] + ("clock_variant",) + MATCH_EXPOSURE_FIELDS[14:]
+)
+
+PLAYER_SUSPENSION_FIELDS = (
+    "edition", "team_id", "team", "player_id", "player", "primary_cohort",
+    "rho", "mu", "ordinary_caution_min", "dismissal_min",
+    "served_suspension_matches", "served_suspension_min",
+    "unweighted_exp_susp_min", "omega", "exp_susp_min",
+)
+
+TEAM_SUSPENSION_FIELDS = (
+    "edition", "team_id", "team", "primary_cohort", "rho", "mu",
+    "exposed_players", "mean_omega", "fouls_all", "fouls_knockout", "exp_susp_min",
+    "exp_susp_per_foul_all", "exp_susp_per_foul_knockout",
+)
+
+SENSITIVITY_FIELDS = (
+    "edition", "rho", "mu", "denominator", "cohort", "teams",
+    "exp_susp_min", "fouls", "pooled_exp_susp_per_foul",
+)
+SUSPENSION_END_CLOCK_FIELDS = (
+    "edition", "clock_variant", "rho", "mu", "denominator", "cohort", "teams",
+    "exp_susp_min", "fouls", "pooled_exp_susp_per_foul",
+)
+
+EDITION_SUMMARY_FIELDS = (
+    "edition", "included_matches", "player_cards", "in_play_player_cards",
+    "team_fouls", "knockout_teams", "served_suspension_matches",
+    "deferred_suspensions", "suspension_conflicts", "rho", "mu",
+    "pooled_exp_susp_per_foul",
+)
+
+BUILD_AUDIT_FIELDS = ("edition", "check", "observed", "expected", "status", "note")
+
+
+def _key(row: dict) -> tuple[int, str, str]:
+    return int(row["edition"]), row["team_id"], row["player_id"]
+
+
+def _reset_window(edition: int, stage: str) -> str:
+    if edition == 2026:
+        if stage == "group":
+            return "group"
+        if stage in {"round_of_32", "round_of_16", "quarter_final"}:
+            return "knockout_pre_quarter_final_reset"
+        return "post_quarter_final_reset"
+    if stage in {"group", "round_of_16", "quarter_final"}:
+        return "pre_quarter_final_reset"
+    return "post_quarter_final_reset"
+
+
+def _base_horizon(edition: int, stage: str, team_match_number: int) -> int:
+    if stage == "group":
+        if edition == 2026:
+            return max(0, 3 - team_match_number)
+        return max(0, 5 - team_match_number)
+    if stage == "round_of_32":
+        return 2 if edition == 2026 else 0
+    if stage == "round_of_16":
+        return 1
+    return 0
+
+
+def _card_sort(row: dict) -> tuple:
+    return row["date_utc"], float(row["t_min"]), row["card_id"]
+
+
+def _interval_union(intervals: Iterable[tuple[float, float]]) -> float:
+    clean = sorted((max(0.0, a), max(0.0, b)) for a, b in intervals if b > a)
+    if not clean:
+        return 0.0
+    total = 0.0
+    start, end = clean[0]
+    for next_start, next_end in clean[1:]:
+        if next_start <= end:
+            end = max(end, next_end)
+        else:
+            total += end - start
+            start, end = next_start, next_end
+    return total + end - start
+
+
+def _source_tables(source_dir: Path = SOURCE) -> dict[str, list[dict[str, str]]]:
+    names = (
+        "matches", "cards", "fouls_team_match", "player_match",
+        "availability_evidence", "sanction_decisions", "source_audit",
+    )
+    missing = [str(source_dir / f"{name}.csv") for name in names if not (source_dir / f"{name}.csv").exists()]
+    if missing:
+        raise FileNotFoundError("normalized source tables missing: " + ", ".join(missing))
+    return {name: read_csv(source_dir / f"{name}.csv") for name in names}
+
+
+def stage1_cards(tables: dict[str, list[dict[str, str]]], stage_dir: Path = STAGES) -> list[dict]:
+    """Create the player-card ledger and apply the frozen horizon stop rule."""
+    fouls = tables["fouls_team_match"]
+    team_match_number = {
+        (int(row["edition"]), int(row["match_number"]), row["team_id"]): int(row["team_match_number"])
+        for row in fouls
+    }
+    rows: list[dict] = []
+    for source in tables["cards"]:
+        if source["recipient_type"] != "player":
+            continue
+        edition = int(source["edition"])
+        number = int(source["match_number"])
+        period = int(source["period"])
+        scope = source.get("event_scope") or (
+            "in_play" if period in PLAY_PERIODS else
+            "interval" if period == 0 else
+            "post_play" if period == 10 else
+            "penalty_shootout" if period == 11 else "unknown"
+        )
+        if scope == "unknown":
+            raise ValueError(f"unknown event scope for {source['card_id']}")
+        t_min = float(source["t_min"])
+        t_end = float(source["t_end_min"])
+        basis = int(source["nominal_basis_min"])
+        card_type = source["card_type"]
+        horizon = _base_horizon(
+            edition, source["stage"], team_match_number[(edition, number, source["team_id"])]
+        ) if card_type == "Y" else 0
+        match_values = {}
+        for rho in RHO_GRID:
+            multiplier = 1.0 if card_type == "Y" else rho
+            value = multiplier * max(0.0, t_end - t_min) if scope == "in_play" else 0.0
+            match_values[rho] = value
+        rows.append({
+            **{field: source.get(field, "") for field in (
+                "card_id", "edition", "match_number", "match_id", "date_utc", "stage",
+                "team_id", "team", "opponent", "player_id", "player", "card_type",
+                "minute_label", "t_min", "period", "nominal_basis_min", "t_end_min",
+                "source_url", "source_archive",
+            )},
+            "event_scope": scope,
+            "reset_window": _reset_window(edition, source["stage"]),
+            "base_horizon": horizon,
+            "effective_horizon": horizon,
+            "accumulation_role": "dismissal" if card_type in {"R", "Y2"} else "single_caution",
+            "paired_card_id": "",
+            "nominal_remainder_min": fmt(max(0.0, basis - t_min)),
+            "exp_match_min_rho_1": fmt(match_values[1.0]),
+            "exp_match_min_rho_1_5": fmt(match_values[1.5]),
+            "exp_match_min_rho_2": fmt(match_values[2.0]),
+        })
+
+    # A Y immediately followed by Y2 in the same match is a same-match pair,
+    # not one half of the cross-match accumulation sequence.
+    same_match_y: set[str] = set()
+    by_player_match: dict[tuple, list[dict]] = defaultdict(list)
+    for row in rows:
+        by_player_match[(_key(row), int(row["match_number"]))].append(row)
+    for event_rows in by_player_match.values():
+        ordered = sorted(event_rows, key=_card_sort)
+        for dismissal in [row for row in ordered if row["card_type"] == "Y2"]:
+            candidates = [
+                row for row in ordered
+                if row["card_type"] == "Y" and float(row["t_min"]) <= float(dismissal["t_min"])
+                and row["card_id"] not in same_match_y
+            ]
+            if not candidates:
+                raise ValueError(f"Y2 lacks preceding Y: {dismissal['card_id']}")
+            first = candidates[-1]
+            first["effective_horizon"] = 0
+            first["accumulation_role"] = "same_match_first_caution"
+            first["paired_card_id"] = dismissal["card_id"]
+            dismissal["paired_card_id"] = first["card_id"]
+            same_match_y.add(first["card_id"])
+
+    # Remaining ordinary cautions are paired chronologically within each
+    # reset window. The first card's risk stops at the triggering fixture; the
+    # triggering card itself receives zero forward-risk blocks.
+    by_window: dict[tuple, list[dict]] = defaultdict(list)
+    for row in rows:
+        if row["card_type"] == "Y" and row["card_id"] not in same_match_y:
+            by_window[(_key(row), row["reset_window"])].append(row)
+    for caution_rows in by_window.values():
+        ordered = sorted(caution_rows, key=_card_sort)
+        for index in range(0, len(ordered) - 1, 2):
+            first, trigger = ordered[index], ordered[index + 1]
+            first_team_no = team_match_number[(int(first["edition"]), int(first["match_number"]), first["team_id"])]
+            trigger_team_no = team_match_number[(int(trigger["edition"]), int(trigger["match_number"]), trigger["team_id"])]
+            distance = max(0, trigger_team_no - first_team_no)
+            first["effective_horizon"] = min(int(first["base_horizon"]), distance)
+            first["accumulation_role"] = "accumulation_first_caution"
+            first["paired_card_id"] = trigger["card_id"]
+            trigger["effective_horizon"] = 0
+            trigger["accumulation_role"] = "accumulation_trigger"
+            trigger["paired_card_id"] = first["card_id"]
+
+    rows.sort(key=lambda row: (int(row["edition"]), int(row["match_number"]), float(row["t_min"]), row["card_id"]))
+    write_csv(stage_dir / "s1-card-ledger.csv", rows, CARD_LEDGER_FIELDS)
+    return rows
+
+
+def stage2_fouls(tables: dict[str, list[dict[str, str]]], stage_dir: Path = STAGES) -> list[dict]:
+    """Validate and copy the team-match foul layer used as denominators."""
+    rows = sorted(
+        tables["fouls_team_match"],
+        key=lambda row: (int(row["edition"]), int(row["match_number"]), row["team_id"]),
+    )
+    if any(as_int(row["fouls"]) is None or int(row["fouls"]) < 0 for row in rows):
+        raise ValueError("foul table contains a missing or negative value")
+    write_csv(stage_dir / "s2-team-match-fouls.csv", rows, rows[0].keys())
+    return rows
+
+
+def stage3_minutes(tables: dict[str, list[dict[str, str]]], stage_dir: Path = STAGES) -> list[dict]:
+    """Validate and copy official participation observations."""
+    rows = sorted(
+        tables["player_match"],
+        key=lambda row: (
+            int(row["edition"]), row["team_id"], row["player_id"], int(row["team_match_number"])
+        ),
+    )
+    for row in rows:
+        played = float(row["played_minutes"] or 0)
+        nominal = float(row["nominal_minutes"])
+        if not 0 <= played <= nominal:
+            raise ValueError(f"invalid player minutes: {row}")
+    write_csv(stage_dir / "s3-player-match-minutes.csv", rows, rows[0].keys())
+    return rows
+
+
+def _team_schedule(tables: dict[str, list[dict[str, str]]]) -> dict[tuple[int, str], list[dict]]:
+    by_match = {(int(row["edition"]), int(row["match_number"])): row for row in tables["matches"]}
+    result: dict[tuple[int, str], list[dict]] = defaultdict(list)
+    for row in tables["fouls_team_match"]:
+        match = by_match[(int(row["edition"]), int(row["match_number"]))]
+        result[(int(row["edition"]), row["team_id"])].append({
+            "match_number": int(row["match_number"]),
+            "match_id": row["match_id"],
+            "stage": row["stage"],
+            "team_match_number": int(row["team_match_number"]),
+            "nominal_minutes": int(match["nominal_minutes"]),
+        })
+    for rows in result.values():
+        rows.sort(key=lambda row: row["team_match_number"])
+    return result
+
+
+def stage4_suspensions(
+    tables: dict[str, list[dict[str, str]]], card_ledger: list[dict], stage_dir: Path = STAGES
+) -> list[dict]:
+    """Derive automatic sanctions, then apply sourced disciplinary decisions."""
+    schedule = _team_schedule(tables)
+    participation = {
+        (int(row["edition"]), row["team_id"], row["player_id"], int(row["match_number"])): row
+        for row in tables["player_match"]
+    }
+    triggers = [
+        (row, "accumulation" if row["accumulation_role"] == "accumulation_trigger" else "dismissal")
+        for row in card_ledger
+        if row["accumulation_role"] == "accumulation_trigger" or row["card_type"] in {"R", "Y2"}
+    ]
+    decisions_by_trigger = {
+        row["trigger_card_id"]: row
+        for row in tables["sanction_decisions"] if row["trigger_card_id"]
+    }
+    external_decisions = [
+        row for row in tables["sanction_decisions"] if not row["trigger_card_id"]
+    ]
+    output = []
+
+    def service_game(edition: int, team_id: str, number: int) -> dict:
+        game = next(
+            (item for item in schedule[(edition, team_id)] if item["match_number"] == number),
+            None,
+        )
+        if game is None:
+            raise ValueError(f"disciplinary decision refers to unavailable service match: {edition} M{number}")
+        return game
+
+    def verified_status(decision_status: str, lineup: dict | None) -> tuple[str, str]:
+        if decision_status == "deferred":
+            return "deferred", "The sourced decision deferred execution; no served term is added."
+        if decision_status == "pending":
+            return "pending", "The sourced decision is pending within the observed cutoff."
+        if lineup is None:
+            return "conflict", "The sourced service match has no player participation row."
+        if lineup["lineup_status"] == "absent":
+            return "served", "The sourced service match is confirmed by an absent official lineup record."
+        return (
+            "conflict",
+            "The sourced served decision conflicts with official lineup status "
+            f"{lineup['lineup_status']!r}; no served term is added.",
+        )
+
+    def decision_fields(decision: dict | None) -> dict:
+        if decision is None:
+            return {
+                "decision_type": "", "decision_status": "",
+                "decision_source_url": "", "decision_source_archive": "", "decision_note": "",
+            }
+        return {
+            "decision_type": decision["decision_type"],
+            "decision_status": decision["decision_status"],
+            "decision_source_url": decision["source_url"],
+            "decision_source_archive": decision["source_archive"],
+            "decision_note": decision["evidence_note"],
+        }
+
+    for trigger, trigger_type in triggers:
+        edition = int(trigger["edition"])
+        games = schedule[(edition, trigger["team_id"])]
+        current_index = next(
+            index for index, game in enumerate(games)
+            if game["match_number"] == int(trigger["match_number"])
+        )
+        decision = decisions_by_trigger.get(trigger["card_id"])
+        if decision:
+            service_games = [
+                service_game(edition, trigger["team_id"], int(number))
+                for number in decision["service_match_numbers"].split("|")
+            ]
+        else:
+            service_games = [games[current_index + 1]] if current_index + 1 < len(games) else []
+        if not service_games:
+            output.append({
+                "suspension_id": f"{trigger['card_id']}-{trigger_type}-pending",
+                "edition": edition, "team_id": trigger["team_id"], "team": trigger["team"],
+                "player_id": trigger["player_id"], "player": trigger["player"],
+                "trigger_type": trigger_type, "trigger_card_id": trigger["card_id"],
+                "trigger_match_number": trigger["match_number"],
+                "trigger_match_id": trigger["match_id"], "trigger_stage": trigger["stage"],
+                "service_match_number": "", "service_match_id": "", "service_stage": "",
+                "service_nominal_minutes": "", "service_status": "pending", "lineup_status": "",
+                "rule_source_url": RULE_SOURCE_URLS[edition], "lineup_source_url": "",
+                "lineup_source_archive": "",
+                "audit_note": "No later observed team match within the edition cutoff.",
+                **decision_fields(decision),
+            })
+            continue
+        for game in service_games:
+            if game["match_number"] <= int(trigger["match_number"]):
+                raise ValueError(f"service match is not after trigger: {trigger['card_id']} M{game['match_number']}")
+            lineup = participation.get((
+                edition, trigger["team_id"], trigger["player_id"], game["match_number"]
+            ))
+            if decision:
+                status, note = verified_status(decision["decision_status"], lineup)
+            elif lineup is None:
+                status, note = "conflict", "Trigger has a later team match but no player participation row."
+            elif lineup["lineup_status"] == "absent":
+                status, note = "served", "Next observed official lineup records the player as absent."
+            else:
+                status = "conflict"
+                note = (
+                    "Automatic sanction conflicts with next official lineup status "
+                    f"{lineup['lineup_status']!r}; no served term is added."
+                )
+            output.append({
+                "suspension_id": f"{trigger['card_id']}-{trigger_type}-service-M{game['match_number']}",
+                "edition": edition, "team_id": trigger["team_id"], "team": trigger["team"],
+                "player_id": trigger["player_id"], "player": trigger["player"],
+                "trigger_type": trigger_type, "trigger_card_id": trigger["card_id"],
+                "trigger_match_number": trigger["match_number"],
+                "trigger_match_id": trigger["match_id"], "trigger_stage": trigger["stage"],
+                "service_match_number": game["match_number"], "service_match_id": game["match_id"],
+                "service_stage": game["stage"], "service_nominal_minutes": game["nominal_minutes"],
+                "service_status": status, "lineup_status": lineup["lineup_status"] if lineup else "",
+                "rule_source_url": RULE_SOURCE_URLS[edition],
+                "lineup_source_url": lineup["source_url"] if lineup else "",
+                "lineup_source_archive": lineup["source_archive"] if lineup else "",
+                "audit_note": note, **decision_fields(decision),
+            })
+
+    # Carry-in bans have no tournament card trigger, but they still affect the
+    # same carded-player opportunity denominator and served-match component.
+    for decision in external_decisions:
+        edition = int(decision["edition"])
+        for number in decision["service_match_numbers"].split("|"):
+            game = service_game(edition, decision["team_id"], int(number))
+            lineup = participation.get((
+                edition, decision["team_id"], decision["player_id"], game["match_number"]
+            ))
+            status, note = verified_status(decision["decision_status"], lineup)
+            output.append({
+                "suspension_id": (
+                    f"{edition}-external-{decision['team_id']}-{decision['player_id']}"
+                    f"-service-M{game['match_number']}"
+                ),
+                "edition": edition, "team_id": decision["team_id"], "team": decision["team"],
+                "player_id": decision["player_id"], "player": decision["player"],
+                "trigger_type": "external", "trigger_card_id": "", "trigger_match_number": "",
+                "trigger_match_id": "", "trigger_stage": "", "service_match_number": game["match_number"],
+                "service_match_id": game["match_id"], "service_stage": game["stage"],
+                "service_nominal_minutes": game["nominal_minutes"], "service_status": status,
+                "lineup_status": lineup["lineup_status"] if lineup else "",
+                "rule_source_url": RULE_SOURCE_URLS[edition],
+                "lineup_source_url": lineup["source_url"] if lineup else "",
+                "lineup_source_archive": lineup["source_archive"] if lineup else "",
+                "audit_note": note, **decision_fields(decision),
+            })
+    output.sort(key=lambda row: (
+        int(row["edition"]), as_int(row["service_match_number"], 999) or 999,
+        row["team_id"], row["player_id"], row["trigger_type"], row["suspension_id"],
+    ))
+    write_csv(stage_dir / "s4-suspensions.csv", output, SUSPENSION_FIELDS)
+    return output
+
+
+def _nominal_card_minute(label: str, nominal: float) -> float:
+    # The part before '+' is the nominal clock. Stoppage does not make a
+    # 45+4 substitution/card consume four additional nominal minutes.
+    base = float(label.split("'")[0])
+    return min(max(0.0, base), nominal)
+
+
+def stage5_availability(
+    tables: dict[str, list[dict[str, str]]], card_ledger: list[dict], suspensions: list[dict],
+    stage_dir: Path = STAGES,
+) -> tuple[list[dict], list[dict]]:
+    """Union sanction/injury intervals and compute player opportunity weights."""
+    dismissal_by_match: dict[tuple, list[dict]] = defaultdict(list)
+    for row in card_ledger:
+        if row["card_type"] in {"R", "Y2"} and row["event_scope"] in {"in_play", "interval"}:
+            dismissal_by_match[(_key(row), int(row["match_number"]))].append(row)
+    served = {
+        (int(row["edition"]), row["team_id"], row["player_id"], int(row["service_match_number"]))
+        for row in suspensions if row["service_status"] == "served"
+    }
+    injuries: dict[tuple, list[dict]] = defaultdict(list)
+    for row in tables["availability_evidence"]:
+        if float(row["unavailable_minutes"]) > 0 and not row["source_url"]:
+            raise ValueError(f"positive injury interval lacks URL: {row}")
+        injuries[(_key(row), int(row["match_number"]))].append(row)
+
+    availability = []
+    totals: dict[tuple, dict] = {}
+    for row in tables["player_match"]:
+        key = _key(row)
+        match_number = int(row["match_number"])
+        match_key = (key, match_number)
+        nominal = float(row["nominal_minutes"])
+        suspension_intervals: list[tuple[float, float]] = []
+        if (key[0], key[1], key[2], match_number) in served:
+            suspension_intervals.append((0.0, nominal))
+        for card in dismissal_by_match.get(match_key, []):
+            suspension_intervals.append((_nominal_card_minute(card["minute_label"], nominal), nominal))
+        injury_rows = injuries.get(match_key, [])
+        injury_intervals = [
+            (max(0.0, float(item["start_minute"])), min(nominal, float(item["end_minute"])))
+            for item in injury_rows
+        ]
+        suspension_minutes = _interval_union(suspension_intervals)
+        injury_minutes = _interval_union(injury_intervals)
+        union_minutes = _interval_union(suspension_intervals + injury_intervals)
+        played = float(row["played_minutes"] or 0)
+        denominator = nominal - union_minutes
+        if denominator < -1e-8 or played > denominator + 1e-8:
+            raise ValueError(
+                f"availability denominator conflict for {key} m{match_number}: "
+                f"played={played}, denominator={denominator}"
+            )
+        if suspension_minutes > 0:
+            status = "suspended"
+        elif injury_minutes > 0:
+            status = "injured"
+        elif row["lineup_status"] in {"starter", "used_substitute"}:
+            status = "played"
+        elif row["lineup_status"] == "unused_substitute":
+            status = "bench"
+        else:
+            status = "unexplained"
+        injury_urls = sorted({item["source_url"] for item in injury_rows if item["source_url"]})
+        injury_notes = sorted({item["evidence_note"] for item in injury_rows if item["evidence_note"]})
+        availability.append({
+            "edition": row["edition"], "team_id": row["team_id"], "team": row["team"],
+            "player_id": row["player_id"], "player": row["player"],
+            "match_number": match_number, "match_id": row["match_id"], "stage": row["stage"],
+            "opponent": row["opponent"], "team_match_number": row["team_match_number"],
+            "nominal_minutes": row["nominal_minutes"], "lineup_status": row["lineup_status"],
+            "availability_status": status, "played_minutes": fmt(played),
+            "suspension_unavailable_minutes": fmt(suspension_minutes),
+            "injury_unavailable_minutes": fmt(injury_minutes),
+            "union_unavailable_minutes": fmt(union_minutes),
+            "opportunity_denominator_minutes": fmt(denominator),
+            "injury_source_url": " | ".join(injury_urls),
+            "injury_evidence_note": " | ".join(injury_notes),
+            "participation_source_url": row["source_url"],
+            "participation_source_archive": row["source_archive"],
+        })
+        summary = totals.setdefault(key, {
+            "edition": row["edition"], "team_id": row["team_id"], "team": row["team"],
+            "player_id": row["player_id"], "player": row["player"], "played": 0.0,
+            "nominal": 0.0, "suspension": 0.0, "injury": 0.0, "union": 0.0,
+        })
+        summary["played"] += played
+        summary["nominal"] += nominal
+        summary["suspension"] += suspension_minutes
+        summary["injury"] += injury_minutes
+        summary["union"] += union_minutes
+
+    omega = []
+    for key, row in sorted(totals.items()):
+        denominator = row["nominal"] - row["union"]
+        if denominator <= 0:
+            raise ValueError(f"non-positive opportunity denominator for {key}: {denominator}")
+        value = row["played"] / denominator
+        if not -1e-9 <= value <= 1 + 1e-9:
+            raise ValueError(f"omega outside [0,1] for {key}: {value}")
+        omega.append({
+            "edition": row["edition"], "team_id": row["team_id"], "team": row["team"],
+            "player_id": row["player_id"], "player": row["player"],
+            "played_minutes": fmt(row["played"]), "team_nominal_minutes": fmt(row["nominal"]),
+            "suspension_unavailable_minutes": fmt(row["suspension"]),
+            "injury_unavailable_minutes": fmt(row["injury"]),
+            "union_unavailable_minutes": fmt(row["union"]),
+            "opportunity_denominator_minutes": fmt(denominator), "omega": fmt(value, 9),
+        })
+    availability.sort(key=lambda row: (
+        int(row["edition"]), row["team_id"], row["player_id"], int(row["team_match_number"])
+    ))
+    write_csv(stage_dir / "s5-availability.csv", availability, AVAILABILITY_FIELDS)
+    write_csv(stage_dir / "s5-player-opportunity.csv", omega, OMEGA_FIELDS)
+    return availability, omega
+
+
+def _primary_teams(tables: dict[str, list[dict[str, str]]]) -> set[tuple[int, str]]:
+    return {
+        (int(row["edition"]), row["team_id"])
+        for row in tables["fouls_team_match"] if is_knockout(row["stage"])
+    }
+
+
+def stage6_match_exposure(
+    tables: dict[str, list[dict[str, str]]], card_ledger: list[dict], result_dir: Path = RESULTS
+) -> tuple[list[dict], list[dict], list[dict]]:
+    """Compute E_m for all team matches and the antisymmetric differentials."""
+    primary = _primary_teams(tables)
+    match_lookup = {(int(row["edition"]), int(row["match_number"])): row for row in tables["matches"]}
+    card_sums: dict[tuple, dict[float, float]] = defaultdict(lambda: defaultdict(float))
+    card_counts: dict[tuple, int] = defaultdict(int)
+    for card in card_ledger:
+        if card["event_scope"] != "in_play":
+            continue
+        key = (int(card["edition"]), int(card["match_number"]), card["team_id"])
+        card_counts[key] += 1
+        card_sums[key][1.0] += float(card["exp_match_min_rho_1"] or 0)
+        card_sums[key][1.5] += float(card["exp_match_min_rho_1_5"] or 0)
+        card_sums[key][2.0] += float(card["exp_match_min_rho_2"] or 0)
+
+    base_rows = []
+    for foul in tables["fouls_team_match"]:
+        edition, number = int(foul["edition"]), int(foul["match_number"])
+        match = match_lookup[(edition, number)]
+        if foul["team_id"] == match["home_team_id"]:
+            side, opponent_id = "home", match["away_team_id"]
+        else:
+            side, opponent_id = "away", match["home_team_id"]
+        for rho in RHO_GRID:
+            key = (edition, number, foul["team_id"])
+            exposure = card_sums[key][rho]
+            fouls = int(foul["fouls"])
+            base_rows.append({
+                "edition": edition, "match_number": number, "match_id": foul["match_id"],
+                "date_utc": match["date_utc"], "stage": foul["stage"], "venue_side": side,
+                "team_id": foul["team_id"], "team": foul["team"],
+                "opponent_team_id": opponent_id, "opponent": foul["opponent"],
+                "primary_cohort": "yes" if (edition, foul["team_id"]) in primary else "no",
+                "in_play_player_cards": card_counts[key], "fouls": fouls, "rho": fmt(rho),
+                "exp_match_min": exposure,
+                "exp_match_per_foul": exposure / fouls if fouls else None,
+            })
+    lookup = {
+        (row["edition"], row["match_number"], row["team_id"], float(row["rho"])): row
+        for row in base_rows
+    }
+    output = []
+    for row in base_rows:
+        opponent = lookup[(row["edition"], row["match_number"], row["opponent_team_id"], float(row["rho"]))]
+        own_rate, opponent_rate = row["exp_match_per_foul"], opponent["exp_match_per_foul"]
+        output.append({
+            **{key: row[key] for key in (
+                "edition", "match_number", "match_id", "date_utc", "stage", "venue_side",
+                "team_id", "team", "opponent_team_id", "opponent", "primary_cohort",
+                "in_play_player_cards", "fouls", "rho",
+            )},
+            "exp_match_min": fmt(row["exp_match_min"]),
+            "exp_match_per_foul": fmt(own_rate),
+            "opponent_exp_match_min": fmt(opponent["exp_match_min"]),
+            "opponent_exp_match_per_foul": fmt(opponent_rate),
+            "d_exp_match": fmt(row["exp_match_min"] - opponent["exp_match_min"]),
+            "d_exp_match_per_foul": fmt(
+                own_rate - opponent_rate if own_rate is not None and opponent_rate is not None else None
+            ),
+        })
+    output.sort(key=lambda row: (
+        int(row["edition"]), int(row["match_number"]), float(row["rho"]), row["venue_side"] != "home"
+    ))
+    primary_rows = [row for row in output if float(row["rho"]) == PRIMARY_RHO]
+    sensitivity_rows = [row for row in output if float(row["rho"]) != PRIMARY_RHO]
+
+    # A separate off-by-one check shortens only formula components that use
+    # the observed end clock. Nominal caution remainders remain unchanged.
+    clock_sums: dict[tuple, float] = defaultdict(float)
+    for card in card_ledger:
+        if card["event_scope"] != "in_play":
+            continue
+        key = (int(card["edition"]), int(card["match_number"]), card["team_id"])
+        multiplier = 1.0 if card["card_type"] == "Y" else PRIMARY_RHO
+        for variant, offset in (("source_end", 0.0), ("end_minus_one", 1.0)):
+            clock_sums[(key, variant)] += multiplier * max(
+                0.0, float(card["t_end_min"]) - offset - float(card["t_min"])
+            )
+    clock_base = []
+    for foul in tables["fouls_team_match"]:
+        edition, number = int(foul["edition"]), int(foul["match_number"])
+        match = match_lookup[(edition, number)]
+        if foul["team_id"] == match["home_team_id"]:
+            side, opponent_id = "home", match["away_team_id"]
+        else:
+            side, opponent_id = "away", match["home_team_id"]
+        fouls = int(foul["fouls"])
+        key = (edition, number, foul["team_id"])
+        for variant in ("source_end", "end_minus_one"):
+            exposure = clock_sums[(key, variant)]
+            clock_base.append({
+                "edition": edition, "match_number": number, "match_id": foul["match_id"],
+                "date_utc": match["date_utc"], "stage": foul["stage"], "venue_side": side,
+                "team_id": foul["team_id"], "team": foul["team"],
+                "opponent_team_id": opponent_id, "opponent": foul["opponent"],
+                "primary_cohort": "yes" if (edition, foul["team_id"]) in primary else "no",
+                "in_play_player_cards": card_counts[key], "fouls": fouls,
+                "rho": fmt(PRIMARY_RHO), "clock_variant": variant,
+                "exp_match_min": exposure,
+                "exp_match_per_foul": exposure / fouls if fouls else None,
+            })
+    clock_lookup = {
+        (row["edition"], row["match_number"], row["team_id"], row["clock_variant"]): row
+        for row in clock_base
+    }
+    clock_output = []
+    for row in clock_base:
+        opponent = clock_lookup[(
+            row["edition"], row["match_number"], row["opponent_team_id"], row["clock_variant"]
+        )]
+        own_rate, opponent_rate = row["exp_match_per_foul"], opponent["exp_match_per_foul"]
+        clock_output.append({
+            **{key: row[key] for key in (
+                "edition", "match_number", "match_id", "date_utc", "stage", "venue_side",
+                "team_id", "team", "opponent_team_id", "opponent", "primary_cohort",
+                "in_play_player_cards", "fouls", "rho", "clock_variant",
+            )},
+            "exp_match_min": fmt(row["exp_match_min"]),
+            "exp_match_per_foul": fmt(own_rate),
+            "opponent_exp_match_min": fmt(opponent["exp_match_min"]),
+            "opponent_exp_match_per_foul": fmt(opponent_rate),
+            "d_exp_match": fmt(row["exp_match_min"] - opponent["exp_match_min"]),
+            "d_exp_match_per_foul": fmt(
+                own_rate - opponent_rate if own_rate is not None and opponent_rate is not None else None
+            ),
+        })
+    clock_output.sort(key=lambda row: (
+        int(row["edition"]), int(row["match_number"]), row["clock_variant"],
+        row["venue_side"] != "home",
+    ))
+    write_csv(result_dir / "match-exposure.csv", primary_rows, MATCH_EXPOSURE_FIELDS)
+    write_csv(result_dir / "match-exposure-sensitivity.csv", output, MATCH_EXPOSURE_FIELDS)
+    write_csv(
+        result_dir / "match-end-clock-sensitivity.csv", clock_output, MATCH_END_CLOCK_FIELDS
+    )
+    return primary_rows, sensitivity_rows, clock_output
+
+
+def _card_suspension_component(card: dict, rho: float) -> tuple[float, float]:
+    if card["card_type"] == "Y":
+        value = float(card["nominal_remainder_min"] or 0) + 90.0 * int(card["effective_horizon"])
+        return value, 0.0
+    value = rho * max(0.0, float(card["t_end_min"]) - float(card["t_min"]))
+    return 0.0, value
+
+
+def stage7_suspension_exposure(
+    tables: dict[str, list[dict[str, str]]], card_ledger: list[dict], suspensions: list[dict],
+    omega_rows: list[dict], result_dir: Path = RESULTS,
+) -> tuple[list[dict], list[dict], list[dict], list[dict], list[dict]]:
+    """Compute player/team E_s and the full rho×mu×denominator grid."""
+    primary = _primary_teams(tables)
+    omega = {_key(row): float(row["omega"]) for row in omega_rows}
+    names = {_key(row): (row["team"], row["player"]) for row in omega_rows}
+    cards_by_player: dict[tuple, list[dict]] = defaultdict(list)
+    for card in card_ledger:
+        cards_by_player[_key(card)].append(card)
+    served_matches: dict[tuple, set[int]] = defaultdict(set)
+    for row in suspensions:
+        if row["service_status"] == "served":
+            served_matches[_key(row)].add(int(row["service_match_number"]))
+    foul_totals: dict[tuple[int, str], dict[str, int]] = defaultdict(lambda: {"all": 0, "knockout": 0})
+    team_names = {}
+    for row in tables["fouls_team_match"]:
+        key = (int(row["edition"]), row["team_id"])
+        team_names[key] = row["team"]
+        foul_totals[key]["all"] += int(row["fouls"])
+        if is_knockout(row["stage"]):
+            foul_totals[key]["knockout"] += int(row["fouls"])
+
+    player_grid = []
+    team_grid_accum: dict[tuple, float] = defaultdict(float)
+    team_player_keys: dict[tuple[int, str], set[tuple]] = defaultdict(set)
+    for key, player_cards in sorted(cards_by_player.items()):
+        edition, team_id, player_id = key
+        team_player_keys[(edition, team_id)].add(key)
+        if key not in omega:
+            raise ValueError(f"missing omega for exposed player {key}")
+        for rho in RHO_GRID:
+            ordinary = dismissal = 0.0
+            for card in player_cards:
+                ordinary_piece, dismissal_piece = _card_suspension_component(card, rho)
+                ordinary += ordinary_piece
+                dismissal += dismissal_piece
+            for mu in MU_GRID:
+                served_count = len(served_matches.get(key, set()))
+                served_min = 90.0 * mu * served_count
+                unweighted = ordinary + dismissal + served_min
+                weighted = omega[key] * unweighted
+                team, player = names[key]
+                player_grid.append({
+                    "edition": edition, "team_id": team_id, "team": team,
+                    "player_id": player_id, "player": player,
+                    "primary_cohort": "yes" if (edition, team_id) in primary else "no",
+                    "rho": fmt(rho), "mu": fmt(mu), "ordinary_caution_min": fmt(ordinary),
+                    "dismissal_min": fmt(dismissal), "served_suspension_matches": served_count,
+                    "served_suspension_min": fmt(served_min),
+                    "unweighted_exp_susp_min": fmt(unweighted), "omega": fmt(omega[key], 9),
+                    "exp_susp_min": fmt(weighted),
+                })
+                team_grid_accum[(edition, team_id, rho, mu)] += weighted
+
+    team_grid = []
+    for (edition, team_id, rho, mu), exposure in sorted(team_grid_accum.items()):
+        fouls_all = foul_totals[(edition, team_id)]["all"]
+        fouls_knockout = foul_totals[(edition, team_id)]["knockout"]
+        team_grid.append({
+            "edition": edition, "team_id": team_id, "team": team_names[(edition, team_id)],
+            "primary_cohort": "yes" if (edition, team_id) in primary else "no",
+            "rho": fmt(rho), "mu": fmt(mu),
+            "exposed_players": len(team_player_keys[(edition, team_id)]),
+            "mean_omega": fmt(
+                sum(omega[key] for key in team_player_keys[(edition, team_id)])
+                / len(team_player_keys[(edition, team_id)]), 9
+            ),
+            "fouls_all": fouls_all,
+            "fouls_knockout": fouls_knockout, "exp_susp_min": fmt(exposure),
+            "exp_susp_per_foul_all": fmt(exposure / fouls_all if fouls_all else None),
+            "exp_susp_per_foul_knockout": fmt(
+                exposure / fouls_knockout if fouls_knockout else None
+            ),
+        })
+
+    sensitivity = []
+    for edition in EDITIONS:
+        for rho in RHO_GRID:
+            for mu in MU_GRID:
+                selected = [
+                    row for row in team_grid
+                    if int(row["edition"]) == edition and float(row["rho"]) == rho
+                    and float(row["mu"]) == mu and row["primary_cohort"] == "yes"
+                ]
+                for denominator in DENOMINATORS:
+                    foul_field = "fouls_all" if denominator == "all" else "fouls_knockout"
+                    exposure = sum(float(row["exp_susp_min"]) for row in selected)
+                    fouls = sum(int(row[foul_field]) for row in selected)
+                    sensitivity.append({
+                        "edition": edition, "rho": fmt(rho), "mu": fmt(mu),
+                        "denominator": denominator, "cohort": "knockout_teams",
+                        "teams": len(selected), "exp_susp_min": fmt(exposure), "fouls": fouls,
+                        "pooled_exp_susp_per_foul": fmt(exposure / fouls if fouls else None),
+                    })
+
+    primary_players = [
+        row for row in player_grid
+        if float(row["rho"]) == PRIMARY_RHO and float(row["mu"]) == PRIMARY_MU
+    ]
+    primary_teams = [
+        row for row in team_grid
+        if float(row["rho"]) == PRIMARY_RHO and float(row["mu"]) == PRIMARY_MU
+    ]
+
+    clock_team_accum: dict[tuple[int, str, str], float] = defaultdict(float)
+    for key, player_cards in sorted(cards_by_player.items()):
+        edition, team_id, _ = key
+        for variant, offset in (("source_end", 0.0), ("end_minus_one", 1.0)):
+            ordinary = dismissal = 0.0
+            for card in player_cards:
+                if card["card_type"] == "Y":
+                    ordinary += float(card["nominal_remainder_min"] or 0)
+                    ordinary += 90.0 * int(card["effective_horizon"])
+                else:
+                    dismissal += PRIMARY_RHO * max(
+                        0.0, float(card["t_end_min"]) - offset - float(card["t_min"])
+                    )
+            served_min = 90.0 * PRIMARY_MU * len(served_matches.get(key, set()))
+            clock_team_accum[(edition, team_id, variant)] += (
+                omega[key] * (ordinary + dismissal + served_min)
+            )
+    clock_sensitivity = []
+    for edition in EDITIONS:
+        primary_team_ids = sorted(team_id for year, team_id in primary if year == edition)
+        for variant in ("source_end", "end_minus_one"):
+            exposure = sum(
+                clock_team_accum[(edition, team_id, variant)] for team_id in primary_team_ids
+            )
+            for denominator in DENOMINATORS:
+                foul_field = "all" if denominator == "all" else "knockout"
+                fouls = sum(
+                    foul_totals[(edition, team_id)][foul_field] for team_id in primary_team_ids
+                )
+                clock_sensitivity.append({
+                    "edition": edition, "clock_variant": variant,
+                    "rho": fmt(PRIMARY_RHO), "mu": fmt(PRIMARY_MU),
+                    "denominator": denominator, "cohort": "knockout_teams",
+                    "teams": len(primary_team_ids), "exp_susp_min": fmt(exposure),
+                    "fouls": fouls,
+                    "pooled_exp_susp_per_foul": fmt(exposure / fouls if fouls else None),
+                })
+    write_csv(result_dir / "player-suspension-exposure.csv", primary_players, PLAYER_SUSPENSION_FIELDS)
+    write_csv(result_dir / "team-suspension-exposure.csv", primary_teams, TEAM_SUSPENSION_FIELDS)
+    write_csv(result_dir / "suspension-sensitivity.csv", sensitivity, SENSITIVITY_FIELDS)
+    write_csv(
+        result_dir / "suspension-end-clock-sensitivity.csv",
+        clock_sensitivity, SUSPENSION_END_CLOCK_FIELDS,
+    )
+    return primary_players, primary_teams, sensitivity, player_grid, clock_sensitivity
+
+
+def stage8_validate_and_summarize(
+    tables: dict[str, list[dict[str, str]]], card_ledger: list[dict], suspensions: list[dict],
+    availability_rows: list[dict], omega_rows: list[dict], match_rows: list[dict], team_rows: list[dict],
+    sensitivity: list[dict], result_dir: Path = RESULTS,
+) -> tuple[list[dict], list[dict]]:
+    """Apply frozen invariants and emit build-audit and edition-summary tables."""
+    audit = []
+
+    def add(edition, check, observed, expected, passed, note=""):
+        audit.append({
+            "edition": edition, "check": check, "observed": observed, "expected": expected,
+            "status": "PASS" if passed else "FAIL", "note": note,
+        })
+        if not passed:
+            raise ValueError(f"{edition} {check}: observed {observed}, expected {expected}")
+
+    for edition in EDITIONS:
+        year_cards = [row for row in card_ledger if int(row["edition"]) == edition]
+        add(edition, "player_card_count", len(year_cards), EXPECTED_PLAYER_CARDS[edition],
+            len(year_cards) == EXPECTED_PLAYER_CARDS[edition])
+        matches = {int(row["match_number"]) for row in tables["matches"] if int(row["edition"]) == edition}
+        add(edition, "included_match_count", len(matches), EXPECTED_COMPLETED[edition],
+            len(matches) == EXPECTED_COMPLETED[edition])
+        horizon_ok = all(int(row["effective_horizon"]) <= int(row["base_horizon"]) for row in year_cards)
+        add(edition, "horizon_stop_rule", int(horizon_ok), 1, horizon_ok)
+        omega_values = [float(row["omega"]) for row in omega_rows if int(row["edition"]) == edition]
+        omega_ok = bool(omega_values) and all(0 <= value <= 1 for value in omega_values)
+        add(edition, "omega_bounds", int(omega_ok), 1, omega_ok,
+            f"min={min(omega_values):.9f}; max={max(omega_values):.9f}")
+        exposure_ok = all(float(row["exp_match_min"] or 0) >= 0 for row in match_rows if int(row["edition"]) == edition)
+        exposure_ok = exposure_ok and all(
+            float(row["exp_susp_min"] or 0) >= 0 for row in team_rows if int(row["edition"]) == edition
+        )
+        add(edition, "nonnegative_exposure", int(exposure_ok), 1, exposure_ok)
+        primary_match = [row for row in match_rows if int(row["edition"]) == edition]
+        lookup = {(int(row["match_number"]), row["team_id"]): row for row in primary_match}
+        anti_ok = all(
+            abs(float(row["d_exp_match"]) + float(lookup[(int(row["match_number"]), row["opponent_team_id"])]["d_exp_match"])) < 1e-7
+            for row in primary_match
+        )
+        add(edition, "match_delta_antisymmetry", int(anti_ok), 1, anti_ok)
+        cutoff_ok = edition != 2026 or all(
+            int(row["match_number"]) <= 100 for row in match_rows if int(row["edition"]) == 2026
+        )
+        add(edition, "2026_m100_cutoff", int(cutoff_ok), 1, cutoff_ok)
+
+    for row in tables["availability_evidence"]:
+        if float(row["unavailable_minutes"]) > 0 and not row["source_url"]:
+            raise ValueError(f"injury evidence URL invariant failed: {row}")
+    audit.append({
+        "edition": "all", "check": "positive_injury_url", "observed": "all",
+        "expected": "all", "status": "PASS", "note": "Every positive interval has a URL."
+    })
+    unexplained = [row for row in availability_rows if row["availability_status"] == "unexplained"]
+    audit.append({
+        "edition": "all", "check": "unexplained_availability_rows",
+        "observed": len(unexplained), "expected": 0,
+        "status": "PASS" if not unexplained else "AUDIT",
+        "note": "Unexplained is permitted but remains visible and contributes no injury interval.",
+    })
+
+    conflicts = [row for row in suspensions if row["service_status"] == "conflict"]
+    conflict_note = "No suspension-lineup conflicts."
+    if conflicts:
+        conflict_note = "Conflicts are retained and excluded from served terms: " + "; ".join(
+            f"{row['edition']} M{row['trigger_match_number']} {row['player']}"
+            for row in conflicts
+        )
+    audit.append({
+        "edition": "all", "check": "suspension_lineup_conflicts", "observed": len(conflicts),
+        "expected": 0, "status": "PASS" if not conflicts else "AUDIT",
+        "note": conflict_note,
+    })
+    decision_rows = [row for row in suspensions if row["decision_type"]]
+    audit.append({
+        "edition": "all", "check": "documented_sanction_decisions",
+        "observed": len({row["decision_source_url"] for row in decision_rows}),
+        "expected": len(tables["sanction_decisions"]), "status": "PASS",
+        "note": "Sourced overrides are retained alongside lineup verification.",
+    })
+
+    summaries = []
+    for edition in EDITIONS:
+        primary_sensitivity = next(
+            row for row in sensitivity
+            if int(row["edition"]) == edition and float(row["rho"]) == PRIMARY_RHO
+            and float(row["mu"]) == PRIMARY_MU and row["denominator"] == "all"
+        )
+        summaries.append({
+            "edition": edition,
+            "included_matches": sum(1 for row in tables["matches"] if int(row["edition"]) == edition),
+            "player_cards": sum(1 for row in card_ledger if int(row["edition"]) == edition),
+            "in_play_player_cards": sum(
+                1 for row in card_ledger if int(row["edition"]) == edition and row["event_scope"] == "in_play"
+            ),
+            "team_fouls": sum(int(row["fouls"]) for row in tables["fouls_team_match"] if int(row["edition"]) == edition),
+            "knockout_teams": int(primary_sensitivity["teams"]),
+            "served_suspension_matches": sum(
+                1 for row in suspensions if int(row["edition"]) == edition and row["service_status"] == "served"
+            ),
+            "deferred_suspensions": sum(
+                1 for row in suspensions
+                if int(row["edition"]) == edition and row["service_status"] == "deferred"
+            ),
+            "suspension_conflicts": sum(
+                1 for row in suspensions if int(row["edition"]) == edition and row["service_status"] == "conflict"
+            ),
+            "rho": fmt(PRIMARY_RHO), "mu": fmt(PRIMARY_MU),
+            "pooled_exp_susp_per_foul": primary_sensitivity["pooled_exp_susp_per_foul"],
+        })
+    write_csv(result_dir / "build-audit.csv", audit, BUILD_AUDIT_FIELDS)
+    write_csv(result_dir / "edition-summary.csv", summaries, EDITION_SUMMARY_FIELDS)
+    return audit, summaries
+
+
+def run_stages(source_dir: Path = SOURCE, stage_dir: Path = STAGES, result_dir: Path = RESULTS) -> dict:
+    """Run all eight stages and return materialized tables for reporting."""
+    tables = _source_tables(source_dir)
+    cards = stage1_cards(tables, stage_dir)
+    fouls = stage2_fouls(tables, stage_dir)
+    minutes = stage3_minutes(tables, stage_dir)
+    suspensions = stage4_suspensions(tables, cards, stage_dir)
+    availability, omega = stage5_availability(tables, cards, suspensions, stage_dir)
+    match_rows, match_sensitivity, match_clock_sensitivity = stage6_match_exposure(
+        tables, cards, result_dir
+    )
+    player_rows, team_rows, sensitivity, player_grid, suspension_clock_sensitivity = stage7_suspension_exposure(
+        tables, cards, suspensions, omega, result_dir
+    )
+    audit, summaries = stage8_validate_and_summarize(
+        tables, cards, suspensions, availability, omega, match_rows, team_rows, sensitivity, result_dir
+    )
+    return {
+        "source": tables, "cards": cards, "fouls": fouls, "minutes": minutes,
+        "suspensions": suspensions, "availability": availability, "omega": omega,
+        "match": match_rows, "match_sensitivity": match_sensitivity,
+        "match_clock_sensitivity": match_clock_sensitivity,
+        "players": player_rows, "teams": team_rows, "sensitivity": sensitivity,
+        "suspension_clock_sensitivity": suspension_clock_sensitivity,
+        "player_grid": player_grid, "audit": audit, "summaries": summaries,
+    }

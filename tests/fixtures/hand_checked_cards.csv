@@ -1,0 +1,13 @@
+edition,card_id,field,expected,reason
+2014,2014-001-207809,exp_match_min_rho_2,68.93,Regulation yellow uses the archived 2014 end clock
+2014,2014-001-207822,effective_horizon,3,First accumulated caution stops at the later triggering fixture
+2014,2014-010-207983,accumulation_role,same_match_first_caution,Same-match second caution stops the first caution immediately
+2018,2018-016-17056800000070,exp_match_min_rho_2,184,Fourth-minute direct red uses rho two
+2018,2018-027-17055700001108,effective_horizon,0,Same-match second caution gives the earlier yellow no forward block
+2018,2018-053-17058100000888,accumulation_role,accumulation_trigger,Casemiro's second tournament caution triggers the observed ban
+2022,2022-057-18190900001971,event_scope,penalty_shootout,Penalty-shoot-out caution is outside match exposure
+2022,2022-057-18190900001502,event_scope,interval,Card between regulation and extra time is not an in-play event
+2022,2022-057-18190900001781,nominal_remainder_min,11,Extra-time caution uses a 120-minute nominal basis
+2026,2026-081-1246412996,exp_match_min_rho_2,74,Direct red at 64 with final whistle at 101 uses rho two
+2026,2026-004-1405225090,reset_window,group,First 2026 caution belongs to the group-only window
+2026,2026-100-2105529436,accumulation_role,same_match_first_caution,Quarter-final same-match second caution stops the first yellow

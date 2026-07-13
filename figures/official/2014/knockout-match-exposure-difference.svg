@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="636" viewBox="0 0 1120 636" role="img" aria-labelledby="title desc">
+<title id="title">2014 World Cup: knockout match exposure difference</title>
+<desc id="desc">Listed-team minus opponent match exposure; primary dismissal multiplier rho = 2.</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#162434">2014 World Cup: knockout match exposure difference</text>
+<text x="36" y="76" font-family="Arial, sans-serif" font-size="14" fill="#4e5b68">Listed-team minus opponent match exposure; primary dismissal multiplier rho = 2.</text>
+<line x1="705.00" y1="98" x2="705.00" y2="564" stroke="#687683" stroke-width="1"/>
+<text x="368" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M49 Brazil vs Chile — Brazil perspective</text>
+<rect x="672.03" y="120" width="32.97" height="17" rx="2" fill="#b65b4f"/>
+<text x="665.03" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-34</text>
+<text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M50 Colombia vs Uruguay — Colombia perspective</text>
+<rect x="666.06" y="148" width="38.94" height="17" rx="2" fill="#b65b4f"/>
+<text x="659.06" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-40.15</text>
+<text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M51 Netherlands vs Mexico — Netherlands perspective</text>
+<rect x="668.40" y="176" width="36.60" height="17" rx="2" fill="#b65b4f"/>
+<text x="661.40" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-37.74</text>
+<text x="368" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M52 Costa Rica vs Greece — Costa Rica perspective</text>
+<rect x="705.00" y="204" width="275.42" height="17" rx="2" fill="#2f718c"/>
+<text x="987.42" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">284</text>
+<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M53 France vs Nigeria — France perspective</text>
+<rect x="705.00" y="232" width="39.79" height="17" rx="2" fill="#2f718c"/>
+<text x="751.79" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">41.03</text>
+<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M54 Germany vs Algeria — Germany perspective</text>
+<rect x="641.96" y="260" width="63.04" height="17" rx="2" fill="#b65b4f"/>
+<text x="634.96" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-65</text>
+<text x="368" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M55 Argentina vs Switzerland — Argentina perspective</text>
+<rect x="609.07" y="288" width="95.93" height="17" rx="2" fill="#b65b4f"/>
+<text x="602.07" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-98.92</text>
+<text x="368" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M56 Belgium vs United States — Belgium perspective</text>
+<rect x="681.72" y="316" width="23.28" height="17" rx="2" fill="#b65b4f"/>
+<text x="674.72" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-24</text>
+<text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M57 Brazil vs Colombia — Brazil perspective</text>
+<rect x="699.18" y="344" width="5.82" height="17" rx="2" fill="#b65b4f"/>
+<text x="692.18" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-6</text>
+<text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M58 France vs Germany — France perspective</text>
+<rect x="649.53" y="372" width="55.47" height="17" rx="2" fill="#b65b4f"/>
+<text x="642.53" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-57.2</text>
+<text x="368" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M59 Netherlands vs Costa Rica — Netherlands perspective</text>
+<rect x="567.29" y="400" width="137.71" height="17" rx="2" fill="#b65b4f"/>
+<text x="560.29" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-142</text>
+<text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M60 Argentina vs Belgium — Argentina perspective</text>
+<rect x="656.43" y="428" width="48.57" height="17" rx="2" fill="#b65b4f"/>
+<text x="649.43" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-50.08</text>
+<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M61 Brazil vs Germany — Brazil perspective</text>
+<rect x="705.00" y="456" width="24.23" height="17" rx="2" fill="#2f718c"/>
+<text x="736.23" y="469" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">24.98</text>
+<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M62 Netherlands vs Argentina — Netherlands perspective</text>
+<rect x="705.00" y="484" width="20.37" height="17" rx="2" fill="#2f718c"/>
+<text x="732.37" y="497" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">21</text>
+<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M63 Brazil vs Netherlands — Brazil perspective</text>
+<rect x="705.00" y="512" width="16.76" height="17" rx="2" fill="#2f718c"/>
+<text x="728.76" y="525" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">17.28</text>
+<text x="368" y="553" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M64 Germany vs Argentina — Germany perspective</text>
+<rect x="705.00" y="540" width="64.01" height="17" rx="2" fill="#2f718c"/>
+<text x="776.01" y="553" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">66</text>
+<text x="560" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#4e5b68">Match-exposure difference in minutes (descriptive; not a causal estimate)</text>
+</svg>

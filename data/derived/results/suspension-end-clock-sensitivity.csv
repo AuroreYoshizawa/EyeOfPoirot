@@ -1,0 +1,17 @@
+edition,clock_variant,rho,mu,denominator,cohort,teams,exp_susp_min,fouls,pooled_exp_susp_per_foul
+2014,source_end,2,1.25,all,knockout_teams,16,15653.85324,1238,12.644469
+2014,source_end,2,1.25,knockout,knockout_teams,16,15653.85324,550,28.461551
+2014,end_minus_one,2,1.25,all,knockout_teams,16,15648.615996,1238,12.640239
+2014,end_minus_one,2,1.25,knockout,knockout_teams,16,15648.615996,550,28.452029
+2018,source_end,2,1.25,all,knockout_teams,16,16177.774992,1056,15.319863
+2018,source_end,2,1.25,knockout,knockout_teams,16,16177.774992,440,36.76767
+2018,end_minus_one,2,1.25,all,knockout_teams,16,16175.377217,1056,15.317592
+2018,end_minus_one,2,1.25,knockout,knockout_teams,16,16175.377217,440,36.762221
+2022,source_end,2,1.25,all,knockout_teams,16,13442.214254,967,13.900945
+2022,source_end,2,1.25,knockout,knockout_teams,16,13442.214254,421,31.92925
+2022,end_minus_one,2,1.25,all,knockout_teams,16,13441.993202,967,13.900717
+2022,end_minus_one,2,1.25,knockout,knockout_teams,16,13441.993202,421,31.928725
+2026,source_end,2,1.25,all,knockout_teams,32,18709.46703,1733,10.795999
+2026,source_end,2,1.25,knockout,knockout_teams,32,18709.46703,690,27.11517
+2026,end_minus_one,2,1.25,all,knockout_teams,32,18694.118625,1733,10.787143
+2026,end_minus_one,2,1.25,knockout,knockout_teams,32,18694.118625,690,27.092926

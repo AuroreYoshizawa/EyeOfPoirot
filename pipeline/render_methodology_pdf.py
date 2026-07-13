@@ -11,7 +11,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs" / "METHODOLOGY.md"
 OUTPUT = ROOT / "output" / "pdf" / "METHODOLOGY-v0.2.pdf"
-FILTER = ROOT / "pipeline" / "pagebreak_methodology.lua"
 
 
 def main() -> int:
@@ -25,7 +24,6 @@ def main() -> int:
             str(SOURCE),
             "--from=markdown+tex_math_dollars",
             "--pdf-engine=xelatex",
-            f"--lua-filter={FILTER}",
             "--toc",
             "--metadata",
             "title=Eye of Poirot — Methodology v0.2",

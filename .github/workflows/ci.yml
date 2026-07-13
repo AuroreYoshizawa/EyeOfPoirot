@@ -1,0 +1,28 @@
+name: reproducibility
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  public-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit and property tests
+        run: python3 -m unittest discover -v
+      - name: Public one-command smoke build
+        run: python3 -m pipeline.build_all --from-derived
+      - name: Generated artifacts are deterministic
+        run: >-
+          git diff --exit-code --
+          data/derived/stages data/derived/results figures/official
+          docs/RESULTS.md data/sources/injury-evidence.md
+      - name: Raw and secret scan
+        run: python3 -m pipeline.check_public

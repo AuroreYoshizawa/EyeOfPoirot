@@ -45,9 +45,14 @@ $c$:
 | $I_p$ | nominal minutes unavailable through a documented injury or illness |
 
 The normalized data model consists of match, card, team-match foul, player-
-match participation, suspension, availability, and evidence tables. Player
+match participation, disciplinary-decision, suspension, availability, and
+evidence tables. Player
 and team identifiers are retained whenever a source exposes them; normalized
 names are display fields, not join keys where an identifier exists.
+
+FIFA period codes distinguish cards shown during play (`3`, `5`, `7`, `9`),
+an interval (`0`), post-play administration (`10`), and a penalty shoot-out
+(`11`). All remain in the card census. Only the in-play class enters $E_m$.
 
 ### 1.2 Source hierarchy
 
@@ -64,6 +69,19 @@ For 2014 only, $T_{end,m}$ is reconstructed from archived FotMob
 is not used because it includes the shoot-out; $T_{end,m}$ is 120 plus the
 announced second-extra-time added time. If that announcement is absent, 120
 is retained as an explicit lower bound rather than imputed.
+
+Complete 2014 team-match foul totals are taken from archived HuffPost World
+Cup match-statistics pages, which credit Opta as data provider. FotMob has a
+usable foul statistic for 19 of the 64 matches and is retained as an
+independent cross-check: 13 match-level home/away pairs agree exactly and six
+differ by one foul for one team. The complete HuffPost/Opta layer is used in
+the published denominator; layers are never averaged or silently merged.
+
+Player participation for all four editions is reconstructed from archived
+FIFA live match-centre payloads using FIFA player identifiers. Stoppage labels
+are reduced to the nominal clock for participation (for example, `45+4`
+maps to nominal minute 45) while their cumulative value remains in the event
+table for $E_m$.
 
 Raw responses and PDFs are held in the private, gitignored archive. Public
 derived tables carry source URLs, extraction notes, and the snapshot manifest
@@ -83,6 +101,7 @@ metric and is separately flagged.
 - [FIFA Council: 2026 regulations amendment](https://inside.fifa.com/organisation/fifa-council/news/council-update-regulations-world-cup-2026)
 - [FIFA: Russia 2018 disciplinary reminder](https://inside.fifa.com/tournaments/mens/worldcup/2018russia/news/a-disciplinary-reminder-for-russia-2018)
 - [FIFA: Qatar 2022 suspension explanation](https://www.fifa.com/en/articles/ten-queries-about-qatar-2022-world-cup)
+- [HuffPost 2014 World Cup statistics, data credited to Opta](https://data.huffingtonpost.com/2014/world-cup/statistics)
 - FIFA calendar and timeline endpoints are recorded per row in the raw
   manifest and public derived tables.
 - FotMob 2014 fallback endpoint pattern:
@@ -204,6 +223,12 @@ The primary served-suspension multiplier is $\mu=1.25$, with sensitivity
 $\mu\in\{1,1.25,1.5\}$. Suspension terms are included only when the loss is
 observed within the edition cutoff. Pending sanctions after the team's final
 observed match are recorded but do not create fictitious served minutes.
+An automatic sanction is initially mapped to the next team match. A sourced
+disciplinary decision may enumerate additional service matches, carry a ban
+into the tournament, or defer execution. Only the enumerated matches enter
+$D_p+A_p$, and every claimed served match must also be confirmed by the
+official lineup. A deferred decision is published as `deferred` and creates no
+served term.
 
 ### 3.5 Player opportunity weight $\omega$
 
@@ -250,13 +275,20 @@ coding for the primary build.
 
 1. Participation and bench status come from official line-ups or the best
    archived match record.
-2. Suspensions are derived from the chronological card ledger and checked
-   against the next official line-up.
+2. Automatic suspensions are derived from the chronological card ledger;
+   sourced disciplinary decisions may extend, carry in, or defer them. Every
+   claimed service match is checked against its official line-up.
 3. Injury/illness requires explicit evidence. A commentary phrase such as
    "replaced because of an injury" may establish the in-match remainder; a
    whole-match absence requires an independent team or media report.
 4. If evidence cannot distinguish tactical non-selection from injury, status
    is `unexplained` and injury minutes are zero.
+
+If a rule-derived suspension trigger conflicts with the next official lineup,
+both observations are published with status `conflict`; the event remains in
+the card ledger, but no served-suspension term or unavailable interval is
+inferred. This implements the requirement that $D_p$ and $A_p$ count only
+losses observed as served.
 
 Each positive injury row contains `player`, `match`, `status`, interval,
 `source_url`, evidence tier, and a short quotation-free paraphrase. The
@@ -273,6 +305,12 @@ $$
 crossed with all-tournament versus knockout-only foul denominators. The
 primary setting is $(\rho,\mu)=(2,1.25)$ with all-tournament fouls.
 
+A boundary sensitivity replaces $T_{end,m}$ by $T_{end,m}-1$ only in the two
+components that use the observed final-whistle clock: $x_m(c;\rho)$ and the
+dismissal term in $X_s$. Nominal caution remainders $r(c)$ and served-match
+blocks are unchanged. This checks inclusive-versus-exclusive end-minute
+coding and is not a second primary specification.
+
 Required invariants:
 
 - player-card census: 2014 = 194, 2018 = 224, 2022 = 228, 2026 M1–M100 = 270;
@@ -282,11 +320,15 @@ Required invariants:
 - two match perspectives satisfy $\Delta E_m(i,m)=-\Delta E_m(o,m)$, and
   likewise for $\Delta e_m$ when defined;
 - every positive injury interval has a non-empty source URL;
+- sourced disciplinary decisions retain their decision URL and lineup check;
 - 2026 inputs and outputs contain no event from M101–M104.
 
 Hand-checked fixtures cover regulation stoppage, extra time, shoot-outs,
 direct red, same-match second caution, cross-match accumulation, a reset, and
 an injury-adjusted opportunity denominator in every edition where applicable.
+Four matches—one per edition—also have an independent ESPN/Opta match-page
+check; source-display differences remain visible as `AUDIT`, not forced
+agreements.
 
 ## 6. Frozen disclosure and amendments
 
