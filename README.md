@@ -3,6 +3,8 @@
 **Sanction-exposure metrics for FIFA World Cup disciplinary records,
 2014–2026.**
 
+[![reproducibility](https://github.com/AuroreYoshizawa/EyeOfPoirot/actions/workflows/ci.yml/badge.svg)](https://github.com/AuroreYoshizawa/EyeOfPoirot/actions/workflows/ci.yml)
+
 [中文说明 → README.zh-CN.md](README.zh-CN.md)
 
 > **Frozen scope (2026-07-13).** The analysis covers the complete 2014, 2018,
@@ -99,8 +101,8 @@ the 19 available FotMob matches are retained as an independent cross-check.
   manifest: prepared and checked locally.
 - Public OSF Open-Ended Registration DOI: **pending manual user approval**.
 - Four-year embargoed OSF snapshot DOI: **pending manual user approval**.
-- GitHub Actions workflow: prepared locally; public repository/release remains
-  a user-authorized publication step.
+- Public GitHub repository and reproducibility workflow:
+  [AuroreYoshizawa/EyeOfPoirot](https://github.com/AuroreYoshizawa/EyeOfPoirot).
 
 The exact project name, upload split, and manual steps are recorded in
 [`docs/REGISTRATION.md`](docs/REGISTRATION.md). Registration actions that

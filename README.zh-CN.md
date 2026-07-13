@@ -2,6 +2,8 @@
 
 **FIFA 世界杯纪律记录的制裁暴露（sanction exposure）指标，2014–2026。**
 
+[![reproducibility](https://github.com/AuroreYoshizawa/EyeOfPoirot/actions/workflows/ci.yml/badge.svg)](https://github.com/AuroreYoshizawa/EyeOfPoirot/actions/workflows/ci.yml)
+
 [English version → README.md](README.md)
 
 > **冻结范围（2026-07-13）。** 纳入 2014、2018、2022 三届完整赛事，以及
@@ -85,7 +87,8 @@ FotMob 中可用的 19 场作为独立交叉核对层保留。
   已在本地准备并验收。
 - OSF 公开 Open-Ended Registration DOI：**等待用户手动确认**。
 - OSF 四年禁运完整快照 DOI：**等待用户手动确认**。
-- GitHub Actions 工作流：已在本地准备；创建公开仓库与发布仍需用户授权。
+- GitHub 公开仓库与复现工作流：
+  [AuroreYoshizawa/EyeOfPoirot](https://github.com/AuroreYoshizawa/EyeOfPoirot)。
 
 项目名、上传分层与必须手动完成的步骤见
 [`docs/REGISTRATION.md`](docs/REGISTRATION.md)。需要账户确认的操作不会自动执行。

@@ -14,7 +14,7 @@ This file distinguishes frozen decisions from implementation status.
 | CI / fresh-clone check | complete locally | tests, public rebuild, raw/secret scan pass without `data/raw/` |
 | OSF registration | manual user step | public registration DOI recorded |
 | OSF embargoed snapshot | manual user step | embargo DOI recorded; view-only link tested |
-| GitHub public release | user-authorized publication step | workflow prepared; remote repository not created automatically |
+| GitHub public release | complete | public repository published; reproducibility workflow enabled |
 
 ## Resolved disciplinary-decision cases
 
