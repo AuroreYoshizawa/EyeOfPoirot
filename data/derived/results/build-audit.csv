@@ -6,6 +6,7 @@ edition,check,observed,expected,status,note
 2014,nonnegative_exposure,1,1,PASS,
 2014,match_delta_antisymmetry,1,1,PASS,
 2014,2026_m100_cutoff,1,1,PASS,
+2014,match_rows_knockout_non_third_only,1,1,PASS,E_m rows cover knockout matches other than the third-place match.
 2018,player_card_count,224,224,PASS,
 2018,included_match_count,64,64,PASS,
 2018,horizon_stop_rule,1,1,PASS,
@@ -13,6 +14,7 @@ edition,check,observed,expected,status,note
 2018,nonnegative_exposure,1,1,PASS,
 2018,match_delta_antisymmetry,1,1,PASS,
 2018,2026_m100_cutoff,1,1,PASS,
+2018,match_rows_knockout_non_third_only,1,1,PASS,E_m rows cover knockout matches other than the third-place match.
 2022,player_card_count,228,228,PASS,
 2022,included_match_count,64,64,PASS,
 2022,horizon_stop_rule,1,1,PASS,
@@ -20,6 +22,7 @@ edition,check,observed,expected,status,note
 2022,nonnegative_exposure,1,1,PASS,
 2022,match_delta_antisymmetry,1,1,PASS,
 2022,2026_m100_cutoff,1,1,PASS,
+2022,match_rows_knockout_non_third_only,1,1,PASS,E_m rows cover knockout matches other than the third-place match.
 2026,player_card_count,270,270,PASS,
 2026,included_match_count,100,100,PASS,
 2026,horizon_stop_rule,1,1,PASS,
@@ -27,6 +30,12 @@ edition,check,observed,expected,status,note
 2026,nonnegative_exposure,1,1,PASS,
 2026,match_delta_antisymmetry,1,1,PASS,
 2026,2026_m100_cutoff,1,1,PASS,
+2026,match_rows_knockout_non_third_only,1,1,PASS,E_m rows cover knockout matches other than the third-place match.
+all,group_service_excluded_from_x_s,33,excluded,PASS,Group-served suspensions stay in the ledger but add no μ term (§3.4).
+2014,depth_check_team_count,16,16,PASS,
+2018,depth_check_team_count,16,16,PASS,
+2022,depth_check_team_count,16,16,PASS,
+2026,depth_check_team_count,32,32,PASS,
 all,positive_injury_url,all,all,PASS,Every positive interval has a URL.
 all,unexplained_availability_rows,0,0,PASS,Unexplained is permitted but remains visible and contributes no injury interval.
 all,suspension_lineup_conflicts,0,0,PASS,No suspension-lineup conflicts.

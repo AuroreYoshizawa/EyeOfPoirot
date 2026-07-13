@@ -16,7 +16,9 @@ EDITION_RESULT_FIELDS = (
 )
 
 
-def _number(value: str | int | float) -> str:
+def _number(value: str | int | float | None) -> str:
+    if value in ("", None):
+        return ""
     return f"{float(value):.3f}".rstrip("0").rstrip(".")
 
 
@@ -51,7 +53,7 @@ def _bar_svg(
         f'viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
         f'<title id="title">{escape(title)}</title>',
         f'<desc id="desc">{escape(subtitle)}</desc>',
-        '<rect width="100%" height="100%" fill="#fbfaf7"/>',
+        f'<rect width="{width}" height="{height}" fill="#fbfaf7"/>',
         f'<text x="36" y="44" font-family="Arial, sans-serif" font-size="24" '
         f'font-weight="700" fill="#162434">{escape(title)}</text>',
         f'<text x="36" y="76" font-family="Arial, sans-serif" font-size="14" '
@@ -83,8 +85,41 @@ def _bar_svg(
     path.write_text("\n".join(parts) + "\n", encoding="utf-8")
 
 
+def _winner_match_rows(
+    build: dict, edition: int, sort_field: str = "d_exp_match"
+) -> list[dict]:
+    """Select one winner-perspective row per knockout match, high to low."""
+    if sort_field not in {"d_exp_match", "d_exp_match_per_foul"}:
+        raise ValueError(f"unsupported winner-perspective sort field: {sort_field}")
+    winners = {
+        int(row["match_number"]): row["winner_team_id"]
+        for row in build["source"]["matches"]
+        if int(row["edition"]) == edition
+        and row["stage"] not in {"group", "third_place"}
+    }
+    missing = sorted(number for number, team_id in winners.items() if not team_id)
+    if missing:
+        raise ValueError(f"{edition}: knockout matches lack winner IDs: {missing}")
+    selected = [
+        row for row in build["match"]
+        if int(row["edition"]) == edition
+        and int(row["match_number"]) in winners
+        and row["team_id"] == winners[int(row["match_number"])]
+    ]
+    if len(selected) != len(winners):
+        observed = {int(row["match_number"]) for row in selected}
+        raise ValueError(
+            f"{edition}: missing winner-perspective exposure rows for "
+            f"{sorted(set(winners) - observed)}"
+        )
+    return sorted(
+        selected,
+        key=lambda row: (-float(row[sort_field]), int(row["match_number"])),
+    )
+
+
 def generate_figures(build: dict, figure_root: Path = FIGURES) -> list[Path]:
-    """Create two official, fully spelled-out SVG figures per edition."""
+    """Create three official, fully spelled-out SVG figures per edition."""
     generated = []
     for edition in EDITIONS:
         team_rows = [
@@ -106,28 +141,49 @@ def generate_figures(build: dict, figure_root: Path = FIGURES) -> list[Path]:
         )
         generated.append(suspension_path)
 
-        match_rows = [
-            row for row in build["match"]
-            if int(row["edition"]) == edition and row["stage"] != "group"
-            and row["venue_side"] == "home"
-        ]
+        match_rows = _winner_match_rows(build, edition)
         match_delta = [
             (
-                f"M{int(row['match_number'])} {row['team']} vs {row['opponent']} — {row['team']} perspective",
+                f"M{int(row['match_number'])} {row['team']} vs {row['opponent']}",
                 float(row["d_exp_match"]),
             )
-            for row in sorted(match_rows, key=lambda row: int(row["match_number"]))
+            for row in match_rows
         ]
         match_path = figure_root / str(edition) / "knockout-match-exposure-difference.svg"
         _bar_svg(
             match_path,
-            f"{edition} World Cup: knockout match exposure difference",
-            "Listed-team minus opponent match exposure; primary dismissal multiplier rho = 2.",
+            f"{edition} World Cup: winner-perspective knockout ΔE_m",
+            "Winner minus opponent; sorted high to low; primary dismissal multiplier rho = 2.",
             match_delta,
             zero_centered=True,
-            axis_label="Match-exposure difference in minutes (descriptive; not a causal estimate)",
+            axis_label="Winner-perspective ΔE_m in minutes (descriptive; not a causal estimate)",
         )
         generated.append(match_path)
+
+        prime_rows = _winner_match_rows(build, edition, "d_exp_match_per_foul")
+        prime_delta = [
+            (
+                f"M{int(row['match_number'])} {row['team']} vs {row['opponent']}",
+                float(row["d_exp_match_per_foul"]),
+            )
+            for row in prime_rows
+        ]
+        prime_path = (
+            figure_root / str(edition)
+            / "knockout-match-exposure-per-foul-difference.svg"
+        )
+        _bar_svg(
+            prime_path,
+            f"{edition} World Cup: winner-perspective knockout ΔE_m′",
+            "Winner E_m/fouls minus opponent E_m/fouls; sorted high to low; rho = 2.",
+            prime_delta,
+            zero_centered=True,
+            axis_label=(
+                "Winner-perspective ΔE_m′ in minutes per foul "
+                "(descriptive; not a causal estimate)"
+            ),
+        )
+        generated.append(prime_path)
     return generated
 
 
@@ -192,16 +248,9 @@ def generate_results(build: dict, path: Path = ROOT / "docs" / "RESULTS.md") -> 
     detailed_sections = []
     for edition in EDITIONS:
         summary = next(row for row in summaries if int(row["edition"]) == edition)
-        matches = sorted(
-            (
-                row for row in build["match"]
-                if int(row["edition"]) == edition and row["stage"] != "group"
-                and row["venue_side"] == "home"
-            ),
-            key=lambda row: int(row["match_number"]),
-        )
+        matches = _winner_match_rows(build, edition)
         match_table = _markdown_table(
-            ["Match", "Stage", "Listed team", "Opponent", "E_m", "Opponent E_m", "Delta E_m", "e_m", "Opponent e_m", "Delta e_m"],
+            ["Match", "Stage", "Winner", "Opponent", "E_m", "Opponent E_m", "Delta E_m", "e_m", "Opponent e_m", "Delta e_m"],
             [
                 [
                     f"M{int(row['match_number'])}", row["stage"].replace("_", " "),
@@ -212,6 +261,24 @@ def generate_results(build: dict, path: Path = ROOT / "docs" / "RESULTS.md") -> 
                     _number(row["d_exp_match_per_foul"]),
                 ]
                 for row in matches
+            ],
+        )
+        prime_matches = _winner_match_rows(
+            build, edition, "d_exp_match_per_foul"
+        )
+        prime_match_table = _markdown_table(
+            [
+                "Match", "Winner", "Opponent", "Winner E_m/fouls",
+                "Opponent E_m/fouls", "Delta E_m prime",
+            ],
+            [
+                [
+                    f"M{int(row['match_number'])}", row["team"], row["opponent"],
+                    _number(row["exp_match_per_foul"]),
+                    _number(row["opponent_exp_match_per_foul"]),
+                    _number(row["d_exp_match_per_foul"]),
+                ]
+                for row in prime_matches
             ],
         )
         teams = sorted(
@@ -244,15 +311,26 @@ clock variant it is `{_number(minus_one['pooled_exp_susp_per_foul'])}` versus
 
 ### Knockout match ledger
 
-One orientation per fixture is shown; reversing the teams reverses both
-differences exactly.
+Every fixture uses the FIFA-recorded winner's perspective and is ordered by
+`Delta E_m` from highest to lowest. Reversing the teams reverses both
+differences exactly. The third-place fixture is outside the match-exposure
+scope and is not listed.
 
 {match_table}
+
+### Winner-perspective foul-normalized match ranking
+
+`Delta E_m prime` is winner `E_m / match fouls` minus opponent
+`E_m / match fouls`. It is the same numerical quantity as the methodology's
+`Delta e_m`; the already normalized value is not divided a second time.
+
+{prime_match_table}
 
 ### Knockout-team suspension-exposure ranking
 
 Ranking is by the primary all-tournament-foul rate `e_s`. `Mean omega` is the
-mean opportunity weight among carded players for the team.
+mean opportunity weight among the team's players with positive sanction
+minutes; a blank means no player carried a positive term.
 
 {team_table}
 """)
@@ -281,7 +359,18 @@ mean opportunity weight among carded players for the team.
         f"M{row['trigger_match_number']}: {row['audit_note']}"
         for row in conflicts
     ) or "- None."
-    text = f"""# Results — methodology v0.2
+    depth_table = _markdown_table(
+        ["Edition", "Status", "Teams", "Kendall tau-b", "Permutation p", "Note"],
+        [
+            [
+                str(row["edition"]), row["edition_status"], str(row["teams"]),
+                _number(row["tau_b"]), _number(row["p_permutation"]),
+                row["note"] or "—",
+            ]
+            for row in build["depth"]
+        ],
+    )
+    text = f"""# Results — methodology v0.2.1
 
 Generated by `python3 -m pipeline.build_all --from-derived`. These are
 descriptive sanction-exposure quantities, not estimates of referee intent,
@@ -319,6 +408,22 @@ check is published in `match-end-clock-sensitivity.csv` and
 `suspension-end-clock-sensitivity.csv`; it replaces `T_end` with `T_end - 1`
 only in components that use the observed final whistle clock.
 
+## Prespecified depth check (methodology §5.1)
+
+Kendall `tau-b` between an edition's knockout-team depth (matches played,
+excluding the third-place match, so losing semi-finalists and finalists
+differ) and the primary `e_s`, with a within-edition two-sided permutation
+`p` (10,000 permutations, seed 20260713). Editions are never pooled. This is
+a descriptive check of mechanical drift with tournament depth; depth is
+partly endogenous to discipline itself, so the coefficient is not a causal
+strength estimate.
+
+{depth_table}
+
+The full table is `data/derived/results/depth-check.csv`. The prespecified
+Elo variant of this check awaits the archived pre-tournament rating table and
+is not yet computed.
+
 ## Independent match-page audit
 
 One match per edition was checked against ESPN or Opta. `AUDIT` means the
@@ -345,10 +450,20 @@ The 2026 build contains M1–M100 only.
 
 ## Official figures
 
-Each edition has two SVGs under `figures/official/<edition>/`:
+Each edition has three SVGs under `figures/official/<edition>/`:
 
 - `suspension-exposure-per-foul.svg`;
-- `knockout-match-exposure-difference.svg`.
+- `knockout-match-exposure-difference.svg`;
+- `knockout-match-exposure-per-foul-difference.svg`.
+
+The knockout `Delta E_m` figure uses the FIFA-recorded winner's perspective
+for every fixture, including matches settled by penalties, and sorts the
+winner-minus-opponent values from highest to lowest.
+
+The per-foul figure reports `Delta E_m prime`, defined as winner `E_m` divided
+by the winner's match fouls minus opponent `E_m` divided by the opponent's
+match fouls. This is numerically identical to `Delta e_m` in the frozen
+methodology and is not a second normalization.
 
 The nine earlier images remain under `figures/draft-2026-07/` and are not v0.2
 results.

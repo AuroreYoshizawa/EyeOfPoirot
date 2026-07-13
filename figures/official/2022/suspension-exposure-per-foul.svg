@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="636" viewBox="0 0 1120 636" role="img" aria-labelledby="title desc">
 <title id="title">2022 World Cup: suspension exposure per foul</title>
 <desc id="desc">Knockout-stage teams; primary rho = 2, mu = 1.25; all-tournament foul denominator.</desc>
-<rect width="100%" height="100%" fill="#fbfaf7"/>
+<rect width="1120" height="636" fill="#fbfaf7"/>
 <text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#162434">2022 World Cup: suspension exposure per foul</text>
 <text x="36" y="76" font-family="Arial, sans-serif" font-size="14" fill="#4e5b68">Knockout-stage teams; primary rho = 2, mu = 1.25; all-tournament foul denominator.</text>
 <line x1="380.00" y1="98" x2="380.00" y2="564" stroke="#687683" stroke-width="1"/>
@@ -9,49 +9,49 @@
 <rect x="380.00" y="120" width="1.00" height="17" rx="2" fill="#2f718c"/>
 <text x="387.00" y="133" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0</text>
 <text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Argentina</text>
-<rect x="380.00" y="148" width="61.20" height="17" rx="2" fill="#2f718c"/>
-<text x="448.20" y="161" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">4.304</text>
+<rect x="380.00" y="148" width="101.65" height="17" rx="2" fill="#2f718c"/>
+<text x="488.65" y="161" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">4.009</text>
 <text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Brazil</text>
-<rect x="380.00" y="176" width="76.54" height="17" rx="2" fill="#2f718c"/>
-<text x="463.54" y="189" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">5.384</text>
+<rect x="380.00" y="176" width="102.72" height="17" rx="2" fill="#2f718c"/>
+<text x="489.72" y="189" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">4.051</text>
 <text x="368" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">France</text>
-<rect x="380.00" y="204" width="82.07" height="17" rx="2" fill="#2f718c"/>
-<text x="469.07" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">5.773</text>
-<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Morocco</text>
-<rect x="380.00" y="232" width="109.31" height="17" rx="2" fill="#2f718c"/>
-<text x="496.31" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.689</text>
-<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Spain</text>
-<rect x="380.00" y="260" width="118.21" height="17" rx="2" fill="#2f718c"/>
-<text x="505.21" y="273" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">8.315</text>
+<rect x="380.00" y="204" width="128.72" height="17" rx="2" fill="#2f718c"/>
+<text x="515.72" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">5.076</text>
+<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Spain</text>
+<rect x="380.00" y="232" width="139.32" height="17" rx="2" fill="#2f718c"/>
+<text x="526.32" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">5.494</text>
+<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Morocco</text>
+<rect x="380.00" y="260" width="145.07" height="17" rx="2" fill="#2f718c"/>
+<text x="532.07" y="273" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">5.721</text>
 <text x="368" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Croatia</text>
-<rect x="380.00" y="288" width="124.13" height="17" rx="2" fill="#2f718c"/>
-<text x="511.13" y="301" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">8.731</text>
+<rect x="380.00" y="288" width="192.10" height="17" rx="2" fill="#2f718c"/>
+<text x="579.10" y="301" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.575</text>
 <text x="368" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Netherlands</text>
-<rect x="380.00" y="316" width="140.58" height="17" rx="2" fill="#2f718c"/>
-<text x="527.58" y="329" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">9.888</text>
+<rect x="380.00" y="316" width="213.91" height="17" rx="2" fill="#2f718c"/>
+<text x="600.91" y="329" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">8.436</text>
 <text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Portugal</text>
-<rect x="380.00" y="344" width="277.15" height="17" rx="2" fill="#2f718c"/>
-<text x="664.15" y="357" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">19.495</text>
+<rect x="380.00" y="344" width="276.82" height="17" rx="2" fill="#2f718c"/>
+<text x="663.82" y="357" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">10.917</text>
 <text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Senegal</text>
-<rect x="380.00" y="372" width="328.22" height="17" rx="2" fill="#2f718c"/>
-<text x="715.22" y="385" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">23.087</text>
+<rect x="380.00" y="372" width="317.85" height="17" rx="2" fill="#2f718c"/>
+<text x="704.85" y="385" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">12.534</text>
 <text x="368" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Japan</text>
-<rect x="380.00" y="400" width="342.07" height="17" rx="2" fill="#2f718c"/>
-<text x="729.07" y="413" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">24.061</text>
-<text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Poland</text>
-<rect x="380.00" y="428" width="377.73" height="17" rx="2" fill="#2f718c"/>
-<text x="764.73" y="441" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">26.569</text>
-<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Korea Republic</text>
-<rect x="380.00" y="456" width="385.84" height="17" rx="2" fill="#2f718c"/>
-<text x="772.84" y="469" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">27.14</text>
-<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Switzerland</text>
-<rect x="380.00" y="484" width="397.08" height="17" rx="2" fill="#2f718c"/>
-<text x="784.08" y="497" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">27.93</text>
-<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">United States</text>
-<rect x="380.00" y="512" width="501.75" height="17" rx="2" fill="#2f718c"/>
-<text x="888.75" y="525" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">35.293</text>
+<rect x="380.00" y="400" width="392.96" height="17" rx="2" fill="#2f718c"/>
+<text x="779.96" y="413" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">15.497</text>
+<text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Korea Republic</text>
+<rect x="380.00" y="428" width="431.81" height="17" rx="2" fill="#2f718c"/>
+<text x="818.81" y="441" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">17.029</text>
+<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">United States</text>
+<rect x="380.00" y="456" width="436.93" height="17" rx="2" fill="#2f718c"/>
+<text x="823.93" y="469" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">17.231</text>
+<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Poland</text>
+<rect x="380.00" y="484" width="443.95" height="17" rx="2" fill="#2f718c"/>
+<text x="830.95" y="497" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">17.507</text>
+<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Switzerland</text>
+<rect x="380.00" y="512" width="474.87" height="17" rx="2" fill="#2f718c"/>
+<text x="861.87" y="525" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">18.727</text>
 <text x="368" y="553" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Australia</text>
 <rect x="380.00" y="540" width="570.18" height="17" rx="2" fill="#2f718c"/>
-<text x="957.18" y="553" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">40.106</text>
+<text x="957.18" y="553" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">22.485</text>
 <text x="560" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#4e5b68">Suspension-exposure minutes per foul (descriptive; not a causal estimate)</text>
 </svg>

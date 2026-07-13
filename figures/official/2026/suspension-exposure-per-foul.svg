@@ -1,105 +1,105 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1084" viewBox="0 0 1120 1084" role="img" aria-labelledby="title desc">
 <title id="title">2026 World Cup: suspension exposure per foul</title>
 <desc id="desc">Knockout-stage teams; primary rho = 2, mu = 1.25; all-tournament foul denominator.</desc>
-<rect width="100%" height="100%" fill="#fbfaf7"/>
+<rect width="1120" height="1084" fill="#fbfaf7"/>
 <text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#162434">2026 World Cup: suspension exposure per foul</text>
 <text x="36" y="76" font-family="Arial, sans-serif" font-size="14" fill="#4e5b68">Knockout-stage teams; primary rho = 2, mu = 1.25; all-tournament foul denominator.</text>
 <line x1="380.00" y1="98" x2="380.00" y2="1012" stroke="#687683" stroke-width="1"/>
-<text x="368" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Argentina</text>
-<rect x="380.00" y="120" width="50.25" height="17" rx="2" fill="#2f718c"/>
-<text x="437.25" y="133" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">2.104</text>
-<text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Norway</text>
-<rect x="380.00" y="148" width="78.48" height="17" rx="2" fill="#2f718c"/>
-<text x="465.48" y="161" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">3.286</text>
-<text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Spain</text>
-<rect x="380.00" y="176" width="88.46" height="17" rx="2" fill="#2f718c"/>
-<text x="475.46" y="189" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">3.704</text>
-<text x="368" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">France</text>
-<rect x="380.00" y="204" width="95.50" height="17" rx="2" fill="#2f718c"/>
-<text x="482.50" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">3.999</text>
-<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Senegal</text>
-<rect x="380.00" y="232" width="96.36" height="17" rx="2" fill="#2f718c"/>
-<text x="483.36" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">4.035</text>
-<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Netherlands</text>
-<rect x="380.00" y="260" width="153.49" height="17" rx="2" fill="#2f718c"/>
-<text x="540.49" y="273" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">6.427</text>
-<text x="368" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Germany</text>
-<rect x="380.00" y="288" width="158.02" height="17" rx="2" fill="#2f718c"/>
-<text x="545.02" y="301" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">6.617</text>
-<text x="368" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Mexico</text>
-<rect x="380.00" y="316" width="159.74" height="17" rx="2" fill="#2f718c"/>
-<text x="546.74" y="329" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">6.689</text>
-<text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Switzerland</text>
-<rect x="380.00" y="344" width="184.60" height="17" rx="2" fill="#2f718c"/>
-<text x="571.60" y="357" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.73</text>
-<text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Japan</text>
-<rect x="380.00" y="372" width="186.71" height="17" rx="2" fill="#2f718c"/>
-<text x="573.71" y="385" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.818</text>
-<text x="368" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Sweden</text>
-<rect x="380.00" y="400" width="188.30" height="17" rx="2" fill="#2f718c"/>
-<text x="575.30" y="413" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.885</text>
-<text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Ghana</text>
-<rect x="380.00" y="428" width="215.61" height="17" rx="2" fill="#2f718c"/>
-<text x="602.61" y="441" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">9.028</text>
-<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Ecuador</text>
-<rect x="380.00" y="456" width="224.60" height="17" rx="2" fill="#2f718c"/>
-<text x="611.60" y="469" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">9.405</text>
-<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Belgium</text>
-<rect x="380.00" y="484" width="236.92" height="17" rx="2" fill="#2f718c"/>
-<text x="623.92" y="497" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">9.921</text>
-<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Morocco</text>
-<rect x="380.00" y="512" width="238.96" height="17" rx="2" fill="#2f718c"/>
-<text x="625.96" y="525" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">10.006</text>
-<text x="368" y="553" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Croatia</text>
-<rect x="380.00" y="540" width="244.63" height="17" rx="2" fill="#2f718c"/>
-<text x="631.63" y="553" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">10.244</text>
-<text x="368" y="581" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Australia</text>
-<rect x="380.00" y="568" width="263.44" height="17" rx="2" fill="#2f718c"/>
-<text x="650.44" y="581" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">11.031</text>
-<text x="368" y="609" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">England</text>
-<rect x="380.00" y="596" width="268.72" height="17" rx="2" fill="#2f718c"/>
-<text x="655.72" y="609" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">11.252</text>
-<text x="368" y="637" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Congo DR</text>
-<rect x="380.00" y="624" width="278.24" height="17" rx="2" fill="#2f718c"/>
-<text x="665.24" y="637" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">11.651</text>
-<text x="368" y="665" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Algeria</text>
-<rect x="380.00" y="652" width="285.20" height="17" rx="2" fill="#2f718c"/>
-<text x="672.20" y="665" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">11.943</text>
-<text x="368" y="693" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Colombia</text>
-<rect x="380.00" y="680" width="299.21" height="17" rx="2" fill="#2f718c"/>
-<text x="686.21" y="693" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">12.529</text>
-<text x="368" y="721" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">USA</text>
-<rect x="380.00" y="708" width="303.84" height="17" rx="2" fill="#2f718c"/>
-<text x="690.84" y="721" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">12.723</text>
+<text x="368" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Australia</text>
+<rect x="380.00" y="120" width="1.00" height="17" rx="2" fill="#2f718c"/>
+<text x="387.00" y="133" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0</text>
+<text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Côte d&#x27;Ivoire</text>
+<rect x="380.00" y="148" width="1.00" height="17" rx="2" fill="#2f718c"/>
+<text x="387.00" y="161" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0</text>
+<text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Netherlands</text>
+<rect x="380.00" y="176" width="1.00" height="17" rx="2" fill="#2f718c"/>
+<text x="387.00" y="189" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0</text>
+<text x="368" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Sweden</text>
+<rect x="380.00" y="204" width="1.00" height="17" rx="2" fill="#2f718c"/>
+<text x="387.00" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0</text>
+<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">South Africa</text>
+<rect x="380.00" y="232" width="44.03" height="17" rx="2" fill="#2f718c"/>
+<text x="431.03" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0.811</text>
+<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Argentina</text>
+<rect x="380.00" y="260" width="45.21" height="17" rx="2" fill="#2f718c"/>
+<text x="432.21" y="273" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0.832</text>
+<text x="368" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Spain</text>
+<rect x="380.00" y="288" width="69.67" height="17" rx="2" fill="#2f718c"/>
+<text x="456.67" y="301" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">1.283</text>
+<text x="368" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Bosnia and Herzegovina</text>
+<rect x="380.00" y="316" width="87.46" height="17" rx="2" fill="#2f718c"/>
+<text x="474.46" y="329" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">1.61</text>
+<text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Norway</text>
+<rect x="380.00" y="344" width="126.71" height="17" rx="2" fill="#2f718c"/>
+<text x="513.71" y="357" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">2.333</text>
+<text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Belgium</text>
+<rect x="380.00" y="372" width="145.93" height="17" rx="2" fill="#2f718c"/>
+<text x="532.93" y="385" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">2.687</text>
+<text x="368" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Mexico</text>
+<rect x="380.00" y="400" width="150.35" height="17" rx="2" fill="#2f718c"/>
+<text x="537.35" y="413" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">2.768</text>
+<text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Senegal</text>
+<rect x="380.00" y="428" width="194.78" height="17" rx="2" fill="#2f718c"/>
+<text x="581.78" y="441" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">3.586</text>
+<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Austria</text>
+<rect x="380.00" y="456" width="199.32" height="17" rx="2" fill="#2f718c"/>
+<text x="586.32" y="469" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">3.669</text>
+<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">France</text>
+<rect x="380.00" y="484" width="213.18" height="17" rx="2" fill="#2f718c"/>
+<text x="600.18" y="497" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">3.924</text>
+<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Congo DR</text>
+<rect x="380.00" y="512" width="215.00" height="17" rx="2" fill="#2f718c"/>
+<text x="602.00" y="525" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">3.958</text>
+<text x="368" y="553" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Switzerland</text>
+<rect x="380.00" y="540" width="216.00" height="17" rx="2" fill="#2f718c"/>
+<text x="603.00" y="553" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">3.976</text>
+<text x="368" y="581" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Ghana</text>
+<rect x="380.00" y="568" width="268.36" height="17" rx="2" fill="#2f718c"/>
+<text x="655.36" y="581" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">4.94</text>
+<text x="368" y="609" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">USA</text>
+<rect x="380.00" y="596" width="278.08" height="17" rx="2" fill="#2f718c"/>
+<text x="665.08" y="609" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">5.119</text>
+<text x="368" y="637" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Germany</text>
+<rect x="380.00" y="624" width="330.14" height="17" rx="2" fill="#2f718c"/>
+<text x="717.14" y="637" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">6.078</text>
+<text x="368" y="665" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Colombia</text>
+<rect x="380.00" y="652" width="357.11" height="17" rx="2" fill="#2f718c"/>
+<text x="744.11" y="665" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">6.574</text>
+<text x="368" y="693" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Paraguay</text>
+<rect x="380.00" y="680" width="377.45" height="17" rx="2" fill="#2f718c"/>
+<text x="764.45" y="693" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">6.949</text>
+<text x="368" y="721" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Cabo Verde</text>
+<rect x="380.00" y="708" width="384.43" height="17" rx="2" fill="#2f718c"/>
+<text x="771.43" y="721" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.077</text>
 <text x="368" y="749" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Portugal</text>
-<rect x="380.00" y="736" width="305.92" height="17" rx="2" fill="#2f718c"/>
-<text x="692.92" y="749" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">12.81</text>
-<text x="368" y="777" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Austria</text>
-<rect x="380.00" y="764" width="320.08" height="17" rx="2" fill="#2f718c"/>
-<text x="707.08" y="777" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">13.403</text>
-<text x="368" y="805" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Bosnia and Herzegovina</text>
-<rect x="380.00" y="792" width="333.64" height="17" rx="2" fill="#2f718c"/>
-<text x="720.64" y="805" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">13.971</text>
-<text x="368" y="833" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Brazil</text>
-<rect x="380.00" y="820" width="369.10" height="17" rx="2" fill="#2f718c"/>
-<text x="756.10" y="833" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">15.456</text>
-<text x="368" y="861" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Canada</text>
-<rect x="380.00" y="848" width="380.04" height="17" rx="2" fill="#2f718c"/>
-<text x="767.04" y="861" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">15.914</text>
-<text x="368" y="889" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Côte d&#x27;Ivoire</text>
-<rect x="380.00" y="876" width="411.05" height="17" rx="2" fill="#2f718c"/>
-<text x="798.05" y="889" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">17.212</text>
-<text x="368" y="917" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Egypt</text>
-<rect x="380.00" y="904" width="500.15" height="17" rx="2" fill="#2f718c"/>
-<text x="887.15" y="917" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">20.943</text>
-<text x="368" y="945" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">South Africa</text>
-<rect x="380.00" y="932" width="509.11" height="17" rx="2" fill="#2f718c"/>
-<text x="896.11" y="945" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">21.318</text>
-<text x="368" y="973" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Paraguay</text>
-<rect x="380.00" y="960" width="559.32" height="17" rx="2" fill="#2f718c"/>
-<text x="946.32" y="973" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">23.421</text>
-<text x="368" y="1001" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Cabo Verde</text>
+<rect x="380.00" y="736" width="391.86" height="17" rx="2" fill="#2f718c"/>
+<text x="778.86" y="749" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.214</text>
+<text x="368" y="777" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Ecuador</text>
+<rect x="380.00" y="764" width="396.96" height="17" rx="2" fill="#2f718c"/>
+<text x="783.96" y="777" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.308</text>
+<text x="368" y="805" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Japan</text>
+<rect x="380.00" y="792" width="416.46" height="17" rx="2" fill="#2f718c"/>
+<text x="803.46" y="805" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.667</text>
+<text x="368" y="833" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Canada</text>
+<rect x="380.00" y="820" width="424.18" height="17" rx="2" fill="#2f718c"/>
+<text x="811.18" y="833" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">7.809</text>
+<text x="368" y="861" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Morocco</text>
+<rect x="380.00" y="848" width="435.88" height="17" rx="2" fill="#2f718c"/>
+<text x="822.88" y="861" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">8.024</text>
+<text x="368" y="889" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Croatia</text>
+<rect x="380.00" y="876" width="456.25" height="17" rx="2" fill="#2f718c"/>
+<text x="843.25" y="889" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">8.399</text>
+<text x="368" y="917" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Brazil</text>
+<rect x="380.00" y="904" width="457.68" height="17" rx="2" fill="#2f718c"/>
+<text x="844.68" y="917" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">8.426</text>
+<text x="368" y="945" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">England</text>
+<rect x="380.00" y="932" width="520.65" height="17" rx="2" fill="#2f718c"/>
+<text x="907.65" y="945" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">9.585</text>
+<text x="368" y="973" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Egypt</text>
+<rect x="380.00" y="960" width="550.35" height="17" rx="2" fill="#2f718c"/>
+<text x="937.35" y="973" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">10.132</text>
+<text x="368" y="1001" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">Algeria</text>
 <rect x="380.00" y="988" width="570.18" height="17" rx="2" fill="#2f718c"/>
-<text x="957.18" y="1001" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">23.875</text>
+<text x="957.18" y="1001" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">10.497</text>
 <text x="560" y="1054" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#4e5b68">Suspension-exposure minutes per foul (descriptive; not a causal estimate)</text>
 </svg>

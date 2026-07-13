@@ -4,13 +4,13 @@ This file distinguishes frozen decisions from implementation status.
 
 | Workstream | Status | Acceptance condition |
 |---|---|---|
-| Methodology v0.2 | frozen | Markdown and rendered PDF agree |
+| Methodology v0.2.1 | frozen (same-day pre-registration revision, before M101) | Markdown and rendered PDF agree |
 | Raw archive | complete for frozen cutoff | 64/64/64/100 timelines; 2026 excludes M101–M104 |
 | Source cross-check | complete | reused fields traced; four independent match pages checked; two display differences retained as `AUDIT` |
 | Normalized tables | complete | schemas and row-count tests pass for four editions |
 | Availability / injury evidence | complete | 56 sourced intervals; every positive interval has a URL; no unexplained absence remains |
-| Exposure and sensitivity | complete | primary setting; 72-row rho × mu × denominator grid; `T_end - 1` boundary check |
-| Results and official figures | complete | eight v0.2 SVGs generated; old images archived as drafts |
+| Exposure and sensitivity | complete | primary setting; 72-row rho × mu × denominator grid; `T_end - 1` boundary check; §5.1 depth check |
+| Results and official figures | complete | twelve v0.2.1 SVGs generated (three per edition); old images archived as drafts |
 | CI / fresh-clone check | complete locally | tests, public rebuild, raw/secret scan pass without `data/raw/` |
 | OSF registration | manual user step | public registration DOI recorded |
 | OSF embargoed snapshot | manual user step | embargo DOI recorded; view-only link tested |

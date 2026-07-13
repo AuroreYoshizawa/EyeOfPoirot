@@ -10,6 +10,7 @@ from .stages import (
     stage4_suspensions,
     stage5_availability,
     stage6_match_exposure,
+    stage7_depth_check,
     stage7_suspension_exposure,
     stage8_validate_and_summarize,
 )
@@ -53,12 +54,14 @@ def run_through(stage: int) -> dict:
             tables, cards, suspensions, omega
         )
     )
+    depth = stage7_depth_check(tables, teams)
     result.update(
         players=players,
         teams=teams,
         sensitivity=sensitivity,
         player_grid=player_grid,
         suspension_clock_sensitivity=suspension_clock_sensitivity,
+        depth=depth,
     )
     if stage == 7:
         return result
@@ -71,6 +74,7 @@ def run_through(stage: int) -> dict:
         match_rows,
         teams,
         sensitivity,
+        depth,
     )
     result.update(audit=audit, summaries=summaries)
     return result

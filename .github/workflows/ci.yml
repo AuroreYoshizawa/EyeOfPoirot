@@ -24,5 +24,10 @@ jobs:
           git diff --exit-code --
           data/derived/stages data/derived/results figures/official
           docs/RESULTS.md data/sources/injury-evidence.md
+      - name: No untracked generated artifacts
+        run: >-
+          test -z "$(git status --porcelain --
+          data/derived/stages data/derived/results figures/official
+          docs data/sources)"
       - name: Raw and secret scan
         run: python3 -m pipeline.check_public

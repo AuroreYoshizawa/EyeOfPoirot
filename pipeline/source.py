@@ -99,8 +99,9 @@ MEDICAL_SOURCE_OVERRIDES = {
 
 MATCH_FIELDS = (
     "edition", "match_number", "match_id", "date_utc", "stage", "group_name",
-    "home_team_id", "home_team", "away_team_id", "away_team", "nominal_minutes",
-    "t_end_min", "t_end_source", "source_url", "source_archive",
+    "home_team_id", "home_team", "away_team_id", "away_team", "winner_team_id",
+    "winner_team", "nominal_minutes", "t_end_min", "t_end_source", "source_url",
+    "source_archive",
 )
 CARD_FIELDS = (
     "card_id", "edition", "match_number", "match_id", "date_utc", "stage",
@@ -157,6 +158,17 @@ def _load_calendars(raw_root: Path) -> dict[int, dict[int, dict]]:
             is_group = bool(item.get("IdGroup"))
             home = item.get("Home") or {}
             away = item.get("Away") or {}
+            winner_team_id = str(item.get("Winner") or "")
+            team_names = {
+                str(home.get("IdTeam", "")): loc(home.get("TeamName")),
+                str(away.get("IdTeam", "")): loc(away.get("TeamName")),
+            }
+            if winner_team_id and winner_team_id not in team_names:
+                raise ValueError(
+                    f"{year} M{number}: winner {winner_team_id} is not a match participant"
+                )
+            if not is_group and not winner_team_id:
+                raise ValueError(f"{year} M{number}: completed knockout match lacks a winner")
             rows[number] = {
                 "edition": year,
                 "match_number": number,
@@ -169,6 +181,8 @@ def _load_calendars(raw_root: Path) -> dict[int, dict[int, dict]]:
                 "home_team": loc(home.get("TeamName")),
                 "away_team_id": str(away.get("IdTeam", "")),
                 "away_team": loc(away.get("TeamName")),
+                "winner_team_id": winner_team_id,
+                "winner_team": team_names.get(winner_team_id, ""),
             }
         if len(rows) != EXPECTED_COMPLETED[year]:
             raise ValueError(f"{year}: {len(rows)} completed/cutoff matches, expected {EXPECTED_COMPLETED[year]}")

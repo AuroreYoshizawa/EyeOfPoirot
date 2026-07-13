@@ -11,6 +11,36 @@ entries are append-only.
   `T_end` with `T_end - 1` only for match exposure and the dismissal component
   of suspension exposure. Its expected direction is weakly downward. The
   primary specification is unchanged.
+- **v0.2.1 pre-registration revision (logged 2026-07-13, before 2026 M101 and
+  before any registration was submitted).** Review against the analyst's
+  original commissioned definitions found that v0.2 had formalized four rules
+  differently from the commission; one agreed rule was missing. Five changes,
+  enumerated with expected directions in `docs/METHODOLOGY.md` §6: (1)
+  knockout-impact scope with 2014–2022 carried-in cautions replaces
+  whole-tournament pricing (down for group-carded players); (2) the
+  second-caution stop rule moves from fixture to minute granularity (down for
+  stopped intervals); (3) stoppage/extra-time cautions price the exact-clock
+  remainder (up; no zero floor); (4) semi-final and final cautions price the
+  exact-clock remainder (slightly up); (5) the third-place match is excluded
+  at the event level while service and availability there still count (small,
+  both directions). The §5.1 per-edition depth check was prespecified in the
+  same revision before any correlation had been computed. No confirmatory
+  analysis was run under the v0.2 variants; the v0.2 rules remain in the git
+  history for audit.
+
+## Reporting amendments
+
+- **Winner-perspective match figures (logged 2026-07-13).** The official
+  knockout `ΔE_m` figures now orient every fixture to FIFA's recorded winner,
+  including shoot-out winners, and sort from highest to lowest. The
+  methodology-excluded third-place fixture is omitted. This is a presentation
+  rule only: both team perspectives remain in the result table and the
+  antisymmetry invariant is unchanged.
+- **Foul-normalized winner-perspective figures (logged 2026-07-13).** Added one
+  `ΔE_m′` figure per edition, defined as winner `E_m / match fouls` minus
+  opponent `E_m / match fouls`, sorted from highest to lowest. This is a
+  reporting alias for the existing `Δe_m` result and does not divide an already
+  normalized value again.
 
 ## Data errata
 

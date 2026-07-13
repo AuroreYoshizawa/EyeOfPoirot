@@ -14,8 +14,9 @@ Use this exact title:
 
 Create a private OSF project, then upload only:
 
-- `docs/METHODOLOGY.md`;
-- `output/pdf/METHODOLOGY-v0.2.pdf`;
+- `docs/METHODOLOGY.md` (v0.2.1);
+- `docs/AMENDMENTS.md`;
+- `output/pdf/METHODOLOGY-v0.2.1.pdf`;
 - `data/MANIFEST-sha256-2026-07-13.txt`.
 
 Create an **Open-Ended Registration** from those files, make the registration

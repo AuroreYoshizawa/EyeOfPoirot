@@ -1,57 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="636" viewBox="0 0 1120 636" role="img" aria-labelledby="title desc">
-<title id="title">2018 World Cup: knockout match exposure difference</title>
-<desc id="desc">Listed-team minus opponent match exposure; primary dismissal multiplier rho = 2.</desc>
-<rect width="100%" height="100%" fill="#fbfaf7"/>
-<text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#162434">2018 World Cup: knockout match exposure difference</text>
-<text x="36" y="76" font-family="Arial, sans-serif" font-size="14" fill="#4e5b68">Listed-team minus opponent match exposure; primary dismissal multiplier rho = 2.</text>
-<line x1="705.00" y1="98" x2="705.00" y2="564" stroke="#687683" stroke-width="1"/>
-<text x="368" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M49 Uruguay vs Portugal — Uruguay perspective</text>
-<rect x="701.26" y="120" width="3.74" height="17" rx="2" fill="#b65b4f"/>
-<text x="694.26" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-3</text>
-<text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M50 France vs Argentina — France perspective</text>
-<rect x="438.30" y="148" width="266.70" height="17" rx="2" fill="#b65b4f"/>
-<text x="431.30" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-214</text>
-<text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M51 Spain vs Russia — Spain perspective</text>
-<rect x="658.89" y="176" width="46.11" height="17" rx="2" fill="#b65b4f"/>
-<text x="651.89" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-37</text>
-<text x="368" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M52 Croatia vs Denmark — Croatia perspective</text>
-<rect x="696.28" y="204" width="8.72" height="17" rx="2" fill="#b65b4f"/>
-<text x="689.28" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-7</text>
-<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M53 Brazil vs Mexico — Brazil perspective</text>
-<rect x="661.38" y="232" width="43.62" height="17" rx="2" fill="#b65b4f"/>
-<text x="654.38" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-35</text>
-<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M54 Belgium vs Japan — Belgium perspective</text>
-<rect x="635.21" y="260" width="69.79" height="17" rx="2" fill="#b65b4f"/>
-<text x="628.21" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-56</text>
-<text x="368" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M55 Sweden vs Switzerland — Sweden perspective</text>
-<rect x="698.77" y="288" width="6.23" height="17" rx="2" fill="#b65b4f"/>
-<text x="691.77" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-5</text>
-<text x="368" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M56 Colombia vs England — Colombia perspective</text>
-<rect x="705.00" y="316" width="275.42" height="17" rx="2" fill="#2f718c"/>
-<text x="987.42" y="329" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">221</text>
-<text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M57 Uruguay vs France — Uruguay perspective</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="608" viewBox="0 0 1120 608" role="img" aria-labelledby="title desc">
+<title id="title">2018 World Cup: winner-perspective knockout ΔE_m</title>
+<desc id="desc">Winner minus opponent; sorted high to low; primary dismissal multiplier rho = 2.</desc>
+<rect width="1120" height="608" fill="#fbfaf7"/>
+<text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#162434">2018 World Cup: winner-perspective knockout ΔE_m</text>
+<text x="36" y="76" font-family="Arial, sans-serif" font-size="14" fill="#4e5b68">Winner minus opponent; sorted high to low; primary dismissal multiplier rho = 2.</text>
+<line x1="705.00" y1="98" x2="705.00" y2="536" stroke="#687683" stroke-width="1"/>
+<text x="368" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M59 Croatia vs Russia</text>
+<rect x="705.00" y="120" width="233.05" height="17" rx="2" fill="#2f718c"/>
+<text x="945.05" y="133" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">187</text>
+<text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M64 France vs Croatia</text>
+<rect x="705.00" y="148" width="150.80" height="17" rx="2" fill="#2f718c"/>
+<text x="862.80" y="161" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">121</text>
+<text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M58 Belgium vs Brazil</text>
+<rect x="705.00" y="176" width="69.79" height="17" rx="2" fill="#2f718c"/>
+<text x="781.79" y="189" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">56</text>
+<text x="368" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M51 Russia vs Spain</text>
+<rect x="705.00" y="204" width="46.11" height="17" rx="2" fill="#2f718c"/>
+<text x="758.11" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">37</text>
+<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M62 Croatia vs England</text>
+<rect x="705.00" y="232" width="43.62" height="17" rx="2" fill="#2f718c"/>
+<text x="755.62" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">35</text>
+<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M57 France vs Uruguay</text>
+<rect x="705.00" y="260" width="6.23" height="17" rx="2" fill="#2f718c"/>
+<text x="718.23" y="273" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">5</text>
+<text x="368" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M60 England vs Sweden</text>
+<rect x="702.51" y="288" width="2.49" height="17" rx="2" fill="#b65b4f"/>
+<text x="695.51" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-2</text>
+<text x="368" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M49 Uruguay vs Portugal</text>
+<rect x="701.26" y="316" width="3.74" height="17" rx="2" fill="#b65b4f"/>
+<text x="694.26" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-3</text>
+<text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M55 Sweden vs Switzerland</text>
 <rect x="698.77" y="344" width="6.23" height="17" rx="2" fill="#b65b4f"/>
 <text x="691.77" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-5</text>
-<text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M58 Brazil vs Belgium — Brazil perspective</text>
-<rect x="635.21" y="372" width="69.79" height="17" rx="2" fill="#b65b4f"/>
-<text x="628.21" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-56</text>
-<text x="368" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M59 Russia vs Croatia — Russia perspective</text>
-<rect x="471.95" y="400" width="233.05" height="17" rx="2" fill="#b65b4f"/>
-<text x="464.95" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-187</text>
-<text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M60 Sweden vs England — Sweden perspective</text>
-<rect x="705.00" y="428" width="2.49" height="17" rx="2" fill="#2f718c"/>
-<text x="714.49" y="441" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">2</text>
-<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M61 France vs Belgium — France perspective</text>
-<rect x="643.93" y="456" width="61.07" height="17" rx="2" fill="#b65b4f"/>
-<text x="636.93" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-49</text>
-<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M62 Croatia vs England — Croatia perspective</text>
-<rect x="705.00" y="484" width="43.62" height="17" rx="2" fill="#2f718c"/>
-<text x="755.62" y="497" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">35</text>
-<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M63 Belgium vs England — Belgium perspective</text>
-<rect x="633.96" y="512" width="71.04" height="17" rx="2" fill="#b65b4f"/>
-<text x="626.96" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-57</text>
-<text x="368" y="553" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M64 France vs Croatia — France perspective</text>
-<rect x="705.00" y="540" width="150.80" height="17" rx="2" fill="#2f718c"/>
-<text x="862.80" y="553" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">121</text>
-<text x="560" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#4e5b68">Match-exposure difference in minutes (descriptive; not a causal estimate)</text>
+<text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M52 Croatia vs Denmark</text>
+<rect x="696.28" y="372" width="8.72" height="17" rx="2" fill="#b65b4f"/>
+<text x="689.28" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-7</text>
+<text x="368" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M53 Brazil vs Mexico</text>
+<rect x="661.38" y="400" width="43.62" height="17" rx="2" fill="#b65b4f"/>
+<text x="654.38" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-35</text>
+<text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M61 France vs Belgium</text>
+<rect x="643.93" y="428" width="61.07" height="17" rx="2" fill="#b65b4f"/>
+<text x="636.93" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-49</text>
+<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M54 Belgium vs Japan</text>
+<rect x="635.21" y="456" width="69.79" height="17" rx="2" fill="#b65b4f"/>
+<text x="628.21" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-56</text>
+<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M50 France vs Argentina</text>
+<rect x="438.30" y="484" width="266.70" height="17" rx="2" fill="#b65b4f"/>
+<text x="431.30" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-214</text>
+<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M56 England vs Colombia</text>
+<rect x="429.58" y="512" width="275.42" height="17" rx="2" fill="#b65b4f"/>
+<text x="422.58" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-221</text>
+<text x="560" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#4e5b68">Winner-perspective ΔE_m in minutes (descriptive; not a causal estimate)</text>
 </svg>

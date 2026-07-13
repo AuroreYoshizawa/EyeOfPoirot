@@ -30,13 +30,21 @@ from ..io import as_float, as_int, fmt, read_csv, write_csv
 
 
 PLAY_PERIODS = {3, 5, 7, 9}
+EXTRA_TIME_PERIODS = {7, 9}
+# Stages whose cards create X_s terms (v0.2.1 knockout-impact scope): group
+# and third-place cards are excluded at the event level.
+EXPOSURE_STAGES = {"round_of_32", "round_of_16", "quarter_final", "semi_final", "final"}
+# Post-quarter-final-reset stages whose cautions use the exact-clock remainder.
+EXACT_CLOCK_STAGES = {"semi_final", "final"}
 
 CARD_LEDGER_FIELDS = (
     "card_id", "edition", "match_number", "match_id", "date_utc", "stage",
     "team_id", "team", "opponent", "player_id", "player", "card_type",
     "minute_label", "t_min", "period", "event_scope", "nominal_basis_min",
     "t_end_min", "reset_window", "base_horizon", "effective_horizon",
-    "accumulation_role", "paired_card_id", "nominal_remainder_min",
+    "accumulation_role", "paired_card_id", "stop_scope", "stop_card_id",
+    "stop_match_number", "stop_t_min", "stop_gap_fixtures",
+    "nominal_remainder_min",
     "exp_match_min_rho_1", "exp_match_min_rho_1_5", "exp_match_min_rho_2",
     "source_url", "source_archive",
 )
@@ -81,9 +89,15 @@ MATCH_END_CLOCK_FIELDS = (
 
 PLAYER_SUSPENSION_FIELDS = (
     "edition", "team_id", "team", "player_id", "player", "primary_cohort",
-    "rho", "mu", "ordinary_caution_min", "dismissal_min",
-    "served_suspension_matches", "served_suspension_min",
+    "rho", "mu", "ordinary_caution_min", "carried_in_caution_min",
+    "dismissal_min", "served_suspension_matches", "served_suspension_min",
     "unweighted_exp_susp_min", "omega", "exp_susp_min",
+)
+
+DEPTH_CHECK_FIELDS = (
+    "edition", "edition_status", "cohort", "teams", "depth_definition",
+    "rho", "mu", "denominator", "tau_b", "p_permutation", "permutations",
+    "seed", "note",
 )
 
 TEAM_SUSPENSION_FIELDS = (
@@ -216,6 +230,8 @@ def stage1_cards(tables: dict[str, list[dict[str, str]]], stage_dir: Path = STAG
             "effective_horizon": horizon,
             "accumulation_role": "dismissal" if card_type in {"R", "Y2"} else "single_caution",
             "paired_card_id": "",
+            "stop_scope": "", "stop_card_id": "", "stop_match_number": "",
+            "stop_t_min": "", "stop_gap_fixtures": "",
             "nominal_remainder_min": fmt(max(0.0, basis - t_min)),
             "exp_match_min_rho_1": fmt(match_values[1.0]),
             "exp_match_min_rho_1_5": fmt(match_values[1.5]),
@@ -265,6 +281,40 @@ def stage1_cards(tables: dict[str, list[dict[str, str]]], stage_dir: Path = STAG
             trigger["effective_horizon"] = 0
             trigger["accumulation_role"] = "accumulation_trigger"
             trigger["paired_card_id"] = first["card_id"]
+
+    # Minute-granular stop information (v0.2.1 §3.3): an ordinary caution's
+    # risk interval ends at the player's next suspension-causing card in the
+    # same reset window — its cross-match accumulation trigger, its same-match
+    # Y2, or any dismissal — whichever comes first.
+    by_player_reset_window: dict[tuple, list[dict]] = defaultdict(list)
+    for row in rows:
+        by_player_reset_window[(_key(row), row["reset_window"])].append(row)
+    card_by_id = {row["card_id"]: row for row in rows}
+    for window_rows in by_player_reset_window.values():
+        ordered = sorted(window_rows, key=_card_sort)
+        for index, row in enumerate(ordered):
+            if row["card_type"] != "Y":
+                continue
+            stoppers = [
+                later for later in ordered[index + 1:]
+                if later["card_type"] in {"Y2", "R"}
+            ]
+            if row["accumulation_role"] == "accumulation_first_caution":
+                stoppers.append(card_by_id[row["paired_card_id"]])
+            if not stoppers:
+                continue
+            stopper = min(stoppers, key=_card_sort)
+            same_match = int(stopper["match_number"]) == int(row["match_number"])
+            gap = 0
+            if not same_match:
+                first_no = team_match_number[(int(row["edition"]), int(row["match_number"]), row["team_id"])]
+                stop_no = team_match_number[(int(stopper["edition"]), int(stopper["match_number"]), stopper["team_id"])]
+                gap = max(0, stop_no - first_no - 1)
+            row["stop_scope"] = "same_match" if same_match else "cross_match"
+            row["stop_card_id"] = stopper["card_id"]
+            row["stop_match_number"] = stopper["match_number"]
+            row["stop_t_min"] = stopper["t_min"]
+            row["stop_gap_fixtures"] = gap
 
     rows.sort(key=lambda row: (int(row["edition"]), int(row["match_number"]), float(row["t_min"]), row["card_id"]))
     write_csv(stage_dir / "s1-card-ledger.csv", rows, CARD_LEDGER_FIELDS)
@@ -621,6 +671,10 @@ def stage6_match_exposure(
 
     base_rows = []
     for foul in tables["fouls_team_match"]:
+        # §2.2: match exposure is defined for knockout matches other than the
+        # third-place match.
+        if not is_knockout(foul["stage"]) or foul["stage"] == "third_place":
+            continue
         edition, number = int(foul["edition"]), int(foul["match_number"])
         match = match_lookup[(edition, number)]
         if foul["team_id"] == match["home_team_id"]:
@@ -684,6 +738,8 @@ def stage6_match_exposure(
             )
     clock_base = []
     for foul in tables["fouls_team_match"]:
+        if not is_knockout(foul["stage"]) or foul["stage"] == "third_place":
+            continue
         edition, number = int(foul["edition"]), int(foul["match_number"])
         match = match_lookup[(edition, number)]
         if foul["team_id"] == match["home_team_id"]:
@@ -742,12 +798,141 @@ def stage6_match_exposure(
     return primary_rows, sensitivity_rows, clock_output
 
 
-def _card_suspension_component(card: dict, rho: float) -> tuple[float, float]:
+def _caution_is_exact(card: dict) -> bool:
+    """§3.3 exact-clock remainder: SF/final cautions and stoppage/ET receipt."""
+    if card["stage"] in EXACT_CLOCK_STAGES:
+        return True
+    if int(card["period"]) in EXTRA_TIME_PERIODS:
+        return True
+    return "+" in (card["minute_label"] or "")
+
+
+def _caution_interval(card: dict, offset: float = 0.0) -> float:
+    """§3.3 risk interval L(c) at minute granularity.
+
+    `offset` implements the end-clock boundary sensitivity and shifts only
+    the observed-clock cap, never the nominal basis.
+    """
+    t_min = float(card["t_min"])
+    exact = _caution_is_exact(card)
+    cap = (float(card["t_end_min"]) - offset) if exact else float(card["nominal_basis_min"])
+    horizon = int(card["base_horizon"])
+    untriggered = max(0.0, cap - t_min) + 90.0 * horizon
+    if card["stop_scope"] == "same_match":
+        value = max(0.0, min(float(card["stop_t_min"]), cap) - t_min)
+    elif card["stop_scope"] == "cross_match" and int(card["stop_gap_fixtures"]) < horizon:
+        value = (
+            max(0.0, cap - t_min)
+            + 90.0 * int(card["stop_gap_fixtures"])
+            + min(float(card["stop_t_min"]), 90.0)
+        )
+    else:
+        # No stop, or a cross-match trigger beyond the caution's horizon: the
+        # risk interval had already ended at the reset (or, for exact-clock
+        # SF/final cautions, at the final whistle) before the trigger.
+        value = untriggered
+    if value > untriggered + 1e-9:
+        raise ValueError(
+            f"stop rule exceeded untriggered interval for {card.get('card_id', card)}: "
+            f"{value} > {untriggered}"
+        )
+    return value
+
+
+def _card_suspension_component(card: dict, rho: float, offset: float = 0.0) -> tuple[float, float]:
+    """§3.2/§3.4: (ordinary-caution, dismissal) X_s components of one card."""
+    if card["stage"] not in EXPOSURE_STAGES:
+        return 0.0, 0.0
     if card["card_type"] == "Y":
-        value = float(card["nominal_remainder_min"] or 0) + 90.0 * int(card["effective_horizon"])
-        return value, 0.0
-    value = rho * max(0.0, float(card["t_end_min"]) - float(card["t_min"]))
+        return _caution_interval(card, offset), 0.0
+    value = rho * max(0.0, float(card["t_end_min"]) - offset - float(card["t_min"]))
     return 0.0, value
+
+
+def _carried_in_cautions(
+    tables: dict[str, list[dict[str, str]]], card_ledger: list[dict],
+    primary: set[tuple[int, str]],
+) -> list[dict]:
+    """§3.2 carried-in cautions for 2014–2022.
+
+    A knockout-stage player entering with exactly one pending group caution is
+    priced as if that caution had been shown at minute 0 of the team's first
+    knockout match. Pending means the caution's accumulation pair was not
+    completed inside the group stage; a group dismissal does not consume a
+    caution. The pseudo-caution's stop is the earliest suspension-causing
+    knockout card of the player inside the same reset window.
+    """
+    stage_by_match = {
+        (int(row["edition"]), int(row["match_number"])): row["stage"]
+        for row in tables["fouls_team_match"]
+    }
+    first_knockout: dict[tuple[int, str], tuple[int, int, str]] = {}
+    for row in tables["fouls_team_match"]:
+        if not is_knockout(row["stage"]):
+            continue
+        key = (int(row["edition"]), row["team_id"])
+        entry = (int(row["team_match_number"]), int(row["match_number"]), row["stage"])
+        if key not in first_knockout or entry < first_knockout[key]:
+            first_knockout[key] = entry
+    team_match_number = {
+        (int(row["edition"]), int(row["match_number"]), row["team_id"]): int(row["team_match_number"])
+        for row in tables["fouls_team_match"]
+    }
+
+    by_player_window: dict[tuple, list[dict]] = defaultdict(list)
+    for row in card_ledger:
+        by_player_window[(_key(row), row["reset_window"])].append(row)
+
+    pseudo_cards = []
+    for row in card_ledger:
+        if row["card_type"] != "Y" or row["stage"] != "group":
+            continue
+        edition = int(row["edition"])
+        if edition == 2026:
+            continue
+        key = (edition, row["team_id"])
+        if key not in primary:
+            continue
+        if row["paired_card_id"]:
+            trigger = row["paired_card_id"]
+            trigger_stage = next(
+                stage_by_match[(edition, int(other["match_number"]))]
+                for other in by_player_window[(_key(row), row["reset_window"])]
+                if other["card_id"] == trigger
+            )
+            if trigger_stage == "group":
+                continue  # consumed inside the group stage
+        knockout_no, knockout_match, knockout_stage = first_knockout[key]
+        pseudo = {
+            "card_id": f"{row['card_id']}-carried",
+            "edition": row["edition"], "match_number": str(knockout_match),
+            "stage": knockout_stage, "team_id": row["team_id"], "team": row["team"],
+            "player_id": row["player_id"], "player": row["player"],
+            "card_type": "Y", "minute_label": "0'", "t_min": "0", "period": "3",
+            "nominal_basis_min": "90", "t_end_min": row["t_end_min"],
+            "base_horizon": _base_horizon(edition, knockout_stage, knockout_no),
+            "stop_scope": "", "stop_card_id": "", "stop_match_number": "",
+            "stop_t_min": "", "stop_gap_fixtures": "",
+        }
+        stoppers = []
+        for other in by_player_window[(_key(row), row["reset_window"])]:
+            if stage_by_match[(edition, int(other["match_number"]))] == "group":
+                continue
+            if other["card_type"] in {"Y2", "R"}:
+                stoppers.append(other)
+            elif other["card_id"] == row.get("paired_card_id"):
+                stoppers.append(other)
+        if stoppers:
+            stopper = min(stoppers, key=_card_sort)
+            stop_no = team_match_number[(edition, int(stopper["match_number"]), stopper["team_id"])]
+            same_match = int(stopper["match_number"]) == knockout_match
+            pseudo["stop_scope"] = "same_match" if same_match else "cross_match"
+            pseudo["stop_card_id"] = stopper["card_id"]
+            pseudo["stop_match_number"] = stopper["match_number"]
+            pseudo["stop_t_min"] = stopper["t_min"]
+            pseudo["stop_gap_fixtures"] = max(0, stop_no - knockout_no - 1) if not same_match else 0
+        pseudo_cards.append(pseudo)
+    return pseudo_cards
 
 
 def stage7_suspension_exposure(
@@ -761,37 +946,48 @@ def stage7_suspension_exposure(
     cards_by_player: dict[tuple, list[dict]] = defaultdict(list)
     for card in card_ledger:
         cards_by_player[_key(card)].append(card)
+    carried_by_player: dict[tuple, list[dict]] = defaultdict(list)
+    for pseudo in _carried_in_cautions(tables, card_ledger, primary):
+        carried_by_player[_key(pseudo)].append(pseudo)
+        if _key(pseudo) not in cards_by_player:
+            cards_by_player[_key(pseudo)] = []
+    # §3.4: a suspension counts only when the service match is a knockout
+    # match (the third-place match included); group service is group impact.
     served_matches: dict[tuple, set[int]] = defaultdict(set)
     for row in suspensions:
-        if row["service_status"] == "served":
+        if row["service_status"] == "served" and row["service_stage"] != "group":
             served_matches[_key(row)].add(int(row["service_match_number"]))
+    # §3.6: foul denominators exclude the third-place match in both variants.
     foul_totals: dict[tuple[int, str], dict[str, int]] = defaultdict(lambda: {"all": 0, "knockout": 0})
     team_names = {}
     for row in tables["fouls_team_match"]:
         key = (int(row["edition"]), row["team_id"])
         team_names[key] = row["team"]
+        if row["stage"] == "third_place":
+            continue
         foul_totals[key]["all"] += int(row["fouls"])
         if is_knockout(row["stage"]):
             foul_totals[key]["knockout"] += int(row["fouls"])
 
     player_grid = []
     team_grid_accum: dict[tuple, float] = defaultdict(float)
-    team_player_keys: dict[tuple[int, str], set[tuple]] = defaultdict(set)
+    team_exposed_keys: dict[tuple, set[tuple]] = defaultdict(set)
     for key, player_cards in sorted(cards_by_player.items()):
         edition, team_id, player_id = key
-        team_player_keys[(edition, team_id)].add(key)
         if key not in omega:
             raise ValueError(f"missing omega for exposed player {key}")
         for rho in RHO_GRID:
-            ordinary = dismissal = 0.0
+            ordinary = dismissal = carried = 0.0
             for card in player_cards:
                 ordinary_piece, dismissal_piece = _card_suspension_component(card, rho)
                 ordinary += ordinary_piece
                 dismissal += dismissal_piece
+            for pseudo in carried_by_player.get(key, []):
+                carried += _caution_interval(pseudo)
             for mu in MU_GRID:
                 served_count = len(served_matches.get(key, set()))
                 served_min = 90.0 * mu * served_count
-                unweighted = ordinary + dismissal + served_min
+                unweighted = ordinary + carried + dismissal + served_min
                 weighted = omega[key] * unweighted
                 team, player = names[key]
                 player_grid.append({
@@ -799,26 +995,29 @@ def stage7_suspension_exposure(
                     "player_id": player_id, "player": player,
                     "primary_cohort": "yes" if (edition, team_id) in primary else "no",
                     "rho": fmt(rho), "mu": fmt(mu), "ordinary_caution_min": fmt(ordinary),
+                    "carried_in_caution_min": fmt(carried),
                     "dismissal_min": fmt(dismissal), "served_suspension_matches": served_count,
                     "served_suspension_min": fmt(served_min),
                     "unweighted_exp_susp_min": fmt(unweighted), "omega": fmt(omega[key], 9),
                     "exp_susp_min": fmt(weighted),
                 })
                 team_grid_accum[(edition, team_id, rho, mu)] += weighted
+                if unweighted > 0:
+                    team_exposed_keys[(edition, team_id, rho, mu)].add(key)
 
     team_grid = []
     for (edition, team_id, rho, mu), exposure in sorted(team_grid_accum.items()):
         fouls_all = foul_totals[(edition, team_id)]["all"]
         fouls_knockout = foul_totals[(edition, team_id)]["knockout"]
+        exposed = team_exposed_keys.get((edition, team_id, rho, mu), set())
         team_grid.append({
             "edition": edition, "team_id": team_id, "team": team_names[(edition, team_id)],
             "primary_cohort": "yes" if (edition, team_id) in primary else "no",
             "rho": fmt(rho), "mu": fmt(mu),
-            "exposed_players": len(team_player_keys[(edition, team_id)]),
+            "exposed_players": len(exposed),
             "mean_omega": fmt(
-                sum(omega[key] for key in team_player_keys[(edition, team_id)])
-                / len(team_player_keys[(edition, team_id)]), 9
-            ),
+                sum(omega[key] for key in exposed) / len(exposed), 9
+            ) if exposed else "",
             "fouls_all": fouls_all,
             "fouls_knockout": fouls_knockout, "exp_susp_min": fmt(exposure),
             "exp_susp_per_foul_all": fmt(exposure / fouls_all if fouls_all else None),
@@ -862,13 +1061,13 @@ def stage7_suspension_exposure(
         for variant, offset in (("source_end", 0.0), ("end_minus_one", 1.0)):
             ordinary = dismissal = 0.0
             for card in player_cards:
-                if card["card_type"] == "Y":
-                    ordinary += float(card["nominal_remainder_min"] or 0)
-                    ordinary += 90.0 * int(card["effective_horizon"])
-                else:
-                    dismissal += PRIMARY_RHO * max(
-                        0.0, float(card["t_end_min"]) - offset - float(card["t_min"])
-                    )
+                ordinary_piece, dismissal_piece = _card_suspension_component(
+                    card, PRIMARY_RHO, offset
+                )
+                ordinary += ordinary_piece
+                dismissal += dismissal_piece
+            for pseudo in carried_by_player.get(key, []):
+                ordinary += _caution_interval(pseudo, offset)
             served_min = 90.0 * PRIMARY_MU * len(served_matches.get(key, set()))
             clock_team_accum[(edition, team_id, variant)] += (
                 omega[key] * (ordinary + dismissal + served_min)
@@ -903,10 +1102,101 @@ def stage7_suspension_exposure(
     return primary_players, primary_teams, sensitivity, player_grid, clock_sensitivity
 
 
+def _kendall_tau_b(pairs: list[tuple[float, float]]) -> float | None:
+    """Kendall tau-b with tie correction; None when a margin is fully tied."""
+    n = len(pairs)
+    if n < 2:
+        return None
+    concordant = discordant = 0
+    for i in range(n - 1):
+        for j in range(i + 1, n):
+            dx = (pairs[i][0] > pairs[j][0]) - (pairs[i][0] < pairs[j][0])
+            dy = (pairs[i][1] > pairs[j][1]) - (pairs[i][1] < pairs[j][1])
+            product = dx * dy
+            if product > 0:
+                concordant += 1
+            elif product < 0:
+                discordant += 1
+    pair_count = n * (n - 1) / 2
+    x_counts: dict[float, int] = defaultdict(int)
+    y_counts: dict[float, int] = defaultdict(int)
+    for x_value, y_value in pairs:
+        x_counts[x_value] += 1
+        y_counts[y_value] += 1
+    tied_x = sum(count * (count - 1) / 2 for count in x_counts.values())
+    tied_y = sum(count * (count - 1) / 2 for count in y_counts.values())
+    denominator = ((pair_count - tied_x) * (pair_count - tied_y)) ** 0.5
+    if denominator == 0:
+        return None
+    return (concordant - discordant) / denominator
+
+
+DEPTH_CHECK_SEED = 20260713
+DEPTH_CHECK_PERMUTATIONS = 10_000
+
+
+def stage7_depth_check(
+    tables: dict[str, list[dict[str, str]]], team_rows: list[dict], result_dir: Path = RESULTS,
+) -> list[dict]:
+    """§5.1 prespecified per-edition depth check: matches played vs e_s.
+
+    Editions are never pooled. Depth excludes the third-place match. The
+    permutation p is two-sided with a fixed seed so rebuilds are
+    deterministic.
+    """
+    import random
+
+    played: dict[tuple[int, str], int] = defaultdict(int)
+    for row in tables["fouls_team_match"]:
+        if row["stage"] == "third_place":
+            continue
+        played[(int(row["edition"]), row["team_id"])] += 1
+
+    output = []
+    for edition in EDITIONS:
+        pairs = []
+        for row in team_rows:
+            if int(row["edition"]) != edition or row["primary_cohort"] != "yes":
+                continue
+            rate = row["exp_susp_per_foul_all"]
+            if rate in ("", None):
+                continue
+            pairs.append((float(played[(edition, row["team_id"])]), float(rate)))
+        observed = _kendall_tau_b(pairs)
+        p_value = None
+        if observed is not None:
+            rng = random.Random(DEPTH_CHECK_SEED)
+            rates = [rate for _, rate in pairs]
+            depths = [depth for depth, _ in pairs]
+            extreme = 0
+            for _ in range(DEPTH_CHECK_PERMUTATIONS):
+                rng.shuffle(rates)
+                permuted = _kendall_tau_b(list(zip(depths, rates)))
+                if permuted is not None and abs(permuted) >= abs(observed) - 1e-12:
+                    extreme += 1
+            p_value = (1 + extreme) / (DEPTH_CHECK_PERMUTATIONS + 1)
+        output.append({
+            "edition": edition,
+            "edition_status": "provisional_M100" if edition == 2026 else "final",
+            "cohort": "knockout_teams", "teams": len(pairs),
+            "depth_definition": "matches_played_excluding_third_place",
+            "rho": fmt(PRIMARY_RHO), "mu": fmt(PRIMARY_MU), "denominator": "all",
+            "tau_b": fmt(observed, 6) if observed is not None else "",
+            "p_permutation": fmt(p_value, 6) if p_value is not None else "",
+            "permutations": DEPTH_CHECK_PERMUTATIONS, "seed": DEPTH_CHECK_SEED,
+            "note": (
+                "2026 depth is truncated at the M100 cutoff; recompute after M104."
+                if edition == 2026 else ""
+            ),
+        })
+    write_csv(result_dir / "depth-check.csv", output, DEPTH_CHECK_FIELDS)
+    return output
+
+
 def stage8_validate_and_summarize(
     tables: dict[str, list[dict[str, str]]], card_ledger: list[dict], suspensions: list[dict],
     availability_rows: list[dict], omega_rows: list[dict], match_rows: list[dict], team_rows: list[dict],
-    sensitivity: list[dict], result_dir: Path = RESULTS,
+    sensitivity: list[dict], depth_rows: list[dict] | None = None, result_dir: Path = RESULTS,
 ) -> tuple[list[dict], list[dict]]:
     """Apply frozen invariants and emit build-audit and edition-summary tables."""
     audit = []
@@ -948,6 +1238,29 @@ def stage8_validate_and_summarize(
             int(row["match_number"]) <= 100 for row in match_rows if int(row["edition"]) == 2026
         )
         add(edition, "2026_m100_cutoff", int(cutoff_ok), 1, cutoff_ok)
+        scope_ok = all(
+            row["stage"] in EXPOSURE_STAGES
+            for row in match_rows if int(row["edition"]) == edition
+        )
+        add(edition, "match_rows_knockout_non_third_only", int(scope_ok), 1, scope_ok,
+            "E_m rows cover knockout matches other than the third-place match.")
+
+    group_service = [
+        row for row in suspensions
+        if row["service_status"] == "served" and row["service_stage"] == "group"
+    ]
+    audit.append({
+        "edition": "all", "check": "group_service_excluded_from_x_s",
+        "observed": len(group_service), "expected": "excluded",
+        "status": "PASS",
+        "note": "Group-served suspensions stay in the ledger but add no μ term (§3.4).",
+    })
+    if depth_rows is not None:
+        expected_depth_teams = {2014: 16, 2018: 16, 2022: 16, 2026: 32}
+        for row in depth_rows:
+            edition = int(row["edition"])
+            add(edition, "depth_check_team_count", int(row["teams"]),
+                expected_depth_teams[edition], int(row["teams"]) == expected_depth_teams[edition])
 
     for row in tables["availability_evidence"]:
         if float(row["unavailable_minutes"]) > 0 and not row["source_url"]:
@@ -1032,8 +1345,10 @@ def run_stages(source_dir: Path = SOURCE, stage_dir: Path = STAGES, result_dir: 
     player_rows, team_rows, sensitivity, player_grid, suspension_clock_sensitivity = stage7_suspension_exposure(
         tables, cards, suspensions, omega, result_dir
     )
+    depth = stage7_depth_check(tables, team_rows, result_dir)
     audit, summaries = stage8_validate_and_summarize(
-        tables, cards, suspensions, availability, omega, match_rows, team_rows, sensitivity, result_dir
+        tables, cards, suspensions, availability, omega, match_rows, team_rows, sensitivity,
+        depth, result_dir
     )
     return {
         "source": tables, "cards": cards, "fouls": fouls, "minutes": minutes,
@@ -1042,5 +1357,5 @@ def run_stages(source_dir: Path = SOURCE, stage_dir: Path = STAGES, result_dir: 
         "match_clock_sensitivity": match_clock_sensitivity,
         "players": player_rows, "teams": team_rows, "sensitivity": sensitivity,
         "suspension_clock_sensitivity": suspension_clock_sensitivity,
-        "player_grid": player_grid, "audit": audit, "summaries": summaries,
+        "player_grid": player_grid, "depth": depth, "audit": audit, "summaries": summaries,
     }

@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs" / "METHODOLOGY.md"
-OUTPUT = ROOT / "output" / "pdf" / "METHODOLOGY-v0.2.pdf"
+OUTPUT = ROOT / "output" / "pdf" / "METHODOLOGY-v0.2.1.pdf"
 
 
 def main() -> int:
@@ -26,7 +26,7 @@ def main() -> int:
             "--pdf-engine=xelatex",
             "--toc",
             "--metadata",
-            "title=Eye of Poirot — Methodology v0.2",
+            "title=Eye of Poirot — Methodology v0.2.1",
             "-V",
             "geometry:margin=0.72in",
             "-V",
