@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:1240px; background:#f9f9f7; color:#0b0b0b;
+  font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Hiragino Sans GB",sans-serif;
+  padding:28px; }
+.card { background:#fcfcfb; border:1px solid rgba(11,11,11,0.10); border-radius:12px;
+  padding:26px 30px; margin-bottom:18px; }
+.eyebrow { font-size:12px; letter-spacing:.14em; color:#898781;
+  text-transform:uppercase; margin-bottom:8px; }
+h1 { font-size:30px; font-weight:700; letter-spacing:-.01em; }
+.subtitle { font-size:15px; color:#52514e; margin-top:6px; }
+.meta { font-size:12.5px; color:#898781; margin-top:12px; line-height:1.6; }
+.badge { display:inline-block; font-size:11px; letter-spacing:.08em;
+  border:1px solid rgba(11,11,11,0.10); color:#52514e; border-radius:999px;
+  padding:3px 10px; margin-left:10px; vertical-align:2px; }
+.badge.ok { color:#52514e; }
+.tiles { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; }
+.tile { background:#fcfcfb; border:1px solid rgba(11,11,11,0.10); border-radius:12px;
+  padding:16px 18px; }
+.tlabel { font-size:11.5px; color:#52514e; line-height:1.45; min-height:32px; }
+.tvalue { font-size:30px; font-weight:600; margin-top:6px; }
+.tsub { font-size:11px; color:#898781; margin-top:5px; line-height:1.4; }
+h2 { font-size:17px; font-weight:650; }
+.chartsub { font-size:12.5px; color:#52514e; margin:5px 0 18px; line-height:1.55; }
+.key { display:inline-block; width:10px; height:10px; border-radius:2px;
+  vertical-align:-1px; margin:0 4px 0 10px; }
+.row { display:flex; align-items:center; height:26px; }
+.rlabel { flex:none; font-size:12.5px; color:#0b0b0b; text-align:right;
+  padding-right:12px; white-space:nowrap; overflow:visible; }
+.rk { color:#898781; font-size:11px; margin-left:6px; }
+.st { color:#898781; font-size:11px; }
+.vs { color:#898781; }
+.rtrack { flex:1; position:relative; height:22px;
+  border-left:1px solid #c3c2b7; }
+.rbar { position:absolute; top:2px; height:18px;
+  border-radius:0 4px 4px 0; }
+.rval { position:absolute; top:3px; font-size:11.5px; color:#52514e; }
+.dtrack { border-left:none; }
+.dmid { position:absolute; left:50%; top:-2px; bottom:-2px; width:1px;
+  background:#c3c2b7; }
+.dbar { position:absolute; top:2px; height:18px; }
+.dval { position:absolute; top:3px; font-size:11.5px; color:#52514e; }
+.axisnote { font-size:11.5px; color:#898781; margin-top:12px; }
+.foot { font-size:12px; color:#52514e; line-height:1.75; }
+.foot b { color:#0b0b0b; }
+.foot ul { margin:8px 0 12px 18px; }
+.prov { font-size:11px; color:#898781; border-top:1px solid #e1e0d9;
+  padding-top:12px; margin-top:12px; line-height:1.7; }
+</style></head><body>
+
+<div class="card">
+  <div class="eyebrow">Eye of Poirot · sanction-exposure summary · 制裁暴露摘要</div>
+  <h1>2018 FIFA World Cup <span style="color:#52514e;font-weight:500">— Russia</span><span class="badge ok">COMPLETE · 全赛事</span></h1>
+  <div class="subtitle">每张球员牌折算为"制裁暴露分钟"；停赛暴露只计对淘汰赛的影响。Methodology v0.2.1, frozen 2026-07-13 before M101.</div>
+  <div class="meta">Primary parameters ρ = 2 (dismissal), μ = 1.25 (served suspension) · denominator = all tournament fouls excluding the third-place match · third-place events excluded · descriptive only, no causal claim · 描述性统计，不构成因果或裁判意图结论</div>
+</div>
+
+<div class="tiles" style="margin-bottom:18px">
+<div class="tile">
+  <div class="tlabel">Pooled e_s per foul · 每犯规合并禁赛暴露</div>
+  <div class="tvalue">10.15</div>
+  <div class="tsub">Σ E_s ÷ Σ fouls · ρ=2, μ=1.25</div>
+</div>
+<div class="tile">
+  <div class="tlabel">Knockout teams · 淘汰赛球队</div>
+  <div class="tvalue">16</div>
+  <div class="tsub">64 matches included</div>
+</div>
+<div class="tile">
+  <div class="tlabel">Player cards · 球员牌</div>
+  <div class="tvalue">224</div>
+  <div class="tsub">224 shown in play</div>
+</div>
+<div class="tile">
+  <div class="tlabel">Served bans in knockout · 淘汰赛服刑场次</div>
+  <div class="tvalue">9</div>
+  <div class="tsub">group-stage service excluded</div>
+</div>
+<div class="tile">
+  <div class="tlabel">Depth check τ_b · 深度检查</div>
+  <div class="tvalue">-0.418</div>
+  <div class="tsub">permutation p = 0.0435 · n = 16</div>
+</div></div>
+
+<div class="card">
+  <h2>Knockout-team suspension exposure per foul (e_s) · 各队每犯规禁赛暴露</h2>
+  <div class="chartsub">ω-weighted sanction minutes ÷ all tournament fouls (excl. third place), knockout teams only, ranked. Group cards enter only as 2014–2022 carried-in cautions.</div>
+  
+<div class="row">
+  <div class="rlabel" style="width:270px"><b>Argentina</b><span class="rk">#1</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:92.000%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(92.000% + 8px)">19.88</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Japan<span class="rk">#2</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:80.358%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(80.358% + 8px)">17.37</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Mexico<span class="rk">#3</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:77.613%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(77.613% + 8px)">16.77</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Colombia<span class="rk">#4</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:68.473%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(68.473% + 8px)">14.80</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Brazil<span class="rk">#5</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:62.554%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(62.554% + 8px)">13.52</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Switzerland<span class="rk">#6</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:60.494%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(60.494% + 8px)">13.07</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Portugal<span class="rk">#7</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:57.036%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(57.036% + 8px)">12.33</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Sweden<span class="rk">#8</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:51.919%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(51.919% + 8px)">11.22</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Spain<span class="rk">#9</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:43.547%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(43.547% + 8px)">9.41</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Croatia<span class="rk">#10</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:39.949%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(39.949% + 8px)">8.63</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">France<span class="rk">#11</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:38.031%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(38.031% + 8px)">8.22</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Belgium<span class="rk">#12</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:37.690%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(37.690% + 8px)">8.15</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Denmark<span class="rk">#13</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:32.685%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(32.685% + 8px)">7.06</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">England<span class="rk">#14</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:29.401%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(29.401% + 8px)">6.35</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Russia<span class="rk">#15</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:27.628%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(27.628% + 8px)">5.97</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:270px">Uruguay<span class="rk">#16</span></div>
+  <div class="rtrack">
+    <div class="rbar" style="width:3.663%;background:#2a78d6"></div>
+    <span class="rval" style="left:calc(3.663% + 8px)">0.79</span>
+  </div>
+</div>
+  <div class="axisnote">minutes per foul · e_s = Σ_p ω_p · X_s(p) ÷ F_i</div>
+</div>
+
+<div class="card">
+  <h2>Winner-perspective in-match exposure differential (ΔE_m) · 胜者视角场内暴露差</h2>
+  <div class="chartsub">Exact-clock exposure minutes, winner minus opponent, per knockout match (third place excluded), sorted high to low.
+  <span class="key" style="background:#2a78d6"></span>winner carried more · 胜者暴露更多
+  <span class="key" style="background:#e34948"></span>opponent carried more · 负者暴露更多</div>
+  
+<div class="row">
+  <div class="rlabel" style="width:330px">M59 <span class="st">QF</span> Croatia <span class='vs'>v</span> Russia</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:38.077%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 38.077% - 8px);transform:translateX(-100%);color:#fff">187.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M64 <span class="st">Final</span> France <span class='vs'>v</span> Croatia</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:24.638%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 24.638% + 8px)">121.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M58 <span class="st">QF</span> Belgium <span class='vs'>v</span> Brazil</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:11.403%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 11.403% + 8px)">56.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M51 <span class="st">R16</span> Russia <span class='vs'>v</span> Spain</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:7.534%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 7.534% + 8px)">37.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M62 <span class="st">SF</span> Croatia <span class='vs'>v</span> England</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:7.127%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 7.127% + 8px)">35.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M57 <span class="st">QF</span> France <span class='vs'>v</span> Uruguay</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:1.018%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 1.018% + 8px)">5.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M60 <span class="st">QF</span> England <span class='vs'>v</span> Sweden</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:49.593%;width:0.407%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 0.407% + 8px)">-2.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M49 <span class="st">R16</span> Uruguay <span class='vs'>v</span> Portugal</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:49.389%;width:0.611%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 0.611% + 8px)">-3.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M55 <span class="st">R16</span> Sweden <span class='vs'>v</span> Switzerland</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:48.982%;width:1.018%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 1.018% + 8px)">-5.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M52 <span class="st">R16</span> Croatia <span class='vs'>v</span> Denmark</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:48.575%;width:1.425%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 1.425% + 8px)">-7.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M53 <span class="st">R16</span> Brazil <span class='vs'>v</span> Mexico</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:42.873%;width:7.127%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 7.127% + 8px)">-35.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M61 <span class="st">SF</span> France <span class='vs'>v</span> Belgium</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:40.023%;width:9.977%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 9.977% + 8px)">-49.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M54 <span class="st">R16</span> Belgium <span class='vs'>v</span> Japan</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:38.597%;width:11.403%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 11.403% + 8px)">-56.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M50 <span class="st">R16</span> France <span class='vs'>v</span> Argentina</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:6.425%;width:43.575%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="left:calc(50% - 43.575% + 8px);color:#fff">-214.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M56 <span class="st">R16</span> England <span class='vs'>v</span> Colombia</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:5.000%;width:45.000%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="left:calc(50% - 45.000% + 8px);color:#fff">-221.0</span>
+  </div>
+</div>
+  <div class="axisnote">ΔE_m in minutes · reversing the teams reverses the sign exactly (antisymmetric)</div>
+</div>
+
+<div class="card">
+  <h2>Winner-perspective per-foul differential (Δe_m) · 胜者视角每犯规暴露差</h2>
+  <div class="chartsub">Winner E_m/fouls minus opponent E_m/fouls — the methodology's Δe_m, winner-oriented for presentation.
+  <span class="key" style="background:#2a78d6"></span>winner higher
+  <span class="key" style="background:#e34948"></span>opponent higher</div>
+  
+<div class="row">
+  <div class="rlabel" style="width:330px">M59 <span class="st">QF</span> Croatia <span class='vs'>v</span> Russia</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:31.316%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 31.316% + 8px)">10.6</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M64 <span class="st">Final</span> France <span class='vs'>v</span> Croatia</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:25.507%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 25.507% + 8px)">8.6</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M53 <span class="st">R16</span> Brazil <span class='vs'>v</span> Mexico</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:24.147%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 24.147% + 8px)">8.2</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M58 <span class="st">QF</span> Belgium <span class='vs'>v</span> Brazil</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:9.900%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 9.900% + 8px)">3.3</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M57 <span class="st">QF</span> France <span class='vs'>v</span> Uruguay</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:2.910%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 2.910% + 8px)">1.0</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M55 <span class="st">R16</span> Sweden <span class='vs'>v</span> Switzerland</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:1.592%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 1.592% + 8px)">0.5</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M60 <span class="st">QF</span> England <span class='vs'>v</span> Sweden</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:50%;width:0.549%;background:#2a78d6;border-radius:0 4px 4px 0"></div>
+    <span class="dval" style="left:calc(50% + 0.549% + 8px)">0.2</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M49 <span class="st">R16</span> Uruguay <span class='vs'>v</span> Portugal</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:49.318%;width:0.682%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 0.682% + 8px)">-0.2</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M52 <span class="st">R16</span> Croatia <span class='vs'>v</span> Denmark</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:48.911%;width:1.089%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 1.089% + 8px)">-0.4</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M62 <span class="st">SF</span> Croatia <span class='vs'>v</span> England</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:48.632%;width:1.368%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 1.368% + 8px)">-0.5</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M61 <span class="st">SF</span> France <span class='vs'>v</span> Belgium</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:45.257%;width:4.743%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 4.743% + 8px)">-1.6</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M56 <span class="st">R16</span> England <span class='vs'>v</span> Colombia</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:33.357%;width:16.643%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 16.643% + 8px)">-5.6</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M54 <span class="st">R16</span> Belgium <span class='vs'>v</span> Japan</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:31.602%;width:18.398%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 18.398% + 8px)">-6.2</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M51 <span class="st">R16</span> Russia <span class='vs'>v</span> Spain</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:20.027%;width:29.973%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="right:calc(50% + 29.973% + 8px)">-10.1</span>
+  </div>
+</div>
+<div class="row">
+  <div class="rlabel" style="width:330px">M50 <span class="st">R16</span> France <span class='vs'>v</span> Argentina</div>
+  <div class="rtrack dtrack">
+    <div class="dmid"></div>
+    <div class="dbar" style="left:5.000%;width:45.000%;background:#e34948;border-radius:4px 0 0 4px"></div>
+    <span class="dval" style="left:calc(50% - 45.000% + 8px);color:#fff">-15.2</span>
+  </div>
+</div>
+  <div class="axisnote">Δe_m in minutes per foul</div>
+</div>
+
+<div class="card foot">
+  <b>Frozen rules in one breath · 冻结口径一览</b>
+  <ul>
+    <li>Suspension exposure prices knockout impact only: a pending 2014–2022 group caution enters as if shown at minute 0 of the first knockout match (180 at a round of 16); 2026 group cautions never carry. 停赛暴露只计淘汰赛影响。</li>
+    <li>A suspension-causing card stops the earlier caution's interval at minute granularity; service counts only in knockout matches. 分钟级停止；仅淘汰赛服刑计入 μ·90。</li>
+    <li>Stoppage/extra-time and all semi-final/final cautions price the exact clock T_end − t. 补时/加时与半决赛决赛黄牌用精确钟。</li>
+    <li>The third-place match is excluded at the event level; suspensions served there still count. 三四名决赛事件层排除。</li>
+    <li>Depth check (per edition, never pooled): Kendall τ_b = -0.418, permutation p = 0.0435 (10,000 permutations, seed 20260713), depth = matches played excl. third place. 深度为描述性混杂检查，非实力因果估计。</li>
+  </ul>
+  <div class="prov">Eye of Poirot · Methodology v0.2.1 (frozen 2026-07-13, before 2026 M101; five pre-registration revisions disclosed in AMENDMENTS.md) · repo commit 411d419 · data: FIFA event feeds; 2014 T_end via archived FotMob periods; 2014 fouls via archived HuffPost/Opta · CC BY 4.0 documentation &amp; figures, MIT code · Chen Siyuan · github.com/AuroreYoshizawa/EyeOfPoirot · OSF registration DOI pending</div>
+</div>
+
+<script>document.documentElement.dataset.h = String(document.body.scrollHeight);</script>
+</body></html>
