@@ -4,6 +4,10 @@ title: "Eye of Poirot: sanction-exposure metrics for FIFA World Cup disciplinary
 type: dataset
 version: 1.1.0
 date-released: 2026-07-13
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/3GESM
+    description: "Public OSF registration of the frozen methodology (v0.2.1, registered 2026-07-13 before 2026 M101)"
 repository-code: "https://github.com/AuroreYoshizawa/EyeOfPoirot"
 authors:
   - family-names: "Chen"

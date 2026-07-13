@@ -93,7 +93,8 @@ FotMob 中可用的 19 场作为独立交叉核对层保留。
 
 - Methodology v0.2.1、标准化表、测试、图表与 2026-07-13 SHA-256 清单：
   已在本地准备并验收。
-- OSF 公开 Open-Ended Registration DOI：**等待用户手动确认**。
+- OSF 公开 Open-Ended Registration（方法 v0.2.1，2026-07-13 于 M101 前冻结并注册）：
+  [https://doi.org/10.17605/OSF.IO/3GESM](https://doi.org/10.17605/OSF.IO/3GESM)。
 - OSF 四年禁运完整快照 DOI：**等待用户手动确认**。
 - GitHub 公开仓库与复现工作流：
   [AuroreYoshizawa/EyeOfPoirot](https://github.com/AuroreYoshizawa/EyeOfPoirot)。

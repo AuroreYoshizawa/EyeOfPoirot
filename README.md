@@ -109,7 +109,9 @@ the 19 available FotMob matches are retained as an independent cross-check.
 
 - Methodology v0.2.1, normalized tables, tests, figures, and the dated SHA-256
   manifest: prepared and checked locally.
-- Public OSF Open-Ended Registration DOI: **pending manual user approval**.
+- Public OSF Open-Ended Registration (methodology v0.2.1, frozen and
+  registered 2026-07-13 before 2026 M101):
+  [https://doi.org/10.17605/OSF.IO/3GESM](https://doi.org/10.17605/OSF.IO/3GESM).
 - Four-year embargoed OSF snapshot DOI: **pending manual user approval**.
 - Public GitHub repository and reproducibility workflow:
   [AuroreYoshizawa/EyeOfPoirot](https://github.com/AuroreYoshizawa/EyeOfPoirot).
