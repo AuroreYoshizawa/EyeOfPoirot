@@ -69,6 +69,45 @@ entries are append-only.
   novelty: four matches) and, chiefly, any 2010/2006 extension collected
   under per-edition source fallbacks to be amended before collection.
 
+- **Prespecified card-timing displacement check (logged 2026-07-14, before
+  the 2026 M101 kick-off; team-agnostic).** For every knockout team of an
+  edition: in-play player cards in knockout matches excluding the
+  third-place match, placed into eight segments (0–15, 15–30, 30–half-time
+  including first-half stoppage, 45–60, 60–75, 75–full-time including
+  second-half stoppage, ET1, ET2); card weights 1 for a caution or
+  same-match second caution and 2.5 for a direct red (tunable over
+  {2, 2.5, 3}); the team's foul-time distribution over the same segments
+  from event data (StatsBomb open data for 2018/2022; FIFA timeline Type-18
+  events for 2026, whose small per-match under-count is disclosed).
+  Primary statistic: the signed mean-segment displacement Δ of cards versus
+  fouls; secondary: the ordered W₁ distance. Calibration: within-team
+  exchangeability null (cards redrawn from the team's foul times without
+  replacement), B = 2,000, seed 20260713, two-sided Monte-Carlo p for Δ and
+  one-sided for W₁; editions are never pooled; Benjamini–Hochberg q = 0.05
+  within edition and statistic family; teams with fewer than three card
+  events are reported but non-evidentiary. Prespecified benign-channel
+  variants: (i) foul-linked cards only, using provider-native linkage where
+  it exists — name-and-minute matching failure is not evidence of absence;
+  (ii) a score-state-matched null in which cards are compared against fouls
+  drawn from the same score state (leading, level, trailing) at event time.
+  The confirmatory sample is the 2026 M101–M104 events recomputed for every
+  knockout team after the final, and any future backward extension.
+
+  *Disclosure of the 2026-07-13/14 exploration that produced this entry.*
+  Raw values included 2022 Argentina Δ = +1.34 (p = 0.005, n = 14 card
+  events) and 2026 Argentina Δ = +3.88 (p < 0.001, n = 4, provisional M100
+  data), with nine mostly 1–3-card 2026 teams passing BH on raw values.
+  The benign channels do real work: five of Argentina's fourteen 2022 cards
+  were non-foul (dissent/time-wasting class) and ten came while leading;
+  restricting to foul-linked cards attenuates 2022 Argentina to Δ = +1.11
+  (p = 0.082, n = 9) and empties the BH-survivor set except a three-card
+  2018 Switzerland; approximate not-leading strata remain late-shifted for
+  Argentina (2022 +2.55, p = 0.007, n = 4; 2026 +3.71, p = 0.001, n = 3)
+  but used a state-unmatched null on tiny samples and extra time is late
+  and level by construction. None of these values are confirmatory, and the
+  2026 foul-linkage approximation is recorded as unavailable rather than
+  zero.
+
 ## Reporting amendments
 
 - **Winner-perspective match figures (logged 2026-07-13).** The official
