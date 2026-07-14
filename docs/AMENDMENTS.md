@@ -108,6 +108,20 @@ entries are append-only.
   2026 foul-linkage approximation is recorded as unavailable rather than
   zero.
 
+- **Expanded-cohort sanction exposure — approved and frozen (2026-07-14).**
+  The full wording of `docs/AMENDMENT-DRAFT-2026-07-14.md` is adopted
+  unchanged as of this commit and is now frozen; that file is the normative
+  text for `E_s^grp`, `E_s^all`, the `lambda=0.5` secondary `E_s'`, the
+  reason-stripped variants, `e_s^md2`, and the cumulative-fouls-before-card
+  tables. Analyst decisions recorded at freeze: the stripped ledger excludes
+  only `dissent` and `time_wasting` (46 + 19 cards; `other_nonfoul` and
+  `unknown` remain); complete editions (2014/2018/2022) are computed
+  immediately, while every 2026 output before the M101–M104 ingestion is
+  labeled `provisional_M100` and the post-M104 rerun remains the
+  confirmatory one. Analyst-requested recomputations of previously
+  disclosed correlations under the stripped ledger are disclosed
+  robustness outputs, not confirmatory results.
+
 ## Reporting amendments
 
 - **Winner-perspective match figures (logged 2026-07-13).** The official
