@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import csv
 import html
+import subprocess
 import re
 import subprocess
 import sys
@@ -19,6 +20,10 @@ REPO = Path(__file__).resolve().parents[1]
 OUT = REPO / "figures" / "summary"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 WIDTH = 1240
+REPO_COMMIT = subprocess.run(
+    ["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True,
+    cwd=Path(__file__).resolve().parents[1],
+).stdout.strip() or "unknown"
 
 # Validated palette (dataviz reference instance, light mode)
 INK = "#0b0b0b"
@@ -296,7 +301,7 @@ h2 {{ font-size:17px; font-weight:650; }}
     <li>The third-place match is excluded at the event level; suspensions served there still count. 三四名决赛事件层排除。</li>
     <li>Depth check (per edition, never pooled): Kendall τ_b = {fmt(depth["tau_b"], 3)}, permutation p = {depth_p} (10,000 permutations, seed 20260713), depth = matches played excl. third place{" — provisional at the M100 cutoff" if provisional else ""}. 深度为描述性混杂检查，非实力因果估计。</li>
   </ul>
-  <div class="prov">Eye of Poirot · Methodology v0.2.1 (frozen 2026-07-13, before 2026 M101; five pre-registration revisions disclosed in AMENDMENTS.md) · repo commit 411d419 · data: FIFA event feeds; 2014 T_end via archived FotMob periods; 2014 fouls via archived HuffPost/Opta · CC BY 4.0 documentation &amp; figures, MIT code · Chen Siyuan · github.com/AuroreYoshizawa/EyeOfPoirot · OSF registration DOI pending</div>
+  <div class="prov">Eye of Poirot · Methodology v0.2.1 (frozen 2026-07-13, before 2026 M101; five pre-registration revisions and the 2026-07-14 data erratum disclosed in AMENDMENTS.md) · repo commit {REPO_COMMIT} · data: FIFA event feeds; 2014 T_end via archived FotMob periods; 2014 fouls via archived HuffPost/Opta · CC BY 4.0 documentation &amp; figures, MIT code · Chen Siyuan · github.com/AuroreYoshizawa/EyeOfPoirot · OSF registration DOI pending</div>
 </div>
 
 <script>document.documentElement.dataset.h = String(document.body.scrollHeight);</script>
