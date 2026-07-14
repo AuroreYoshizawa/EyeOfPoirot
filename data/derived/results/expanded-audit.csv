@@ -1,0 +1,56 @@
+edition,edition_status,check,observed,expected,status,note
+all,mixed,stripped_reason_filter,dissent=46;time_wasting=19;total=65,dissent=46;time_wasting=19;total=65,PASS,Only dissent and time_wasting are removed; other_nonfoul/unknown remain.
+all,mixed,stripped_card_census,851,851,PASS,The stripped ledger is rebuilt after removing exactly the frozen reason set.
+all,mixed,stripped_in_edition_suspension_triggers,0,0,PASS,No stripped served/pending term may retain an in-edition trigger card that was removed.
+all,mixed,stripped_external_carry_in_retention,['2014-external-43926-200219-service-M5'],['2014-external-43926-200219-service-M5'],PASS,Pre-tournament carry-in decisions have no in-edition trigger and remain retained.
+all,mixed,stripped_removed_trigger_terms_omitted,0,0,PASS,Full-ledger terms whose trigger was stripped: 5.
+all,mixed,stripped_omega_held_fixed,0,0,PASS,The observed full-ledger opportunity weight is reused without counterfactual lineups.
+2014,final,expanded_team_count_full,32,32,PASS,
+2014,final,expanded_ge_knockout_full,32,32,PASS,
+2014,final,expanded_edition_status_full,final,final,PASS,
+2014,final,expanded_team_count_stripped,32,32,PASS,
+2014,final,expanded_ge_knockout_stripped,32,32,PASS,
+2014,final,expanded_edition_status_stripped,final,final,PASS,
+2014,final,secondary_prime_ge_all,32,32,PASS,
+2014,final,secondary_prime_full_ledger_only,32,32,PASS,E_s prime is not recomputed under the stripped ledger.
+2018,final,expanded_team_count_full,32,32,PASS,
+2018,final,expanded_ge_knockout_full,32,32,PASS,
+2018,final,expanded_edition_status_full,final,final,PASS,
+2018,final,expanded_team_count_stripped,32,32,PASS,
+2018,final,expanded_ge_knockout_stripped,32,32,PASS,
+2018,final,expanded_edition_status_stripped,final,final,PASS,
+2018,final,secondary_prime_ge_all,32,32,PASS,
+2018,final,secondary_prime_full_ledger_only,32,32,PASS,E_s prime is not recomputed under the stripped ledger.
+2022,final,expanded_team_count_full,32,32,PASS,
+2022,final,expanded_ge_knockout_full,32,32,PASS,
+2022,final,expanded_edition_status_full,final,final,PASS,
+2022,final,expanded_team_count_stripped,32,32,PASS,
+2022,final,expanded_ge_knockout_stripped,32,32,PASS,
+2022,final,expanded_edition_status_stripped,final,final,PASS,
+2022,final,secondary_prime_ge_all,32,32,PASS,
+2022,final,secondary_prime_full_ledger_only,32,32,PASS,E_s prime is not recomputed under the stripped ledger.
+2026,provisional_M100,expanded_team_count_full,48,48,PASS,
+2026,provisional_M100,expanded_ge_knockout_full,48,48,PASS,
+2026,provisional_M100,expanded_edition_status_full,provisional_M100,provisional_M100,PASS,
+2026,provisional_M100,expanded_team_count_stripped,48,48,PASS,
+2026,provisional_M100,expanded_ge_knockout_stripped,48,48,PASS,
+2026,provisional_M100,expanded_edition_status_stripped,provisional_M100,provisional_M100,PASS,
+2026,provisional_M100,secondary_prime_ge_all,48,48,PASS,
+2026,provisional_M100,secondary_prime_full_ledger_only,48,48,PASS,E_s prime is not recomputed under the stripped ledger.
+2026,provisional_M100,all_new_outputs_provisional_m100,3800,3800,PASS,No M101-M104 input is ingested before the post-M104 confirmatory rerun.
+all,mixed,frozen_e_s_reconstruction,0,<=0.000001,PASS,Full-ledger E_s is reconstructed before group exposure is added.
+all,mixed,md2_second_round_cohort,"{2014: 8, 2018: 8, 2022: 8, 2026: 16}","{2014: 8, 2018: 8, 2022: 8, 2026: 16}",PASS,
+all,mixed,cumulative_card_exact_coverage,908,908,PASS,
+all,mixed,cumulative_team_match_exact_coverage,584,584,PASS,Zero-card team-match sides remain explicit.
+all,mixed,cumulative_public_private_schema_boundary,[],[],PASS,Provider-native identifiers/order keys exist only in the ignored private sidecar.
+2014,final,expanded_timing_source_unavailable,96,96,PASS,No 2014 timing BH family is created.
+2018,final,anchor_stripped_argentina_e_s,16.61,16.61,PASS,Independent frozen-text anchor reconciled.
+2022,final,anchor_stripped_argentina_e_s,4.20,4.20,PASS,Independent frozen-text anchor reconciled.
+2014,final,anchor_argentina_e_s_all,10.61 (17/32),10.61 (17/32),PASS,Independent frozen-text anchor reconciled.
+2018,final,anchor_argentina_e_s_all,24.84 (5/32),24.84 (5/32),PASS,Independent frozen-text anchor reconciled.
+2022,final,anchor_argentina_e_s_all,5.49 (31/32),5.49 (31/32),PASS,Independent frozen-text anchor reconciled.
+2026,provisional_M100,anchor_argentina_e_s_all,2.22 (48/48),2.22 (48/48),PASS,Independent frozen-text anchor reconciled.
+2018,final,anchor_stripped_e_s_vs_conceded,tau=+0.417;p=0.028,tau=+0.400;p~=0.034,AUDIT,"Official score rows give C=82, D=33 and five conceded-rate ties under frozen tau-b, yielding +0.417; the independent anchor remains unresolved."
+2022,final,anchor_stripped_e_s_vs_conceded,tau=+0.536;p=0.005,tau=+0.536;p~=0.005,PASS,Independent frozen-text anchor reconciled.
+2022,final,anchor_md2_lambda_1_5,top=France 5.17;Argentina=4.32 (4/8),top=France 5.17;Argentina=4.32 (4/8),PASS,Independent frozen-text anchor reconciled.
+2022,final,anchor_stripped_knockout_timing_argentina,delta=+1.10;p=0.047;n=11,delta=+1.10;p~=0.063;n=11,AUDIT,The frozen without-replacement null gives an exact tail near 0.048 and this seeded Monte Carlo estimate; a with-replacement draw is closer to 0.063 but is not the frozen null.

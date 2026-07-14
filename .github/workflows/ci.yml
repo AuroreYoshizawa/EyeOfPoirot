@@ -22,12 +22,38 @@ jobs:
       - name: Generated artifacts are deterministic
         run: >-
           git diff --exit-code --
-          data/derived/stages data/derived/results figures/official
+          data/derived/source data/derived/stages data/derived/results figures/official
           docs/RESULTS.md data/sources/injury-evidence.md
+          data/sources/card-reason-evidence.md
+      - name: Public manifest entries are complete and current
+        run: |
+          test -f data/MANIFEST-sha256-2026-07-14.txt
+          for path in \
+            data/derived/source/card_reasons.csv \
+            data/derived/source/card_reason_sb_reconciliation.csv \
+            data/derived/source/foul_event_segments.csv \
+            data/derived/source/card_event_order.csv \
+            data/derived/source/team_match_card_order.csv \
+            data/derived/source/team_outcomes.csv \
+            data/derived/stages/s9-stripped-card-ledger.csv \
+            data/derived/stages/s10-stripped-suspensions.csv \
+            data/derived/stages/s11-expanded-player-suspension-exposure.csv \
+            data/derived/results/expanded-suspension-exposure.csv \
+            data/derived/results/md2-suspension-exposure.csv \
+            data/derived/results/card-timing-displacement.csv \
+            data/derived/results/stripped-disclosed-correlations.csv \
+            data/derived/results/cumulative-fouls-before-card.csv \
+            data/derived/results/cumulative-fouls-before-first-card.csv \
+            data/derived/results/expanded-audit.csv \
+            data/sources/card-reason-evidence.md
+          do
+            grep -q "  ${path}$" data/MANIFEST-sha256-2026-07-14.txt
+          done
+          grep -v '  data/raw/' data/MANIFEST-sha256-2026-07-14.txt | sha256sum --check --strict -
       - name: No untracked generated artifacts
         run: >-
           test -z "$(git status --porcelain --
-          data/derived/stages data/derived/results figures/official
+          data/derived/source data/derived/stages data/derived/results figures/official
           docs data/sources)"
       - name: Raw and secret scan
         run: python3 -m pipeline.check_public

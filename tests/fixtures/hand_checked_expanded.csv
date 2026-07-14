@@ -1,0 +1,12 @@
+case,ledger,key,field,expected,reason
+group_card,full,2014-035-208462,l_grp,2.08,Stoppage-time group caution receives only the exact 2.08-minute remainder
+group_card,full,2014-003-207852,l_grp,71,Cross-match group stop includes the receipt remainder and the stopping-match minute
+group_card,full,2014-003-207852,stop_card_id,2014-020-208142,The next suspension-causing card is the chronological cross-match stopper
+expanded_player,full,2014|43849|200261,group_served_matches,1,Song's group-served ban belongs to the group partition
+expanded_player,full,2014|43849|200261,group_served_min,112.5,One group-served match is priced at 90 times mu 1.25
+expanded_player,full,2014|43849|200261,knockout_served_matches,0,The group-served term does not leak into frozen knockout exposure
+expanded_player,full,2014|43849|200261,exp_susp_unweighted_min,0,Song has no knockout exposure after the served-stage partition
+group_card,full,2022-008-18186400001103,l_grp,43,The full ledger stops ALMALKI's interval at the later dissent trigger
+group_card,full,2022-008-18186400001103,stop_card_id,2022-022-18186600000315,The full-ledger stopper is the dissent card removed by the amendment
+group_card,stripped,2022-008-18186400001103,l_grp,203,Removing the stopper lengthens the retained interval to the group horizon
+group_card,stripped,2022-008-18186400001103,stop_card_id,,The rebuilt stripped sequence has no later suspension-causing group card

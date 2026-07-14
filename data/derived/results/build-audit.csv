@@ -1,4 +1,11 @@
 edition,check,observed,expected,status,note
+all,card_reason_exact_coverage,908,908,PASS,Exactly one reason row is required for every in-play player card.
+all,card_reason_evidence_fields,1,1,PASS,"Classes, StatsBomb status, source tier, URL, and evidence note are validated."
+all,card_reason_statsbomb_scope,1,1,PASS,2018/2022 require reconciliation; 2014/2026 are marked not_available.
+all,card_reason_conflicts_flagged,0,0,PASS,StatsBomb disagreements and unmatched cards must be labeled AUDIT.
+2018/2022,statsbomb_card_reason_reconciliation,35,0,AUDIT,Disagreements remain visible and are not silently merged.
+all,card_reason_other_source_audits,1,0,AUDIT,Written-source conflicts remain visible and separate from StatsBomb reconciliation.
+2018/2022,statsbomb_card_reason_aggregate_reconciliation,4,4,PASS,Four aggregate conclusions reconcile the private event ledger without redistributing event-level StatsBomb data.
 2014,player_card_count,194,194,PASS,
 2014,included_match_count,64,64,PASS,
 2014,horizon_stop_rule,1,1,PASS,

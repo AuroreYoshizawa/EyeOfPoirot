@@ -1,0 +1,585 @@
+edition,edition_status,match_number,stage,team_id,team,provider,has_in_play_player_card,first_card_id,fouls_before_first_card,status,source_url
+2014,final,1,group,43924,Brazil,source_unavailable,yes,2014-001-207809,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,1,group,43938,Croatia,source_unavailable,yes,2014-001-207815,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2,group,43911,Mexico,source_unavailable,yes,2014-002-207828,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2,group,43849,Cameroon,source_unavailable,yes,2014-002-207834,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,3,group,43969,Spain,source_unavailable,yes,2014-003-207851,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,3,group,43960,Netherlands,source_unavailable,yes,2014-003-207839,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,4,group,43925,Chile,source_unavailable,yes,2014-004-207877,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,4,group,43976,Australia,source_unavailable,yes,2014-004-207864,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,5,group,43926,Colombia,source_unavailable,yes,2014-005-207888,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,5,group,43949,Greece,source_unavailable,yes,2014-005-207889,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,6,group,43854,Côte d'Ivoire,source_unavailable,yes,2014-006-207945,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,6,group,43819,Japan,source_unavailable,yes,2014-006-207942,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,7,group,43930,Uruguay,source_unavailable,yes,2014-007-207906,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,7,group,43901,Costa Rica,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,8,group,43942,England,source_unavailable,yes,2014-008-207940,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,8,group,43954,Italy,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,9,group,43971,Switzerland,source_unavailable,yes,2014-009-207971,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,9,group,43927,Ecuador,source_unavailable,yes,2014-009-207964,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,10,group,43946,France,source_unavailable,yes,2014-010-207982,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,10,group,43909,Honduras,source_unavailable,yes,2014-010-207983,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,11,group,43922,Argentina,source_unavailable,yes,2014-011-208006,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,11,group,44037,Bosnia-Herzegovina,source_unavailable,yes,2014-011-208011,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,12,group,43817,Iran,source_unavailable,yes,2014-012-208058,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,12,group,43876,Nigeria,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,13,group,43948,Germany,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,13,group,43963,Portugal,source_unavailable,yes,2014-013-208032,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,14,group,43860,Ghana,source_unavailable,yes,2014-014-208064,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,14,group,43921,United States,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,15,group,43935,Belgium,source_unavailable,yes,2014-015-208084,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,15,group,43843,Algeria,source_unavailable,yes,2014-015-208086,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,16,group,43965,Russia,source_unavailable,yes,2014-016-208119,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,16,group,43822,Korea Republic,source_unavailable,yes,2014-016-208117,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,17,group,43924,Brazil,source_unavailable,yes,2014-017-208101,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,17,group,43911,Mexico,source_unavailable,yes,2014-017-208104,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,18,group,43849,Cameroon,source_unavailable,yes,2014-018-208174,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,18,group,43938,Croatia,source_unavailable,yes,2014-018-208190,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,19,group,43969,Spain,source_unavailable,yes,2014-019-208158,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,19,group,43925,Chile,source_unavailable,yes,2014-019-208157,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,20,group,43976,Australia,source_unavailable,yes,2014-020-208139,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,20,group,43960,Netherlands,source_unavailable,yes,2014-020-208142,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,21,group,43926,Colombia,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,21,group,43854,Côte d'Ivoire,source_unavailable,yes,2014-021-208199,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,22,group,43819,Japan,source_unavailable,yes,2014-022-208231,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,22,group,43949,Greece,source_unavailable,yes,2014-022-208232,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,23,group,43930,Uruguay,source_unavailable,yes,2014-023-208214,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,23,group,43942,England,source_unavailable,yes,2014-023-208220,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,24,group,43954,Italy,source_unavailable,yes,2014-024-208258,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,24,group,43901,Costa Rica,source_unavailable,yes,2014-024-208261,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,25,group,43971,Switzerland,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,25,group,43946,France,source_unavailable,yes,2014-025-208287,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,26,group,43909,Honduras,source_unavailable,yes,2014-026-208288,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,26,group,43927,Ecuador,source_unavailable,yes,2014-026-208294,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,27,group,43922,Argentina,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,27,group,43817,Iran,source_unavailable,yes,2014-027-208317,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,28,group,43876,Nigeria,source_unavailable,yes,2014-028-208362,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,28,group,44037,Bosnia-Herzegovina,source_unavailable,yes,2014-028-208350,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,29,group,43948,Germany,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,29,group,43860,Ghana,source_unavailable,yes,2014-029-208349,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,30,group,43921,United States,source_unavailable,yes,2014-030-208415,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,30,group,43963,Portugal,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,31,group,43935,Belgium,source_unavailable,yes,2014-031-208371,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,31,group,43965,Russia,source_unavailable,yes,2014-031-208370,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,32,group,43822,Korea Republic,source_unavailable,yes,2014-032-208388,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,32,group,43843,Algeria,source_unavailable,yes,2014-032-208394,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,33,group,43849,Cameroon,source_unavailable,yes,2014-033-208468,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,33,group,43924,Brazil,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,34,group,43938,Croatia,source_unavailable,yes,2014-034-208488,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,34,group,43911,Mexico,source_unavailable,yes,2014-034-208489,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,35,group,43976,Australia,source_unavailable,yes,2014-035-208461,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,35,group,43969,Spain,source_unavailable,yes,2014-035-208452,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,36,group,43960,Netherlands,source_unavailable,yes,2014-036-208432,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,36,group,43925,Chile,source_unavailable,yes,2014-036-208429,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,37,group,43819,Japan,source_unavailable,yes,2014-037-208573,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,37,group,43926,Colombia,source_unavailable,yes,2014-037-208583,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,38,group,43949,Greece,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,38,group,43854,Côte d'Ivoire,source_unavailable,yes,2014-038-208559,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,39,group,43954,Italy,source_unavailable,yes,2014-039-208536,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,39,group,43930,Uruguay,source_unavailable,yes,2014-039-208541,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,40,group,43901,Costa Rica,source_unavailable,yes,2014-040-208525,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,40,group,43942,England,source_unavailable,yes,2014-040-208521,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,41,group,43909,Honduras,source_unavailable,yes,2014-041-208654,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,41,group,43971,Switzerland,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,42,group,43927,Ecuador,source_unavailable,yes,2014-042-208633,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,42,group,43946,France,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,43,group,43876,Nigeria,source_unavailable,yes,2014-043-208622,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,43,group,43922,Argentina,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,44,group,44037,Bosnia-Herzegovina,source_unavailable,yes,2014-044-208608,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,44,group,43817,Iran,source_unavailable,yes,2014-044-208615,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,45,group,43921,United States,source_unavailable,yes,2014-045-208675,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,45,group,43948,Germany,source_unavailable,yes,2014-045-208674,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,46,group,43963,Portugal,source_unavailable,yes,2014-046-208706,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,46,group,43860,Ghana,source_unavailable,yes,2014-046-208689,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,47,group,43822,Korea Republic,source_unavailable,yes,2014-047-208707,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,47,group,43935,Belgium,source_unavailable,yes,2014-047-208708,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,48,group,43843,Algeria,source_unavailable,yes,2014-048-208724,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,48,group,43965,Russia,source_unavailable,yes,2014-048-208727,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,49,round_of_16,43924,Brazil,source_unavailable,yes,2014-049-208749,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,49,round_of_16,43925,Chile,source_unavailable,yes,2014-049-208745,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,50,round_of_16,43926,Colombia,source_unavailable,yes,2014-050-208788,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,50,round_of_16,43930,Uruguay,source_unavailable,yes,2014-050-208782,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,51,round_of_16,43960,Netherlands,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,51,round_of_16,43911,Mexico,source_unavailable,yes,2014-051-208805,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,52,round_of_16,43901,Costa Rica,source_unavailable,yes,2014-052-208815,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,52,round_of_16,43949,Greece,source_unavailable,yes,2014-052-208814,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,53,round_of_16,43946,France,source_unavailable,yes,2014-053-208850,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,53,round_of_16,43876,Nigeria,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,54,round_of_16,43948,Germany,source_unavailable,yes,2014-054-208873,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,54,round_of_16,43843,Algeria,source_unavailable,yes,2014-054-208861,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,55,round_of_16,43922,Argentina,source_unavailable,yes,2014-055-208889,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,55,round_of_16,43971,Switzerland,source_unavailable,yes,2014-055-208881,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,56,round_of_16,43935,Belgium,source_unavailable,yes,2014-056-208903,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,56,round_of_16,43921,United States,source_unavailable,yes,2014-056-208900,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,57,quarter_final,43924,Brazil,source_unavailable,yes,2014-057-208946,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,57,quarter_final,43926,Colombia,source_unavailable,yes,2014-057-208947,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,58,quarter_final,43946,France,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,58,quarter_final,43948,Germany,source_unavailable,yes,2014-058-208929,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,59,quarter_final,43960,Netherlands,source_unavailable,yes,2014-059-208982,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,59,quarter_final,43901,Costa Rica,source_unavailable,yes,2014-059-208980,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,60,quarter_final,43922,Argentina,source_unavailable,yes,2014-060-208975,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,60,quarter_final,43935,Belgium,source_unavailable,yes,2014-060-208967,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,61,semi_final,43924,Brazil,source_unavailable,yes,2014-061-209021,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,61,semi_final,43948,Germany,source_unavailable,no,,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,62,semi_final,43960,Netherlands,source_unavailable,yes,2014-062-209056,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,62,semi_final,43922,Argentina,source_unavailable,yes,2014-062-209059,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,63,third_place,43924,Brazil,source_unavailable,yes,2014-063-209088,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,63,third_place,43960,Netherlands,source_unavailable,yes,2014-063-209090,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,64,final,43948,Germany,source_unavailable,yes,2014-064-209109,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,64,final,43922,Argentina,source_unavailable,yes,2014-064-209115,,source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2018,final,1,group,43965,Russia,StatsBomb open data,yes,2018-001-17052500001406,20,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,1,group,43835,Saudi Arabia,StatsBomb open data,yes,2018-001-17052500001485,11,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,2,group,43855,Egypt,StatsBomb open data,yes,2018-002-17052600001575,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2,group,43930,Uruguay,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,3,group,43963,Portugal,StatsBomb open data,yes,2018-003-17053200000475,1,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,3,group,43969,Spain,StatsBomb open data,yes,2018-003-17053200000306,2,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,4,group,43872,Morocco,StatsBomb open data,yes,2018-004-17053100000469,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,4,group,43817,Iran,StatsBomb open data,yes,2018-004-17053100000124,2,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,5,group,43946,France,StatsBomb open data,yes,2018-005-17053700001183,13,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,5,group,43976,Australia,StatsBomb open data,yes,2018-005-17053700000194,4,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,6,group,43929,Peru,StatsBomb open data,yes,2018-006-17053800000568,5,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,6,group,43941,Denmark,StatsBomb open data,yes,2018-006-17053800001189,16,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,7,group,43922,Argentina,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,7,group,43951,Iceland,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,8,group,43938,Croatia,StatsBomb open data,yes,2018-008-17054400000482,8,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,8,group,43876,Nigeria,StatsBomb open data,yes,2018-008-17054400001046,10,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,9,group,43924,Brazil,StatsBomb open data,yes,2018-009-17055000000838,4,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,9,group,43971,Switzerland,StatsBomb open data,yes,2018-009-17055000000522,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,10,group,43901,Costa Rica,StatsBomb open data,yes,2018-010-17054900000357,5,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,10,group,1902465,Serbia,StatsBomb open data,yes,2018-010-17054900000924,6,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,11,group,43948,Germany,StatsBomb open data,yes,2018-011-17055500001322,10,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,11,group,43911,Mexico,StatsBomb open data,yes,2018-011-17055500000601,9,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,12,group,43970,Sweden,StatsBomb open data,yes,2018-012-17055600000939,12,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,12,group,43822,Korea Republic,StatsBomb open data,yes,2018-012-17055600000184,3,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,13,group,43935,Belgium,StatsBomb open data,yes,2018-013-17056100000246,3,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,13,group,43914,Panama,StatsBomb open data,yes,2018-013-17056100000323,3,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,14,group,43888,Tunisia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,14,group,43942,England,StatsBomb open data,yes,2018-014-17056200000455,1,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,15,group,43962,Poland,StatsBomb open data,yes,2018-015-17056700000212,2,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,15,group,43879,Senegal,StatsBomb open data,yes,2018-015-17056700000805,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,16,group,43926,Colombia,StatsBomb open data,yes,2018-016-17056800000070,0,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,16,group,43819,Japan,StatsBomb open data,yes,2018-016-17056800001487,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,17,group,43965,Russia,StatsBomb open data,yes,2018-017-17052700001303,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,17,group,43855,Egypt,StatsBomb open data,yes,2018-017-17052700000926,8,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,18,group,43930,Uruguay,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,18,group,43835,Saudi Arabia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,19,group,43963,Portugal,StatsBomb open data,yes,2018-019-17053300001474,17,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,19,group,43872,Morocco,StatsBomb open data,yes,2018-019-17053300000649,9,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,20,group,43817,Iran,StatsBomb open data,yes,2018-020-17053400001233,10,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,20,group,43969,Spain,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,21,group,43946,France,StatsBomb open data,yes,2018-021-17053900000276,1,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,21,group,43929,Peru,StatsBomb open data,yes,2018-021-17053900000377,4,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,22,group,43941,Denmark,StatsBomb open data,yes,2018-022-17054000000590,2,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,22,group,43976,Australia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,23,group,43922,Argentina,StatsBomb open data,yes,2018-023-17054500000856,9,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,23,group,43938,Croatia,StatsBomb open data,yes,2018-023-17054500000584,9,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,24,group,43876,Nigeria,StatsBomb open data,yes,2018-024-17054600000631,6,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,24,group,43951,Iceland,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,25,group,43924,Brazil,StatsBomb open data,yes,2018-025-17055100001384,11,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,25,group,43901,Costa Rica,StatsBomb open data,yes,2018-025-17055100001423,15,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,26,group,1902465,Serbia,StatsBomb open data,yes,2018-026-17055200000510,4,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,26,group,43971,Switzerland,StatsBomb open data,yes,2018-026-17055200001352,12,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,27,group,43948,Germany,StatsBomb open data,yes,2018-027-17055700001108,8,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,27,group,43970,Sweden,StatsBomb open data,yes,2018-027-17055700000806,5,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,28,group,43822,Korea Republic,StatsBomb open data,yes,2018-028-17055800000814,14,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,28,group,43911,Mexico,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,29,group,43935,Belgium,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,29,group,43888,Tunisia,StatsBomb open data,yes,2018-029-17056300000201,3,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,30,group,43942,England,StatsBomb open data,yes,2018-030-17056400000267,6,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,30,group,43914,Panama,StatsBomb open data,yes,2018-030-17056400000115,0,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,31,group,43962,Poland,StatsBomb open data,yes,2018-031-17057000001031,9,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,31,group,43926,Colombia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,32,group,43819,Japan,StatsBomb open data,yes,2018-032-17056900000953,6,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,32,group,43879,Senegal,StatsBomb open data,yes,2018-032-17056900000829,8,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,33,group,43930,Uruguay,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,33,group,43965,Russia,StatsBomb open data,yes,2018-033-17052900000132,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,34,group,43835,Saudi Arabia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,34,group,43855,Egypt,StatsBomb open data,yes,2018-034-17053000000691,4,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,35,group,43817,Iran,StatsBomb open data,yes,2018-035-17053600000815,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,35,group,43963,Portugal,StatsBomb open data,yes,2018-035-17053600000445,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,36,group,43969,Spain,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,36,group,43872,Morocco,StatsBomb open data,yes,2018-036-17053500000320,2,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,37,group,43941,Denmark,StatsBomb open data,yes,2018-037-17054100000753,5,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,37,group,43946,France,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,38,group,43976,Australia,StatsBomb open data,yes,2018-038-17054200000194,0,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,38,group,43929,Peru,StatsBomb open data,yes,2018-038-17054200000752,4,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,39,group,43876,Nigeria,StatsBomb open data,yes,2018-039-17054800000541,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,39,group,43922,Argentina,StatsBomb open data,yes,2018-039-17054800000819,10,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,40,group,43951,Iceland,StatsBomb open data,yes,2018-040-17054700000923,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,40,group,43938,Croatia,StatsBomb open data,yes,2018-040-17054700000221,0,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,41,group,1902465,Serbia,StatsBomb open data,yes,2018-041-17055300000532,6,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,41,group,43924,Brazil,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,42,group,43971,Switzerland,StatsBomb open data,yes,2018-042-17055400000562,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,42,group,43901,Costa Rica,StatsBomb open data,yes,2018-042-17055400000215,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,43,group,43822,Korea Republic,StatsBomb open data,yes,2018-043-17056000000151,2,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,43,group,43948,Germany,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,44,group,43911,Mexico,StatsBomb open data,yes,2018-044-17055900000011,0,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,44,group,43970,Sweden,StatsBomb open data,yes,2018-044-17055900000366,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,45,group,43942,England,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,45,group,43935,Belgium,StatsBomb open data,yes,2018-045-17056500000351,1,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,46,group,43914,Panama,StatsBomb open data,yes,2018-046-17056600001218,14,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,46,group,43888,Tunisia,StatsBomb open data,yes,2018-046-17056600000677,5,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,47,group,43819,Japan,StatsBomb open data,yes,2018-047-17057200001082,9,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,47,group,43962,Poland,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,48,group,43879,Senegal,StatsBomb open data,yes,2018-048-17057100000709,8,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,48,group,43926,Colombia,StatsBomb open data,yes,2018-048-17057100000574,9,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,49,round_of_16,43930,Uruguay,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,49,round_of_16,43963,Portugal,StatsBomb open data,yes,2018-049-17057800001414,13,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,50,round_of_16,43946,France,StatsBomb open data,yes,2018-050-17057700001021,14,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,50,round_of_16,43922,Argentina,StatsBomb open data,yes,2018-050-17057700000168,,first_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,51,round_of_16,43969,Spain,StatsBomb open data,yes,2018-051-17057900000717,3,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,51,round_of_16,43965,Russia,StatsBomb open data,yes,2018-051-17057900000968,11,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,52,round_of_16,43938,Croatia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,52,round_of_16,43941,Denmark,StatsBomb open data,yes,2018-052-17058000001710,17,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,53,round_of_16,43924,Brazil,StatsBomb open data,yes,2018-053-17058100000641,5,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,53,round_of_16,43911,Mexico,StatsBomb open data,yes,2018-053-17058100000606,10,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,54,round_of_16,43935,Belgium,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2018,final,54,round_of_16,43819,Japan,StatsBomb open data,yes,2018-054-17058200000710,3,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,55,round_of_16,43970,Sweden,StatsBomb open data,yes,2018-055-17058300000483,3,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,55,round_of_16,43971,Switzerland,StatsBomb open data,yes,2018-055-17058300000934,9,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,56,round_of_16,43926,Colombia,StatsBomb open data,yes,2018-056-17058400000602,8,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,56,round_of_16,43942,England,StatsBomb open data,yes,2018-056-17058400000834,4,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,57,quarter_final,43930,Uruguay,StatsBomb open data,yes,2018-057-17058500000642,10,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,57,quarter_final,43946,France,StatsBomb open data,yes,2018-057-17058500000545,6,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,58,quarter_final,43924,Brazil,StatsBomb open data,yes,2018-058-17058600001287,13,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,58,quarter_final,43935,Belgium,StatsBomb open data,yes,2018-058-17058600000742,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,59,quarter_final,43965,Russia,StatsBomb open data,yes,2018-059-17058800001780,19,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,59,quarter_final,43938,Croatia,StatsBomb open data,yes,2018-059-17058800000567,1,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,60,quarter_final,43970,Sweden,StatsBomb open data,yes,2018-060-17058700001313,13,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,60,quarter_final,43942,England,StatsBomb open data,yes,2018-060-17058700001309,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,61,semi_final,43946,France,StatsBomb open data,yes,2018-061-17058900001347,4,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,61,semi_final,43935,Belgium,StatsBomb open data,yes,2018-061-17058900001021,10,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,62,semi_final,43938,Croatia,StatsBomb open data,yes,2018-062-17059000000706,13,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,62,semi_final,43942,England,StatsBomb open data,yes,2018-062-17059000000795,7,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,63,third_place,43935,Belgium,StatsBomb open data,yes,2018-063-17059100001562,12,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,63,third_place,43942,England,StatsBomb open data,yes,2018-063-17059100000936,2,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,64,final,43946,France,StatsBomb open data,yes,2018-064-17059200000421,5,first_card_matched,https://github.com/statsbomb/open-data
+2018,final,64,final,43938,Croatia,StatsBomb open data,yes,2018-064-17059200001354,13,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,1,group,43834,Qatar,StatsBomb open data,yes,2022-001-18185300000239,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,1,group,43927,Ecuador,StatsBomb open data,yes,2022-001-18185300000447,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,2,group,43879,Senegal,StatsBomb open data,yes,2022-002-18185200001281,11,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,2,group,43960,Netherlands,StatsBomb open data,yes,2022-002-18185200000842,11,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,3,group,43942,England,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,3,group,43817,Iran,StatsBomb open data,yes,2022-003-18185800000235,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,4,group,43921,United States,StatsBomb open data,yes,2022-004-18185900000220,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,4,group,43974,Wales,StatsBomb open data,yes,2022-004-18185900000648,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,5,group,43946,France,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,5,group,43976,Australia,StatsBomb open data,yes,2022-005-18187100001010,5,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,6,group,43941,Denmark,StatsBomb open data,yes,2022-006-18187000000414,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,6,group,43888,Tunisia,StatsBomb open data,yes,2022-006-18187000001432,7,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,7,group,43911,Mexico,StatsBomb open data,yes,2022-007-18186500000436,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,7,group,43962,Poland,StatsBomb open data,yes,2022-007-18186500001125,14,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,8,group,43922,Argentina,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,8,group,43835,Saudi Arabia,StatsBomb open data,yes,2022-008-18186400001103,16,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,9,group,43935,Belgium,StatsBomb open data,yes,2022-009-18188300000149,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,9,group,43899,Canada,StatsBomb open data,yes,2022-009-18188300001377,12,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,10,group,43969,Spain,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,10,group,43901,Costa Rica,StatsBomb open data,yes,2022-010-18187700001292,8,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,11,group,43948,Germany,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,11,group,43819,Japan,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,12,group,43872,Morocco,StatsBomb open data,yes,2022-012-18188200001309,11,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,12,group,43938,Croatia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,13,group,43971,Switzerland,StatsBomb open data,yes,2022-013-18188800001158,7,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,13,group,43849,Cameroon,StatsBomb open data,yes,2022-013-18188800000693,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,14,group,43930,Uruguay,StatsBomb open data,yes,2022-014-18189400000901,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,14,group,43822,Korea Republic,StatsBomb open data,yes,2022-014-18189400001367,9,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,15,group,43963,Portugal,StatsBomb open data,yes,2022-015-18189500001392,13,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,15,group,43860,Ghana,StatsBomb open data,yes,2022-015-18189500000765,11,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,16,group,43924,Brazil,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,16,group,1902465,Serbia,StatsBomb open data,yes,2022-016-18188900000109,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,17,group,43974,Wales,StatsBomb open data,yes,2022-017-18186000000707,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,17,group,43817,Iran,StatsBomb open data,yes,2022-017-18186000001379,9,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,18,group,43834,Qatar,StatsBomb open data,yes,2022-018-18185400000300,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,18,group,43879,Senegal,StatsBomb open data,yes,2022-018-18185400000448,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,19,group,43960,Netherlands,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,19,group,43927,Ecuador,StatsBomb open data,yes,2022-019-18185500001027,7,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,20,group,43942,England,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,20,group,43921,United States,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,21,group,43888,Tunisia,StatsBomb open data,yes,2022-021-18187200000410,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,21,group,43976,Australia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,22,group,43962,Poland,StatsBomb open data,yes,2022-022-18186600000256,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,22,group,43835,Saudi Arabia,StatsBomb open data,yes,2022-022-18186600000315,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,23,group,43946,France,StatsBomb open data,yes,2022-023-18187300000720,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,23,group,43941,Denmark,StatsBomb open data,yes,2022-023-18187300000381,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,24,group,43922,Argentina,StatsBomb open data,yes,2022-024-18186700000601,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,24,group,43911,Mexico,StatsBomb open data,yes,2022-024-18186700000330,5,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,25,group,43819,Japan,StatsBomb open data,yes,2022-025-18187800000786,11,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,25,group,43901,Costa Rica,StatsBomb open data,yes,2022-025-18187800000753,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,26,group,43935,Belgium,StatsBomb open data,yes,2022-026-18188400000466,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,26,group,43872,Morocco,StatsBomb open data,yes,2022-026-18188400001509,15,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,27,group,43938,Croatia,StatsBomb open data,yes,2022-027-18188500001031,8,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,27,group,43899,Canada,StatsBomb open data,yes,2022-027-18188500000977,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,28,group,43969,Spain,StatsBomb open data,yes,2022-028-18187900000812,7,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,28,group,43948,Germany,StatsBomb open data,yes,2022-028-18187900000709,7,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,29,group,43849,Cameroon,StatsBomb open data,yes,2022-029-18189000000343,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,29,group,1902465,Serbia,StatsBomb open data,yes,2022-029-18189000000697,5,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,30,group,43822,Korea Republic,StatsBomb open data,yes,2022-030-18189600000374,7,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,30,group,43860,Ghana,StatsBomb open data,yes,2022-030-18189600000318,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,31,group,43924,Brazil,StatsBomb open data,yes,2022-031-18189100000939,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,31,group,43971,Switzerland,StatsBomb open data,yes,2022-031-18189100000916,8,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,32,group,43963,Portugal,StatsBomb open data,yes,2022-032-18189700000618,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,32,group,43930,Uruguay,StatsBomb open data,yes,2022-032-18189700000111,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,33,group,43974,Wales,StatsBomb open data,yes,2022-033-18186300000423,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,33,group,43942,England,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,34,group,43817,Iran,StatsBomb open data,yes,2022-034-18186200001243,17,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,34,group,43921,United States,StatsBomb open data,yes,2022-034-18186200000671,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,35,group,43927,Ecuador,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,35,group,43879,Senegal,StatsBomb open data,yes,2022-035-18185600000942,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,36,group,43960,Netherlands,StatsBomb open data,yes,2022-036-18185700000969,9,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,36,group,43834,Qatar,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,37,group,43976,Australia,StatsBomb open data,yes,2022-037-18187400000064,0,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,37,group,43941,Denmark,StatsBomb open data,yes,2022-037-18187400001234,8,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,38,group,43888,Tunisia,StatsBomb open data,yes,2022-038-18187500000449,0,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,38,group,43946,France,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,39,group,43962,Poland,StatsBomb open data,yes,2022-039-18186900001395,7,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,39,group,43922,Argentina,StatsBomb open data,yes,2022-039-18186900000853,7,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,40,group,43835,Saudi Arabia,StatsBomb open data,yes,2022-040-18186800000416,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,40,group,43911,Mexico,StatsBomb open data,yes,2022-040-18186800000241,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,41,group,43938,Croatia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,41,group,43935,Belgium,StatsBomb open data,yes,2022-041-18188700001254,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,42,group,43899,Canada,StatsBomb open data,yes,2022-042-18188600000139,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,42,group,43872,Morocco,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,43,group,43819,Japan,StatsBomb open data,yes,2022-043-18188100000758,5,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,43,group,43969,Spain,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,44,group,43901,Costa Rica,StatsBomb open data,yes,2022-044-18188000001311,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,44,group,43948,Germany,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,45,group,43860,Ghana,StatsBomb open data,yes,2022-045-18189800001454,16,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,45,group,43930,Uruguay,StatsBomb open data,yes,2022-045-18189800000311,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,46,group,43822,Korea Republic,StatsBomb open data,yes,2022-046-18189900000585,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,46,group,43963,Portugal,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,47,group,1902465,Serbia,StatsBomb open data,yes,2022-047-18189200000715,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,47,group,43971,Switzerland,StatsBomb open data,yes,2022-047-18189200000252,0,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,48,group,43849,Cameroon,StatsBomb open data,yes,2022-048-18189300000119,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,48,group,43924,Brazil,StatsBomb open data,yes,2022-048-18189300000128,0,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,49,round_of_16,43960,Netherlands,StatsBomb open data,yes,2022-049-18190000000974,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,49,round_of_16,43921,United States,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,50,round_of_16,43922,Argentina,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,50,round_of_16,43976,Australia,StatsBomb open data,yes,2022-050-18190100000292,5,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,51,round_of_16,43942,England,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,51,round_of_16,43879,Senegal,StatsBomb open data,yes,2022-051-18190300001185,10,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,52,round_of_16,43946,France,StatsBomb open data,yes,2022-052-18190200000577,3,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,52,round_of_16,43962,Poland,StatsBomb open data,yes,2022-052-18190200000825,5,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,53,round_of_16,43819,Japan,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,53,round_of_16,43938,Croatia,StatsBomb open data,yes,2022-053-18190400001492,11,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,54,round_of_16,43924,Brazil,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,54,round_of_16,43822,Korea Republic,StatsBomb open data,yes,2022-054-18190500000711,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,55,round_of_16,43872,Morocco,StatsBomb open data,yes,2022-055-18190600001448,11,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,55,round_of_16,43969,Spain,StatsBomb open data,yes,2022-055-18190600001289,11,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,56,round_of_16,43963,Portugal,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,56,round_of_16,43971,Switzerland,StatsBomb open data,yes,2022-056-18190700000640,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,57,quarter_final,43960,Netherlands,StatsBomb open data,yes,2022-057-18190900000673,8,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,57,quarter_final,43922,Argentina,StatsBomb open data,yes,2022-057-18190900000674,4,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,58,quarter_final,43938,Croatia,StatsBomb open data,yes,2022-058-18190800000524,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,58,quarter_final,43924,Brazil,StatsBomb open data,yes,2022-058-18190800000440,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,59,quarter_final,43942,England,StatsBomb open data,yes,2022-059-18191100001286,8,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,59,quarter_final,43946,France,StatsBomb open data,yes,2022-059-18191100000658,6,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,60,quarter_final,43872,Morocco,StatsBomb open data,yes,2022-060-18191000001098,12,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,60,quarter_final,43963,Portugal,StatsBomb open data,yes,2022-060-18191000001349,8,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,61,semi_final,43922,Argentina,StatsBomb open data,yes,2022-061-18191200001195,14,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,61,semi_final,43938,Croatia,StatsBomb open data,yes,2022-061-18191200000582,2,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,62,semi_final,43946,France,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,62,semi_final,43872,Morocco,StatsBomb open data,yes,2022-062-18191300000464,1,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,63,third_place,43938,Croatia,StatsBomb open data,no,,,no_card,https://github.com/statsbomb/open-data
+2022,final,63,third_place,43872,Morocco,StatsBomb open data,yes,2022-063-18191400001109,10,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,64,final,43922,Argentina,StatsBomb open data,yes,2022-064-18191500000790,9,first_card_matched,https://github.com/statsbomb/open-data
+2022,final,64,final,43946,France,StatsBomb open data,yes,2022-064-18191500000951,11,first_card_matched,https://github.com/statsbomb/open-data
+2026,provisional_M100,1,group,43911,Mexico,FIFA timeline,yes,2026-001-928372749,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,1,group,43883,South Africa,FIFA timeline,yes,2026-001-563317787,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2,group,43822,Korea Republic,FIFA timeline,yes,2026-002-1531978956,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2,group,43995,Czechia,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,3,group,43899,Canada,FIFA timeline,yes,2026-003-17897476,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,3,group,44037,Bosnia and Herzegovina,FIFA timeline,yes,2026-003-2024266773,6,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,4,group,43921,USA,FIFA timeline,yes,2026-004-196399234,6,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,4,group,43928,Paraguay,FIFA timeline,yes,2026-004-84897876,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,5,group,43908,Haiti,FIFA timeline,yes,2026-005-1907432629,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,5,group,43967,Scotland,FIFA timeline,yes,2026-005-1530249407,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,6,group,43976,Australia,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,6,group,43972,Türkiye,FIFA timeline,yes,2026-006-1947191578,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,7,group,43924,Brazil,FIFA timeline,yes,2026-007-2036497562,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,7,group,43872,Morocco,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,8,group,43834,Qatar,FIFA timeline,yes,2026-008-282370065,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,8,group,43971,Switzerland,FIFA timeline,yes,2026-008-2016806944,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,9,group,43854,Côte d'Ivoire,FIFA timeline,yes,2026-009-800913912,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,9,group,43927,Ecuador,FIFA timeline,yes,2026-009-221867454,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,10,group,43948,Germany,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,10,group,1895293,Curaçao,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,11,group,43960,Netherlands,FIFA timeline,yes,2026-011-1314982255,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,11,group,43819,Japan,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,12,group,43970,Sweden,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,12,group,43888,Tunisia,FIFA timeline,yes,2026-012-1192408625,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,13,group,43835,Saudi Arabia,FIFA timeline,yes,2026-013-272137359,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,13,group,43930,Uruguay,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,14,group,43969,Spain,FIFA timeline,yes,2026-014-1545725988,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,14,group,43850,Cabo Verde,FIFA timeline,yes,2026-014-2030108680,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,15,group,43817,IR Iran,FIFA timeline,yes,2026-015-109153558,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,15,group,43978,New Zealand,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,16,group,43935,Belgium,FIFA timeline,yes,2026-016-60981295,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,16,group,43855,Egypt,FIFA timeline,yes,2026-016-2125055021,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,17,group,43946,France,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,17,group,43879,Senegal,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,18,group,43818,Iraq,FIFA timeline,yes,2026-018-1856403562,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,18,group,43961,Norway,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,19,group,43922,Argentina,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,19,group,43843,Algeria,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,20,group,43934,Austria,FIFA timeline,yes,2026-020-1672639750,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,20,group,43820,Jordan,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,21,group,43860,Ghana,FIFA timeline,yes,2026-021-2050941070,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,21,group,43914,Panama,FIFA timeline,yes,2026-021-2070581423,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,22,group,43942,England,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,22,group,43938,Croatia,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,23,group,43963,Portugal,FIFA timeline,yes,2026-023-1227587598,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,23,group,20014,Congo DR,FIFA timeline,yes,2026-023-277085197,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,24,group,44005,Uzbekistan,FIFA timeline,yes,2026-024-835060951,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,24,group,43926,Colombia,FIFA timeline,yes,2026-024-1362733250,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,25,group,43995,Czechia,FIFA timeline,yes,2026-025-467262508,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,25,group,43883,South Africa,FIFA timeline,yes,2026-025-902040606,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,26,group,43971,Switzerland,FIFA timeline,yes,2026-026-51495004,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,26,group,44037,Bosnia and Herzegovina,FIFA timeline,yes,2026-026-1832257617,11,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,27,group,43899,Canada,FIFA timeline,yes,2026-027-57173141,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,27,group,43834,Qatar,FIFA timeline,yes,2026-027-1705895087,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,28,group,43911,Mexico,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,28,group,43822,Korea Republic,FIFA timeline,yes,2026-028-1785438431,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,29,group,43924,Brazil,FIFA timeline,yes,2026-029-949350559,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,29,group,43908,Haiti,FIFA timeline,yes,2026-029-62243948,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,30,group,43967,Scotland,FIFA timeline,yes,2026-030-582733913,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,30,group,43872,Morocco,FIFA timeline,yes,2026-030-868010068,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,31,group,43972,Türkiye,FIFA timeline,yes,2026-031-2013376760,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,31,group,43928,Paraguay,FIFA timeline,yes,2026-031-544827588,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,32,group,43921,USA,FIFA timeline,yes,2026-032-2029326382,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,32,group,43976,Australia,FIFA timeline,yes,2026-032-179126284,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,33,group,43948,Germany,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,33,group,43854,Côte d'Ivoire,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,34,group,43927,Ecuador,FIFA timeline,yes,2026-034-159245463,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,34,group,1895293,Curaçao,FIFA timeline,yes,2026-034-217272473,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,35,group,43960,Netherlands,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,35,group,43970,Sweden,FIFA timeline,yes,2026-035-621469747,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,36,group,43888,Tunisia,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,36,group,43819,Japan,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,37,group,43930,Uruguay,FIFA timeline,yes,2026-037-721364104,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,37,group,43850,Cabo Verde,FIFA timeline,yes,2026-037-1956965508,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,38,group,43969,Spain,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,38,group,43835,Saudi Arabia,FIFA timeline,yes,2026-038-735760418,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,39,group,43935,Belgium,FIFA timeline,yes,2026-039-1524285504,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,39,group,43817,IR Iran,FIFA timeline,yes,2026-039-1197353047,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,40,group,43978,New Zealand,FIFA timeline,yes,2026-040-580533454,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,40,group,43855,Egypt,FIFA timeline,yes,2026-040-442558675,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,41,group,43961,Norway,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,41,group,43879,Senegal,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,42,group,43946,France,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,42,group,43818,Iraq,FIFA timeline,yes,2026-042-512925771,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,43,group,43922,Argentina,FIFA timeline,yes,2026-043-177674287,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,43,group,43934,Austria,FIFA timeline,yes,2026-043-832398359,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,44,group,43820,Jordan,FIFA timeline,yes,2026-044-1333874904,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,44,group,43843,Algeria,FIFA timeline,yes,2026-044-857421033,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,45,group,43942,England,FIFA timeline,yes,2026-045-1093510257,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,45,group,43860,Ghana,FIFA timeline,yes,2026-045-1539499137,15,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,46,group,43914,Panama,FIFA timeline,yes,2026-046-1183416537,14,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,46,group,43938,Croatia,FIFA timeline,yes,2026-046-961350899,11,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,47,group,43963,Portugal,FIFA timeline,yes,2026-047-1746556956,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,47,group,44005,Uzbekistan,FIFA timeline,yes,2026-047-1252661256,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,48,group,43926,Colombia,FIFA timeline,yes,2026-048-1391609073,6,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,48,group,20014,Congo DR,FIFA timeline,yes,2026-048-1615666473,14,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,49,group,43967,Scotland,FIFA timeline,yes,2026-049-60726580,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,49,group,43924,Brazil,FIFA timeline,yes,2026-049-564534543,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,50,group,43872,Morocco,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,50,group,43908,Haiti,FIFA timeline,yes,2026-050-1833112852,15,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,51,group,43971,Switzerland,FIFA timeline,yes,2026-051-1097558059,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,51,group,43899,Canada,FIFA timeline,yes,2026-051-1105091639,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,52,group,44037,Bosnia and Herzegovina,FIFA timeline,yes,2026-052-1276998773,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,52,group,43834,Qatar,FIFA timeline,yes,2026-052-1025229946,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,53,group,43995,Czechia,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,53,group,43911,Mexico,FIFA timeline,yes,2026-053-241340838,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,54,group,43883,South Africa,FIFA timeline,yes,2026-054-812845487,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,54,group,43822,Korea Republic,FIFA timeline,yes,2026-054-1176750482,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,55,group,1895293,Curaçao,FIFA timeline,yes,2026-055-188552307,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,55,group,43854,Côte d'Ivoire,FIFA timeline,yes,2026-055-751742006,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,56,group,43927,Ecuador,FIFA timeline,yes,2026-056-1192326181,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,56,group,43948,Germany,FIFA timeline,yes,2026-056-1230953535,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,57,group,43819,Japan,FIFA timeline,yes,2026-057-142479655,16,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,57,group,43970,Sweden,FIFA timeline,yes,2026-057-824606873,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,58,group,43888,Tunisia,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,58,group,43960,Netherlands,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,59,group,43972,Türkiye,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,59,group,43921,USA,FIFA timeline,yes,2026-059-2060790063,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,60,group,43928,Paraguay,FIFA timeline,yes,2026-060-613007745,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,60,group,43976,Australia,FIFA timeline,yes,2026-060-879562058,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,61,group,43961,Norway,FIFA timeline,yes,2026-061-1987563557,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,61,group,43946,France,FIFA timeline,yes,2026-061-885457023,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,62,group,43879,Senegal,FIFA timeline,yes,2026-062-416350250,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,62,group,43818,Iraq,FIFA timeline,yes,2026-062-228100121,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,63,group,43855,Egypt,FIFA timeline,yes,2026-063-1550814494,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,63,group,43817,IR Iran,FIFA timeline,yes,2026-063-1495639324,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,64,group,43978,New Zealand,FIFA timeline,yes,2026-064-218006913,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,64,group,43935,Belgium,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,65,group,43850,Cabo Verde,FIFA timeline,yes,2026-065-603316393,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,65,group,43835,Saudi Arabia,FIFA timeline,yes,2026-065-332802225,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,66,group,43930,Uruguay,FIFA timeline,yes,2026-066-486322398,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,66,group,43969,Spain,FIFA timeline,yes,2026-066-37892316,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,67,group,43914,Panama,FIFA timeline,yes,2026-067-252756031,11,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,67,group,43942,England,FIFA timeline,yes,2026-067-713658440,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,68,group,43938,Croatia,FIFA timeline,yes,2026-068-1249444955,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,68,group,43860,Ghana,FIFA timeline,yes,2026-068-743584912,12,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,69,group,43843,Algeria,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,69,group,43934,Austria,FIFA timeline,yes,2026-069-1620362532,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,70,group,43820,Jordan,FIFA timeline,yes,2026-070-2000327977,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,70,group,43922,Argentina,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,71,group,43926,Colombia,FIFA timeline,yes,2026-071-508474611,11,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,71,group,43963,Portugal,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,72,group,20014,Congo DR,FIFA timeline,yes,2026-072-2049463469,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,72,group,44005,Uzbekistan,FIFA timeline,yes,2026-072-864110785,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,73,round_of_32,43883,South Africa,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,73,round_of_32,43899,Canada,FIFA timeline,yes,2026-073-1592189990,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,74,round_of_32,43948,Germany,FIFA timeline,yes,2026-074-783974571,15,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,74,round_of_32,43928,Paraguay,FIFA timeline,yes,2026-074-1493121130,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,75,round_of_32,43960,Netherlands,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,75,round_of_32,43872,Morocco,FIFA timeline,yes,2026-075-1448063215,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,76,round_of_32,43924,Brazil,FIFA timeline,yes,2026-076-1272018952,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,76,round_of_32,43819,Japan,FIFA timeline,yes,2026-076-1108929538,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,77,round_of_32,43946,France,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,77,round_of_32,43970,Sweden,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,78,round_of_32,43854,Côte d'Ivoire,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,78,round_of_32,43961,Norway,FIFA timeline,yes,2026-078-1073440795,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,79,round_of_32,43911,Mexico,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,79,round_of_32,43927,Ecuador,FIFA timeline,yes,2026-079-1658327204,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,80,round_of_32,43942,England,FIFA timeline,yes,2026-080-30650383,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,80,round_of_32,20014,Congo DR,FIFA timeline,yes,2026-080-531686412,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,81,round_of_32,43921,USA,FIFA timeline,yes,2026-081-1246412996,5,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,81,round_of_32,44037,Bosnia and Herzegovina,FIFA timeline,yes,2026-081-81391783,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,82,round_of_32,43935,Belgium,FIFA timeline,yes,2026-082-1683214440,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,82,round_of_32,43879,Senegal,FIFA timeline,yes,2026-082-1909612648,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,83,round_of_32,43963,Portugal,FIFA timeline,yes,2026-083-2055665736,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,83,round_of_32,43938,Croatia,FIFA timeline,yes,2026-083-1183454321,8,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,84,round_of_32,43969,Spain,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,84,round_of_32,43934,Austria,FIFA timeline,yes,2026-084-1319270449,12,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,85,round_of_32,43971,Switzerland,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,85,round_of_32,43843,Algeria,FIFA timeline,yes,2026-085-368288953,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,86,round_of_32,43922,Argentina,FIFA timeline,yes,2026-086-33000641,12,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,86,round_of_32,43850,Cabo Verde,FIFA timeline,yes,2026-086-653468808,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,87,round_of_32,43926,Colombia,FIFA timeline,yes,2026-087-1951937728,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,87,round_of_32,43860,Ghana,FIFA timeline,yes,2026-087-1413268693,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,88,round_of_32,43976,Australia,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,88,round_of_32,43855,Egypt,FIFA timeline,yes,2026-088-1796075577,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,89,round_of_16,43928,Paraguay,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,89,round_of_16,43946,France,FIFA timeline,yes,2026-089-1481671768,2,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,90,round_of_16,43899,Canada,FIFA timeline,yes,2026-090-785167379,12,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,90,round_of_16,43872,Morocco,FIFA timeline,yes,2026-090-1663086605,1,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,91,round_of_16,43924,Brazil,FIFA timeline,yes,2026-091-1497401405,6,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,91,round_of_16,43961,Norway,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,92,round_of_16,43911,Mexico,FIFA timeline,yes,2026-092-835155077,12,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,92,round_of_16,43942,England,FIFA timeline,yes,2026-092-1607016522,0,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,93,round_of_16,43963,Portugal,FIFA timeline,yes,2026-093-1695860784,6,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,93,round_of_16,43969,Spain,FIFA timeline,yes,2026-093-153596981,12,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,94,round_of_16,43921,USA,FIFA timeline,yes,2026-094-228427,3,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,94,round_of_16,43935,Belgium,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,95,round_of_16,43922,Argentina,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,95,round_of_16,43855,Egypt,FIFA timeline,yes,2026-095-1832771658,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,96,round_of_16,43971,Switzerland,FIFA timeline,yes,2026-096-749295747,6,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,96,round_of_16,43926,Colombia,FIFA timeline,yes,2026-096-1300078726,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,97,quarter_final,43946,France,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,97,quarter_final,43872,Morocco,FIFA timeline,yes,2026-097-1774618642,7,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,98,quarter_final,43969,Spain,FIFA timeline,yes,2026-098-1836662796,4,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,98,quarter_final,43935,Belgium,FIFA timeline,yes,2026-098-1441093697,13,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,99,quarter_final,43961,Norway,FIFA timeline,yes,2026-099-1435131963,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,99,quarter_final,43942,England,FIFA timeline,no,,,no_card,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,100,quarter_final,43922,Argentina,FIFA timeline,yes,2026-100-1062420622,10,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,100,quarter_final,43971,Switzerland,FIFA timeline,yes,2026-100-2105529436,9,first_card_matched,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026

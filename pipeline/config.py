@@ -18,6 +18,25 @@ EDITIONS = (2014, 2018, 2022, 2026)
 EXPECTED_COMPLETED = {2014: 64, 2018: 64, 2022: 64, 2026: 100}
 EXPECTED_PLAYER_CARDS = {2014: 194, 2018: 224, 2022: 228, 2026: 270}
 EXPECTED_TEAM_MATCH_ROWS = {year: count * 2 for year, count in EXPECTED_COMPLETED.items()}
+# The private event-level reconciliation is verified by hash and never
+# published. The public table contains only project-authored aggregate
+# conclusions allowed by the StatsBomb Public Data User Agreement.
+EXPECTED_CARD_REASON_SB_EXTRA_SHA256 = (
+    "48f4367295c67cb7bfae452d6eeab1790b89337f51ede73cedf4773a6aa49c91"
+)
+EXPECTED_CARD_REASON_SB_RECONCILIATION = {
+    (2018, "Foul Committed"): (
+        165, 4, 169, "not_aligned_to_fifa_espn_in_play_census=4",
+    ),
+    (2018, "Bad Behaviour"): (
+        39, 1, 40, "not_aligned_to_fifa_espn_in_play_census=1",
+    ),
+    (2022, "Foul Committed"): (184, 0, 184, "none"),
+    (2022, "Bad Behaviour"): (
+        37, 7, 44,
+        "fifa_event_scope_interval=1;post_play=4;penalty_shootout=2",
+    ),
+}
 SEASON_IDS = {2014: "251164", 2018: "254645", 2022: "255711", 2026: "285023"}
 
 PRIMARY_RHO = 2.0

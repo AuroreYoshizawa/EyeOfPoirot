@@ -1,0 +1,5 @@
+edition,event_type,in_play_census_events,outside_in_play_census_events,all_card_events,outside_scope_summary,source_url
+2018,Foul Committed,165,4,169,not_aligned_to_fifa_espn_in_play_census=4,https://github.com/statsbomb/open-data
+2018,Bad Behaviour,39,1,40,not_aligned_to_fifa_espn_in_play_census=1,https://github.com/statsbomb/open-data
+2022,Foul Committed,184,0,184,none,https://github.com/statsbomb/open-data
+2022,Bad Behaviour,37,7,44,fifa_event_scope_interval=1;post_play=4;penalty_shootout=2,https://github.com/statsbomb/open-data

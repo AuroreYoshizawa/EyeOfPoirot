@@ -1,0 +1,909 @@
+edition,edition_status,card_id,provider,reconciliation_status,fouls_strictly_before_card,foul_linked,fouls_through_card,provenance_status,source_url
+2014,final,2014-001-207809,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-001-207815,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-001-207818,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-001-207822,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-002-207828,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-002-207834,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-003-207839,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-003-207841,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-003-207851,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-003-207852,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-004-207864,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-004-207867,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-004-207870,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-004-207877,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-005-207888,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-005-207889,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-005-207890,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-006-207942,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-006-207945,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-006-207946,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-006-207949,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-007-207906,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-007-207908,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-007-207918,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-007-207924,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-008-207940,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-009-207964,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-009-207971,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-010-207982,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-010-207983,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-010-207984,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-010-207985,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-010-207988,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-010-207994,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-010-208004,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-011-208006,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-011-208011,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-012-208058,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-013-208032,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-013-208037,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-014-208064,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-014-208077,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-015-208084,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-015-208086,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-016-208117,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-016-208118,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-016-208119,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-016-208134,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-017-208101,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-017-208104,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-017-208105,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-017-208112,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-018-208174,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-018-208190,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-019-208157,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-019-208158,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-019-208162,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-020-208139,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-020-208142,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-021-208199,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-021-208213,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-022-208231,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-022-208232,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-022-208235,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-022-208241,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-022-208246,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-023-208214,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-023-208220,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-024-208258,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-024-208261,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-025-208287,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-026-208288,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-026-208291,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-026-208294,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-026-208298,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-026-208299,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-027-208317,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-027-208318,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-028-208350,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-028-208362,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-029-208349,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-030-208415,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-031-208370,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-031-208371,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-031-208376,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-032-208388,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-032-208394,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-032-208395,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-033-208468,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-033-208483,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-033-208484,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-034-208488,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-034-208489,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-034-208494,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-034-208507,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-035-208452,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-035-208461,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-035-208462,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-036-208429,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-036-208432,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-037-208573,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-037-208583,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-038-208559,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-038-208563,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-038-208564,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-039-208536,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-039-208541,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-039-208542,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-039-208549,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-039-208553,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-040-208521,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-040-208522,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-040-208525,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-041-208654,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-042-208633,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-042-208664,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-043-208622,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-043-208624,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-044-208608,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-044-208615,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-045-208674,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-045-208675,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-045-208681,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-046-208689,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-046-208690,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-046-208700,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-046-208706,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-047-208707,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-047-208708,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-047-208711,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-048-208724,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-048-208727,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-048-208728,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-048-208738,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-048-208741,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-049-208745,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-049-208748,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-049-208749,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-049-208752,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-049-208759,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-049-208760,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-049-208761,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-050-208782,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-050-208787,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-050-208788,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-051-208805,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-051-208811,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-051-208812,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-052-208814,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-052-208815,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-052-208816,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-052-208818,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-052-208823,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-052-208827,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-052-208828,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-052-208835,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-053-208850,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-054-208861,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-054-208873,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-055-208881,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-055-208884,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-055-208889,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-055-208897,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-055-208898,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-056-208900,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-056-208903,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-057-208946,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-057-208947,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-057-208949,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-057-208952,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-058-208929,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-058-208936,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-059-208980,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-059-208981,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-059-208982,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-059-208989,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-059-208994,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-059-208995,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-060-208967,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-060-208972,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-060-208975,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-061-209021,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-062-209056,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-062-209059,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-062-209070,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-063-209088,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-063-209090,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-063-209092,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-063-209095,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-063-209098,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-064-209109,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-064-209112,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-064-209115,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2014-064-209116,source_unavailable,source_unavailable,,,,complete_event_source_unavailable,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2018,final,2018-001-17052500001406,StatsBomb open data,matched,20,true,21,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-001-17052500001485,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-002-17052600001575,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-002-17052600001612,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-003-17053200000306,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-003-17053200000475,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-004-17053100000124,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-004-17053100000469,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-004-17053100000646,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-004-17053100001142,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-005-17053700000194,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-005-17053700000938,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-005-17053700001183,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-005-17053700001366,StatsBomb open data,matched,17,true,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-006-17053800000568,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-006-17053800001189,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-006-17053800001287,StatsBomb open data,matched,19,true,20,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-008-17054400000482,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-008-17054400001046,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-008-17054400001260,StatsBomb open data,matched,20,true,21,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-009-17055000000522,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-009-17055000000838,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-009-17055000001137,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-009-17055000001166,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-010-17054900000357,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-010-17054900000887,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-010-17054900000924,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-010-17054900001470,StatsBomb open data,matched,13,false,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-011-17055500000601,StatsBomb open data,matched,9,false,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-011-17055500001322,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-011-17055500001352,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-011-17055500001426,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-012-17055600000184,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-012-17055600000880,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-012-17055600000939,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-013-17056100000246,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-013-17056100000323,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-013-17056100000729,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-013-17056100000791,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-013-17056100000827,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-013-17056100000890,StatsBomb open data,matched,16,false,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-013-17056100000908,StatsBomb open data,matched,11,false,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-013-17056100001322,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-014-17056200000455,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-015-17056700000212,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-015-17056700000805,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-015-17056700001096,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-016-17056800000070,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-016-17056800001015,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-016-17056800001322,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-016-17056800001487,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-017-17052700000926,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-017-17052700001303,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-019-17053300000649,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-019-17053300001474,StatsBomb open data,matched,17,true,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-020-17053400001233,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-020-17053400001479,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-021-17053900000276,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-021-17053900000377,StatsBomb open data,matched,4,false,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-021-17053900001329,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-021-17053900001407,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-022-17054000000590,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-022-17054000001309,StatsBomb open data,matched,7,false,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-023-17054500000584,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-023-17054500000856,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-023-17054500000931,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-023-17054500001072,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-023-17054500001334,StatsBomb open data,matched,17,false,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-023-17054500001343,StatsBomb open data,matched,17,true,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-023-17054500001433,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-024-17054600000631,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-025-17055100001384,StatsBomb open data,matched,11,false,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-025-17055100001385,StatsBomb open data,matched,11,false,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-025-17055100001423,StatsBomb open data,matched,15,false,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-026-17055200000510,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-026-17055200000588,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-026-17055200000689,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-026-17055200001306,StatsBomb open data,matched,18,false,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-026-17055200001352,StatsBomb open data,matched,12,false,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-027-17055700000806,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-027-17055700001108,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-027-17055700001234,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-027-17055700001413,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-028-17055800000814,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-028-17055800000902,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-028-17055800000988,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-028-17055800001091,StatsBomb open data,matched,20,true,21,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-029-17056300000201,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-030-17056400000115,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-030-17056400000267,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-030-17056400000519,StatsBomb open data,matched,6,false,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-030-17056400001019,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-031-17057000001031,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-031-17057000001366,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-032-17056900000829,StatsBomb open data,matched,8,false,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-032-17056900000953,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-032-17056900001227,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-032-17056900001235,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-032-17056900001296,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-033-17052900000132,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-033-17052900000342,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-033-17052900000466,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-034-17053000000691,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-034-17053000001336,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-035-17053600000445,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-035-17053600000815,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-035-17053600000825,StatsBomb open data,matched,9,false,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-035-17053600000960,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-035-17053600001214,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-035-17053600001358,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-036-17053500000320,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-036-17053500000472,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-036-17053500000477,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-036-17053500000478,StatsBomb open data,matched,6,false,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-036-17053500001344,StatsBomb open data,matched,17,false,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-036-17053500001386,StatsBomb open data,matched,17,false,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-037-17054100000753,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-038-17054200000194,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-038-17054200000752,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-038-17054200000987,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-038-17054200001065,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-038-17054200001279,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-038-17054200001418,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-039-17054800000541,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-039-17054800000819,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-039-17054800001028,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-039-17054800001425,StatsBomb open data,matched,18,true,19,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-039-17054800001461,StatsBomb open data,matched,16,false,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-040-17054700000221,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-040-17054700000923,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-040-17054700000991,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-040-17054700001196,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-040-17054700001207,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-041-17055300000532,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-041-17055300000831,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-041-17055300001184,StatsBomb open data,matched,14,false,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-042-17055400000215,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-042-17055400000478,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-042-17055400000562,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-042-17055400001178,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-042-17055400001310,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-042-17055400001377,StatsBomb open data,matched,15,false,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-043-17056000000151,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-043-17056000000336,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-043-17056000000780,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-043-17056000001022,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-044-17055900000011,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-044-17055900000366,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-044-17055900000847,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-044-17055900001140,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-044-17055900001163,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-045-17056500000351,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-045-17056500000571,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-046-17056600000677,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-046-17056600001127,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-046-17056600001218,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-046-17056600001238,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-046-17056600001383,StatsBomb open data,matched,18,true,19,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-046-17056600001401,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-047-17057200001082,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-048-17057100000574,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-048-17057100000709,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-049-17057800001414,StatsBomb open data,matched,13,false,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-050-17057700000168,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-050-17057700000270,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-050-17057700000628,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-050-17057700000746,StatsBomb open data,matched,7,false,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-050-17057700001021,StatsBomb open data,matched,14,false,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-050-17057700001036,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-050-17057700001373,StatsBomb open data,matched,14,false,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-050-17057700001374,StatsBomb open data,matched,23,false,23,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-051-17057900000717,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-051-17057900000968,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-051-17057900001225,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-052-17058000001710,StatsBomb open data,matched,17,true,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-053-17058100000606,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-053-17058100000641,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-053-17058100000815,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-053-17058100000888,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-053-17058100001093,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-053-17058100001262,StatsBomb open data,matched,18,true,19,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-054-17058200000710,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-055-17058300000483,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-055-17058300000934,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-055-17058300001013,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-055-17058300001339,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-056-17058400000602,StatsBomb open data,matched,8,false,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-056-17058400000825,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-056-17058400000832,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-056-17058400000834,StatsBomb open data,matched,4,false,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-056-17058400000904,StatsBomb open data,matched,12,false,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-056-17058400000914,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-056-17058400000968,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-056-17058400001725,StatsBomb open data,matched,22,true,23,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-057-17058500000545,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-057-17058500000642,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-057-17058500001061,StatsBomb open data,matched,17,false,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-057-17058500001062,StatsBomb open data,matched,12,false,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-058-17058600000742,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-058-17058600001112,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-058-17058600001287,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-058-17058600001347,StatsBomb open data,matched,18,true,19,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-059-17058800000567,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-059-17058800000606,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-059-17058800001615,StatsBomb open data,matched,14,false,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-059-17058800001780,StatsBomb open data,matched,19,true,20,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-059-17058800001838,StatsBomb open data,matched,17,true,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-060-17058700001309,StatsBomb open data,matched,7,false,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-060-17058700001313,StatsBomb open data,matched,13,false,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-060-17058700001392,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-061-17058900001021,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-061-17058900001154,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-061-17058900001347,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-061-17058900001399,StatsBomb open data,matched,5,false,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-061-17058900001429,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-062-17059000000706,StatsBomb open data,matched,13,false,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-062-17059000000795,StatsBomb open data,matched,7,false,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-062-17059000001434,StatsBomb open data,matched,18,true,19,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-063-17059100000936,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-063-17059100001308,StatsBomb open data,matched,3,false,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-063-17059100001562,StatsBomb open data,matched,12,false,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-064-17059200000421,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2018,final,2018-064-17059200000525,StatsBomb open data,unmatched,,,,provider_card_unmatched,https://github.com/statsbomb/open-data
+2018,final,2018-064-17059200001354,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-001-18185300000239,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-001-18185300000304,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-001-18185300000447,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-001-18185300000537,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-001-18185300000949,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-001-18185300001245,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-002-18185200000842,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-002-18185200001281,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-002-18185200001290,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-003-18185800000235,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-003-18185800000828,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-004-18185900000220,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-004-18185900000241,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-004-18185900000648,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-004-18185900000778,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-004-18185900000896,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-004-18185900001585,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-005-18187100001010,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-005-18187100001382,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-005-18187100001656,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-006-18187000000414,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-006-18187000001344,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-006-18187000001432,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-007-18186500000436,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-007-18186500000883,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-007-18186500001125,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-008-18186400001103,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-008-18186400001205,StatsBomb open data,matched,17,false,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-008-18186400001250,StatsBomb open data,matched,19,false,19,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-008-18186400001272,StatsBomb open data,matched,19,true,20,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-008-18186400001360,StatsBomb open data,matched,20,false,20,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-008-18186400001401,StatsBomb open data,matched,22,false,22,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-009-18188300000149,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-009-18188300000947,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-009-18188300000966,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-009-18188300001377,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-009-18188300001412,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-010-18187700001292,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-010-18187700001771,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-012-18188200001309,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-013-18188800000693,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-013-18188800001158,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-013-18188800001409,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-014-18189400000901,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-014-18189400001367,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-015-18189500000765,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-015-18189500000849,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-015-18189500000969,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-015-18189500001392,StatsBomb open data,matched,13,true,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-015-18189500001393,StatsBomb open data,matched,18,false,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-015-18189500001444,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-016-18188900000109,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-016-18188900000861,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-016-18188900001062,StatsBomb open data,matched,11,false,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-017-18186000000707,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-017-18186000001261,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-017-18186000001379,StatsBomb open data,matched,9,false,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-017-18186000001380,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-018-18185400000300,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-018-18185400000448,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-018-18185400000656,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-018-18185400000846,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-018-18185400001337,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-018-18185400001381,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-019-18185500001027,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-021-18187200000410,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-021-18187200001075,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-021-18187200001501,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-022-18186600000256,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-022-18186600000266,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-022-18186600000308,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-022-18186600000315,StatsBomb open data,matched,3,false,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-022-18186600000673,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-023-18187300000381,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-023-18187300000421,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-023-18187300000720,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-024-18186700000330,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-024-18186700000601,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-024-18186700000814,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-024-18186700001042,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-024-18186700001366,StatsBomb open data,matched,17,true,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-025-18187800000753,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-025-18187800000786,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-025-18187800001094,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-025-18187800001222,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-025-18187800001382,StatsBomb open data,matched,21,true,22,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-025-18187800001526,StatsBomb open data,matched,22,true,23,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-026-18188400000466,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-026-18188400001509,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-027-18188500000977,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-027-18188500001031,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-027-18188500001404,StatsBomb open data,matched,5,false,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-027-18188500001405,StatsBomb open data,matched,12,false,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-028-18187900000709,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-028-18187900000812,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-028-18187900001048,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-028-18187900001069,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-029-18189000000343,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-029-18189000000393,StatsBomb open data,matched,4,false,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-029-18189000000697,StatsBomb open data,matched,5,false,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-029-18189000001483,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-030-18189600000318,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-030-18189600000374,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-030-18189600001113,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-030-18189600001157,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-031-18189100000916,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-031-18189100000939,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-032-18189700000111,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-032-18189700000618,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-032-18189700000676,StatsBomb open data,matched,9,false,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-032-18189700001233,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-032-18189700001438,StatsBomb open data,matched,11,false,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-033-18186300000423,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-033-18186300000896,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-034-18186200000671,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-034-18186200001243,StatsBomb open data,matched,17,true,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-034-18186200001318,StatsBomb open data,matched,18,false,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-034-18186200001515,StatsBomb open data,matched,20,true,21,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-035-18185600000942,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-036-18185700000969,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-037-18187400000064,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-037-18187400000990,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-037-18187400001234,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-038-18187500000449,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-039-18186900000853,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-039-18186900001395,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-040-18186800000241,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-040-18186800000416,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-040-18186800000483,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-040-18186800000818,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-040-18186800001213,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-040-18186800001321,StatsBomb open data,matched,18,true,19,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-040-18186800001415,StatsBomb open data,matched,20,true,21,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-041-18188700001254,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-042-18188600000139,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-042-18188600000395,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-042-18188600000703,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-042-18188600001349,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-043-18188100000758,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-043-18188100000868,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-043-18188100000879,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-044-18188000001311,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-045-18189800000311,StatsBomb open data,matched,3,false,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-045-18189800001021,StatsBomb open data,matched,9,false,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-045-18189800001454,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-045-18189800001465,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-045-18189800001639,StatsBomb open data,matched,20,true,21,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-046-18189900000585,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-046-18189900001409,StatsBomb open data,matched,9,false,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200000252,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200000514,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200000715,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200000832,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200000959,StatsBomb open data,matched,11,false,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200001176,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200001178,StatsBomb open data,matched,17,false,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200001393,StatsBomb open data,matched,11,false,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200001394,StatsBomb open data,matched,19,false,19,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200001428,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-047-18189200001447,StatsBomb open data,matched,20,true,21,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-048-18189300000119,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-048-18189300000128,StatsBomb open data,matched,0,true,1,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-048-18189300000477,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-048-18189300000512,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-048-18189300001239,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-048-18189300001288,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-048-18189300001384,StatsBomb open data,matched,17,false,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-049-18190000000974,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-049-18190000001384,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-050-18190100000292,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-050-18190100000675,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-051-18190300001185,StatsBomb open data,matched,10,true,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-052-18190200000577,StatsBomb open data,matched,3,true,4,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-052-18190200000825,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-052-18190200001442,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-053-18190400001492,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-053-18190400001981,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-054-18190500000711,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-055-18190600001289,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-055-18190600001448,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-056-18190700000640,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-056-18190700000890,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900000673,StatsBomb open data,matched,8,false,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900000674,StatsBomb open data,matched,4,true,5,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900000687,StatsBomb open data,matched,5,true,6,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900000708,StatsBomb open data,matched,8,false,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900001227,StatsBomb open data,matched,16,false,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900001228,StatsBomb open data,matched,11,false,11,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900001376,StatsBomb open data,matched,20,false,20,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900001393,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900001489,StatsBomb open data,matched,18,false,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900001492,StatsBomb open data,matched,18,false,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900001781,StatsBomb open data,matched,21,false,21,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-057-18190900001812,StatsBomb open data,matched,21,true,22,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-058-18190800000440,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-058-18190800000524,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-058-18190800001189,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-058-18190800001342,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-058-18190800002100,StatsBomb open data,matched,22,false,22,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-059-18191100000658,StatsBomb open data,matched,6,true,7,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-059-18191100000802,StatsBomb open data,matched,7,true,8,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-059-18191100001232,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-059-18191100001286,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-060-18191000001098,StatsBomb open data,matched,12,true,13,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-060-18191000001349,StatsBomb open data,matched,8,true,9,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-060-18191000001399,StatsBomb open data,matched,16,true,17,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-060-18191000001417,StatsBomb open data,matched,17,true,18,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-061-18191200000582,StatsBomb open data,matched,2,true,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-061-18191200000583,StatsBomb open data,matched,3,false,3,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-061-18191200001195,StatsBomb open data,matched,14,true,15,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-061-18191200001219,StatsBomb open data,matched,16,false,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-062-18191300000464,StatsBomb open data,matched,1,true,2,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-063-18191400001109,StatsBomb open data,matched,10,false,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-063-18191400001380,StatsBomb open data,matched,14,false,14,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-064-18191500000790,StatsBomb open data,matched,9,true,10,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-064-18191500000951,StatsBomb open data,matched,11,true,12,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-064-18191500001432,StatsBomb open data,matched,15,true,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-064-18191500001512,StatsBomb open data,matched,16,false,16,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-064-18191500001558,StatsBomb open data,matched,22,true,23,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-064-18191500001920,StatsBomb open data,matched,27,true,28,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2022,final,2022-064-18191500001944,StatsBomb open data,matched,28,true,29,provider_card_matched_and_ordered,https://github.com/statsbomb/open-data
+2026,provisional_M100,2026-001-1010552900,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-001-1686141993,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-001-1759804476,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-001-2125180985,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-001-563317787,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-001-928372749,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-002-1531978956,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-003-1623100445,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-003-17897476,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-003-1902399549,FIFA timeline,matched,17,false,17,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-003-2024266773,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-003-2141771799,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-004-103388318,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-004-1405225090,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-004-1950673036,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-004-1958422633,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-004-196399234,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-004-84897876,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-005-1530249407,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-005-18363657,FIFA timeline,matched,17,false,17,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-005-1907432629,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-005-226225420,FIFA timeline,matched,18,false,18,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-006-1947191578,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-007-2036497562,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-007-252140689,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-008-2016806944,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-008-282370065,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-008-830290969,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-009-1432999421,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-009-1543251368,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-009-221867454,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-009-800913912,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-011-1003969002,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-011-1314982255,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-011-533280131,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-012-1192408625,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-013-272137359,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-014-1545725988,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-014-2030108680,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-015-109153558,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-016-1259414589,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-016-2125055021,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-016-60981295,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-016-852258901,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-018-1856403562,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-020-1672639750,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-021-1590352052,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-021-2050941070,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-021-2070581423,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-023-1083562039,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-023-1227587598,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-023-277085197,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-023-822123583,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-024-1362733250,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-024-835060951,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-025-1337667621,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-025-467262508,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-025-902040606,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-026-1832257617,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-026-1917443155,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-026-51495004,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-026-962013309,FIFA timeline,matched,13,false,13,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-027-1705895087,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-027-1829964964,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-027-471807154,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-027-57173141,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-028-1785438431,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-028-2021273903,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-029-1378937007,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-029-62243948,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-029-712714390,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-029-949350559,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-030-582733913,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-030-868010068,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-031-1119347940,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-031-2013376760,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-031-544827588,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-032-1164031000,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-032-179126284,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-032-1888639034,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-032-1895934006,FIFA timeline,matched,13,false,13,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-032-1931839543,FIFA timeline,matched,13,false,13,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-032-2029326382,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-032-2143871036,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-034-1491510465,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-034-159245463,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-034-178073773,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-034-217272473,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-034-338318511,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-034-361723094,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-035-168800327,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-035-1977001028,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-035-621469747,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-037-1956965508,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-037-302965928,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-037-368251062,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-037-721364104,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-038-1770306602,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-038-735760418,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-039-1197353047,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-039-1524285504,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-039-584966252,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-040-1467776208,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-040-442558675,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-040-580533454,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-042-512925771,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-043-1082999862,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-043-140395567,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-043-177674287,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-043-832398359,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-044-1333874904,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-044-857421033,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-045-1093510257,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-045-1539499137,FIFA timeline,matched,15,false,15,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-046-1183416537,FIFA timeline,matched,14,false,14,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-046-961350899,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-047-1252661256,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-047-1746556956,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-048-1391609073,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-048-1552710907,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-048-1615666473,FIFA timeline,matched,14,false,14,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-049-1788266756,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-049-564534543,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-049-60726580,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-050-149639464,FIFA timeline,matched,17,false,17,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-050-1567647013,FIFA timeline,matched,15,false,15,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-050-1833112852,FIFA timeline,matched,15,false,15,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-051-1097558059,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-051-1105091639,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-051-1397863563,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-052-1025229946,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-052-1276998773,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-053-241340838,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-054-1176750482,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-054-812845487,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-055-188552307,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-055-669123713,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-055-751742006,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-056-1192326181,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-056-1230953535,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-056-751438918,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-056-985500813,FIFA timeline,matched,13,false,13,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-057-142479655,FIFA timeline,matched,16,false,16,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-057-615767348,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-057-824606873,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-059-2060790063,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-060-613007745,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-060-879562058,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-061-1987563557,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-061-885457023,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-062-1214663806,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-062-1571268746,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-062-2122560657,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-062-228100121,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-062-416350250,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-063-1004363147,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-063-1149016499,FIFA timeline,matched,13,false,13,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-063-1495639324,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-063-1550814494,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-063-227391894,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-063-748980550,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-063-845581687,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-064-218006913,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-064-808710481,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-065-1279349963,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-065-332802225,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-065-603316393,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-065-740829472,FIFA timeline,matched,13,false,13,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-066-37892316,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-066-486322398,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-066-741022969,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-066-762584290,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-066-850320676,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-067-2087132283,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-067-252756031,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-067-713658440,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-068-1249444955,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-068-743584912,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-069-1620362532,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-070-1620584884,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-070-1901285749,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-070-2000327977,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-071-508474611,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-072-1235532008,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-072-1259201737,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-072-2049463469,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-072-372081880,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-072-864110785,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-073-1592189990,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-073-232970286,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-074-1356497042,FIFA timeline,matched,16,false,16,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-074-1476598932,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-074-1493121130,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-074-783974571,FIFA timeline,matched,15,false,15,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-075-1448063215,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-076-1002391561,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-076-1108929538,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-076-1272018952,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-076-372285486,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-076-418913314,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-078-1073440795,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-079-1549936847,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-079-1658327204,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-079-1691284688,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-079-1895055576,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-080-30650383,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-080-531686412,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-081-1246412996,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-081-81391783,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-082-1683214440,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-082-1909612648,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-083-1183454321,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-083-1401101435,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-083-2055665736,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-084-1319270449,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-085-1665475753,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-085-368288953,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-086-33000641,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-086-653468808,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-087-1017094380,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-087-1220002040,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-087-1413268693,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-087-1951937728,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-087-890299619,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-088-1796075577,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-088-752249922,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-089-1096589454,FIFA timeline,matched,8,false,8,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-089-120622211,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-089-1481671768,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-090-1040096285,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-090-1412828193,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-090-1663086605,FIFA timeline,matched,1,false,1,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-090-1695652906,FIFA timeline,matched,16,false,16,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-090-565020707,FIFA timeline,matched,14,false,14,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-090-785167379,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-090-885838872,FIFA timeline,matched,2,false,2,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-090-949532704,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-091-1497401405,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-092-1607016522,FIFA timeline,matched,0,false,0,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-092-1977498691,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-092-336299159,FIFA timeline,matched,14,false,14,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-092-344832146,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-092-653235296,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-092-835155077,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-092-859831394,FIFA timeline,matched,5,false,5,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-093-153596981,FIFA timeline,matched,12,false,12,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-093-1695860784,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-093-1997970488,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-094-1368327272,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-094-228427,FIFA timeline,matched,3,false,3,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-095-1765037129,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-095-1832771658,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-095-2027950156,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-096-1216614535,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-096-1300078726,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-096-1894410392,FIFA timeline,matched,15,false,15,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-096-396285113,FIFA timeline,matched,14,false,14,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-096-749295747,FIFA timeline,matched,6,false,6,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-097-1774618642,FIFA timeline,matched,7,false,7,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-098-1441093697,FIFA timeline,matched,13,false,13,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-098-1836662796,FIFA timeline,matched,4,false,4,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-098-1915987019,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-098-2039247951,FIFA timeline,matched,15,false,15,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-099-1435131963,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-100-1062420622,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-100-1147035794,FIFA timeline,matched,10,false,10,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-100-2105529436,FIFA timeline,matched,9,false,9,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-100-280862886,FIFA timeline,matched,11,false,11,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2026-100-819309696,FIFA timeline,matched,14,false,14,provider_card_matched_no_native_foul_link,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026

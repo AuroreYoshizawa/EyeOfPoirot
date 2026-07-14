@@ -50,6 +50,16 @@
 | 深度检查 | 预先声明的分届 Kendall `τ_b`（出场场次 × `e_s`）；绝不跨届合并 |
 | 人员范围 | 指标只计球员牌；教练组/官员牌另行审计 |
 
+### 已冻结的扩展队列修订
+
+2026-07-14 批准的修订新增全队列 `E_s^grp`/`E_s^all`、标注为次要分析的
+`lambda=0.5` 变体、删除异议/拖延时间牌后的稳健性结果、MD2 加淘汰赛次要
+指标，以及描述性的累计犯规表。这些均为新增输出，不替换已注册的 v0.2.1
+主表。当前所有 2026 修订输出均标为 `provisional_M100`；尚未摄入
+M101–M104，确认性重跑仍在 M104 之后进行。详见
+[`docs/AMENDMENTS.md`](docs/AMENDMENTS.md) 与
+[`docs/RESULTS.md`](docs/RESULTS.md)。
+
 ## 数据与复现
 
 仓库把可公开的衍生事实与权利敏感的原始快照分开：
@@ -80,8 +90,8 @@ python3 -m pipeline.build_all --from-raw
 ## 来源优先级
 
 1. FIFA calendar、timeline/event、球队统计、match centre 与官方比赛报告；
-2. 足协或俱乐部对球员可用性的声明；
-3. 可靠媒体的伤病/疾病报道；
+2. 足协或俱乐部对球员可用性或纪律决定的声明；
+3. 可靠媒体的伤病、疾病与出牌原因报道；
 4. FotMob、Transfermarkt、Wikipedia 只作为有记录的回退源或交叉核对。
 
 2014 年终场时间是声明过的例外：FIFA 归档事件流缺少可用的终场节标记，
@@ -119,6 +129,24 @@ FotMob 中可用的 19 场作为独立交叉核对层保留。
 
 ## 许可与引用
 
-代码使用 MIT（`LICENSE-CODE`）；原创文档、衍生表与图使用 CC BY 4.0
-（`LICENSE`）。仓库不分发、也不重新许可 FIFA/FotMob 原始页面和报告。
+代码使用 MIT（`LICENSE-CODE`）；项目原创文档、原创图和不含第三方权利
+限制的项目衍生表使用 CC BY 4.0（`LICENSE`）。
+
+[![StatsBomb logo](https://raw.githubusercontent.com/statsbomb/open-data/master/img/SB%20-%20Icon%20Lockup%20-%20Colour%20positive.png)](https://statsbomb.com)
+
+**Data source: StatsBomb.** `sb_foul_linked`、四行 StatsBomb 聚合核对表、
+2018/2022 事件分段与公开累计犯规计数，以及报告中的相应段落，均属于基于
+StatsBomb Open Data 形成的分析，继续受
+[StatsBomb Public Data User Agreement](https://github.com/statsbomb/open-data/blob/master/LICENSE.pdf)
+及其非商业限制约束，不纳入本项目的 CC BY 4.0 再许可。事件级 StatsBomb
+记录只保留在 Git 忽略的私有 raw 档案中，不公开再分发；StatsBomb 标志与
+商标也不纳入仓库许可。公开发布前，档案负责人还须人工确认已完成协议所
+请求的 [StatsBomb Resource Centre](https://statsbomb.com/resource-centre/)
+姓名与邮箱登记；构建程序无法验证这一外部事项。
+
+公开累计犯规 CSV 只含项目标识符与衍生计数。StatsBomb 比赛/事件标识符、
+序列号、排序键和关联事件引用只保留在 Git 忽略的私有 sidecar；公开链接
+只指向 StatsBomb 数据集主页。
+
+仓库也不分发或重新许可 FIFA/FotMob 原始页面、报告及其他第三方材料。
 引用信息见 [`CITATION.cff`](CITATION.cff)。

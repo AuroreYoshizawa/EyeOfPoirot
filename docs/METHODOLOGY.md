@@ -56,9 +56,9 @@ $c$:
 | $S_p$ | nominal minutes unavailable through a dismissal or a suspension being served |
 | $I_p$ | nominal minutes unavailable through a documented injury or illness |
 
-The normalized data model consists of match, card, team-match foul, player-
-match participation, disciplinary-decision, suspension, availability, and
-evidence tables. Player
+The normalized data model consists of match, card, card-reason, team-match
+foul, player-match participation, disciplinary-decision, suspension,
+availability, and evidence tables. Player
 and team identifiers are retained whenever a source exposes them; normalized
 names are display fields, not join keys where an identifier exists.
 
@@ -343,7 +343,10 @@ not the unweighted mean of team ratios.
 Availability is coded at player × team-match grain with one of:
 `played`, `bench`, `suspended`, `injured`, or `unexplained`. Only players with
 positive unweighted sanction minutes $X_s>0$ require complete availability
-coding for the primary build.
+coding for the primary build. The normalized data layer is broader than that
+minimum: it codes every carded player across the player's full team schedule,
+including players from group-stage-eliminated teams, so the same ω inputs are
+available for expanded-cohort analyses.
 
 1. Participation and bench status come from official line-ups or the best
    archived match record.
@@ -365,6 +368,19 @@ losses observed as served.
 Each positive injury row contains `player`, `match`, `status`, interval,
 `source_url`, evidence tier, and a short quotation-free paraphrase. The
 evidence audit is published in `data/sources/injury-evidence.md`.
+
+Every in-play player card also has a written-source reason class and evidence
+note in `source/card_reasons.csv`. StatsBomb linkage is an independent
+2018/2022 corroboration field; disagreements remain `AUDIT` and do not replace
+the written-source classification. Card-bearing StatsBomb events outside, or
+not alignable to, the in-play FIFA census remain event-level only in the
+gitignored private raw archive. The public
+`source/card_reason_sb_reconciliation.csv` contains four aggregate edition ×
+event-type rows, and `data/sources/card-reason-evidence.md` reports aggregate
+reconciliation counts without redistributing StatsBomb event records. These
+StatsBomb-derived fields, aggregates, and report sections remain subject to
+the StatsBomb Public Data User Agreement and are excluded from the
+repository's CC BY 4.0 grant.
 
 ## 5. Prespecified sensitivity and quality control
 

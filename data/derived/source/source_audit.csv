@@ -1,28 +1,39 @@
 edition,check,observed,expected,status,note
 2014,player_card_count,194,194,PASS,frozen card census
+2014,card_reason_in_play_coverage,194,194,PASS,one evidence-audited reason row per in-play player card
 2014,team_match_foul_rows,128,128,PASS,two rows per included match
 2014,foul_event_vs_team_stat_layers,0,1918,AUDIT,event and team-stat layers are retained separately
 2014,foul_team_attribution_vs_timeline,direct=0;swap_preferred=0,swap_preferred<=2,PASS,guards against within-match team swaps that totals cannot detect
 2014,carded_player_participation_coverage,166,166,PASS,all carded players have tournament participation rows
 2018,player_card_count,224,224,PASS,frozen card census
+2018,card_reason_in_play_coverage,224,224,PASS,one evidence-audited reason row per in-play player card
 2018,team_match_foul_rows,128,128,PASS,two rows per included match
 2018,foul_event_vs_team_stat_layers,1733,1734,AUDIT,event and team-stat layers are retained separately
 2018,foul_team_attribution_vs_timeline,direct=64;swap_preferred=0,swap_preferred<=2,PASS,guards against within-match team swaps that totals cannot detect
 2018,carded_player_participation_coverage,184,184,PASS,all carded players have tournament participation rows
 2018,fifa_live_vs_draft_player_minutes,773,773,PASS,FIFA live is primary; sample differences=[]
 2022,player_card_count,228,228,PASS,frozen card census
+2022,card_reason_in_play_coverage,221,221,PASS,one evidence-audited reason row per in-play player card
 2022,team_match_foul_rows,128,128,PASS,two rows per included match
 2022,foul_event_vs_team_stat_layers,1600,1519,AUDIT,event and team-stat layers are retained separately
 2022,foul_team_attribution_vs_timeline,direct=64;swap_preferred=0,swap_preferred<=2,PASS,guards against within-match team swaps that totals cannot detect
 2022,carded_player_participation_coverage,198,198,PASS,all carded players have tournament participation rows
 2022,fifa_live_vs_draft_player_minutes,816,816,PASS,FIFA live is primary; sample differences=[]
 2026,player_card_count,270,270,PASS,frozen card census
+2026,card_reason_in_play_coverage,269,269,PASS,one evidence-audited reason row per in-play player card
 2026,team_match_foul_rows,200,200,PASS,two rows per included match
 2026,foul_event_vs_team_stat_layers,2069,2294,AUDIT,event and team-stat layers are retained separately
 2026,foul_team_attribution_vs_timeline,direct=100;swap_preferred=0,swap_preferred<=2,PASS,guards against within-match team swaps that totals cannot detect
 2026,carded_player_participation_coverage,235,235,PASS,all carded players have tournament participation rows
 2026,fifa_live_vs_draft_player_minutes,975,975,PASS,FIFA live is primary; sample differences=[]
+all,card_reason_evidence_fields,908,908,PASS,"Every row has a public URL, source tier, and paraphrased evidence note; {""dissent"":46,""foul_play"":771,""other_nonfoul"":47,""time_wasting"":19,""unknown"":25}"
+2018/2022,statsbomb_card_reason_reconciliation,35,0,AUDIT,Linkage disagreements/unmatched cards remain explicit; card_ids=2018-002-17052600001575|2018-009-17055000000522|2018-010-17054900001470|2018-011-17055500001426|2018-013-17056100000908|2018-015-17056700001096|2018-016-17056800001487|2018-023-17054500001433|2018-026-17055200001306|2018-028-17055800000988|2018-029-17056300000201|2018-032-17056900000829|2018-033-17052900000132|2018-035-17053600000445|2018-035-17053600000815|2018-035-17053600001214|2018-035-17053600001358|2018-038-17054200001065|2018-040-17054700001196|2018-042-17055400000215|2018-042-17055400000562|2018-043-17056000001022|2018-046-17056600001238|2018-046-17056600001401|2018-050-17057700000168|2018-050-17057700000746|2018-050-17057700001036|2018-053-17058100001093|2018-053-17058100001262|2018-063-17059100001562|2018-064-17059200000525|2022-015-18189500001392|2022-061-18191200001219|2022-063-18191400001380|2022-064-18191500001432
+all,card_reason_other_source_audits,1,0,AUDIT,Written-source conflicts remain explicit; card_ids=2026-087-1220002040
+2018/2022,statsbomb_extra_card_events_reconciled_privately,12,12,PASS,"Private event-level ledger validated by hash; only aggregate conclusions are published; {""Bad Behaviour"":8,""Foul Committed"":4}"
 all,availability_evidence_participation_join,56,56,PASS,"Every evidence row joins to the same player, team, and official match."
 2018,medical_match_number_corrections,5,5,PASS,Explicit correction map for five pre-freeze ledger fixture-number errors.
 all,documented_sanction_decisions,4,4,PASS,Every override retains a public decision source URL.
 2014,huffpost_opta_vs_fotmob_foul_overlap,13,19,AUDIT,"complete HuffPost/Opta layer retained; differences=[{""match_number"":1,""huffpost"":[5,20],""fotmob"":[5,21],""match"":false},{""match_number"":3,""huffpost"":[5,18],""fotmob"":[5,19],""match"":false},{""match_number"":59,""huffpost"":[15,13],""fotmob"":[14,13],""match"":false},{""match_number"":61,""huffpost"":[11,14],""fotmob"":[11,13],""match"":false},{""match_number"":63,""huffpost"":[16,20],""fotmob"":[15,20],""match"":false},{""match_number"":64,""huffpost"":[20,16],""fotmob"":[19,16],""match"":false}]"
+2018/2022/2026,complete_event_feed_public_reduction,3648,3648,PASS,Eight-segment team-match aggregates retain no provider-native match/event identifiers or order keys.
+all,cumulative_foul_card_census,908,908,PASS,One public audit row per in-play player card; provider-native order details remain in the gitignored private sidecar.
+2014,cumulative_foul_event_source,source_unavailable,source_unavailable,PASS,No complete reproducible 2014 foul-event sequence is imputed.

@@ -1,0 +1,13 @@
+edition,edition_status,ledger,cohort,metric,outcome,teams,tau_b,p_permutation,permutations,seed,note
+2014,final,stripped,knockout_teams,depth_total_e_s,matches_played_excluding_third_place,16,-0.39841,0.053595,10000,20260713,Disclosed robustness; never pooled.
+2014,final,stripped,knockout_teams,conceded_total_e_s,goals_conceded_per_match_excluding_third_place,16,0.127688,0.529447,10000,20260713,Disclosed robustness; never pooled.
+2014,final,stripped,knockout_teams,conceded_accumulation_window,goals_conceded_per_match_excluding_third_place,16,0.314965,0.105889,10000,20260713,Disclosed robustness; never pooled.
+2018,final,stripped,knockout_teams,depth_total_e_s,matches_played_excluding_third_place,16,-0.43825,0.034197,10000,20260713,Disclosed robustness; never pooled.
+2018,final,stripped,knockout_teams,conceded_total_e_s,goals_conceded_per_match_excluding_third_place,16,0.417116,0.028497,10000,20260713,Disclosed robustness; never pooled.
+2018,final,stripped,knockout_teams,conceded_accumulation_window,goals_conceded_per_match_excluding_third_place,16,0.468191,0.012699,10000,20260713,Disclosed robustness; never pooled.
+2022,final,stripped,knockout_teams,depth_total_e_s,matches_played_excluding_third_place,16,-0.617535,0.0019,10000,20260713,Disclosed robustness; never pooled.
+2022,final,stripped,knockout_teams,conceded_total_e_s,goals_conceded_per_match_excluding_third_place,16,0.536292,0.0047,10000,20260713,Disclosed robustness; never pooled.
+2022,final,stripped,knockout_teams,conceded_accumulation_window,goals_conceded_per_match_excluding_third_place,16,0.468191,0.014499,10000,20260713,Disclosed robustness; never pooled.
+2026,provisional_M100,stripped,knockout_teams,depth_total_e_s,matches_played_excluding_third_place,32,0.106066,0.461254,10000,20260713,Disclosed robustness; 2026 is provisional_M100 and not the confirmatory rerun.
+2026,provisional_M100,stripped,knockout_teams,conceded_total_e_s,goals_conceded_per_match_excluding_third_place,32,0.035846,0.790921,10000,20260713,Disclosed robustness; 2026 is provisional_M100 and not the confirmatory rerun.
+2026,provisional_M100,stripped,knockout_teams,conceded_accumulation_window,goals_conceded_per_match_excluding_third_place,32,0.088925,0.506149,10000,20260713,Disclosed robustness; 2026 is provisional_M100 and not the confirmatory rerun.

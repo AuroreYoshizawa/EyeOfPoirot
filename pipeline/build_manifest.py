@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write the frozen SHA-256 inventory for private raw and public derived data.
+"""Write the SHA-256 inventory for private raw and public source/derived data.
 
 The manifest contains hashes and repository-relative paths only. It does not
 publish the raw bytes. The output file excludes itself so regeneration is
@@ -14,8 +14,32 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = ROOT / "data" / "MANIFEST-sha256-2026-07-13.txt"
-INPUT_ROOTS = (ROOT / "data" / "raw", ROOT / "data" / "derived")
+DEFAULT_OUTPUT = ROOT / "data" / "MANIFEST-sha256-2026-07-14.txt"
+INPUT_ROOTS = (
+    ROOT / "data" / "raw",
+    ROOT / "data" / "derived",
+    ROOT / "data" / "sources",
+)
+REQUIRED_INPUTS = (
+    ROOT / "data" / "raw",
+    ROOT / "data" / "derived" / "source" / "card_reasons.csv",
+    ROOT / "data" / "derived" / "source" / "card_reason_sb_reconciliation.csv",
+    ROOT / "data" / "derived" / "source" / "foul_event_segments.csv",
+    ROOT / "data" / "derived" / "source" / "card_event_order.csv",
+    ROOT / "data" / "derived" / "source" / "team_match_card_order.csv",
+    ROOT / "data" / "derived" / "source" / "team_outcomes.csv",
+    ROOT / "data" / "derived" / "stages" / "s9-stripped-card-ledger.csv",
+    ROOT / "data" / "derived" / "stages" / "s10-stripped-suspensions.csv",
+    ROOT / "data" / "derived" / "stages" / "s11-expanded-player-suspension-exposure.csv",
+    ROOT / "data" / "derived" / "results" / "expanded-suspension-exposure.csv",
+    ROOT / "data" / "derived" / "results" / "md2-suspension-exposure.csv",
+    ROOT / "data" / "derived" / "results" / "card-timing-displacement.csv",
+    ROOT / "data" / "derived" / "results" / "stripped-disclosed-correlations.csv",
+    ROOT / "data" / "derived" / "results" / "cumulative-fouls-before-card.csv",
+    ROOT / "data" / "derived" / "results" / "cumulative-fouls-before-first-card.csv",
+    ROOT / "data" / "derived" / "results" / "expanded-audit.csv",
+    ROOT / "data" / "sources" / "card-reason-evidence.md",
+)
 
 
 def sha256(path: Path) -> str:
@@ -27,9 +51,19 @@ def sha256(path: Path) -> str:
 
 
 def iter_inputs(output: Path):
+    missing = [path for path in REQUIRED_INPUTS if not path.exists()]
+    if missing:
+        def display(path: Path) -> str:
+            try:
+                return path.relative_to(ROOT).as_posix()
+            except ValueError:
+                return str(path)
+
+        relative = ", ".join(display(path) for path in missing)
+        raise FileNotFoundError(
+            "refusing to write a partial full manifest; missing: " + relative
+        )
     for base in INPUT_ROOTS:
-        if not base.exists():
-            continue
         for path in base.rglob("*"):
             if not path.is_file() or path == output:
                 continue

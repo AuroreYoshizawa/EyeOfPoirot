@@ -58,6 +58,17 @@ The frozen specification and non-claim boundary are in
 | Depth check | prespecified per-edition Kendall `τ_b` of matches played vs `e_s`; never pooled across editions |
 | Personnel | player cards only in metrics; team-official cards audited separately |
 
+### Frozen expanded-cohort amendment
+
+The amendment approved on 2026-07-14 adds full-field `E_s^grp`/`E_s^all`,
+the labeled `lambda=0.5` secondary, reason-stripped robustness variants, the
+MD2-plus-knockout secondary, and descriptive cumulative-foul tables. These
+are additive outputs and do not replace the registered v0.2.1 primary tables.
+All current 2026 amendment rows are labeled `provisional_M100`; M101–M104 are
+not ingested, and the confirmatory rerun remains scheduled after M104. See
+[`docs/AMENDMENTS.md`](docs/AMENDMENTS.md) and
+[`docs/RESULTS.md`](docs/RESULTS.md).
+
 ## Data and reproducibility
 
 The repository separates redistributable derived facts from rights-sensitive
@@ -90,14 +101,43 @@ disciplinary-decision cases are tracked in
 Source hierarchy, redistribution boundaries, table inventory, and the
 snapshot manifest are documented in [`data/README.md`](data/README.md).
 
+### StatsBomb attribution and rights boundary
+
+[![StatsBomb logo](https://raw.githubusercontent.com/statsbomb/open-data/master/img/SB%20-%20Icon%20Lockup%20-%20Colour%20positive.png)](https://statsbomb.com)
+
+**Data source: StatsBomb.** The `sb_foul_linked` field, the four-row
+reconciliation table, the 2018/2022 event-segment and public cumulative-foul
+counts, and the related report sections are analyses derived from StatsBomb
+Open Data. They remain subject to the
+[StatsBomb Public Data User Agreement](https://github.com/statsbomb/open-data/blob/master/LICENSE.pdf),
+including its non-commercial restriction, and are excluded from this
+repository's CC BY 4.0 grant. Event-level StatsBomb records are retained only
+in the gitignored private raw archive and are not redistributed. The
+StatsBomb logo and trademarks are also excluded from the repository licenses.
+Before a public release, the archive owner must manually confirm that the
+StatsBomb user has submitted the name-and-email registration requested at the
+[StatsBomb Resource Centre](https://statsbomb.com/resource-centre/); the build
+cannot verify that external registration.
+
 ## Source hierarchy
 
 1. FIFA calendar, timeline/event, team-statistics, match-centre, and official
    match-report material;
-2. federation or club statements for player availability;
-3. established match reporting for injury/illness evidence;
+2. federation or club statements for player availability or disciplinary context;
+3. established match reporting for injury/illness and card-reason evidence;
 4. FotMob, Transfermarkt, and Wikipedia only as documented fallbacks or
    cross-checks.
+
+The public card-reason ledger classifies all 908 in-play player cards at the
+M1–M100 cutoff. Its evidence report also retains the full 2018/2022 StatsBomb
+`Bad Behaviour` reconciliation as aggregate counts. The public four-row
+reconciliation table reports edition × event-type totals; the event-level
+StatsBomb records outside the in-play FIFA census remain in the private raw
+archive.
+Public cumulative-foul CSVs contain only project identifiers and derived
+counts; StatsBomb match/event identifiers, sequence indices, order keys, and
+linked-event references remain in the gitignored private sidecar. Public
+StatsBomb links point only to the dataset landing page.
 
 The 2014 end clock is a declared exception: archived FIFA event feeds lack
 usable final-period markers, so archived FotMob period timestamps reconstruct
@@ -143,6 +183,10 @@ private correspondence to an issue.
 ## License and citation
 
 Code will be released under MIT (`LICENSE-CODE`). Original documentation,
-derived tables, and figures are CC BY 4.0 (`LICENSE`). Raw FIFA/FotMob pages
-and reports are not distributed and are not relicensed by this repository.
+project-authored derived tables, and original figures are CC BY 4.0
+(`LICENSE`). StatsBomb-derived fields, aggregates, and report sections remain
+subject to the StatsBomb Public Data User Agreement and are excluded from the
+CC BY grant. Raw FIFA/FotMob pages, event-level StatsBomb records, reports,
+third-party logos, and trademarks are not distributed or relicensed by this
+repository.
 Citation metadata: [`CITATION.cff`](CITATION.cff).

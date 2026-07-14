@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use the methodology, derived data, or figures, please cite this project."
+message: "If you use the methodology, derived data, or figures, please cite this project. Licensing exceptions for StatsBomb-derived analysis are documented in the repository README."
 title: "Eye of Poirot: sanction-exposure metrics for FIFA World Cup disciplinary records, 2014-2026"
 type: dataset
 version: 1.1.0
@@ -23,4 +23,3 @@ keywords:
   - sanction exposure
   - yellow cards
   - sports analytics
-license: CC-BY-4.0

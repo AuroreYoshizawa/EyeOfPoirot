@@ -1,0 +1,585 @@
+edition,edition_status,match_number,stage,team_id,team,goals_for,goals_against,source_url
+2014,final,1,group,43924,Brazil,3,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,1,group,43938,Croatia,1,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2,group,43911,Mexico,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,2,group,43849,Cameroon,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,3,group,43969,Spain,1,5,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,3,group,43960,Netherlands,5,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,4,group,43925,Chile,3,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,4,group,43976,Australia,1,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,5,group,43926,Colombia,3,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,5,group,43949,Greece,0,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,6,group,43854,Côte d'Ivoire,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,6,group,43819,Japan,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,7,group,43930,Uruguay,1,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,7,group,43901,Costa Rica,3,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,8,group,43942,England,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,8,group,43954,Italy,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,9,group,43971,Switzerland,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,9,group,43927,Ecuador,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,10,group,43946,France,3,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,10,group,43909,Honduras,0,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,11,group,43922,Argentina,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,11,group,44037,Bosnia-Herzegovina,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,12,group,43817,Iran,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,12,group,43876,Nigeria,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,13,group,43948,Germany,4,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,13,group,43963,Portugal,0,4,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,14,group,43860,Ghana,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,14,group,43921,United States,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,15,group,43935,Belgium,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,15,group,43843,Algeria,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,16,group,43965,Russia,1,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,16,group,43822,Korea Republic,1,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,17,group,43924,Brazil,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,17,group,43911,Mexico,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,18,group,43849,Cameroon,0,4,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,18,group,43938,Croatia,4,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,19,group,43969,Spain,0,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,19,group,43925,Chile,2,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,20,group,43976,Australia,2,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,20,group,43960,Netherlands,3,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,21,group,43926,Colombia,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,21,group,43854,Côte d'Ivoire,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,22,group,43819,Japan,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,22,group,43949,Greece,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,23,group,43930,Uruguay,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,23,group,43942,England,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,24,group,43954,Italy,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,24,group,43901,Costa Rica,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,25,group,43971,Switzerland,2,5,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,25,group,43946,France,5,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,26,group,43909,Honduras,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,26,group,43927,Ecuador,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,27,group,43922,Argentina,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,27,group,43817,Iran,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,28,group,43876,Nigeria,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,28,group,44037,Bosnia-Herzegovina,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,29,group,43948,Germany,2,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,29,group,43860,Ghana,2,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,30,group,43921,United States,2,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,30,group,43963,Portugal,2,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,31,group,43935,Belgium,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,31,group,43965,Russia,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,32,group,43822,Korea Republic,2,4,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,32,group,43843,Algeria,4,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,33,group,43849,Cameroon,1,4,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,33,group,43924,Brazil,4,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,34,group,43938,Croatia,1,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,34,group,43911,Mexico,3,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,35,group,43976,Australia,0,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,35,group,43969,Spain,3,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,36,group,43960,Netherlands,2,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,36,group,43925,Chile,0,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,37,group,43819,Japan,1,4,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,37,group,43926,Colombia,4,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,38,group,43949,Greece,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,38,group,43854,Côte d'Ivoire,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,39,group,43954,Italy,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,39,group,43930,Uruguay,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,40,group,43901,Costa Rica,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,40,group,43942,England,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,41,group,43909,Honduras,0,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,41,group,43971,Switzerland,3,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,42,group,43927,Ecuador,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,42,group,43946,France,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,43,group,43876,Nigeria,2,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,43,group,43922,Argentina,3,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,44,group,44037,Bosnia-Herzegovina,3,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,44,group,43817,Iran,1,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,45,group,43921,United States,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,45,group,43948,Germany,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,46,group,43963,Portugal,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,46,group,43860,Ghana,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,47,group,43822,Korea Republic,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,47,group,43935,Belgium,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,48,group,43843,Algeria,1,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,48,group,43965,Russia,1,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,49,round_of_16,43924,Brazil,1,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,49,round_of_16,43925,Chile,1,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,50,round_of_16,43926,Colombia,2,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,50,round_of_16,43930,Uruguay,0,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,51,round_of_16,43960,Netherlands,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,51,round_of_16,43911,Mexico,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,52,round_of_16,43901,Costa Rica,1,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,52,round_of_16,43949,Greece,1,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,53,round_of_16,43946,France,2,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,53,round_of_16,43876,Nigeria,0,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,54,round_of_16,43948,Germany,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,54,round_of_16,43843,Algeria,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,55,round_of_16,43922,Argentina,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,55,round_of_16,43971,Switzerland,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,56,round_of_16,43935,Belgium,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,56,round_of_16,43921,United States,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,57,quarter_final,43924,Brazil,2,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,57,quarter_final,43926,Colombia,1,2,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,58,quarter_final,43946,France,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,58,quarter_final,43948,Germany,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,59,quarter_final,43960,Netherlands,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,59,quarter_final,43901,Costa Rica,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,60,quarter_final,43922,Argentina,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,60,quarter_final,43935,Belgium,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,61,semi_final,43924,Brazil,1,7,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,61,semi_final,43948,Germany,7,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,62,semi_final,43960,Netherlands,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,62,semi_final,43922,Argentina,0,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,63,third_place,43924,Brazil,0,3,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,63,third_place,43960,Netherlands,3,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,64,final,43948,Germany,1,0,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2014,final,64,final,43922,Argentina,0,1,https://www.fifa.com/tournaments/mens/worldcup/2014brazil
+2018,final,1,group,43965,Russia,5,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,1,group,43835,Saudi Arabia,0,5,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,2,group,43855,Egypt,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,2,group,43930,Uruguay,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,3,group,43963,Portugal,3,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,3,group,43969,Spain,3,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,4,group,43872,Morocco,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,4,group,43817,Iran,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,5,group,43946,France,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,5,group,43976,Australia,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,6,group,43929,Peru,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,6,group,43941,Denmark,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,7,group,43922,Argentina,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,7,group,43951,Iceland,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,8,group,43938,Croatia,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,8,group,43876,Nigeria,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,9,group,43924,Brazil,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,9,group,43971,Switzerland,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,10,group,43901,Costa Rica,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,10,group,1902465,Serbia,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,11,group,43948,Germany,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,11,group,43911,Mexico,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,12,group,43970,Sweden,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,12,group,43822,Korea Republic,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,13,group,43935,Belgium,3,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,13,group,43914,Panama,0,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,14,group,43888,Tunisia,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,14,group,43942,England,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,15,group,43962,Poland,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,15,group,43879,Senegal,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,16,group,43926,Colombia,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,16,group,43819,Japan,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,17,group,43965,Russia,3,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,17,group,43855,Egypt,1,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,18,group,43930,Uruguay,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,18,group,43835,Saudi Arabia,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,19,group,43963,Portugal,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,19,group,43872,Morocco,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,20,group,43817,Iran,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,20,group,43969,Spain,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,21,group,43946,France,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,21,group,43929,Peru,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,22,group,43941,Denmark,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,22,group,43976,Australia,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,23,group,43922,Argentina,0,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,23,group,43938,Croatia,3,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,24,group,43876,Nigeria,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,24,group,43951,Iceland,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,25,group,43924,Brazil,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,25,group,43901,Costa Rica,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,26,group,1902465,Serbia,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,26,group,43971,Switzerland,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,27,group,43948,Germany,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,27,group,43970,Sweden,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,28,group,43822,Korea Republic,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,28,group,43911,Mexico,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,29,group,43935,Belgium,5,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,29,group,43888,Tunisia,2,5,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,30,group,43942,England,6,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,30,group,43914,Panama,1,6,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,31,group,43962,Poland,0,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,31,group,43926,Colombia,3,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,32,group,43819,Japan,2,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,32,group,43879,Senegal,2,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,33,group,43930,Uruguay,3,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,33,group,43965,Russia,0,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,34,group,43835,Saudi Arabia,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,34,group,43855,Egypt,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,35,group,43817,Iran,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,35,group,43963,Portugal,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,36,group,43969,Spain,2,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,36,group,43872,Morocco,2,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,37,group,43941,Denmark,0,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,37,group,43946,France,0,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,38,group,43976,Australia,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,38,group,43929,Peru,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,39,group,43876,Nigeria,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,39,group,43922,Argentina,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,40,group,43951,Iceland,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,40,group,43938,Croatia,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,41,group,1902465,Serbia,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,41,group,43924,Brazil,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,42,group,43971,Switzerland,2,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,42,group,43901,Costa Rica,2,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,43,group,43822,Korea Republic,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,43,group,43948,Germany,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,44,group,43911,Mexico,0,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,44,group,43970,Sweden,3,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,45,group,43942,England,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,45,group,43935,Belgium,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,46,group,43914,Panama,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,46,group,43888,Tunisia,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,47,group,43819,Japan,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,47,group,43962,Poland,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,48,group,43879,Senegal,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,48,group,43926,Colombia,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,49,round_of_16,43930,Uruguay,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,49,round_of_16,43963,Portugal,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,50,round_of_16,43946,France,4,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,50,round_of_16,43922,Argentina,3,4,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,51,round_of_16,43969,Spain,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,51,round_of_16,43965,Russia,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,52,round_of_16,43938,Croatia,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,52,round_of_16,43941,Denmark,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,53,round_of_16,43924,Brazil,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,53,round_of_16,43911,Mexico,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,54,round_of_16,43935,Belgium,3,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,54,round_of_16,43819,Japan,2,3,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,55,round_of_16,43970,Sweden,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,55,round_of_16,43971,Switzerland,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,56,round_of_16,43926,Colombia,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,56,round_of_16,43942,England,1,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,57,quarter_final,43930,Uruguay,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,57,quarter_final,43946,France,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,58,quarter_final,43924,Brazil,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,58,quarter_final,43935,Belgium,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,59,quarter_final,43965,Russia,2,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,59,quarter_final,43938,Croatia,2,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,60,quarter_final,43970,Sweden,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,60,quarter_final,43942,England,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,61,semi_final,43946,France,1,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,61,semi_final,43935,Belgium,0,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,62,semi_final,43938,Croatia,2,1,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,62,semi_final,43942,England,1,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,63,third_place,43935,Belgium,2,0,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,63,third_place,43942,England,0,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,64,final,43946,France,4,2,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2018,final,64,final,43938,Croatia,2,4,https://www.fifa.com/tournaments/mens/worldcup/2018russia
+2022,final,1,group,43834,Qatar,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,1,group,43927,Ecuador,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,2,group,43879,Senegal,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,2,group,43960,Netherlands,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,3,group,43942,England,6,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,3,group,43817,Iran,2,6,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,4,group,43921,United States,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,4,group,43974,Wales,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,5,group,43946,France,4,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,5,group,43976,Australia,1,4,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,6,group,43941,Denmark,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,6,group,43888,Tunisia,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,7,group,43911,Mexico,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,7,group,43962,Poland,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,8,group,43922,Argentina,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,8,group,43835,Saudi Arabia,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,9,group,43935,Belgium,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,9,group,43899,Canada,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,10,group,43969,Spain,7,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,10,group,43901,Costa Rica,0,7,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,11,group,43948,Germany,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,11,group,43819,Japan,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,12,group,43872,Morocco,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,12,group,43938,Croatia,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,13,group,43971,Switzerland,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,13,group,43849,Cameroon,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,14,group,43930,Uruguay,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,14,group,43822,Korea Republic,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,15,group,43963,Portugal,3,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,15,group,43860,Ghana,2,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,16,group,43924,Brazil,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,16,group,1902465,Serbia,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,17,group,43974,Wales,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,17,group,43817,Iran,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,18,group,43834,Qatar,1,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,18,group,43879,Senegal,3,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,19,group,43960,Netherlands,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,19,group,43927,Ecuador,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,20,group,43942,England,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,20,group,43921,United States,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,21,group,43888,Tunisia,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,21,group,43976,Australia,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,22,group,43962,Poland,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,22,group,43835,Saudi Arabia,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,23,group,43946,France,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,23,group,43941,Denmark,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,24,group,43922,Argentina,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,24,group,43911,Mexico,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,25,group,43819,Japan,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,25,group,43901,Costa Rica,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,26,group,43935,Belgium,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,26,group,43872,Morocco,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,27,group,43938,Croatia,4,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,27,group,43899,Canada,1,4,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,28,group,43969,Spain,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,28,group,43948,Germany,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,29,group,43849,Cameroon,3,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,29,group,1902465,Serbia,3,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,30,group,43822,Korea Republic,2,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,30,group,43860,Ghana,3,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,31,group,43924,Brazil,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,31,group,43971,Switzerland,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,32,group,43963,Portugal,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,32,group,43930,Uruguay,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,33,group,43974,Wales,0,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,33,group,43942,England,3,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,34,group,43817,Iran,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,34,group,43921,United States,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,35,group,43927,Ecuador,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,35,group,43879,Senegal,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,36,group,43960,Netherlands,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,36,group,43834,Qatar,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,37,group,43976,Australia,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,37,group,43941,Denmark,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,38,group,43888,Tunisia,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,38,group,43946,France,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,39,group,43962,Poland,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,39,group,43922,Argentina,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,40,group,43835,Saudi Arabia,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,40,group,43911,Mexico,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,41,group,43938,Croatia,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,41,group,43935,Belgium,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,42,group,43899,Canada,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,42,group,43872,Morocco,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,43,group,43819,Japan,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,43,group,43969,Spain,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,44,group,43901,Costa Rica,2,4,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,44,group,43948,Germany,4,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,45,group,43860,Ghana,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,45,group,43930,Uruguay,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,46,group,43822,Korea Republic,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,46,group,43963,Portugal,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,47,group,1902465,Serbia,2,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,47,group,43971,Switzerland,3,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,48,group,43849,Cameroon,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,48,group,43924,Brazil,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,49,round_of_16,43960,Netherlands,3,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,49,round_of_16,43921,United States,1,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,50,round_of_16,43922,Argentina,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,50,round_of_16,43976,Australia,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,51,round_of_16,43942,England,3,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,51,round_of_16,43879,Senegal,0,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,52,round_of_16,43946,France,3,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,52,round_of_16,43962,Poland,1,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,53,round_of_16,43819,Japan,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,53,round_of_16,43938,Croatia,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,54,round_of_16,43924,Brazil,4,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,54,round_of_16,43822,Korea Republic,1,4,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,55,round_of_16,43872,Morocco,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,55,round_of_16,43969,Spain,0,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,56,round_of_16,43963,Portugal,6,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,56,round_of_16,43971,Switzerland,1,6,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,57,quarter_final,43960,Netherlands,2,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,57,quarter_final,43922,Argentina,2,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,58,quarter_final,43938,Croatia,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,58,quarter_final,43924,Brazil,1,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,59,quarter_final,43942,England,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,59,quarter_final,43946,France,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,60,quarter_final,43872,Morocco,1,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,60,quarter_final,43963,Portugal,0,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,61,semi_final,43922,Argentina,3,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,61,semi_final,43938,Croatia,0,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,62,semi_final,43946,France,2,0,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,62,semi_final,43872,Morocco,0,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,63,third_place,43938,Croatia,2,1,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,63,third_place,43872,Morocco,1,2,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,64,final,43922,Argentina,3,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2022,final,64,final,43946,France,3,3,https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+2026,provisional_M100,1,group,43911,Mexico,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,1,group,43883,South Africa,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2,group,43822,Korea Republic,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,2,group,43995,Czechia,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,3,group,43899,Canada,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,3,group,44037,Bosnia and Herzegovina,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,4,group,43921,USA,4,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,4,group,43928,Paraguay,1,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,5,group,43908,Haiti,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,5,group,43967,Scotland,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,6,group,43976,Australia,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,6,group,43972,Türkiye,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,7,group,43924,Brazil,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,7,group,43872,Morocco,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,8,group,43834,Qatar,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,8,group,43971,Switzerland,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,9,group,43854,Côte d'Ivoire,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,9,group,43927,Ecuador,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,10,group,43948,Germany,7,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,10,group,1895293,Curaçao,1,7,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,11,group,43960,Netherlands,2,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,11,group,43819,Japan,2,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,12,group,43970,Sweden,5,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,12,group,43888,Tunisia,1,5,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,13,group,43835,Saudi Arabia,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,13,group,43930,Uruguay,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,14,group,43969,Spain,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,14,group,43850,Cabo Verde,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,15,group,43817,IR Iran,2,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,15,group,43978,New Zealand,2,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,16,group,43935,Belgium,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,16,group,43855,Egypt,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,17,group,43946,France,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,17,group,43879,Senegal,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,18,group,43818,Iraq,1,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,18,group,43961,Norway,4,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,19,group,43922,Argentina,3,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,19,group,43843,Algeria,0,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,20,group,43934,Austria,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,20,group,43820,Jordan,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,21,group,43860,Ghana,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,21,group,43914,Panama,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,22,group,43942,England,4,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,22,group,43938,Croatia,2,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,23,group,43963,Portugal,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,23,group,20014,Congo DR,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,24,group,44005,Uzbekistan,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,24,group,43926,Colombia,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,25,group,43995,Czechia,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,25,group,43883,South Africa,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,26,group,43971,Switzerland,4,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,26,group,44037,Bosnia and Herzegovina,1,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,27,group,43899,Canada,6,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,27,group,43834,Qatar,0,6,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,28,group,43911,Mexico,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,28,group,43822,Korea Republic,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,29,group,43924,Brazil,3,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,29,group,43908,Haiti,0,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,30,group,43967,Scotland,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,30,group,43872,Morocco,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,31,group,43972,Türkiye,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,31,group,43928,Paraguay,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,32,group,43921,USA,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,32,group,43976,Australia,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,33,group,43948,Germany,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,33,group,43854,Côte d'Ivoire,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,34,group,43927,Ecuador,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,34,group,1895293,Curaçao,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,35,group,43960,Netherlands,5,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,35,group,43970,Sweden,1,5,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,36,group,43888,Tunisia,0,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,36,group,43819,Japan,4,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,37,group,43930,Uruguay,2,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,37,group,43850,Cabo Verde,2,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,38,group,43969,Spain,4,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,38,group,43835,Saudi Arabia,0,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,39,group,43935,Belgium,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,39,group,43817,IR Iran,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,40,group,43978,New Zealand,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,40,group,43855,Egypt,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,41,group,43961,Norway,3,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,41,group,43879,Senegal,2,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,42,group,43946,France,3,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,42,group,43818,Iraq,0,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,43,group,43922,Argentina,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,43,group,43934,Austria,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,44,group,43820,Jordan,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,44,group,43843,Algeria,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,45,group,43942,England,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,45,group,43860,Ghana,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,46,group,43914,Panama,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,46,group,43938,Croatia,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,47,group,43963,Portugal,5,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,47,group,44005,Uzbekistan,0,5,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,48,group,43926,Colombia,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,48,group,20014,Congo DR,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,49,group,43967,Scotland,0,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,49,group,43924,Brazil,3,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,50,group,43872,Morocco,4,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,50,group,43908,Haiti,2,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,51,group,43971,Switzerland,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,51,group,43899,Canada,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,52,group,44037,Bosnia and Herzegovina,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,52,group,43834,Qatar,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,53,group,43995,Czechia,0,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,53,group,43911,Mexico,3,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,54,group,43883,South Africa,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,54,group,43822,Korea Republic,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,55,group,1895293,Curaçao,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,55,group,43854,Côte d'Ivoire,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,56,group,43927,Ecuador,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,56,group,43948,Germany,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,57,group,43819,Japan,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,57,group,43970,Sweden,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,58,group,43888,Tunisia,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,58,group,43960,Netherlands,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,59,group,43972,Türkiye,3,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,59,group,43921,USA,2,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,60,group,43928,Paraguay,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,60,group,43976,Australia,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,61,group,43961,Norway,1,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,61,group,43946,France,4,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,62,group,43879,Senegal,5,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,62,group,43818,Iraq,0,5,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,63,group,43855,Egypt,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,63,group,43817,IR Iran,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,64,group,43978,New Zealand,1,5,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,64,group,43935,Belgium,5,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,65,group,43850,Cabo Verde,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,65,group,43835,Saudi Arabia,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,66,group,43930,Uruguay,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,66,group,43969,Spain,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,67,group,43914,Panama,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,67,group,43942,England,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,68,group,43938,Croatia,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,68,group,43860,Ghana,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,69,group,43843,Algeria,3,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,69,group,43934,Austria,3,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,70,group,43820,Jordan,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,70,group,43922,Argentina,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,71,group,43926,Colombia,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,71,group,43963,Portugal,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,72,group,20014,Congo DR,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,72,group,44005,Uzbekistan,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,73,round_of_32,43883,South Africa,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,73,round_of_32,43899,Canada,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,74,round_of_32,43948,Germany,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,74,round_of_32,43928,Paraguay,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,75,round_of_32,43960,Netherlands,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,75,round_of_32,43872,Morocco,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,76,round_of_32,43924,Brazil,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,76,round_of_32,43819,Japan,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,77,round_of_32,43946,France,3,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,77,round_of_32,43970,Sweden,0,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,78,round_of_32,43854,Côte d'Ivoire,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,78,round_of_32,43961,Norway,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,79,round_of_32,43911,Mexico,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,79,round_of_32,43927,Ecuador,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,80,round_of_32,43942,England,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,80,round_of_32,20014,Congo DR,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,81,round_of_32,43921,USA,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,81,round_of_32,44037,Bosnia and Herzegovina,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,82,round_of_32,43935,Belgium,3,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,82,round_of_32,43879,Senegal,2,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,83,round_of_32,43963,Portugal,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,83,round_of_32,43938,Croatia,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,84,round_of_32,43969,Spain,3,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,84,round_of_32,43934,Austria,0,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,85,round_of_32,43971,Switzerland,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,85,round_of_32,43843,Algeria,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,86,round_of_32,43922,Argentina,3,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,86,round_of_32,43850,Cabo Verde,2,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,87,round_of_32,43926,Colombia,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,87,round_of_32,43860,Ghana,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,88,round_of_32,43976,Australia,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,88,round_of_32,43855,Egypt,1,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,89,round_of_16,43928,Paraguay,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,89,round_of_16,43946,France,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,90,round_of_16,43899,Canada,0,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,90,round_of_16,43872,Morocco,3,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,91,round_of_16,43924,Brazil,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,91,round_of_16,43961,Norway,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,92,round_of_16,43911,Mexico,2,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,92,round_of_16,43942,England,3,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,93,round_of_16,43963,Portugal,0,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,93,round_of_16,43969,Spain,1,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,94,round_of_16,43921,USA,1,4,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,94,round_of_16,43935,Belgium,4,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,95,round_of_16,43922,Argentina,3,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,95,round_of_16,43855,Egypt,2,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,96,round_of_16,43971,Switzerland,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,96,round_of_16,43926,Colombia,0,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,97,quarter_final,43946,France,2,0,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,97,quarter_final,43872,Morocco,0,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,98,quarter_final,43969,Spain,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,98,quarter_final,43935,Belgium,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,99,quarter_final,43961,Norway,1,2,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,99,quarter_final,43942,England,2,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,100,quarter_final,43922,Argentina,3,1,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+2026,provisional_M100,100,quarter_final,43971,Switzerland,1,3,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026

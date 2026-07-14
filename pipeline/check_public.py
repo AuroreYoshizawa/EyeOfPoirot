@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import csv
 import re
 import subprocess
 from pathlib import Path
@@ -17,6 +18,21 @@ SECRET_PATTERNS = {
     "Slack token": re.compile(r"\bxox[baprs]-[A-Za-z0-9-]{10,}\b"),
 }
 
+EVENT_DERIVED_PUBLIC_CSVS = (
+    "data/derived/source/foul_event_segments.csv",
+    "data/derived/source/card_event_order.csv",
+    "data/derived/source/team_match_card_order.csv",
+    "data/derived/source/team_outcomes.csv",
+    "data/derived/results/cumulative-fouls-before-card.csv",
+    "data/derived/results/cumulative-fouls-before-first-card.csv",
+)
+FORBIDDEN_PROVIDER_FIELDS = {
+    "provider_match_id", "provider_event_id", "provider_sequence_index",
+    "provider_event_order_key", "provider_linked_event_reference",
+    "sb_match_id", "sb_event_id", "order_key",
+}
+STATSBOMB_DATASET_URL = "https://github.com/statsbomb/open-data"
+
 
 def tracked_files() -> list[Path]:
     command = subprocess.run(
@@ -29,6 +45,35 @@ def tracked_files() -> list[Path]:
         path for path in ROOT.rglob("*") if path.is_file()
         and ".git" not in path.parts and "tmp" not in path.parts
     ]
+
+
+def public_event_csv_failures() -> list[str]:
+    """Enforce the frozen public/private event-order boundary."""
+    failures = []
+    for relative in EVENT_DERIVED_PUBLIC_CSVS:
+        path = ROOT / relative
+        if not path.exists():
+            failures.append(f"missing public event-derived CSV: {relative}")
+            continue
+        with path.open(encoding="utf-8", newline="") as handle:
+            reader = csv.DictReader(handle)
+            fields = set(reader.fieldnames or ())
+            forbidden = sorted(fields & FORBIDDEN_PROVIDER_FIELDS)
+            if forbidden:
+                failures.append(
+                    f"provider-native field in public CSV {relative}: {forbidden}"
+                )
+            for line_number, row in enumerate(reader, start=2):
+                if not row.get("provider", "").startswith("StatsBomb"):
+                    continue
+                for field in ("source_url", "event_source_url"):
+                    value = row.get(field, "")
+                    if value and value != STATSBOMB_DATASET_URL:
+                        failures.append(
+                            f"non-dataset StatsBomb URL in {relative}:{line_number} "
+                            f"field={field}"
+                        )
+    return failures
 
 
 def main() -> int:
@@ -53,7 +98,15 @@ def main() -> int:
         for label, path in failures:
             print(f"possible {label}: {path}")
         return 1
-    print(f"public-tree check passed: files={len(files)}, raw_tracked=0, recognizable_secrets=0")
+    event_failures = public_event_csv_failures()
+    if event_failures:
+        for failure in event_failures:
+            print(failure)
+        return 1
+    print(
+        f"public-tree check passed: files={len(files)}, raw_tracked=0, "
+        "recognizable_secrets=0, provider_native_event_fields=0"
+    )
     return 0
 
 

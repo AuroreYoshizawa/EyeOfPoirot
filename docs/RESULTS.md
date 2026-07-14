@@ -62,6 +62,124 @@ The full table is `data/derived/results/depth-check.csv`. The prespecified
 Elo variant of this check awaits the archived pre-tournament rating table and
 is not yet computed.
 
+## Expanded-cohort amendment outputs (additive)
+
+These tables implement the amendment frozen on 2026-07-14. They are new
+secondary/robustness outputs and do not replace the primary v0.2.1 tables
+above. `E_s prime` uses the fixed `lambda = 0.5` and is labeled post-hoc
+secondary. Every 2026 row is `provisional_M100`; no M101-M104 input is present.
+
+The compact table below shows Argentina as the frozen cross-check case. The
+complete 32/32/32/48 team table, including zero-exposure teams, is
+`data/derived/results/expanded-suspension-exposure.csv`.
+
+| Edition | Status | e_s grp | e_s | e_s all | All rank | e_s prime (secondary) | Stripped e_s | Stripped e_s all |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2014 | final | 3.119 | 7.489 | 10.608 | 17/32 | 12.729 | 7.489 | 10.608 |
+| 2018 | final | 4.956 | 19.884 | 24.84 | 5/32 | 31.026 | 16.611 | 21.549 |
+| 2022 | final | 0.565 | 4.924 | 5.489 | 31/32 | 7.845 | 4.203 | 4.768 |
+| 2026 | provisional_M100 | 1.392 | 0.832 | 2.225 | 48/48 | 2.501 | 0.828 | 2.22 |
+
+### Matchday-2 plus knockout secondary
+
+The table shows the 2022 second-knockout-round cohort at the primary
+`lambda_md2 = 1.5`. The complete {1, 1.5, 2} grid for all editions is
+`data/derived/results/md2-suspension-exposure.csv`.
+
+| Rank | Team | Cards | Scope fouls | E_s md2 | e_s md2 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | France | 8 | 56 | 289.585 | 5.171 |
+| 2 | Brazil | 4 | 40 | 190.558 | 4.764 |
+| 3 | Croatia | 8 | 58 | 273.986 | 4.724 |
+| 4 | Argentina | 15 | 75 | 323.864 | 4.318 |
+| 5 | Netherlands | 6 | 52 | 142.965 | 2.749 |
+| 6 | Portugal | 4 | 31 | 68.5 | 2.21 |
+| 7 | Morocco | 6 | 52 | 94.655 | 1.82 |
+| 8 | England | 1 | 35 | 10.511 | 0.3 |
+
+### Full and reason-stripped timing displacement
+
+Only `dissent` and `time_wasting` are removed. Pairing, stop points,
+carried-in status, and served terms are rebuilt chronologically; the full
+ledger omega remains fixed. The table shows Argentina for the full and
+stripped ledgers under both event scopes. `p` uses the frozen base
+within-team null (`B = 2,000`, seed 20260713); BH families are separated by
+edition, statistic, ledger, and scope. Fewer than three retained cards are
+non-evidentiary, and zero-card teams are excluded from `m`. The 2014 expanded
+timing result is `source_unavailable` and creates no BH family.
+
+| Edition | Status | Scope | Ledger | Cards | Delta | p Delta | q Delta | W1 | p W1 | Evidence |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2018 | final | expanded | full | 11 | 0.402 | 0.428 | 0.723 | 0.402 | 0.575 | evidentiary |
+| 2018 | final | expanded | stripped | 10 | 0.229 | 0.694 | 0.771 | 0.268 | 0.878 | evidentiary |
+| 2018 | final | knockout | full | 5 | -0.586 | 0.431 | 0.596 | 0.586 | 0.526 | evidentiary |
+| 2018 | final | knockout | stripped | 5 | -0.586 | 0.431 | 0.646 | 0.586 | 0.526 | evidentiary |
+| 2022 | final | expanded | full | 16 | 1.333 | 0.003 | 0.112 | 1.333 | 0.005 | evidentiary |
+| 2022 | final | expanded | stripped | 13 | 1.064 | 0.038 | 0.497 | 1.064 | 0.042 | evidentiary |
+| 2022 | final | knockout | full | 14 | 1.336 | 0.005 | 0.07 | 1.336 | 0.005 | evidentiary |
+| 2022 | final | knockout | stripped | 11 | 1.095 | 0.047 | 0.665 | 1.095 | 0.057 | evidentiary |
+| 2026 | provisional_M100 | expanded | full | 6 | 3.478 | 0.001 | 0.012 | 3.478 | 0.001 | evidentiary |
+| 2026 | provisional_M100 | expanded | stripped | 5 | 3.278 | 0.001 | 0.012 | 3.278 | 0.001 | evidentiary |
+| 2026 | provisional_M100 | knockout | full | 4 | 3.878 | 0.001 | 0.007 | 3.878 | 0.001 | evidentiary |
+| 2026 | provisional_M100 | knockout | stripped | 3 | 3.712 | 0.001 | 0.02 | 3.712 | 0.001 | evidentiary |
+
+### Stripped disclosed correlations
+
+These are disclosed robustness recomputations, per edition and never pooled
+(`B = 10,000`, seed 20260713). They are not confirmatory results.
+
+| Edition | Status | Metric | Teams | Tau-b | Permutation p |
+| --- | --- | --- | --- | --- | --- |
+| 2014 | final | depth_total_e_s | 16 | -0.398 | 0.054 |
+| 2014 | final | conceded_total_e_s | 16 | 0.128 | 0.529 |
+| 2014 | final | conceded_accumulation_window | 16 | 0.315 | 0.106 |
+| 2018 | final | depth_total_e_s | 16 | -0.438 | 0.034 |
+| 2018 | final | conceded_total_e_s | 16 | 0.417 | 0.028 |
+| 2018 | final | conceded_accumulation_window | 16 | 0.468 | 0.013 |
+| 2022 | final | depth_total_e_s | 16 | -0.618 | 0.002 |
+| 2022 | final | conceded_total_e_s | 16 | 0.536 | 0.005 |
+| 2022 | final | conceded_accumulation_window | 16 | 0.468 | 0.014 |
+| 2026 | provisional_M100 | depth_total_e_s | 32 | 0.106 | 0.461 |
+| 2026 | provisional_M100 | conceded_total_e_s | 32 | 0.036 | 0.791 |
+| 2026 | provisional_M100 | conceded_accumulation_window | 32 | 0.089 | 0.506 |
+
+### Cumulative fouls before cards
+
+The public per-card table has 908 rows:
+matched=694, unmatched=20,
+and source_unavailable=194. The public
+team-match table has 584 rows, exactly one
+per team side, including zero-card matches. Public CSVs contain no StatsBomb
+match/event identifiers, sequence indices, order keys, or linked-event
+references; StatsBomb links are dataset-level only. Identifier-bearing order
+details remain in the gitignored private sidecar.
+
+### Independent anchor reconciliation
+
+`AUDIT` is a surfaced disagreement, not a tuned value. Exposure/rank anchors
+reconcile exactly; any Monte Carlo or association discrepancy remains visible
+for methodological review.
+
+| Edition | Edition status | Anchor | Observed | Expected | Status | Note |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2018 | final | anchor_stripped_argentina_e_s | 16.61 | 16.61 | PASS | Independent frozen-text anchor reconciled. |
+| 2022 | final | anchor_stripped_argentina_e_s | 4.20 | 4.20 | PASS | Independent frozen-text anchor reconciled. |
+| 2014 | final | anchor_argentina_e_s_all | 10.61 (17/32) | 10.61 (17/32) | PASS | Independent frozen-text anchor reconciled. |
+| 2018 | final | anchor_argentina_e_s_all | 24.84 (5/32) | 24.84 (5/32) | PASS | Independent frozen-text anchor reconciled. |
+| 2022 | final | anchor_argentina_e_s_all | 5.49 (31/32) | 5.49 (31/32) | PASS | Independent frozen-text anchor reconciled. |
+| 2026 | provisional_M100 | anchor_argentina_e_s_all | 2.22 (48/48) | 2.22 (48/48) | PASS | Independent frozen-text anchor reconciled. |
+| 2018 | final | anchor_stripped_e_s_vs_conceded | tau=+0.417;p=0.028 | tau=+0.400;p~=0.034 | AUDIT | Official score rows give C=82, D=33 and five conceded-rate ties under frozen tau-b, yielding +0.417; the independent anchor remains unresolved. |
+| 2022 | final | anchor_stripped_e_s_vs_conceded | tau=+0.536;p=0.005 | tau=+0.536;p~=0.005 | PASS | Independent frozen-text anchor reconciled. |
+| 2022 | final | anchor_md2_lambda_1_5 | top=France 5.17;Argentina=4.32 (4/8) | top=France 5.17;Argentina=4.32 (4/8) | PASS | Independent frozen-text anchor reconciled. |
+| 2022 | final | anchor_stripped_knockout_timing_argentina | delta=+1.10;p=0.047;n=11 | delta=+1.10;p~=0.063;n=11 | AUDIT | The frozen without-replacement null gives an exact tail near 0.048 and this seeded Monte Carlo estimate; a with-replacement draw is closer to 0.063 but is not the frozen null. |
+
+The detailed files are `card-timing-displacement.csv`,
+`stripped-disclosed-correlations.csv`, `cumulative-fouls-before-card.csv`,
+`cumulative-fouls-before-first-card.csv`, and `expanded-audit.csv` under
+`data/derived/results/`.
+
+
+
 ## Independent match-page audit
 
 One match per edition was checked against ESPN or Opta. `AUDIT` means the

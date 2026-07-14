@@ -7,6 +7,7 @@ or a package-install step.
 
 from __future__ import annotations
 
+import csv
 from collections import defaultdict
 from pathlib import Path
 from typing import Iterable
@@ -14,6 +15,7 @@ from typing import Iterable
 from ..config import (
     DENOMINATORS,
     EDITIONS,
+    EXPECTED_CARD_REASON_SB_RECONCILIATION,
     EXPECTED_COMPLETED,
     EXPECTED_PLAYER_CARDS,
     MU_GRID,
@@ -25,6 +27,12 @@ from ..config import (
     SOURCE,
     STAGES,
     is_knockout,
+)
+from ..event_sources import (
+    CARD_EVENT_ORDER_FIELDS,
+    FOUL_EVENT_SEGMENT_FIELDS,
+    TEAM_MATCH_CARD_ORDER_FIELDS,
+    TEAM_OUTCOME_FIELDS,
 )
 from ..io import as_float, as_int, fmt, read_csv, write_csv
 
@@ -124,6 +132,24 @@ EDITION_SUMMARY_FIELDS = (
 
 BUILD_AUDIT_FIELDS = ("edition", "check", "observed", "expected", "status", "note")
 
+CARD_REASON_SOURCE_FIELDS = (
+    "card_id", "reason_class", "sb_foul_linked", "source_url",
+    "source_tier", "note",
+)
+CARD_REASON_SB_RECONCILIATION_SOURCE_FIELDS = (
+    "edition", "event_type", "in_play_census_events",
+    "outside_in_play_census_events", "all_card_events",
+    "outside_scope_summary", "source_url",
+)
+EXACT_SOURCE_SCHEMAS = {
+    "card_reasons": CARD_REASON_SOURCE_FIELDS,
+    "card_reason_sb_reconciliation": CARD_REASON_SB_RECONCILIATION_SOURCE_FIELDS,
+    "foul_event_segments": FOUL_EVENT_SEGMENT_FIELDS,
+    "card_event_order": CARD_EVENT_ORDER_FIELDS,
+    "team_match_card_order": TEAM_MATCH_CARD_ORDER_FIELDS,
+    "team_outcomes": TEAM_OUTCOME_FIELDS,
+}
+
 
 def _key(row: dict) -> tuple[int, str, str]:
     return int(row["edition"]), row["team_id"], row["player_id"]
@@ -172,18 +198,97 @@ def _interval_union(intervals: Iterable[tuple[float, float]]) -> float:
     return total + end - start
 
 
+def _validate_source_table_schema(name: str, rows: list[dict[str, str]]) -> None:
+    """Reject extra, missing, or reordered fields at the public-data boundary."""
+    expected = EXACT_SOURCE_SCHEMAS.get(name)
+    if expected is None:
+        return
+    if not rows:
+        raise ValueError(f"normalized source table is empty: {name}")
+    for index, row in enumerate(rows, start=2):
+        if tuple(row) != expected:
+            raise ValueError(
+                f"{name}.csv row {index} fields differ from the frozen schema: "
+                f"observed={list(row)} expected={list(expected)}"
+            )
+
+
+def _validate_source_header(name: str, fieldnames: Iterable[str]) -> None:
+    """Validate the literal CSV header, including duplicate field names."""
+    expected = EXACT_SOURCE_SCHEMAS.get(name)
+    if expected is not None and tuple(fieldnames) != expected:
+        raise ValueError(
+            f"{name}.csv header differs from the frozen schema: "
+            f"observed={list(fieldnames)} expected={list(expected)}"
+        )
+
+
+def _validate_sb_reconciliation(rows: list[dict[str, str]]) -> None:
+    """Require the frozen four-row StatsBomb aggregate reconciliation."""
+    observed = {}
+    for row in rows:
+        key = (int(row["edition"]), row["event_type"])
+        if key in observed:
+            raise ValueError(f"duplicate StatsBomb aggregate reconciliation row: {key}")
+        if row["source_url"] != "https://github.com/statsbomb/open-data":
+            raise ValueError(
+                "StatsBomb aggregate reconciliation lacks the official source URL: "
+                f"{key}"
+            )
+        values = (
+            int(row["in_play_census_events"]),
+            int(row["outside_in_play_census_events"]),
+            int(row["all_card_events"]),
+            row["outside_scope_summary"],
+        )
+        if values[0] + values[1] != values[2]:
+            raise ValueError(
+                "StatsBomb aggregate reconciliation does not add up: "
+                f"{key} values={values[:3]}"
+            )
+        observed[key] = values
+    if observed != EXPECTED_CARD_REASON_SB_RECONCILIATION:
+        missing = sorted(set(EXPECTED_CARD_REASON_SB_RECONCILIATION) - set(observed))
+        extra = sorted(set(observed) - set(EXPECTED_CARD_REASON_SB_RECONCILIATION))
+        wrong = sorted(
+            key
+            for key in set(observed) & set(EXPECTED_CARD_REASON_SB_RECONCILIATION)
+            if observed[key] != EXPECTED_CARD_REASON_SB_RECONCILIATION[key]
+        )
+        raise ValueError(
+            "StatsBomb aggregate reconciliation differs from the audited counts: "
+            f"missing={missing} extra={extra} wrong={wrong}"
+        )
+
+
 def _source_tables(source_dir: Path = SOURCE) -> dict[str, list[dict[str, str]]]:
     names = (
-        "matches", "cards", "fouls_team_match", "player_match",
-        "availability_evidence", "sanction_decisions", "source_audit",
+        "matches", "cards", "card_reasons", "card_reason_sb_reconciliation",
+        "fouls_team_match", "player_match", "availability_evidence",
+        "sanction_decisions", "foul_event_segments", "card_event_order",
+        "team_match_card_order", "team_outcomes", "source_audit",
     )
     missing = [str(source_dir / f"{name}.csv") for name in names if not (source_dir / f"{name}.csv").exists()]
     if missing:
         raise FileNotFoundError("normalized source tables missing: " + ", ".join(missing))
-    return {name: read_csv(source_dir / f"{name}.csv") for name in names}
+    tables = {}
+    for name in names:
+        path = source_dir / f"{name}.csv"
+        with path.open(newline="", encoding="utf-8-sig") as handle:
+            header = next(csv.reader(handle), [])
+        _validate_source_header(name, header)
+        tables[name] = read_csv(path)
+    for name, rows in tables.items():
+        _validate_source_table_schema(name, rows)
+    _validate_sb_reconciliation(tables["card_reason_sb_reconciliation"])
+    return tables
 
 
-def stage1_cards(tables: dict[str, list[dict[str, str]]], stage_dir: Path = STAGES) -> list[dict]:
+def stage1_cards(
+    tables: dict[str, list[dict[str, str]]],
+    stage_dir: Path = STAGES,
+    output_name: str = "s1-card-ledger.csv",
+) -> list[dict]:
     """Create the player-card ledger and apply the frozen horizon stop rule."""
     fouls = tables["fouls_team_match"]
     team_match_number = {
@@ -317,7 +422,7 @@ def stage1_cards(tables: dict[str, list[dict[str, str]]], stage_dir: Path = STAG
             row["stop_gap_fixtures"] = gap
 
     rows.sort(key=lambda row: (int(row["edition"]), int(row["match_number"]), float(row["t_min"]), row["card_id"]))
-    write_csv(stage_dir / "s1-card-ledger.csv", rows, CARD_LEDGER_FIELDS)
+    write_csv(stage_dir / output_name, rows, CARD_LEDGER_FIELDS)
     return rows
 
 
@@ -368,7 +473,8 @@ def _team_schedule(tables: dict[str, list[dict[str, str]]]) -> dict[tuple[int, s
 
 
 def stage4_suspensions(
-    tables: dict[str, list[dict[str, str]]], card_ledger: list[dict], stage_dir: Path = STAGES
+    tables: dict[str, list[dict[str, str]]], card_ledger: list[dict],
+    stage_dir: Path = STAGES, output_name: str = "s4-suspensions.csv",
 ) -> list[dict]:
     """Derive automatic sanctions, then apply sourced disciplinary decisions."""
     schedule = _team_schedule(tables)
@@ -524,7 +630,7 @@ def stage4_suspensions(
         int(row["edition"]), as_int(row["service_match_number"], 999) or 999,
         row["team_id"], row["player_id"], row["trigger_type"], row["suspension_id"],
     ))
-    write_csv(stage_dir / "s4-suspensions.csv", output, SUSPENSION_FIELDS)
+    write_csv(stage_dir / output_name, output, SUSPENSION_FIELDS)
     return output
 
 
@@ -1209,6 +1315,112 @@ def stage8_validate_and_summarize(
         if not passed:
             raise ValueError(f"{edition} {check}: observed {observed}, expected {expected}")
 
+    source_card_lookup = {row["card_id"]: row for row in tables["cards"]}
+    expected_reason_ids = {
+        row["card_id"] for row in tables["cards"]
+        if row["recipient_type"] == "player" and row["event_scope"] == "in_play"
+    }
+    reason_rows = tables["card_reasons"]
+    reason_ids = [row["card_id"] for row in reason_rows]
+    reason_coverage_ok = (
+        len(reason_ids) == len(set(reason_ids))
+        and set(reason_ids) == expected_reason_ids
+    )
+    add(
+        "all", "card_reason_exact_coverage", len(reason_ids), len(expected_reason_ids),
+        reason_coverage_ok,
+        "Exactly one reason row is required for every in-play player card.",
+    )
+    reason_classes = {
+        "foul_play", "dissent", "time_wasting", "other_nonfoul", "unknown",
+    }
+    source_tiers = {
+        "1_fifa", "2_federation_or_club", "3_established_mbm",
+        "4_documented_fallback",
+    }
+    sb_statuses = {"yes", "no", "unmatched", "not_available"}
+    evidence_ok = all(
+        row["reason_class"] in reason_classes
+        and row["source_tier"] in source_tiers
+        and row["sb_foul_linked"] in sb_statuses
+        and row["source_url"].startswith(("https://", "http://"))
+        and bool(row["note"].strip())
+        for row in reason_rows
+    )
+    add(
+        "all", "card_reason_evidence_fields", int(evidence_ok), 1, evidence_ok,
+        "Classes, StatsBomb status, source tier, URL, and evidence note are validated.",
+    )
+    sb_scope_ok = all(
+        (
+            row["sb_foul_linked"] == "not_available"
+            if int(source_card_lookup[row["card_id"]]["edition"]) in {2014, 2026}
+            else row["sb_foul_linked"] != "not_available"
+        )
+        for row in reason_rows
+    )
+    add(
+        "all", "card_reason_statsbomb_scope", int(sb_scope_ok), 1, sb_scope_ok,
+        "2018/2022 require reconciliation; 2014/2026 are marked not_available.",
+    )
+    sb_conflicts = [
+        row for row in reason_rows
+        if (
+            row["sb_foul_linked"] == "unmatched"
+            or (
+                row["reason_class"] == "foul_play"
+                and row["sb_foul_linked"] == "no"
+            )
+            or (
+                row["reason_class"] in {"dissent", "time_wasting", "other_nonfoul"}
+                and row["sb_foul_linked"] == "yes"
+            )
+        )
+    ]
+    unflagged_conflicts = [row for row in sb_conflicts if "AUDIT" not in row["note"]]
+    add(
+        "all", "card_reason_conflicts_flagged", len(unflagged_conflicts), 0,
+        not unflagged_conflicts,
+        "StatsBomb disagreements and unmatched cards must be labeled AUDIT.",
+    )
+    audit.append({
+        "edition": "2018/2022", "check": "statsbomb_card_reason_reconciliation",
+        "observed": len(sb_conflicts), "expected": 0,
+        "status": "AUDIT" if sb_conflicts else "PASS",
+        "note": "Disagreements remain visible and are not silently merged.",
+    })
+    sb_conflict_ids = {row["card_id"] for row in sb_conflicts}
+    other_reason_audits = [
+        row for row in reason_rows
+        if "AUDIT" in row["note"] and row["card_id"] not in sb_conflict_ids
+    ]
+    audit.append({
+        "edition": "all", "check": "card_reason_other_source_audits",
+        "observed": len(other_reason_audits), "expected": 0,
+        "status": "AUDIT" if other_reason_audits else "PASS",
+        "note": "Written-source conflicts remain visible and separate from StatsBomb reconciliation.",
+    })
+    sb_reconciliation_rows = tables["card_reason_sb_reconciliation"]
+    status_for_type = {"Foul Committed": "yes", "Bad Behaviour": "no"}
+    sb_reconciliation_ok = all(
+        int(row["in_play_census_events"]) == sum(
+            reason["sb_foul_linked"] == status_for_type[row["event_type"]]
+            and reason["card_id"].startswith(f"{row['edition']}-")
+            for reason in reason_rows
+        )
+        and int(row["in_play_census_events"])
+        + int(row["outside_in_play_census_events"])
+        == int(row["all_card_events"])
+        for row in sb_reconciliation_rows
+    )
+    add(
+        "2018/2022", "statsbomb_card_reason_aggregate_reconciliation",
+        len(sb_reconciliation_rows), len(EXPECTED_CARD_REASON_SB_RECONCILIATION),
+        sb_reconciliation_ok,
+        "Four aggregate conclusions reconcile the private event ledger without "
+        "redistributing event-level StatsBomb data.",
+    )
+
     for edition in EDITIONS:
         year_cards = [row for row in card_ledger if int(row["edition"]) == edition]
         add(edition, "player_card_count", len(year_cards), EXPECTED_PLAYER_CARDS[edition],
@@ -1350,6 +1562,13 @@ def run_stages(source_dir: Path = SOURCE, stage_dir: Path = STAGES, result_dir: 
         tables, cards, suspensions, availability, omega, match_rows, team_rows, sensitivity,
         depth, result_dir
     )
+    # Imported here so the base-stage helpers above are fully defined before
+    # the amendment module reuses them; this avoids a module-load cycle.
+    from .expanded import run_expanded_stages
+
+    expanded = run_expanded_stages(
+        tables, cards, suspensions, omega, team_rows, stage_dir, result_dir
+    )
     return {
         "source": tables, "cards": cards, "fouls": fouls, "minutes": minutes,
         "suspensions": suspensions, "availability": availability, "omega": omega,
@@ -1358,4 +1577,5 @@ def run_stages(source_dir: Path = SOURCE, stage_dir: Path = STAGES, result_dir: 
         "players": player_rows, "teams": team_rows, "sensitivity": sensitivity,
         "suspension_clock_sensitivity": suspension_clock_sensitivity,
         "player_grid": player_grid, "depth": depth, "audit": audit, "summaries": summaries,
+        **expanded,
     }

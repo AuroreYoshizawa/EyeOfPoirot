@@ -8,10 +8,15 @@ This file distinguishes frozen decisions from implementation status.
 | Raw archive | complete for frozen cutoff | 64/64/64/100 timelines; 2026 excludes M101–M104 |
 | Source cross-check | complete | reused fields traced; four independent match pages checked; two display differences retained as `AUDIT` |
 | Normalized tables | complete | schemas and row-count tests pass for four editions |
-| Availability / injury evidence | complete | 56 sourced intervals; every positive interval has a URL; no unexplained absence remains |
+| Card-reason evidence | complete for M1–M100 cutoff | 908/908 in-play player cards classified; 25 explicit `unknown`; 35 StatsBomb linkage `AUDIT` plus one written-source `AUDIT`; full 2018/2022 Bad Behaviour census reconciled in a four-row public aggregate, with event-level StatsBomb details retained only in private raw |
+| Availability / injury evidence | complete for all carded players | 783 players × full team schedules (3,306 rows), including group-stage eliminations; 57 served suspensions lineup-verified; 56 sourced positive intervals; no unexplained absence remains |
 | Exposure and sensitivity | complete | primary setting; 72-row rho × mu × denominator grid; `T_end - 1` boundary check; §5.1 depth check |
+| Expanded-cohort amendment | complete for 2014/2018/2022; provisional for 2026 M1–M100 | stripped ledger and suspensions rebuilt; full 32/32/32/48 cohort; `E_s^grp`, `E_s^all`, `E_s'`, MD2 grid, timing checks, and disclosed stripped correlations published as additive outputs |
+| Cumulative foul order | complete where an event feed exists | 908 public card rows and 584 team-match sides; 2018/2022/2026 computed, 2014 labeled `source_unavailable`; provider-native IDs/order keys remain private |
+| Expanded anchor reconciliation | complete with two retained `AUDIT` rows | exposure/rank anchors pass; 2018 stripped conceded-rate tau-b and 2022 stripped knockout timing p-value disagreements are documented without tuning |
+| 2026 post-M104 rerun | pending scheduled matches | M101–M104 are not ingested; every current amendment output is labeled `provisional_M100` |
 | Results and official figures | complete | twelve v0.2.1 SVGs generated (three per edition); old images archived as drafts |
-| CI / fresh-clone check | complete locally | tests, public rebuild, raw/secret scan pass without `data/raw/` |
+| CI / fresh-clone check | complete locally | 44 tests, deterministic public rebuild, manifest verification, public/private event-field gate, and raw/secret scan pass without `data/raw/` |
 | OSF registration | manual user step | public registration DOI recorded |
 | OSF embargoed snapshot | manual user step | embargo DOI recorded; view-only link tested |
 | GitHub public release | complete | public repository published; reproducibility workflow enabled |
