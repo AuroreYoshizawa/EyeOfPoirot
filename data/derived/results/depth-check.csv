@@ -1,5 +1,5 @@
 edition,edition_status,cohort,teams,depth_definition,rho,mu,denominator,tau_b,p_permutation,permutations,seed,note
 2014,final,knockout_teams,16,matches_played_excluding_third_place,2,1.25,all,-0.41833,0.037996,10000,20260713,
 2018,final,knockout_teams,16,matches_played_excluding_third_place,2,1.25,all,-0.41833,0.043496,10000,20260713,
-2022,final,knockout_teams,16,matches_played_excluding_third_place,2,1.25,all,-0.617535,0.0016,10000,20260713,
+2022,final,knockout_teams,16,matches_played_excluding_third_place,2,1.25,all,-0.557773,0.006599,10000,20260713,
 2026,provisional_M100,knockout_teams,32,matches_played_excluding_third_place,2,1.25,all,0.085863,0.551645,10000,20260713,2026 depth is truncated at the M100 cutoff; recompute after M104.

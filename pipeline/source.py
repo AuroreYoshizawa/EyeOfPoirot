@@ -472,6 +472,7 @@ def _build_fouls(raw_root: Path, matches: list[dict]) -> tuple[list[dict], dict]
         })
     for year in (2018, 2022, 2026):
         path = raw_root / "draft_workbook_exports" / str(year) / "team-match.csv"
+        year_rows = []
         for raw in read_csv(path):
             match_id = str(as_int(raw["Match ID"]) or "")
             match = match_id_lookup.get((year, match_id))
@@ -488,13 +489,28 @@ def _build_fouls(raw_root: Path, matches: list[dict]) -> tuple[list[dict], dict]
             source_url = raw.get("FIFA team stats") or raw.get("FIFA stats API") or raw.get("Foul-stat source")
             if not source_url:
                 raise ValueError(f"{year} m{number:03d} {team}: foul source missing")
-            output.append({
+            year_rows.append({
                 "edition": year, "match_number": number, "match_id": match["match_id"],
                 "stage": match["stage"], "team_id": team_id, "team": team, "opponent": opponent,
                 "team_match_number": team_no[(year, team_id, number)], "fouls": as_int(raw["Fouls"]),
                 "source_url": source_url,
                 "source_archive": str(path.relative_to(raw_root.parent.parent)),
             })
+        if year == 2022:
+            # Data erratum (2026-07-14): the 2022 draft-workbook export
+            # attached every foul count to the opponent. FIFA timeline foul
+            # events and StatsBomb open data independently agree on the
+            # corrected orientation (48 clear swaps, 0 direct agreements
+            # across 64 matches), so the two values are swapped within each
+            # match at ingestion. See docs/AMENDMENTS.md.
+            paired = {}
+            for row in year_rows:
+                paired.setdefault(row["match_number"], []).append(row)
+            for number, pair in paired.items():
+                if len(pair) != 2:
+                    raise ValueError(f"2022 m{number:03d}: expected two foul rows, got {len(pair)}")
+                pair[0]["fouls"], pair[1]["fouls"] = pair[1]["fouls"], pair[0]["fouls"]
+        output.extend(year_rows)
     crosscheck = {
         "overlap_matches": len(comparisons),
         "exact_matches": sum(row["match"] for row in comparisons),
@@ -955,6 +971,43 @@ def _validate(
             "edition": year, "check": "foul_event_vs_team_stat_layers", "observed": event_count,
             "expected": table_total, "status": "AUDIT", "note": "event and team-stat layers are retained separately",
         })
+        # Per-team orientation guard (added 2026-07-14 with the 2022 foul
+        # erratum): totals are blind to a within-match team swap, so compare
+        # the team-stat layer against timeline foul events per team and fail
+        # if the swapped orientation systematically fits better.
+        foul_by_match: dict[int, dict[str, int]] = {}
+        for row in fouls:
+            if int(row["edition"]) == year:
+                foul_by_match.setdefault(int(row["match_number"]), {})[row["team_id"]] = int(row["fouls"])
+        direct_fit = swap_preferred = 0
+        for (event_year, number), events in timelines.items():
+            if event_year != year or len(foul_by_match.get(number, {})) != 2:
+                continue
+            counts: dict[str, int] = {}
+            for event in events:
+                if event.get("Type") == 18:
+                    key = str(event.get("IdTeam"))
+                    counts[key] = counts.get(key, 0) + 1
+            if not counts:
+                continue
+            (team_a, fouls_a), (team_b, fouls_b) = sorted(foul_by_match[number].items())
+            d_direct = abs(counts.get(team_a, 0) - fouls_a) + abs(counts.get(team_b, 0) - fouls_b)
+            d_swap = abs(counts.get(team_a, 0) - fouls_b) + abs(counts.get(team_b, 0) - fouls_a)
+            if d_swap + 3 <= d_direct:
+                swap_preferred += 1
+            else:
+                direct_fit += 1
+        status = "PASS" if swap_preferred <= 2 else "FAIL"
+        audit.append({
+            "edition": year, "check": "foul_team_attribution_vs_timeline",
+            "observed": f"direct={direct_fit};swap_preferred={swap_preferred}",
+            "expected": "swap_preferred<=2", "status": status,
+            "note": "guards against within-match team swaps that totals cannot detect",
+        })
+        if status == "FAIL":
+            raise ValueError(
+                f"{year} foul team attribution: {swap_preferred} matches prefer the swapped orientation"
+            )
         exposed = {(row["team_id"], row["player_id"]) for row in cards
                    if int(row["edition"]) == year and row["recipient_type"] == "player"}
         covered = {(row["team_id"], row["player_id"]) for row in player_matches if int(row["edition"]) == year}

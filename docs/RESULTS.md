@@ -14,7 +14,7 @@ the all-tournament team-foul denominator. The pooled value is
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2014 | 64 | 194 | 194 | 1918 | 16 | 17 | 0 | 0 | 8.197 |
 | 2018 | 64 | 224 | 224 | 1734 | 16 | 14 | 0 | 0 | 10.155 |
-| 2022 | 64 | 228 | 221 | 1519 | 16 | 11 | 0 | 0 | 9.137 |
+| 2022 | 64 | 228 | 221 | 1519 | 16 | 11 | 0 | 0 | 9.245 |
 | 2026 | 100 | 270 | 269 | 2294 | 32 | 15 | 1 | 0 | 4.831 |
 
 The table is an edition-by-edition inventory. Differences between editions
@@ -30,7 +30,7 @@ Ranges below cover every combination of `rho in {1, 1.5, 2}` and
 | --- | --- | --- |
 | 2014 | 8.055–8.291 | 18.837–19.389 |
 | 2018 | 9.995–10.313 | 24.516–25.296 |
-| 2022 | 9.067–9.207 | 21.537–21.870 |
+| 2022 | 9.174–9.316 | 21.537–21.870 |
 | 2026 | 4.744–4.864 | 11.916–12.216 |
 
 The complete 72-row grid is in
@@ -55,7 +55,7 @@ strength estimate.
 | --- | --- | --- | --- | --- | --- |
 | 2014 | final | 16 | -0.418 | 0.038 | — |
 | 2018 | final | 16 | -0.418 | 0.043 | — |
-| 2022 | final | 16 | -0.618 | 0.002 | — |
+| 2022 | final | 16 | -0.558 | 0.007 | — |
 | 2026 | provisional_M100 | 32 | 0.086 | 0.552 | 2026 depth is truncated at the M100 cutoff; recompute after M104. |
 
 The full table is `data/derived/results/depth-check.csv`. The prespecified
@@ -280,9 +280,9 @@ minutes; a blank means no player carried a positive term.
 ## 2022
 
 Primary pooled suspension exposure per foul is
-`9.137`. Under the `T_end - 1`
-clock variant it is `9.126` versus
-`9.137` under the source end clock.
+`9.245`. Under the `T_end - 1`
+clock variant it is `9.233` versus
+`9.245` under the source end clock.
 
 ### Knockout match ledger
 
@@ -293,21 +293,21 @@ scope and is not listed.
 
 | Match | Stage | Winner | Opponent | E_m | Opponent E_m | Delta E_m | e_m | Opponent e_m | Delta e_m |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| M59 | quarter final | France | England | 132 | 11 | 121 | 13.2 | 0.786 | 12.414 |
-| M57 | quarter final | Argentina | Netherlands | 300 | 234 | 66 | 10.345 | 14.625 | -4.28 |
-| M49 | round of 16 | Netherlands | United States | 47 | 0 | 47 | 11.75 | 0 | 11.75 |
-| M60 | quarter final | Morocco | Portugal | 49 | 12 | 37 | 5.444 | 0.857 | 4.587 |
-| M53 | round of 16 | Croatia | Japan | 36 | 0 | 36 | 2.769 | 0 | 2.769 |
-| M52 | round of 16 | France | Poland | 68 | 65 | 3 | 8.5 | 7.222 | 1.278 |
+| M59 | quarter final | France | England | 132 | 11 | 121 | 9.429 | 1.1 | 8.329 |
+| M57 | quarter final | Argentina | Netherlands | 300 | 234 | 66 | 18.75 | 8.069 | 10.681 |
+| M49 | round of 16 | Netherlands | United States | 47 | 0 | 47 | 5.222 | 0 | 5.222 |
+| M60 | quarter final | Morocco | Portugal | 49 | 12 | 37 | 3.5 | 1.333 | 2.167 |
+| M53 | round of 16 | Croatia | Japan | 36 | 0 | 36 | 2.4 | 0 | 2.4 |
+| M52 | round of 16 | France | Poland | 68 | 65 | 3 | 7.556 | 8.125 | -0.569 |
 | M55 | round of 16 | Morocco | Spain | 34 | 47 | -13 | 2.429 | 3.357 | -0.929 |
-| M64 | final | Argentina | France | 120 | 138 | -18 | 6.667 | 6 | 0.667 |
-| M51 | round of 16 | England | Senegal | 0 | 19 | -19 | 0 | 1.188 | -1.188 |
-| M54 | round of 16 | Brazil | Korea Republic | 0 | 51 | -51 | 0 | 6.375 | -6.375 |
-| M62 | semi final | France | Morocco | 0 | 69 | -69 | 0 | 6.273 | -6.273 |
-| M61 | semi final | Argentina | Croatia | 51 | 126 | -75 | 6.375 | 8.4 | -2.025 |
-| M56 | round of 16 | Portugal | Switzerland | 0 | 88 | -88 | 0 | 7.333 | -7.333 |
+| M64 | final | Argentina | France | 120 | 138 | -18 | 5.217 | 7.667 | -2.449 |
+| M51 | round of 16 | England | Senegal | 0 | 19 | -19 | 0 | 1.727 | -1.727 |
+| M54 | round of 16 | Brazil | Korea Republic | 0 | 51 | -51 | 0 | 4.25 | -4.25 |
+| M62 | semi final | France | Morocco | 0 | 69 | -69 | 0 | 6.9 | -6.9 |
+| M61 | semi final | Argentina | Croatia | 51 | 126 | -75 | 3.4 | 15.75 | -12.35 |
+| M56 | round of 16 | Portugal | Switzerland | 0 | 88 | -88 | 0 | 8.8 | -8.8 |
 | M58 | quarter final | Croatia | Brazil | 98 | 199 | -101 | 4.455 | 9.045 | -4.591 |
-| M50 | round of 16 | Argentina | Australia | 0 | 143 | -143 | 0 | 20.429 | -20.429 |
+| M50 | round of 16 | Argentina | Australia | 0 | 143 | -143 | 0 | 10.214 | -10.214 |
 
 ### Winner-perspective foul-normalized match ranking
 
@@ -317,21 +317,21 @@ scope and is not listed.
 
 | Match | Winner | Opponent | Winner E_m/fouls | Opponent E_m/fouls | Delta E_m prime |
 | --- | --- | --- | --- | --- | --- |
-| M59 | France | England | 13.2 | 0.786 | 12.414 |
-| M49 | Netherlands | United States | 11.75 | 0 | 11.75 |
-| M60 | Morocco | Portugal | 5.444 | 0.857 | 4.587 |
-| M53 | Croatia | Japan | 2.769 | 0 | 2.769 |
-| M52 | France | Poland | 8.5 | 7.222 | 1.278 |
-| M64 | Argentina | France | 6.667 | 6 | 0.667 |
+| M57 | Argentina | Netherlands | 18.75 | 8.069 | 10.681 |
+| M59 | France | England | 9.429 | 1.1 | 8.329 |
+| M49 | Netherlands | United States | 5.222 | 0 | 5.222 |
+| M53 | Croatia | Japan | 2.4 | 0 | 2.4 |
+| M60 | Morocco | Portugal | 3.5 | 1.333 | 2.167 |
+| M52 | France | Poland | 7.556 | 8.125 | -0.569 |
 | M55 | Morocco | Spain | 2.429 | 3.357 | -0.929 |
-| M51 | England | Senegal | 0 | 1.188 | -1.188 |
-| M61 | Argentina | Croatia | 6.375 | 8.4 | -2.025 |
-| M57 | Argentina | Netherlands | 10.345 | 14.625 | -4.28 |
+| M51 | England | Senegal | 0 | 1.727 | -1.727 |
+| M64 | Argentina | France | 5.217 | 7.667 | -2.449 |
+| M54 | Brazil | Korea Republic | 0 | 4.25 | -4.25 |
 | M58 | Croatia | Brazil | 4.455 | 9.045 | -4.591 |
-| M62 | France | Morocco | 0 | 6.273 | -6.273 |
-| M54 | Brazil | Korea Republic | 0 | 6.375 | -6.375 |
-| M56 | Portugal | Switzerland | 0 | 7.333 | -7.333 |
-| M50 | Argentina | Australia | 0 | 20.429 | -20.429 |
+| M62 | France | Morocco | 0 | 6.9 | -6.9 |
+| M56 | Portugal | Switzerland | 0 | 8.8 | -8.8 |
+| M50 | Argentina | Australia | 0 | 10.214 | -10.214 |
+| M61 | Argentina | Croatia | 3.4 | 15.75 | -12.35 |
 
 ### Knockout-team suspension-exposure ranking
 
@@ -341,22 +341,22 @@ minutes; a blank means no player carried a positive term.
 
 | Rank | Team | Exposed players | Mean omega | E_s | All fouls | e_s | Knockout fouls | Knockout-foul rate |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Australia | 5 | 0.849 | 764.5 | 34 | 22.485 | 7 | 109.214 |
-| 2 | Switzerland | 8 | 0.642 | 917.622 | 49 | 18.727 | 12 | 76.469 |
-| 3 | Poland | 6 | 0.803 | 822.85 | 47 | 17.507 | 9 | 91.428 |
-| 4 | United States | 5 | 0.747 | 672 | 39 | 17.231 | 9 | 74.667 |
-| 5 | Korea Republic | 5 | 0.662 | 596 | 35 | 17.029 | 8 | 74.5 |
-| 6 | Japan | 5 | 0.695 | 557.885 | 36 | 15.497 | 15 | 37.192 |
-| 7 | Senegal | 6 | 0.806 | 727 | 58 | 12.534 | 16 | 45.438 |
-| 8 | Portugal | 6 | 0.7 | 709.587 | 65 | 10.917 | 24 | 29.566 |
-| 9 | Netherlands | 9 | 0.561 | 430.229 | 51 | 8.436 | 20 | 21.511 |
-| 10 | Croatia | 7 | 0.723 | 598.458 | 79 | 7.575 | 50 | 11.969 |
-| 11 | Morocco | 6 | 0.566 | 389.026 | 68 | 5.721 | 34 | 11.442 |
-| 12 | Spain | 2 | 0.851 | 247.231 | 45 | 5.494 | 14 | 17.659 |
-| 13 | France | 8 | 0.704 | 431.482 | 85 | 5.076 | 51 | 8.46 |
-| 14 | Brazil | 6 | 0.634 | 299.762 | 74 | 4.051 | 34 | 8.817 |
-| 15 | Argentina | 9 | 0.585 | 452.984 | 113 | 4.009 | 69 | 6.565 |
-| 16 | England | 0 |  | 0 | 65 | 0 | 25 | 0 |
+| 1 | Poland | 6 | 0.803 | 822.85 | 45 | 18.286 | 8 | 102.856 |
+| 2 | Switzerland | 8 | 0.642 | 917.622 | 51 | 17.993 | 10 | 91.762 |
+| 3 | United States | 5 | 0.747 | 672 | 40 | 16.8 | 4 | 168 |
+| 4 | Senegal | 6 | 0.806 | 727 | 44 | 16.523 | 11 | 66.091 |
+| 5 | Australia | 5 | 0.849 | 764.5 | 47 | 16.266 | 14 | 54.607 |
+| 6 | Korea Republic | 5 | 0.662 | 596 | 44 | 13.545 | 12 | 49.667 |
+| 7 | Portugal | 6 | 0.7 | 709.587 | 56 | 12.671 | 21 | 33.79 |
+| 8 | Japan | 5 | 0.695 | 557.885 | 55 | 10.143 | 13 | 42.914 |
+| 9 | Croatia | 7 | 0.723 | 598.458 | 76 | 7.874 | 45 | 13.299 |
+| 10 | France | 8 | 0.704 | 431.482 | 67 | 6.44 | 52 | 8.298 |
+| 11 | Spain | 2 | 0.851 | 247.231 | 39 | 6.339 | 14 | 17.659 |
+| 12 | Netherlands | 9 | 0.561 | 430.229 | 82 | 5.247 | 38 | 11.322 |
+| 13 | Brazil | 6 | 0.634 | 299.762 | 60 | 4.996 | 30 | 9.992 |
+| 14 | Argentina | 9 | 0.585 | 452.984 | 92 | 4.924 | 61 | 7.426 |
+| 15 | Morocco | 6 | 0.566 | 389.026 | 81 | 4.803 | 38 | 10.238 |
+| 16 | England | 0 |  | 0 | 53 | 0 | 26 | 0 |
 ## 2026
 
 Primary pooled suspension exposure per foul is

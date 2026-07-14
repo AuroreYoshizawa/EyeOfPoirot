@@ -2,20 +2,24 @@ edition,check,observed,expected,status,note
 2014,player_card_count,194,194,PASS,frozen card census
 2014,team_match_foul_rows,128,128,PASS,two rows per included match
 2014,foul_event_vs_team_stat_layers,0,1918,AUDIT,event and team-stat layers are retained separately
+2014,foul_team_attribution_vs_timeline,direct=0;swap_preferred=0,swap_preferred<=2,PASS,guards against within-match team swaps that totals cannot detect
 2014,carded_player_participation_coverage,166,166,PASS,all carded players have tournament participation rows
 2018,player_card_count,224,224,PASS,frozen card census
 2018,team_match_foul_rows,128,128,PASS,two rows per included match
 2018,foul_event_vs_team_stat_layers,1733,1734,AUDIT,event and team-stat layers are retained separately
+2018,foul_team_attribution_vs_timeline,direct=64;swap_preferred=0,swap_preferred<=2,PASS,guards against within-match team swaps that totals cannot detect
 2018,carded_player_participation_coverage,184,184,PASS,all carded players have tournament participation rows
 2018,fifa_live_vs_draft_player_minutes,773,773,PASS,FIFA live is primary; sample differences=[]
 2022,player_card_count,228,228,PASS,frozen card census
 2022,team_match_foul_rows,128,128,PASS,two rows per included match
 2022,foul_event_vs_team_stat_layers,1600,1519,AUDIT,event and team-stat layers are retained separately
+2022,foul_team_attribution_vs_timeline,direct=64;swap_preferred=0,swap_preferred<=2,PASS,guards against within-match team swaps that totals cannot detect
 2022,carded_player_participation_coverage,198,198,PASS,all carded players have tournament participation rows
 2022,fifa_live_vs_draft_player_minutes,816,816,PASS,FIFA live is primary; sample differences=[]
 2026,player_card_count,270,270,PASS,frozen card census
 2026,team_match_foul_rows,200,200,PASS,two rows per included match
 2026,foul_event_vs_team_stat_layers,2069,2294,AUDIT,event and team-stat layers are retained separately
+2026,foul_team_attribution_vs_timeline,direct=100;swap_preferred=0,swap_preferred<=2,PASS,guards against within-match team swaps that totals cannot detect
 2026,carded_player_participation_coverage,235,235,PASS,all carded players have tournament participation rows
 2026,fifa_live_vs_draft_player_minutes,975,975,PASS,FIFA live is primary; sample differences=[]
 all,availability_evidence_participation_join,56,56,PASS,"Every evidence row joins to the same player, team, and official match."

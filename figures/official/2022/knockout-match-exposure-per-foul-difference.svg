@@ -5,50 +5,50 @@
 <text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#162434">2022 World Cup: winner-perspective knockout ΔE_m′</text>
 <text x="36" y="76" font-family="Arial, sans-serif" font-size="14" fill="#4e5b68">Winner E_m/fouls minus opponent E_m/fouls; sorted high to low; rho = 2.</text>
 <line x1="705.00" y1="98" x2="705.00" y2="536" stroke="#687683" stroke-width="1"/>
-<text x="368" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M59 France vs England</text>
-<rect x="705.00" y="120" width="167.37" height="17" rx="2" fill="#2f718c"/>
-<text x="879.37" y="133" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">12.414</text>
-<text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M49 Netherlands vs United States</text>
-<rect x="705.00" y="148" width="158.42" height="17" rx="2" fill="#2f718c"/>
-<text x="870.42" y="161" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">11.75</text>
-<text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M60 Morocco vs Portugal</text>
-<rect x="705.00" y="176" width="61.85" height="17" rx="2" fill="#2f718c"/>
-<text x="773.85" y="189" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">4.587</text>
+<text x="368" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M57 Argentina vs Netherlands</text>
+<rect x="705.00" y="120" width="238.20" height="17" rx="2" fill="#2f718c"/>
+<text x="950.20" y="133" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">10.681</text>
+<text x="368" y="161" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M59 France vs England</text>
+<rect x="705.00" y="148" width="185.74" height="17" rx="2" fill="#2f718c"/>
+<text x="897.74" y="161" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">8.329</text>
+<text x="368" y="189" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M49 Netherlands vs United States</text>
+<rect x="705.00" y="176" width="116.46" height="17" rx="2" fill="#2f718c"/>
+<text x="828.46" y="189" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">5.222</text>
 <text x="368" y="217" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M53 Croatia vs Japan</text>
-<rect x="705.00" y="204" width="37.34" height="17" rx="2" fill="#2f718c"/>
-<text x="749.34" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">2.769</text>
-<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M52 France vs Poland</text>
-<rect x="705.00" y="232" width="17.23" height="17" rx="2" fill="#2f718c"/>
-<text x="729.23" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">1.278</text>
-<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M64 Argentina vs France</text>
-<rect x="705.00" y="260" width="8.99" height="17" rx="2" fill="#2f718c"/>
-<text x="720.99" y="273" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">0.667</text>
+<rect x="705.00" y="204" width="53.52" height="17" rx="2" fill="#2f718c"/>
+<text x="765.52" y="217" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">2.4</text>
+<text x="368" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M60 Morocco vs Portugal</text>
+<rect x="705.00" y="232" width="48.32" height="17" rx="2" fill="#2f718c"/>
+<text x="760.32" y="245" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#263747">2.167</text>
+<text x="368" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M52 France vs Poland</text>
+<rect x="692.30" y="260" width="12.70" height="17" rx="2" fill="#b65b4f"/>
+<text x="685.30" y="273" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-0.569</text>
 <text x="368" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M55 Morocco vs Spain</text>
-<rect x="692.48" y="288" width="12.52" height="17" rx="2" fill="#b65b4f"/>
-<text x="685.48" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-0.929</text>
+<rect x="684.29" y="288" width="20.71" height="17" rx="2" fill="#b65b4f"/>
+<text x="677.29" y="301" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-0.929</text>
 <text x="368" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M51 England vs Senegal</text>
-<rect x="688.99" y="316" width="16.01" height="17" rx="2" fill="#b65b4f"/>
-<text x="681.99" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-1.188</text>
-<text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M61 Argentina vs Croatia</text>
-<rect x="677.70" y="344" width="27.30" height="17" rx="2" fill="#b65b4f"/>
-<text x="670.70" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-2.025</text>
-<text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M57 Argentina vs Netherlands</text>
-<rect x="647.29" y="372" width="57.71" height="17" rx="2" fill="#b65b4f"/>
-<text x="640.29" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-4.28</text>
+<rect x="666.48" y="316" width="38.52" height="17" rx="2" fill="#b65b4f"/>
+<text x="659.48" y="329" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-1.727</text>
+<text x="368" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M64 Argentina vs France</text>
+<rect x="650.38" y="344" width="54.62" height="17" rx="2" fill="#b65b4f"/>
+<text x="643.38" y="357" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-2.449</text>
+<text x="368" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M54 Brazil vs Korea Republic</text>
+<rect x="610.22" y="372" width="94.78" height="17" rx="2" fill="#b65b4f"/>
+<text x="603.22" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-4.25</text>
 <text x="368" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M58 Croatia vs Brazil</text>
-<rect x="643.10" y="400" width="61.90" height="17" rx="2" fill="#b65b4f"/>
-<text x="636.10" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-4.591</text>
+<rect x="602.62" y="400" width="102.38" height="17" rx="2" fill="#b65b4f"/>
+<text x="595.62" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-4.591</text>
 <text x="368" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M62 France vs Morocco</text>
-<rect x="620.43" y="428" width="84.57" height="17" rx="2" fill="#b65b4f"/>
-<text x="613.43" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-6.273</text>
-<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M54 Brazil vs Korea Republic</text>
-<rect x="619.05" y="456" width="85.95" height="17" rx="2" fill="#b65b4f"/>
-<text x="612.05" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-6.375</text>
-<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M56 Portugal vs Switzerland</text>
-<rect x="606.13" y="484" width="98.87" height="17" rx="2" fill="#b65b4f"/>
-<text x="599.13" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-7.333</text>
-<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M50 Argentina vs Australia</text>
+<rect x="551.12" y="428" width="153.88" height="17" rx="2" fill="#b65b4f"/>
+<text x="544.12" y="441" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-6.9</text>
+<text x="368" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M56 Portugal vs Switzerland</text>
+<rect x="508.75" y="456" width="196.25" height="17" rx="2" fill="#b65b4f"/>
+<text x="501.75" y="469" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-8.8</text>
+<text x="368" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M50 Argentina vs Australia</text>
+<rect x="477.21" y="484" width="227.79" height="17" rx="2" fill="#b65b4f"/>
+<text x="470.21" y="497" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-10.214</text>
+<text x="368" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#263747">M61 Argentina vs Croatia</text>
 <rect x="429.58" y="512" width="275.42" height="17" rx="2" fill="#b65b4f"/>
-<text x="422.58" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-20.429</text>
+<text x="422.58" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#263747">-12.35</text>
 <text x="560" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#4e5b68">Winner-perspective ΔE_m′ in minutes per foul (descriptive; not a causal estimate)</text>
 </svg>

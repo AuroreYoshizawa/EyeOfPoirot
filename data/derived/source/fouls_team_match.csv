@@ -259,130 +259,130 @@ edition,match_number,match_id,stage,team_id,team,opponent,team_match_number,foul
 2022,1,400128082,group,43927,Ecuador,Qatar,1,15,https://fdh-api.fifa.com/v1/stats/match/128084/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,2,400235449,group,43879,Senegal,Netherlands,1,13,https://fdh-api.fifa.com/v1/stats/match/132996/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,2,400235449,group,43960,Netherlands,Senegal,1,13,https://fdh-api.fifa.com/v1/stats/match/132996/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,3,400235458,group,43817,Iran,England,1,9,https://fdh-api.fifa.com/v1/stats/match/132997/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,3,400235458,group,43942,England,Iran,1,12,https://fdh-api.fifa.com/v1/stats/match/132997/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,4,400235455,group,43921,United States,Wales,1,9,https://fdh-api.fifa.com/v1/stats/match/132995/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,4,400235455,group,43974,Wales,United States,1,14,https://fdh-api.fifa.com/v1/stats/match/132995/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,5,400235470,group,43946,France,Australia,1,11,https://fdh-api.fifa.com/v1/stats/match/132998/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,5,400235470,group,43976,Australia,France,1,5,https://fdh-api.fifa.com/v1/stats/match/132998/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,3,400235458,group,43817,Iran,England,1,12,https://fdh-api.fifa.com/v1/stats/match/132997/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,3,400235458,group,43942,England,Iran,1,9,https://fdh-api.fifa.com/v1/stats/match/132997/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,4,400235455,group,43921,United States,Wales,1,14,https://fdh-api.fifa.com/v1/stats/match/132995/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,4,400235455,group,43974,Wales,United States,1,9,https://fdh-api.fifa.com/v1/stats/match/132995/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,5,400235470,group,43946,France,Australia,1,5,https://fdh-api.fifa.com/v1/stats/match/132998/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,5,400235470,group,43976,Australia,France,1,11,https://fdh-api.fifa.com/v1/stats/match/132998/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,6,400235466,group,43888,Tunisia,Denmark,1,9,https://fdh-api.fifa.com/v1/stats/match/132999/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,6,400235466,group,43941,Denmark,Tunisia,1,9,https://fdh-api.fifa.com/v1/stats/match/132999/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,7,400235463,group,43911,Mexico,Poland,1,15,https://fdh-api.fifa.com/v1/stats/match/133000/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,7,400235463,group,43962,Poland,Mexico,1,13,https://fdh-api.fifa.com/v1/stats/match/133000/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,8,400235461,group,43835,Saudi Arabia,Argentina,1,6,https://fdh-api.fifa.com/v1/stats/match/133001/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,8,400235461,group,43922,Argentina,Saudi Arabia,1,21,https://fdh-api.fifa.com/v1/stats/match/133001/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,9,400235477,group,43899,Canada,Belgium,1,10,https://fdh-api.fifa.com/v1/stats/match/133002/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,9,400235477,group,43935,Belgium,Canada,1,14,https://fdh-api.fifa.com/v1/stats/match/133002/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,10,400235472,group,43901,Costa Rica,Spain,1,7,https://fdh-api.fifa.com/v1/stats/match/133004/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,10,400235472,group,43969,Spain,Costa Rica,1,11,https://fdh-api.fifa.com/v1/stats/match/133004/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,11,400235476,group,43819,Japan,Germany,1,6,https://fdh-api.fifa.com/v1/stats/match/133005/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,11,400235476,group,43948,Germany,Japan,1,12,https://fdh-api.fifa.com/v1/stats/match/133005/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,12,400235481,group,43872,Morocco,Croatia,1,11,https://fdh-api.fifa.com/v1/stats/match/133003/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,12,400235481,group,43938,Croatia,Morocco,1,15,https://fdh-api.fifa.com/v1/stats/match/133003/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,13,400235488,group,43849,Cameroon,Switzerland,1,11,https://fdh-api.fifa.com/v1/stats/match/133006/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,13,400235488,group,43971,Switzerland,Cameroon,1,10,https://fdh-api.fifa.com/v1/stats/match/133006/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,14,400235491,group,43822,Korea Republic,Uruguay,1,7,https://fdh-api.fifa.com/v1/stats/match/133008/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,14,400235491,group,43930,Uruguay,Korea Republic,1,10,https://fdh-api.fifa.com/v1/stats/match/133008/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,15,400235493,group,43860,Ghana,Portugal,1,14,https://fdh-api.fifa.com/v1/stats/match/133017/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,15,400235493,group,43963,Portugal,Ghana,1,19,https://fdh-api.fifa.com/v1/stats/match/133017/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,16,400235484,group,1902465,Serbia,Brazil,1,6,https://fdh-api.fifa.com/v1/stats/match/133007/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,16,400235484,group,43924,Brazil,Serbia,1,12,https://fdh-api.fifa.com/v1/stats/match/133007/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,17,400235453,group,43817,Iran,Wales,2,9,https://fdh-api.fifa.com/v1/stats/match/133011/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,17,400235453,group,43974,Wales,Iran,2,10,https://fdh-api.fifa.com/v1/stats/match/133011/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,18,400235448,group,43834,Qatar,Senegal,2,12,https://fdh-api.fifa.com/v1/stats/match/133009/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,18,400235448,group,43879,Senegal,Qatar,2,6,https://fdh-api.fifa.com/v1/stats/match/133009/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,19,400235452,group,43927,Ecuador,Netherlands,2,14,https://fdh-api.fifa.com/v1/stats/match/133010/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,19,400235452,group,43960,Netherlands,Ecuador,2,11,https://fdh-api.fifa.com/v1/stats/match/133010/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,20,400235457,group,43921,United States,England,2,9,https://fdh-api.fifa.com/v1/stats/match/133012/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,20,400235457,group,43942,England,United States,2,14,https://fdh-api.fifa.com/v1/stats/match/133012/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,7,400235463,group,43911,Mexico,Poland,1,13,https://fdh-api.fifa.com/v1/stats/match/133000/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,7,400235463,group,43962,Poland,Mexico,1,15,https://fdh-api.fifa.com/v1/stats/match/133000/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,8,400235461,group,43835,Saudi Arabia,Argentina,1,21,https://fdh-api.fifa.com/v1/stats/match/133001/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,8,400235461,group,43922,Argentina,Saudi Arabia,1,6,https://fdh-api.fifa.com/v1/stats/match/133001/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,9,400235477,group,43899,Canada,Belgium,1,14,https://fdh-api.fifa.com/v1/stats/match/133002/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,9,400235477,group,43935,Belgium,Canada,1,10,https://fdh-api.fifa.com/v1/stats/match/133002/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,10,400235472,group,43901,Costa Rica,Spain,1,11,https://fdh-api.fifa.com/v1/stats/match/133004/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,10,400235472,group,43969,Spain,Costa Rica,1,7,https://fdh-api.fifa.com/v1/stats/match/133004/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,11,400235476,group,43819,Japan,Germany,1,12,https://fdh-api.fifa.com/v1/stats/match/133005/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,11,400235476,group,43948,Germany,Japan,1,6,https://fdh-api.fifa.com/v1/stats/match/133005/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,12,400235481,group,43872,Morocco,Croatia,1,15,https://fdh-api.fifa.com/v1/stats/match/133003/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,12,400235481,group,43938,Croatia,Morocco,1,11,https://fdh-api.fifa.com/v1/stats/match/133003/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,13,400235488,group,43849,Cameroon,Switzerland,1,10,https://fdh-api.fifa.com/v1/stats/match/133006/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,13,400235488,group,43971,Switzerland,Cameroon,1,11,https://fdh-api.fifa.com/v1/stats/match/133006/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,14,400235491,group,43822,Korea Republic,Uruguay,1,10,https://fdh-api.fifa.com/v1/stats/match/133008/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,14,400235491,group,43930,Uruguay,Korea Republic,1,7,https://fdh-api.fifa.com/v1/stats/match/133008/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,15,400235493,group,43860,Ghana,Portugal,1,19,https://fdh-api.fifa.com/v1/stats/match/133017/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,15,400235493,group,43963,Portugal,Ghana,1,14,https://fdh-api.fifa.com/v1/stats/match/133017/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,16,400235484,group,1902465,Serbia,Brazil,1,12,https://fdh-api.fifa.com/v1/stats/match/133007/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,16,400235484,group,43924,Brazil,Serbia,1,6,https://fdh-api.fifa.com/v1/stats/match/133007/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,17,400235453,group,43817,Iran,Wales,2,10,https://fdh-api.fifa.com/v1/stats/match/133011/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,17,400235453,group,43974,Wales,Iran,2,9,https://fdh-api.fifa.com/v1/stats/match/133011/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,18,400235448,group,43834,Qatar,Senegal,2,6,https://fdh-api.fifa.com/v1/stats/match/133009/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,18,400235448,group,43879,Senegal,Qatar,2,12,https://fdh-api.fifa.com/v1/stats/match/133009/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,19,400235452,group,43927,Ecuador,Netherlands,2,11,https://fdh-api.fifa.com/v1/stats/match/133010/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,19,400235452,group,43960,Netherlands,Ecuador,2,14,https://fdh-api.fifa.com/v1/stats/match/133010/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,20,400235457,group,43921,United States,England,2,14,https://fdh-api.fifa.com/v1/stats/match/133012/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,20,400235457,group,43942,England,United States,2,9,https://fdh-api.fifa.com/v1/stats/match/133012/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,21,400235469,group,43888,Tunisia,Australia,2,13,https://fdh-api.fifa.com/v1/stats/match/133015/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,21,400235469,group,43976,Australia,Tunisia,2,13,https://fdh-api.fifa.com/v1/stats/match/133015/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,22,400235459,group,43835,Saudi Arabia,Poland,2,16,https://fdh-api.fifa.com/v1/stats/match/133013/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,22,400235459,group,43962,Poland,Saudi Arabia,2,14,https://fdh-api.fifa.com/v1/stats/match/133013/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,23,400235467,group,43941,Denmark,France,2,4,https://fdh-api.fifa.com/v1/stats/match/133016/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,23,400235467,group,43946,France,Denmark,2,9,https://fdh-api.fifa.com/v1/stats/match/133016/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,24,400235462,group,43911,Mexico,Argentina,2,14,https://fdh-api.fifa.com/v1/stats/match/133014/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,24,400235462,group,43922,Argentina,Mexico,2,17,https://fdh-api.fifa.com/v1/stats/match/133014/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,25,400235471,group,43819,Japan,Costa Rica,2,9,https://fdh-api.fifa.com/v1/stats/match/133020/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,25,400235471,group,43901,Costa Rica,Japan,2,21,https://fdh-api.fifa.com/v1/stats/match/133020/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,26,400235480,group,43872,Morocco,Belgium,2,9,https://fdh-api.fifa.com/v1/stats/match/133018/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,26,400235480,group,43935,Belgium,Morocco,2,14,https://fdh-api.fifa.com/v1/stats/match/133018/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,27,400235482,group,43899,Canada,Croatia,2,13,https://fdh-api.fifa.com/v1/stats/match/133019/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,27,400235482,group,43938,Croatia,Canada,2,5,https://fdh-api.fifa.com/v1/stats/match/133019/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,28,400235474,group,43948,Germany,Spain,2,12,https://fdh-api.fifa.com/v1/stats/match/133021/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,28,400235474,group,43969,Spain,Germany,2,11,https://fdh-api.fifa.com/v1/stats/match/133021/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,29,400235487,group,1902465,Serbia,Cameroon,2,8,https://fdh-api.fifa.com/v1/stats/match/133022/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,29,400235487,group,43849,Cameroon,Serbia,2,13,https://fdh-api.fifa.com/v1/stats/match/133022/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,30,400235489,group,43822,Korea Republic,Ghana,2,9,https://fdh-api.fifa.com/v1/stats/match/133024/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,30,400235489,group,43860,Ghana,Korea Republic,2,13,https://fdh-api.fifa.com/v1/stats/match/133024/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,31,400235485,group,43924,Brazil,Switzerland,2,17,https://fdh-api.fifa.com/v1/stats/match/133023/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,31,400235485,group,43971,Switzerland,Brazil,2,10,https://fdh-api.fifa.com/v1/stats/match/133023/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,32,400235492,group,43930,Uruguay,Portugal,2,10,https://fdh-api.fifa.com/v1/stats/match/133025/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,32,400235492,group,43963,Portugal,Uruguay,2,13,https://fdh-api.fifa.com/v1/stats/match/133025/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,33,400235454,group,43942,England,Wales,3,14,https://fdh-api.fifa.com/v1/stats/match/133029/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,33,400235454,group,43974,Wales,England,3,9,https://fdh-api.fifa.com/v1/stats/match/133029/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,34,400235456,group,43817,Iran,United States,3,8,https://fdh-api.fifa.com/v1/stats/match/133028/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,34,400235456,group,43921,United States,Iran,3,12,https://fdh-api.fifa.com/v1/stats/match/133028/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,35,400235451,group,43879,Senegal,Ecuador,3,23,https://fdh-api.fifa.com/v1/stats/match/133026/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,35,400235451,group,43927,Ecuador,Senegal,3,8,https://fdh-api.fifa.com/v1/stats/match/133026/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,36,400235450,group,43834,Qatar,Netherlands,3,17,https://fdh-api.fifa.com/v1/stats/match/133027/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,36,400235450,group,43960,Netherlands,Qatar,3,7,https://fdh-api.fifa.com/v1/stats/match/133027/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,22,400235459,group,43835,Saudi Arabia,Poland,2,14,https://fdh-api.fifa.com/v1/stats/match/133013/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,22,400235459,group,43962,Poland,Saudi Arabia,2,16,https://fdh-api.fifa.com/v1/stats/match/133013/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,23,400235467,group,43941,Denmark,France,2,9,https://fdh-api.fifa.com/v1/stats/match/133016/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,23,400235467,group,43946,France,Denmark,2,4,https://fdh-api.fifa.com/v1/stats/match/133016/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,24,400235462,group,43911,Mexico,Argentina,2,17,https://fdh-api.fifa.com/v1/stats/match/133014/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,24,400235462,group,43922,Argentina,Mexico,2,14,https://fdh-api.fifa.com/v1/stats/match/133014/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,25,400235471,group,43819,Japan,Costa Rica,2,21,https://fdh-api.fifa.com/v1/stats/match/133020/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,25,400235471,group,43901,Costa Rica,Japan,2,9,https://fdh-api.fifa.com/v1/stats/match/133020/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,26,400235480,group,43872,Morocco,Belgium,2,14,https://fdh-api.fifa.com/v1/stats/match/133018/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,26,400235480,group,43935,Belgium,Morocco,2,9,https://fdh-api.fifa.com/v1/stats/match/133018/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,27,400235482,group,43899,Canada,Croatia,2,5,https://fdh-api.fifa.com/v1/stats/match/133019/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,27,400235482,group,43938,Croatia,Canada,2,13,https://fdh-api.fifa.com/v1/stats/match/133019/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,28,400235474,group,43948,Germany,Spain,2,11,https://fdh-api.fifa.com/v1/stats/match/133021/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,28,400235474,group,43969,Spain,Germany,2,12,https://fdh-api.fifa.com/v1/stats/match/133021/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,29,400235487,group,1902465,Serbia,Cameroon,2,13,https://fdh-api.fifa.com/v1/stats/match/133022/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,29,400235487,group,43849,Cameroon,Serbia,2,8,https://fdh-api.fifa.com/v1/stats/match/133022/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,30,400235489,group,43822,Korea Republic,Ghana,2,13,https://fdh-api.fifa.com/v1/stats/match/133024/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,30,400235489,group,43860,Ghana,Korea Republic,2,9,https://fdh-api.fifa.com/v1/stats/match/133024/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,31,400235485,group,43924,Brazil,Switzerland,2,10,https://fdh-api.fifa.com/v1/stats/match/133023/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,31,400235485,group,43971,Switzerland,Brazil,2,17,https://fdh-api.fifa.com/v1/stats/match/133023/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,32,400235492,group,43930,Uruguay,Portugal,2,13,https://fdh-api.fifa.com/v1/stats/match/133025/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,32,400235492,group,43963,Portugal,Uruguay,2,10,https://fdh-api.fifa.com/v1/stats/match/133025/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,33,400235454,group,43942,England,Wales,3,9,https://fdh-api.fifa.com/v1/stats/match/133029/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,33,400235454,group,43974,Wales,England,3,14,https://fdh-api.fifa.com/v1/stats/match/133029/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,34,400235456,group,43817,Iran,United States,3,12,https://fdh-api.fifa.com/v1/stats/match/133028/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,34,400235456,group,43921,United States,Iran,3,8,https://fdh-api.fifa.com/v1/stats/match/133028/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,35,400235451,group,43879,Senegal,Ecuador,3,8,https://fdh-api.fifa.com/v1/stats/match/133026/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,35,400235451,group,43927,Ecuador,Senegal,3,23,https://fdh-api.fifa.com/v1/stats/match/133026/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,36,400235450,group,43834,Qatar,Netherlands,3,7,https://fdh-api.fifa.com/v1/stats/match/133027/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,36,400235450,group,43960,Netherlands,Qatar,3,17,https://fdh-api.fifa.com/v1/stats/match/133027/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,37,400235468,group,43941,Denmark,Australia,3,9,https://fdh-api.fifa.com/v1/stats/match/133033/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,37,400235468,group,43976,Australia,Denmark,3,9,https://fdh-api.fifa.com/v1/stats/match/133033/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,38,400235465,group,43888,Tunisia,France,3,6,https://fdh-api.fifa.com/v1/stats/match/133032/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,38,400235465,group,43946,France,Tunisia,3,14,https://fdh-api.fifa.com/v1/stats/match/133032/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,39,400235464,group,43922,Argentina,Poland,3,6,https://fdh-api.fifa.com/v1/stats/match/133031/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,39,400235464,group,43962,Poland,Argentina,3,11,https://fdh-api.fifa.com/v1/stats/match/133031/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,40,400235460,group,43835,Saudi Arabia,Mexico,3,16,https://fdh-api.fifa.com/v1/stats/match/133030/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,40,400235460,group,43911,Mexico,Saudi Arabia,3,20,https://fdh-api.fifa.com/v1/stats/match/133030/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,41,400235478,group,43935,Belgium,Croatia,3,7,https://fdh-api.fifa.com/v1/stats/match/133037/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,41,400235478,group,43938,Croatia,Belgium,3,9,https://fdh-api.fifa.com/v1/stats/match/133037/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,38,400235465,group,43888,Tunisia,France,3,14,https://fdh-api.fifa.com/v1/stats/match/133032/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,38,400235465,group,43946,France,Tunisia,3,6,https://fdh-api.fifa.com/v1/stats/match/133032/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,39,400235464,group,43922,Argentina,Poland,3,11,https://fdh-api.fifa.com/v1/stats/match/133031/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,39,400235464,group,43962,Poland,Argentina,3,6,https://fdh-api.fifa.com/v1/stats/match/133031/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,40,400235460,group,43835,Saudi Arabia,Mexico,3,20,https://fdh-api.fifa.com/v1/stats/match/133030/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,40,400235460,group,43911,Mexico,Saudi Arabia,3,16,https://fdh-api.fifa.com/v1/stats/match/133030/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,41,400235478,group,43935,Belgium,Croatia,3,9,https://fdh-api.fifa.com/v1/stats/match/133037/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,41,400235478,group,43938,Croatia,Belgium,3,7,https://fdh-api.fifa.com/v1/stats/match/133037/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,42,400235479,group,43872,Morocco,Canada,3,14,https://fdh-api.fifa.com/v1/stats/match/133036/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,42,400235479,group,43899,Canada,Morocco,3,14,https://fdh-api.fifa.com/v1/stats/match/133036/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,43,400235475,group,43819,Japan,Spain,3,6,https://fdh-api.fifa.com/v1/stats/match/133035/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,43,400235475,group,43969,Spain,Japan,3,9,https://fdh-api.fifa.com/v1/stats/match/133035/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,44,400235473,group,43901,Costa Rica,Germany,3,9,https://fdh-api.fifa.com/v1/stats/match/133034/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,44,400235473,group,43948,Germany,Costa Rica,3,3,https://fdh-api.fifa.com/v1/stats/match/133034/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,45,400235494,group,43860,Ghana,Uruguay,3,11,https://fdh-api.fifa.com/v1/stats/match/133041/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,45,400235494,group,43930,Uruguay,Ghana,3,16,https://fdh-api.fifa.com/v1/stats/match/133041/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,46,400235490,group,43822,Korea Republic,Portugal,3,11,https://fdh-api.fifa.com/v1/stats/match/133040/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,46,400235490,group,43963,Portugal,Korea Republic,3,9,https://fdh-api.fifa.com/v1/stats/match/133040/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,47,400235486,group,1902465,Serbia,Switzerland,3,13,https://fdh-api.fifa.com/v1/stats/match/133039/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,47,400235486,group,43971,Switzerland,Serbia,3,17,https://fdh-api.fifa.com/v1/stats/match/133039/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,48,400235483,group,43849,Cameroon,Brazil,3,14,https://fdh-api.fifa.com/v1/stats/match/133038/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,48,400235483,group,43924,Brazil,Cameroon,3,11,https://fdh-api.fifa.com/v1/stats/match/133038/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,49,400128136,round_of_16,43921,United States,Netherlands,4,9,https://fdh-api.fifa.com/v1/stats/match/128068/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,49,400128136,round_of_16,43960,Netherlands,United States,4,4,https://fdh-api.fifa.com/v1/stats/match/128068/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,50,400128131,round_of_16,43922,Argentina,Australia,4,14,https://fdh-api.fifa.com/v1/stats/match/128069/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,50,400128131,round_of_16,43976,Australia,Argentina,4,7,https://fdh-api.fifa.com/v1/stats/match/128069/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,51,400128134,round_of_16,43879,Senegal,England,4,16,https://fdh-api.fifa.com/v1/stats/match/128070/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,51,400128134,round_of_16,43942,England,Senegal,4,11,https://fdh-api.fifa.com/v1/stats/match/128070/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,52,400128135,round_of_16,43946,France,Poland,4,8,https://fdh-api.fifa.com/v1/stats/match/128071/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,52,400128135,round_of_16,43962,Poland,France,4,9,https://fdh-api.fifa.com/v1/stats/match/128071/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,53,400128132,round_of_16,43819,Japan,Croatia,4,15,https://fdh-api.fifa.com/v1/stats/match/128072/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,53,400128132,round_of_16,43938,Croatia,Japan,4,13,https://fdh-api.fifa.com/v1/stats/match/128072/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,54,400128133,round_of_16,43822,Korea Republic,Brazil,4,8,https://fdh-api.fifa.com/v1/stats/match/128073/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,54,400128133,round_of_16,43924,Brazil,Korea Republic,4,12,https://fdh-api.fifa.com/v1/stats/match/128073/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,43,400235475,group,43819,Japan,Spain,3,9,https://fdh-api.fifa.com/v1/stats/match/133035/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,43,400235475,group,43969,Spain,Japan,3,6,https://fdh-api.fifa.com/v1/stats/match/133035/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,44,400235473,group,43901,Costa Rica,Germany,3,3,https://fdh-api.fifa.com/v1/stats/match/133034/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,44,400235473,group,43948,Germany,Costa Rica,3,9,https://fdh-api.fifa.com/v1/stats/match/133034/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,45,400235494,group,43860,Ghana,Uruguay,3,16,https://fdh-api.fifa.com/v1/stats/match/133041/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,45,400235494,group,43930,Uruguay,Ghana,3,11,https://fdh-api.fifa.com/v1/stats/match/133041/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,46,400235490,group,43822,Korea Republic,Portugal,3,9,https://fdh-api.fifa.com/v1/stats/match/133040/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,46,400235490,group,43963,Portugal,Korea Republic,3,11,https://fdh-api.fifa.com/v1/stats/match/133040/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,47,400235486,group,1902465,Serbia,Switzerland,3,17,https://fdh-api.fifa.com/v1/stats/match/133039/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,47,400235486,group,43971,Switzerland,Serbia,3,13,https://fdh-api.fifa.com/v1/stats/match/133039/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,48,400235483,group,43849,Cameroon,Brazil,3,11,https://fdh-api.fifa.com/v1/stats/match/133038/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,48,400235483,group,43924,Brazil,Cameroon,3,14,https://fdh-api.fifa.com/v1/stats/match/133038/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,49,400128136,round_of_16,43921,United States,Netherlands,4,4,https://fdh-api.fifa.com/v1/stats/match/128068/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,49,400128136,round_of_16,43960,Netherlands,United States,4,9,https://fdh-api.fifa.com/v1/stats/match/128068/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,50,400128131,round_of_16,43922,Argentina,Australia,4,7,https://fdh-api.fifa.com/v1/stats/match/128069/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,50,400128131,round_of_16,43976,Australia,Argentina,4,14,https://fdh-api.fifa.com/v1/stats/match/128069/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,51,400128134,round_of_16,43879,Senegal,England,4,11,https://fdh-api.fifa.com/v1/stats/match/128070/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,51,400128134,round_of_16,43942,England,Senegal,4,16,https://fdh-api.fifa.com/v1/stats/match/128070/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,52,400128135,round_of_16,43946,France,Poland,4,9,https://fdh-api.fifa.com/v1/stats/match/128071/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,52,400128135,round_of_16,43962,Poland,France,4,8,https://fdh-api.fifa.com/v1/stats/match/128071/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,53,400128132,round_of_16,43819,Japan,Croatia,4,13,https://fdh-api.fifa.com/v1/stats/match/128072/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,53,400128132,round_of_16,43938,Croatia,Japan,4,15,https://fdh-api.fifa.com/v1/stats/match/128072/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,54,400128133,round_of_16,43822,Korea Republic,Brazil,4,12,https://fdh-api.fifa.com/v1/stats/match/128073/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,54,400128133,round_of_16,43924,Brazil,Korea Republic,4,8,https://fdh-api.fifa.com/v1/stats/match/128073/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,55,400128137,round_of_16,43872,Morocco,Spain,4,14,https://fdh-api.fifa.com/v1/stats/match/128074/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,55,400128137,round_of_16,43969,Spain,Morocco,4,14,https://fdh-api.fifa.com/v1/stats/match/128074/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,56,400128130,round_of_16,43963,Portugal,Switzerland,4,10,https://fdh-api.fifa.com/v1/stats/match/128075/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,56,400128130,round_of_16,43971,Switzerland,Portugal,4,12,https://fdh-api.fifa.com/v1/stats/match/128075/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,57,400128139,quarter_final,43922,Argentina,Netherlands,5,29,https://fdh-api.fifa.com/v1/stats/match/128076/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,57,400128139,quarter_final,43960,Netherlands,Argentina,5,16,https://fdh-api.fifa.com/v1/stats/match/128076/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,56,400128130,round_of_16,43963,Portugal,Switzerland,4,12,https://fdh-api.fifa.com/v1/stats/match/128075/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,56,400128130,round_of_16,43971,Switzerland,Portugal,4,10,https://fdh-api.fifa.com/v1/stats/match/128075/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,57,400128139,quarter_final,43922,Argentina,Netherlands,5,16,https://fdh-api.fifa.com/v1/stats/match/128076/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,57,400128139,quarter_final,43960,Netherlands,Argentina,5,29,https://fdh-api.fifa.com/v1/stats/match/128076/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,58,400128141,quarter_final,43924,Brazil,Croatia,5,22,https://fdh-api.fifa.com/v1/stats/match/128077/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2022,58,400128141,quarter_final,43938,Croatia,Brazil,5,22,https://fdh-api.fifa.com/v1/stats/match/128077/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,59,400128138,quarter_final,43942,England,France,5,14,https://fdh-api.fifa.com/v1/stats/match/128078/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,59,400128138,quarter_final,43946,France,England,5,10,https://fdh-api.fifa.com/v1/stats/match/128078/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,60,400128140,quarter_final,43872,Morocco,Portugal,5,9,https://fdh-api.fifa.com/v1/stats/match/128079/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,60,400128140,quarter_final,43963,Portugal,Morocco,5,14,https://fdh-api.fifa.com/v1/stats/match/128079/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,61,400128143,semi_final,43922,Argentina,Croatia,6,8,https://fdh-api.fifa.com/v1/stats/match/128080/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,61,400128143,semi_final,43938,Croatia,Argentina,6,15,https://fdh-api.fifa.com/v1/stats/match/128080/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,62,400128142,semi_final,43872,Morocco,France,6,11,https://fdh-api.fifa.com/v1/stats/match/128081/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,62,400128142,semi_final,43946,France,Morocco,6,10,https://fdh-api.fifa.com/v1/stats/match/128081/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,63,400128144,third_place,43872,Morocco,Croatia,7,13,https://fdh-api.fifa.com/v1/stats/match/128082/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,63,400128144,third_place,43938,Croatia,Morocco,7,11,https://fdh-api.fifa.com/v1/stats/match/128082/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,64,400128145,final,43922,Argentina,France,7,18,https://fdh-api.fifa.com/v1/stats/match/128083/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
-2022,64,400128145,final,43946,France,Argentina,7,23,https://fdh-api.fifa.com/v1/stats/match/128083/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,59,400128138,quarter_final,43942,England,France,5,10,https://fdh-api.fifa.com/v1/stats/match/128078/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,59,400128138,quarter_final,43946,France,England,5,14,https://fdh-api.fifa.com/v1/stats/match/128078/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,60,400128140,quarter_final,43872,Morocco,Portugal,5,14,https://fdh-api.fifa.com/v1/stats/match/128079/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,60,400128140,quarter_final,43963,Portugal,Morocco,5,9,https://fdh-api.fifa.com/v1/stats/match/128079/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,61,400128143,semi_final,43922,Argentina,Croatia,6,15,https://fdh-api.fifa.com/v1/stats/match/128080/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,61,400128143,semi_final,43938,Croatia,Argentina,6,8,https://fdh-api.fifa.com/v1/stats/match/128080/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,62,400128142,semi_final,43872,Morocco,France,6,10,https://fdh-api.fifa.com/v1/stats/match/128081/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,62,400128142,semi_final,43946,France,Morocco,6,11,https://fdh-api.fifa.com/v1/stats/match/128081/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,63,400128144,third_place,43872,Morocco,Croatia,7,11,https://fdh-api.fifa.com/v1/stats/match/128082/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,63,400128144,third_place,43938,Croatia,Morocco,7,13,https://fdh-api.fifa.com/v1/stats/match/128082/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,64,400128145,final,43922,Argentina,France,7,23,https://fdh-api.fifa.com/v1/stats/match/128083/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
+2022,64,400128145,final,43946,France,Argentina,7,18,https://fdh-api.fifa.com/v1/stats/match/128083/teams.json,data/raw/draft_workbook_exports/2022/team-match.csv
 2026,1,400021443,group,43883,South Africa,Mexico,1,11,https://fdh-api.fifa.com/v1/stats/match/151600/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
 2026,1,400021443,group,43911,Mexico,South Africa,1,12,https://fdh-api.fifa.com/v1/stats/match/151600/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv
 2026,2,400021441,group,43822,Korea Republic,Czechia,1,9,https://fdh-api.fifa.com/v1/stats/match/151608/teams.json,data/raw/draft_workbook_exports/2026/team-match.csv

@@ -85,6 +85,29 @@ entries are append-only.
 
 ## Data errata
 
+- **2022 team-match foul counts were team-swapped (logged 2026-07-14).**
+  Every 2022 row of `fouls_team_match.csv` carried the opponent's foul
+  count: the draft-workbook export used as the 2022 foul source attached
+  each value to the wrong team, and the pre-existing audit compared only
+  the two-team totals, which a within-match swap cannot move. Detected
+  while preparing per-foul timing analyses: FIFA timeline foul events
+  (Type 18) and StatsBomb open-data `Foul Committed` events independently
+  agree on the corrected orientation in 13 of 14 clearly separated
+  knockout matches and 48 of 64 matches overall, with zero matches
+  supporting the ingested orientation. Fix: the two values are swapped
+  within each 2022 match at ingestion, and a new per-team
+  `foul_team_attribution_vs_timeline` guard fails any edition where the
+  swapped orientation systematically fits the timeline better (2014 has
+  no timeline foul events and is covered by the HuffPost/Opta–FotMob
+  cross-check; 2018 and 2026 pass in the direct orientation). Effects:
+  2022 foul denominators only — numerators are untouched. Primary 2022
+  values move as follows: pooled `e_s` 9.137 → 9.245; depth check τ_b
+  −0.618 → −0.558 (p = 0.005); the disclosed exploratory conceded-rate
+  association strengthens (+0.485 → +0.587); team ranks reshuffle
+  (Australia 1→5, Japan 6→8, Netherlands 9→12, Senegal 7→4, Argentina
+  15→14). All published 2022 per-foul quantities, match `Δe_m` values,
+  figures, and the depth-check table are rebuilt under the corrected
+  denominators.
 - **2018 medical-ledger fixture corrections (logged 2026-07-13).** Five rows
   in the pre-freeze ledger used unrelated adjacent fixture numbers: James
   Rodríguez M15→M16 and M46→M48, Mats Hummels M29→M27, and Taisir Al-Jassim

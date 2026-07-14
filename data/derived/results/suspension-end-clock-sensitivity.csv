@@ -7,9 +7,9 @@ edition,clock_variant,rho,mu,denominator,cohort,teams,exp_susp_min,fouls,pooled_
 2018,source_end,2,1.25,knockout,knockout_teams,16,10560.696559,424,24.907303
 2018,end_minus_one,2,1.25,all,knockout_teams,16,10543.066414,1040,10.137564
 2018,end_minus_one,2,1.25,knockout,knockout_teams,16,10543.066414,424,24.865723
-2022,source_end,2,1.25,all,knockout_teams,16,8616.61569,943,9.13745
+2022,source_end,2,1.25,all,knockout_teams,16,8616.61569,932,9.245296
 2022,source_end,2,1.25,knockout,knockout_teams,16,8616.61569,397,21.704322
-2022,end_minus_one,2,1.25,all,knockout_teams,16,8605.368704,943,9.125524
+2022,end_minus_one,2,1.25,all,knockout_teams,16,8605.368704,932,9.233228
 2022,end_minus_one,2,1.25,knockout,knockout_teams,16,8605.368704,397,21.675992
 2026,source_end,2,1.25,all,knockout_teams,32,8372.816372,1733,4.8314
 2026,source_end,2,1.25,knockout,knockout_teams,32,8372.816372,690,12.134516
