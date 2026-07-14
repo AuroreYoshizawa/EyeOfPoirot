@@ -27,6 +27,47 @@ entries are append-only.
   same revision before any correlation had been computed. No confirmatory
   analysis was run under the v0.2 variants; the v0.2 rules remain in the git
   history for audit.
+- **Prespecified defensive-outcome association check (logged 2026-07-14,
+  before the 2026 M101 kick-off).** Motivated by post-hoc exploration
+  conducted 2026-07-13/14 on the full frozen data (2014–2022 complete, 2026
+  M1–M100); every value in the disclosure below is therefore exploratory,
+  and this entry binds only data unobserved at logging time: 2026 M101–M104
+  and any future backward edition extension.
+
+  *Definitions.* Conceded rate: goals conceded in regulation and extra time
+  (shoot-outs excluded) in the team's matches excluding the third-place
+  match, divided by those matches. $X_s$ decomposes exactly into three
+  components: **in-match** (caution remainders and dismissal exact-clock
+  terms), **accumulation-window** (the $90N$/stop-rule blocks plus the whole
+  carried-in caution interval), and **served** ($90\mu$ blocks). Team
+  component exposure is $\sum_p \omega_p \cdot$ component; per-foul rates
+  use the primary $F_i$.
+
+  *Primary prespecified test.* Per edition, never pooled, knockout-team
+  cohort: Kendall $\tau_b$ between accumulation-window exposure per foul
+  and conceded rate; two-sided permutation $p$, 10,000 permutations, seed
+  20260713. Expected direction: positive.
+
+  *Secondary (labeled).* The same test for total $e_s$; depth-partial
+  Spearman given matches played (third place excluded); leave-one-team-out
+  influence; a pre-tournament Elo variant once that table is archived.
+
+  *Disclosure of the exploration that produced this entry.* Total $e_s$ vs
+  conceded rate: $\tau_b$ = +0.128 / +0.349 / +0.485 / +0.032 for
+  2014/2018/2022/2026-M100 (only 2022 significant, permutation
+  p = 0.009); depth-partial Spearman survived only in 2022 (+0.562,
+  p = 0.029). Component split: the association concentrates in the
+  accumulation-window component (+0.264 / +0.417 / +0.451 / +0.080; 2018
+  p = 0.029, 2022 p = 0.017), with the in-match and served components flat.
+  Robustness probes: leaving out Argentina strengthened 2022; removing all
+  Argentina fixtures weakened it mainly by zeroing Australia's knockout
+  record (a design artifact); an explored variant adding
+  $0.5\,(T_{end}-t)$ to caution intervals was abandoned as collinear with
+  $e_s$ (rank correlation ≥ 0.985) and is not adopted. Given the number of
+  explored cuts, the 2014–2022 values must not be read as confirmatory;
+  the confirmatory sample is the full-2026 rebuild after M104 (marginal
+  novelty: four matches) and, chiefly, any 2010/2006 extension collected
+  under per-edition source fallbacks to be amended before collection.
 
 ## Reporting amendments
 
